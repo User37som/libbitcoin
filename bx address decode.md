@@ -11,7 +11,7 @@ Info: Convert a Bitcoin address to its component parts.
 Options (named):
 01234567890123456789012345678901234567890123456789012345678901234567891234
 -c [--config]        The path to the configuration settings file.
--f [--format]        The output format. Options are 'json', 'xml', 'info'x
+-f [--format]        The output format. Options are 'json', 'xml', 'info'
                      or 'native', defaults to native.
 -h [--help]          Get a description and instructions for this command.
 
