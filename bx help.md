@@ -1,4 +1,4 @@
-*Get the list of commands.*
+Get the list of commands.
 ### Example
 ```sh
 $ bx help
