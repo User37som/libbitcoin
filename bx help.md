@@ -17,7 +17,7 @@ Arguments (positional):
 
 COMMAND              The command for which help is requested.
 ```
-The `help` command lists all commands by name. Like all commands, `help` supports the `--help` option (see above), which explains its function.
+The `help` command lists all not obsoleted commands by name. Like all commands, `help` supports the `--help` option (see above), which explains its function.
 
 As show in [Example 2](#example-2), the `help` command is optional on the BX command line.
 ### Example 1
