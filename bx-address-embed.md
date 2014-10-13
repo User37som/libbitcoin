@@ -28,3 +28,8 @@ $ bx address-embed "Satoshi Nakamoto"
 ```
 168LnUjqoJLie1PW5dTaF2vKUU9Jf6Fe4a
 ```
+```sh
+$ bx address-embed -v 42 "Satoshi Nakamoto"
+```
+HzKg93FwcsoWzDF97FSxcJMMuexvUhjGKa
+```
