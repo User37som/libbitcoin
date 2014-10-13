@@ -11,8 +11,7 @@ Info: Convert a RIPEMD160 value to a Bitcoin address.
 Options (named):
 
 -c [--config]        The path to the configuration settings file.
--h [--help]          Get a description and instructions for this
-                     command.
+-h [--help]          Get a description and instructions for this command.
 -v [--version]       The desired Bitcoin address version.
 
 Arguments (positional):
@@ -22,8 +21,16 @@ RIPEMD160            The Base16 hash to convert. If not specified the
 ```
 ### Example 1
 ```sh
-$ bx address-encode 
+$ bx address-encode b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
 ```
 ```
-
+1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
+```
+### Example 2
+--version 42
+```sh
+$ bx address-encode -v 42 b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
+```
+```
+JBeTK2YUWEFTTQvcqEyQoS3poXKjjc1oEP
 ```
