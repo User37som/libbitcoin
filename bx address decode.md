@@ -20,6 +20,7 @@ Arguments (positional):
 BITCOIN_ADDRESS      The Bitcoin address to convert. If not specified the
                      address is read from STDIN.
 ```
+These examples demonstrate the use of the `--format` option, which is available on a number of commands. The default format for any command is `native`.  If a command does not have a distinct native format, such as Base16 or Base58, then native is the same as `info`. Info is a format similar to json but optimized for human readability.
 ### Example 1
 ```sh
 $ bx address-decode 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
