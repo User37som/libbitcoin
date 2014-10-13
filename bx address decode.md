@@ -64,6 +64,13 @@ wrapper
 $ bx address-decode -f json 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
 ```
 ```js
+{
+    "wrapper": {
+        "checksum": "1476364070",
+        "payload": "b472a266d0bd89c13706a4132ccfb16f7c3b9fcb",
+        "version": "0"
+    }
+}
 ```
 ### Example 4
 --format xml
@@ -71,5 +78,6 @@ $ bx address-decode -f json 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
 $ bx address-decode -f xml 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
 ```
 ```xml
-
+<?xml version="1.0" encoding="utf-8"?>
+<wrapper><checksum>1476364070</checksum<payload>b472a266d0bd89c13706a4132ccfb16f7c3b9fcb</payload<version>0</version></wrapper>
 ```
