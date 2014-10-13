@@ -20,7 +20,7 @@ DATA                 The binary data to encode as Base16. This can be
                      text or any other data. If not specified the data is
                      read from STDIN.
 ```
-The data is hashed as RIPEMD160 and then embedded in a script of the form: `dup hash160 [ RIPEMD160 ] equalverify checksig`. The script is then serialized, hashed as RIPEMD160 and used with the specified version to create a Bitcoin payment address.
+The data is hashed as RIPEMD160 and then embedded in a script of the form: `dup hash160 [ RIPEMD160 ] equalverify checksig`. The script is then serialized, hashed as RIPEMD160, and used with the specified version to create a Bitcoin payment address.
 ### Example 1
 ```sh
 $ bx address-embed "Satoshi Nakamoto"
