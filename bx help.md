@@ -1,7 +1,12 @@
 Get the list of commands.
-### Example
+### Example 1
 ```sh
 $ bx help
+```
+### Example 2
+shortcut
+```sh
+$ bx
 ```
 ### Output
 ```
