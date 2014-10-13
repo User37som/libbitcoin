@@ -1,4 +1,3 @@
-# bx help
 *Get the list of commands.*
 ### Example
 ```sh
