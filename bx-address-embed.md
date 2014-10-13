@@ -21,6 +21,8 @@ DATA                 The binary data to encode as Base16. This can be
                      read from STDIN.
 ```
 The data is hashed as RIPEMD160 and then embedded in a script of the form: `dup hash160 [ RIPEMD160 ] equalverify checksig`. The script is then serialized, hashed as RIPEMD160, and used with the specified version to create a Bitcoin payment address.
+
+See the [list of Bitcoin address prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes) for a detailed description of version. All numeric values in BX are interpreted as decimal (base 10) unless otherwise specified.
 ### Example 1
 ```sh
 $ bx address-embed "Satoshi Nakamoto"
