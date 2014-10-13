@@ -9,7 +9,7 @@ Usage: bx address-decode [-h] [--config VALUE] [--format VALUE]
 Info: Convert a Bitcoin address to its component parts.
 
 Options (named):
-
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
 -c [--config]        The path to the configuration settings file.
 -f [--format]        The output format. Options are 'json', 'xml', 'info'
                      or 'native', defaults to native.
