@@ -17,7 +17,7 @@ Arguments (positional):
 
 COMMAND              The command for which help is requested.
 ```
-The `help` command lists all commands by name. Like all commands, `help` supports the `--help` option (see above), which explains its function. As showin in [Example 2](Example-2) the help command is optional.
+The `help` command lists all commands by name. Like all commands, `help` supports the `--help` option (see above), which explains its function. As show in in [Example 2](Example-2) the help command is optional.
 ### Example 1
 ```sh
 $ bx help
