@@ -1,4 +1,4 @@
-* BX Commands
+### BX Commands
   * [help](bx-help)
 * [Wallet Commands](Wallet-Commands)
   * [ec-lock](bx-ec-lock)
