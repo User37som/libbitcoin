@@ -17,7 +17,7 @@ Arguments (positional):
 BASE16               The Base16 value to decode as binary data. If not
                      specified the value is read from STDIN.
 ```
-This command is a simple [hexadecimal](http://en.wikipedia.org/wiki/Hexadecimal) decoder. This can be used to feed plain text or raw binary values into other commands as `Base16` input.
+This command is a simple [hexadecimal](http://en.wikipedia.org/wiki/Hexadecimal) decoder. This can be used to feed plain text or raw binary values into other commands as `base16` input.
 ### Example 1
 ```sh
 $ bx base16-encode "Satoshi Nakamoto"
