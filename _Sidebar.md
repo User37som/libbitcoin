@@ -21,7 +21,7 @@
   * [seed](bx-seed)
   * [wif-to-ec](bx-wif-to-ec)
   * [wif-to-public](bx-wif-to-public)
-* Stealth Commands
+* [Stealth Commands](Stealth-Commands)
   * [stealth-address-decode](bx-stealth-address-decode)
   * [stealth-address-encode](bx-stealth-address-encode)
   * [stealth-new](bx-stealth-new)
