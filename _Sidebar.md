@@ -1,4 +1,5 @@
 ### BX Menu
+* **[Home](Home)**
 * **General Information**
   * [Syntax](Syntax)
   * [Conventions](Conventions)
