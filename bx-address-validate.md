@@ -25,11 +25,11 @@ $ bx address-validate 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
 ```
 3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
 ```
-### Example 1
+### Example 2
 invalid
 ```sh
 $ bx address-validate 0J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy
 ```
 ```
-
+The address is not valid.
 ```
