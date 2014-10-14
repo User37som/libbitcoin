@@ -1,74 +1,75 @@
-address-decode
-address-embed
-address-encode
-address-validate
-base16-decode
-base16-encode
-base58-decode
-base58-encode
-base58check-decode
-base58check-encode
-bitcoin160
-bitcoin256
-btc-to-satoshi
-ec-add
-ec-add-secrets
-ec-lock
-ec-multiply
-ec-multiply-secrets
-ec-new
-ec-to-address
-ec-to-public
-ec-to-wif
-ec-unlock
-fetch-balance
-fetch-header
-fetch-height
-fetch-history
-fetch-public-key
-fetch-stealth
-fetch-tx
-fetch-tx-index
-fetch-utxo
-hd-new
-hd-private
-hd-public
-hd-to-address
-hd-to-ec
-hd-to-public
-hd-to-wif
-help
-input-set
-input-sign
-input-validate
-mnemonic-decode
-mnemonic-encode
-qrcode
-ripemd160
-satoshi-to-btc
-script-decode
-script-encode
-script-to-address
-seed
-send-tx
-send-tx-node
-send-tx-p2p
-sha160
-sha256
-sha512
-stealth-address-decode
-stealth-address-encode
-stealth-new
-stealth-shared-secret
-stealth-uncover-public
-stealth-uncover-secret
-tx-decode
-tx-encode
-tx-sign
-validate-tx
-watch-address
-watch-tx
-wif-to-ec
-wif-to-public
-wrap-decode
-wrap-encode
+### BX Commands
+* [address-decode](address-decode)
+* address-embed
+* address-encode
+* address-validate
+* base16-decode
+* base16-encode
+* base58-decode
+* base58-encode
+* base58check-decode
+* base58check-encode
+* bitcoin160
+* bitcoin256
+* btc-to-satoshi
+* ec-add
+* ec-add-secrets
+* ec-lock
+* ec-multiply
+* ec-multiply-secrets
+* ec-new
+* ec-to-address
+* ec-to-public
+* ec-to-wif
+* ec-unlock
+* fetch-balance
+* fetch-header
+* fetch-height
+* fetch-history
+* fetch-public-key
+* fetch-stealth
+* fetch-tx
+* fetch-tx-index
+* fetch-utxo
+* hd-new
+* hd-private
+* hd-public
+* hd-to-address
+* hd-to-ec
+* hd-to-public
+* hd-to-wif
+* help
+* input-set
+* input-sign
+* input-validate
+* mnemonic-decode
+* mnemonic-encode
+* qrcode
+* ripemd160
+* satoshi-to-btc
+* script-decode
+* script-encode
+* script-to-address
+* seed
+* send-tx
+* send-tx-node
+* send-tx-p2p
+* sha160
+* sha256
+* sha512
+* stealth-address-decode
+* stealth-address-encode
+* stealth-new
+* stealth-shared-secret
+* stealth-uncover-public
+* stealth-uncover-secret
+* tx-decode
+* tx-encode
+* tx-sign
+* validate-tx
+* watch-address
+* watch-tx
+* wif-to-ec
+* wif-to-public
+* wrap-decode
+* wrap-encode
