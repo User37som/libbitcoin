@@ -1,4 +1,5 @@
 ### BX Commands
+* Meta Commands
   * [help](bx-help)
 * [Wallet Commands](Wallet-Commands)
   * [ec-lock](bx-ec-lock)
