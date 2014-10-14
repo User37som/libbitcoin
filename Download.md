@@ -6,7 +6,7 @@
 
 | Platform | Version | SHA-1 |
 |----------|---------|---------|
-| Linux | 2.0-beta1 | |
+| Linux | 2.0-beta1 | his build is not yet available. |
 | Macintosh | 2.0-beta1 | This build is not yet available. |
 | [Windows](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.0-beta0/bx-windows-x86.exe) | 2.0-beta1 | f1249c9974a0d00fca5905b2fd4c7533ffb9e14d |
 
