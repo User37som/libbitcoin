@@ -54,7 +54,7 @@ J3JahRViQGWq5X5KhPSyB1YdZwBu2EQzFR
 ### Example 5
 
 ```sh
-bx seed | bx ec-new | bx ec-to-public | bx ec-to-address -v42
+$ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address -v42
 ```
 ```
 b688d3e5ea4f3ff7859c281570e8535a
