@@ -20,10 +20,10 @@ BASE16               The Base16 value to decode as binary data. If not
 This command is a simple [hexadecimal](http://en.wikipedia.org/wiki/Hexadecimal) decoder. This can be used to feed plain text or raw binary values into other commands as `base16` input.
 ### Example 1
 ```sh
-$ bx base16-encode "Satoshi Nakamoto"
+$ bx base16-decode 5361746f736869204e616b616d6f746f
 ```
 ```
-5361746f736869204e616b616d6f746f
+Satoshi Nakamoto
 ```
 ### Example 2
 [FIPS 180-2 SHA-1 Vector A](http://www.nsrl.nist.gov/testdata)
