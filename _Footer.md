@@ -1,1 +1,1 @@
-[Home](Home) | Copyright © 2011-2014 libbitcoin developers
+[Home](Home) | [Developer Readme](libbitcoin/libbitcoin-explorer/blob/master/README.md) | Copyright © 2011-2014 libbitcoin developers
