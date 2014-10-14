@@ -1,1 +1,1 @@
-[Home](Home) | Copyright (c) 2011-2014 libbitcoin developers
+[Home](Home) | Copyright © 2011-2014 libbitcoin developers
