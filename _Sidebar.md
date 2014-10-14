@@ -1,7 +1,7 @@
 ### BX Menu
 * **[Home](Home)**
 * **General Information**
-  * [Download](Download)
+  * [Download BX](Download)
   * [Building BX](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#installation)
     * [Linux](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#debianubuntu)
     * [Windows](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#windows)
