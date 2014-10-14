@@ -1,6 +1,7 @@
 ### BX Menu
 * **[Home](Home)**
 * **General Information**
+  * [Installation](https://github.com/libbitcoin/libbitcoin-explorer#installation)
   * [Syntax](Syntax)
   * [Conventions](Conventions)
 * **Meta Commands**
