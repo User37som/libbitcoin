@@ -51,3 +51,14 @@ $ bx ec-to-address -v42 0447140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232
 ```
 J3JahRViQGWq5X5KhPSyB1YdZwBu2EQzFR
 ```
+### Example 5
+
+```sh
+bx seed | bx ec-new | bx ec-to-public | bx ec-to-address -v42
+```
+```
+b688d3e5ea4f3ff7859c281570e8535a
+771c66610eddfab64fb24f54e60ae303c44efaab592947b3fa3b5de21373e277
+035730c857f567ad4c335e321306dc8782c518297376f25696028b70156787455c
+J7mztYdoPufKyJAtAsuor8tdHHthfsWc2c
+```
