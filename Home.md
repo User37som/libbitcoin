@@ -6,4 +6,4 @@ See the BX [readme](https://github.com/libbitcoin/libbitcoin-explorer/blob/maste
 
 If you encounter problems or have suggestions please use the BX [issues board](https://github.com/libbitcoin/libbitcoin-explorer/issues).
 
-<img src="https://github.com/libbitcoin/libbitcoin-explorer/img/stealth-commands.png" width="30%" height="30%"></img>
+<img src="https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/master/img/stealth-commands.png" width="30%" height="30%"></img>
