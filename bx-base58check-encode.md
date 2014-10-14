@@ -19,28 +19,19 @@ Arguments (positional):
 BASE16               The Base16 value to Base58Check encode. If not
                      specified the value is read from STDIN.
 ```
+See the [list of Bitcoin address prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes) for a detailed description of `version`. All numeric values in BX are interpreted as decimal (base 10) unless otherwise specified.
 ### Example 1
 ```sh
-$ bx base58check-decode 173RKgkk7fMbYUYBGyyAHeZ6rwfKRMn17h7DtGsmpEdab8TV6UB
+$ bx base58check-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
-```js
-wrapper
-{
-    checksum 1020266843
-    payload 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
-    version 0
-}
+```
+173RKgkk7fMbYUYBGyyAHeZ6rwfKRMn17h7DtGsmpEdab8TV6UB
 ```
 ### Example 2
 version 42
 ```sh
-$ bx base58check-decode 7DTXS6pY6a98XH2oQTZUbbd1Z7P4NzkJqfraixprPutXQVTkwBGw
+$ bx base58check-encode -v 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
-```js
-wrapper
-{
-    checksum 3840642601
-    payload 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
-    version 42
-}
+```
+7DTXS6pY6a98XH2oQTZUbbd1Z7P4NzkJqfraixprPutXQVTkwBGw
 ```
