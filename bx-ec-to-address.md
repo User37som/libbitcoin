@@ -43,3 +43,11 @@ $ bx ec-to-address 0447140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af
 ```
 197FLrycah42jKDgfmTaok7b8kNHA7R2ih
 ```
+### Example 4
+uncompressed key, --version 42
+```sh
+$ bx ec-to-address -v42 0447140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36e87bb04f401be3b770a0f3e2267a6c3b14a3074f6b5ce4419f1fcdc1ca4b1cb6
+```
+```
+J3JahRViQGWq5X5KhPSyB1YdZwBu2EQzFR
+```
