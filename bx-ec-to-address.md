@@ -27,8 +27,8 @@ $ bx ec-to-address 0247140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af
 ```
 1EKJFK8kBmasFRYY3Ay9QjpJLm4vemJtC1
 ```
-### Example 1
---version 42
+### Example 2
+compressed key, --version 42
 ```sh
 $ bx ec-to-address -v 42 0247140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36
 ```
