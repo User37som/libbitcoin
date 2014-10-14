@@ -2,10 +2,10 @@
 * **[Home](Home)**
 * **General Information**
   * [Download](Download)
-  * [Building BX](https://github.com/libbitcoin/libbitcoin-explorer/blob/master#installation)
-    * [Linux](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/#debianubuntu)
-    * [Windows](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/#windows)
-    * [Macintosh](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/#macintosh)
+  * [Building BX](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#installation)
+    * [Linux](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#debianubuntu)
+    * [Windows](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#windows)
+    * [Macintosh](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#macintosh)
   * [Developers](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#bitcoin-explorer)
 * **Meta Commands**
   * [help](bx-help)
