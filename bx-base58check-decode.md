@@ -21,6 +21,7 @@ BASE58CHECK          The Base58Check value to decode. If not specified
                      the value is read from STDIN.
 ```
 ### Example 1
+version 0
 ```sh
 $ bx base58check-decode 173RKgkk7fMbYUYBGyyAHeZ6rwfKRMn17h7DtGsmpEdab8TV6UB
 ```
@@ -33,6 +34,7 @@ wrapper
 }
 ```
 ### Example 2
+version 42 (same payload)
 ```sh
 $ bx base58check-decode 7DTXS6pY6a98XH2oQTZUbbd1Z7P4NzkJqfraixprPutXQVTkwBGw
 ```
