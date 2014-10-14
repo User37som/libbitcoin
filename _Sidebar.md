@@ -1,4 +1,3 @@
-### BX Commands
 * BX Commands
   * [help](bx-help)
 * [Wallet Commands](Wallet-Commands)
