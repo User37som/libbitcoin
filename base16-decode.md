@@ -28,14 +28,14 @@ abc
 ### Example 2
 [FIPS 180-2 SHA-1 Vector B](http://www.nsrl.nist.gov/testdata)
 ```sh
-$ bx bx base16-decode 6162636462636465636465666465666765666768666768696768696a68696a6b696a6b6c6a6b6c6d6b6c6d6e6c6d6e6f6d6e6f706e6f7071
+$ bx base16-decode 6162636462636465636465666465666765666768666768696768696a68696a6b696a6b6c6a6b6c6d6b6c6d6e6c6d6e6f6d6e6f706e6f7071
 ```
 ```
 abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
 ```
 ### Example 3
 ```sh
-base16-encode "Satoshi Nakamoto"
+$ bx base16-encode "Satoshi Nakamoto"
 ```
 ```
 5361746f736869204e616b616d6f746f
