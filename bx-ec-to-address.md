@@ -53,7 +53,9 @@ J3JahRViQGWq5X5KhPSyB1YdZwBu2EQzFR
 ```
 ### Example 5
 piped commands
-> `$ bx seed` produces random output
+
+> Note that `$ bx seed` produces random output.
+
 ```sh
 $ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address
 ```
