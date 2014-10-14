@@ -54,11 +54,11 @@ J3JahRViQGWq5X5KhPSyB1YdZwBu2EQzFR
 ### Example 5
 piped commands (note that `$ bx seed` produces random output)
 ```sh
-$ bx seed -b 256 | bx ec-new | bx ec-to-public | bx ec-to-address -v42
+$ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address
 ```
 ```
-e9c26cad54bf344da82a1f47cd2359229ba4d4524d61f492457a457b00b49783
-83cc0edb442f997dc6e900c3f224e2808fcf22dec82cdfe0523ebf4a5b9029da
-02d6a11f0b8f71459c1c41da5d788a149a2cb27f571d8d2777d7870c698dfa564e
-J7MReAaWQrmxR4vL65kWMJUdCPFABkYm8z
+3f152b0e3c5806bd9cd2f7c833acd061
+a927f06ad73c139d7f912c06700bc8ee8060ab0e5507e8119ddf56ad3dbb9576
+03255c8998fbf7d3820d4c6c73996467080750eeb51f050214b65d16da8cf2b8dc
+13ua8RRSxLpL5WL5cKUDepUCvJZgGWuKh7
 ```
