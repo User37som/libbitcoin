@@ -1,8 +1,8 @@
 ### BX Menu
-* General Information
+* **General Information**
   * [Syntax](Syntax)
   * [Conventions](Conventions)
-* Meta Commands
+* **Meta Commands**
   * [help](bx-help)
 * [Wallet Commands](Wallet-Commands)
   * [ec-lock](bx-ec-lock)
