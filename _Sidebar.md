@@ -60,6 +60,7 @@
   * [send-tx](bx-send-tx)
   * [send-tx-node](bx-send-tx-node)
   * [send-tx-p2p](bx-send-tx-p2p)
+  * [validate-tx](bx-validate-tx)
   * [watch-address](bx-watch-address)
   * [watch-tx](bx-watch-tx)
 * Stealth Commands
@@ -79,4 +80,3 @@
   * [tx-decode](bx-tx-decode)
   * [tx-encode](bx-tx-encode)
   * [tx-sign](bx-tx-sign)
-  * [validate-tx](bx-validate-tx)
