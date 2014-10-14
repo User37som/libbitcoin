@@ -1,7 +1,7 @@
 ### BX Menu
 * General Information
-  * Command Syntax
-  * Conventions
+  * [Syntax](Syntax)
+  * [Conventions](Conventions)
 * Meta Commands
   * [help](bx-help)
 * [Wallet Commands](Wallet-Commands)
