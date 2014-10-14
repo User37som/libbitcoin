@@ -1,7 +1,7 @@
 ### BX Commands
 * BX Commands
   * [help](bx-help)
-* Wallet Commands
+* [Wallet Commands](Wallet-Commands)
   * [ec-lock](bx-ec-lock)
   * [ec-new](bx-ec-new)
   * [ec-to-address](bx-ec-to-address)
