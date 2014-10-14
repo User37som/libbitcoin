@@ -1,5 +1,5 @@
 ### BX Commands
-* [address-decode](address-decode)
+* [address-decode](bx-address-decode)
 * address-embed
 * address-encode
 * address-validate
