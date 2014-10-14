@@ -5,7 +5,7 @@
 * **By downloading a binary copy of BX you accept all responsibility for its use and behavior.**
 
 ### Verification
-You should verify that the binary you receive is the one that we published. The binary is a single file. Its authenticity can be determined by performing a [SHA256 hash](http://onlinemd5.com) on the file and comparing it to the following:
+You should verify that the binary you receive is the one that we published. The binary is a single file. Its authenticity can be determined by [performing a SHA256 hash](http://onlinemd5.com) on the file and comparing it to the following:
 ```
 72e94972b341911328ce426bc8b34eb72c1a2756547fc96aaa9b08ef4591d469
 ```
