@@ -5,5 +5,3 @@ The examples are drawn directly from BX [test cases](https://github.com/libbitco
 See the BX [readme](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md) for installation info and extensive developer documentation.
 
 If you encounter problems or have suggestions please use the BX [issues board](https://github.com/libbitcoin/libbitcoin-explorer/issues).
-
-![Wallet Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/master/img/wallet-commands.png)
