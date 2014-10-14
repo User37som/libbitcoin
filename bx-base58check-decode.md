@@ -22,15 +22,25 @@ BASE58CHECK          The Base58Check value to decode. If not specified
 ```
 ### Example 1
 ```sh
-$ bx base58check-decode
+$ bx base58check-decode 173RKgkk7fMbYUYBGyyAHeZ6rwfKRMn17h7DtGsmpEdab8TV6UB
 ```
-```
-
+```js
+wrapper
+{
+    checksum 1020266843
+    payload 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+    version 0
+}
 ```
 ### Example 2
 ```sh
-$ bx base58check-decode
+$ bx base58check-decode 7DTXS6pY6a98XH2oQTZUbbd1Z7P4NzkJqfraixprPutXQVTkwBGw
 ```
-```
-
+```js
+wrapper
+{
+    checksum 3840642601
+    payload 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+    version 42
+}
 ```
