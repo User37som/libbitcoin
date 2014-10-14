@@ -2,6 +2,9 @@
 * **[Home](Home)**
 * **General Information**
   * [Installation](https://github.com/libbitcoin/libbitcoin-explorer#installation)
+    * [Linux](https://github.com/libbitcoin/libbitcoin-explorer#debianubuntu)
+    * [Windows](https://github.com/libbitcoin/libbitcoin-explorer#windows)
+    * [Macintosh](https://github.com/libbitcoin/libbitcoin-explorer#macintosh)
   * [Syntax](Syntax)
   * [Conventions](Conventions)
 * **Meta Commands**
