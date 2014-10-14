@@ -18,7 +18,7 @@ BASE16               The Base16 value to decode as binary data. If not
                      specified the value is read from STDIN.
 ```
 ### Example 1
-[FIPS 180-2](http://www.nsrl.nist.gov/testdata) Vector A
+[FIPS 180-2 SHA-1 Vector A](http://www.nsrl.nist.gov/testdata)
 ```sh
 $ bx base16-decode 616263
 ```
@@ -26,7 +26,7 @@ $ bx base16-decode 616263
 abc
 ```
 ### Example 2
-[FIPS 180-2](http://www.nsrl.nist.gov/testdata) Vector B
+[FIPS 180-2 SHA-1 Vector B](http://www.nsrl.nist.gov/testdata)
 ```sh
 $ bx bx base16-decode 6162636462636465636465666465666765666768666768696768696a68696a6b696a6b6c6a6b6c6d6b6c6d6e6c6d6e6f6d6e6f706e6f7071
 ```
