@@ -33,3 +33,10 @@ $ bx bx base16-decode 6162636462636465636465666465666765666768666768696768696a68
 ```
 abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
 ```
+### Example 3
+```sh
+base16-encode "Satoshi Nakamoto"
+```
+```
+5361746f736869204e616b616d6f746f
+```
