@@ -24,14 +24,14 @@
   * [seed](bx-seed)
   * [wif-to-ec](bx-wif-to-ec)
   * [wif-to-public](bx-wif-to-public)
-* [Stealth Commands](Stealth-Commands)
+* **[Stealth Commands](Stealth-Commands)**
   * [stealth-address-decode](bx-stealth-address-decode)
   * [stealth-address-encode](bx-stealth-address-encode)
   * [stealth-new](bx-stealth-new)
   * [stealth-shared-secret](bx-stealth-shared-secret)
   * [stealth-uncover-public](bx-stealth-uncover-public)
   * [stealth-uncover-secret](bx-stealth-uncover-secret)
-* [Transaction Commands](Transaction-Commands)
+* **[Transaction Commands](Transaction-Commands)**
   * [input-set](bx-input-set)
   * [input-sign](bx-input-sign)
   * [input-validate](bx-input-validate)
@@ -41,7 +41,7 @@
   * [tx-decode](bx-tx-decode)
   * [tx-encode](bx-tx-encode)
   * [tx-sign](bx-tx-sign)
-* [Online Commands](Online-Commands)
+* **[Online Commands](Online-Commands)**
   * [fetch-balance](bx-fetch-balance)
   * [fetch-header](bx-fetch-header)
   * [fetch-height](bx-fetch-height)
@@ -57,7 +57,7 @@
   * [validate-tx](bx-validate-tx)
   * [watch-address](bx-watch-address)
   * [watch-tx](bx-watch-tx)
-* [Hash Commands](Hash-Commands)
+* **[Hash Commands](Hash-Commands)**
   * [address-decode](bx-address-decode)
   * [address-embed](bx-address-embed)
   * [address-encode](bx-address-encode)
@@ -76,7 +76,7 @@
   * [sha512](bx-sha512)
   * [wrap-decode](bx-wrap-decode)
   * [wrap-encode](bx-wrap-encode)
-* [Math Commands](Math-Commands)
+* **[Math Commands](Math-Commands)**
   * [btc-to-satoshi](bx-btc-to-satoshi)
   * [ec-add](bx-ec-add)
   * [ec-add-secrets](bx-ec-add-secrets)
