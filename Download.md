@@ -6,9 +6,9 @@
 
 | Platform | Version | SHA-1 |
 |----------|---------|---------|
-| Linux | 2.0-beta1 | This build is not yet available. |
-| Macintosh | 2.0-beta1 | This build is not yet available. |
-| [Windows](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.0-beta0/bx-windows-x86.exe) | 2.0-beta1 | f1249c9974a0d00fca5905b2fd4c7533ffb9e14d |
+| Linux | 2.0-beta0 | This build is not yet available. |
+| Macintosh | 2.0-beta0 | This build is not yet available. |
+| [Windows](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.0-beta0/bx-windows-x86.exe) | 2.0-beta0 | f1249c9974a0d00fca5905b2fd4c7533ffb9e14d |
 
 ### Verification
 You should verify that the binary you receive is the one that we published. The binary is a single file. Its authenticity can be determined by [performing a SHA-1 hash](http://onlinemd5.com) on the file and comparing the resulting value to the that in the table above. The encoding is base-16 and therefore is case insensitive.
