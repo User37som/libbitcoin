@@ -1,6 +1,4 @@
 ### BX Commands
-* Meta Commands
-  * [help](bx-help)
 * [Wallet Commands](Wallet-Commands)
   * [ec-lock](bx-ec-lock)
   * [ec-new](bx-ec-new)
@@ -80,3 +78,5 @@
   * [ec-multiply](bx-ec-multiply)
   * [ec-multiply-secrets](bx-ec-multiply-secrets)
   * [satoshi-to-btc](bx-satoshi-to-btc)
+* Meta Commands
+  * [help](bx-help)
