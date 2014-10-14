@@ -6,7 +6,7 @@
     * [Linux](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/#debianubuntu)
     * [Windows](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/#windows)
     * [Macintosh](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/#macintosh)
-  * [Developers](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md)
+  * [Developers](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#bitcoin-explorer)
 * **Meta Commands**
   * [help](bx-help)
 * **[Wallet Commands](Wallet-Commands)**
