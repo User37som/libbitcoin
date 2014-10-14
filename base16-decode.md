@@ -21,6 +21,9 @@ BASE16               The Base16 value to decode as binary data. If not
 ```sh
 $ bx base16-encode "Satoshi Nakamoto"
 ```
+```
+5361746f736869204e616b616d6f746f
+```
 ### Example 2
 [FIPS 180-2 SHA-1 Vector A](http://www.nsrl.nist.gov/testdata)
 ```sh
@@ -36,7 +39,4 @@ $ bx base16-decode 6162636462636465636465666465666765666768666768696768696a68696
 ```
 ```
 abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
-```
-```
-5361746f736869204e616b616d6f746f
 ```
