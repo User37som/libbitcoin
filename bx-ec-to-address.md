@@ -52,7 +52,8 @@ $ bx ec-to-address -v 42 0447140d2811498679fe9a0467a75ac7aa581476c102d27377bc023
 J3JahRViQGWq5X5KhPSyB1YdZwBu2EQzFR
 ```
 ### Example 5
-piped commands (note that `$ bx seed` produces random output)
+piped commands
+> `$ bx seed` produces random output
 ```sh
 $ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address
 ```
