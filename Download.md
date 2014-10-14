@@ -8,7 +8,7 @@
 |----------|---------|---------|
 | Linux | 2.0-beta1 | |
 | Macintosh | 2.0-beta1 | This build is not yet available. |
-| [Windows](download) | 2.0-beta1 | 72e94972b341911328ce426bc8b34eb72c1a2756547fc96aaa9b08ef4591d469 |
+| [Windows](download) | 2.0-beta1 | 72e94972b341911328ce |
 
 ### Verification
 You should verify that the binary you receive is the one that we published. The binary is a single file. Its authenticity can be determined by [performing a SHA-256 hash](http://onlinemd5.com) on the file and comparing the resulting value to the appropriate value above. The encoding is base-16 and therefore is case insensitive.
