@@ -57,6 +57,7 @@
 * [sha160](bx-sha160)
 * [sha256](bx-sha256)
 * [sha512](bx-sha512)
+[Stealth Commands](Stealth-Commands)
 * [stealth-address-decode](bx-stealth-address-decode)
 * [stealth-address-encode](bx-stealth-address-encode)
 * [stealth-new](bx-stealth-new)
