@@ -17,7 +17,8 @@ Options (named):
 Arguments (positional):
 
 EC_PUBLIC_KEY        The Base16 EC public key to convert. If not         
-                     specified the key is read from STDIN. 
+                     specified the key is read from STDIN.
+```
 ### Example 1
 compressed key
 ```sh
