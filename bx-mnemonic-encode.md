@@ -8,7 +8,8 @@ $ bx mnemonic-encode --help
 ```
 Usage: bx mnemonic-encode [-h] [--config VALUE] [SEED]                   
 
-Info: Convert a seed to its Electrum mnemonic.                           
+Info: Convert a seed to its Electrum mnemonic. WARNING: This             
+implementation is deprecated in favor of BIP39.                          
 
 Options (named):
 
@@ -19,8 +20,7 @@ Arguments (positional):
 
 SEED                 The Base16 randomness seed. Must be at least 128    
                      bits in length. If not specified the seed is read   
-                     from STDIN. WARNING: This implementation is         
-                     deprecated in favor of BIP39.
+                     from STDIN.
 ```
 ### Example 1
 128 bit seed
