@@ -19,8 +19,15 @@ BTC                  The number of BTC to convert. If not specified the
 ```
 ### Example 1
 ```sh
-$bx btc-to-satoshi 1
+$ bx btc-to-satoshi 1
 ```
 ```
 100000000
+```
+### Example 2
+```sh
+$ bx btc-to-satoshi 21000000
+```
+```
+2100000000000000
 ```
