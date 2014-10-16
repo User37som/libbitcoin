@@ -23,6 +23,7 @@ SEED                 The Base16 randomness seed. Must be at least 128
                      deprecated in favor of BIP39.
 ```
 ### Example 1
+128 bit seed
 ```sh
 $ bx mnemonic-encode baadf00dbaadf00dbaadf00dbaadf00d
 ```
@@ -30,7 +31,7 @@ $ bx mnemonic-encode baadf00dbaadf00dbaadf00dbaadf00d
 eternity blood task eternity blood task eternity blood task eternity blood task
 ```
 ### Example 2
-short seed error
+64 bit seed, short seed error
 ```sh
 $ bx mnemonic-encode baadf00dbaadf00d
 ```
