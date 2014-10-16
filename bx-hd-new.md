@@ -19,6 +19,7 @@ SEED                 The Base16 randomness seed for the new key. Must be
                      seed is read from STDIN.  
 ```
 ### Example 1
+BIP-32 [Test Vector A](github.com/bitcoin/bips/blob/master/bip-0032.mediawiki#test-vector-1) master
 ```
 $ bx hd-new 000102030405060708090a0b0c0d0e0f
 ```
