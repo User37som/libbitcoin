@@ -24,6 +24,7 @@ $ bx wif-to-ec L21LJEeJwK35wby1BeTjwWssrhrgQE2MZrpTm2zbMC677czAHHu3
 ```
 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8
 ```
+Examples 2 and 3 show that the compression flag is carried in the WIF, independently of the private key. The compression flag is only used when the public key is exposed.
 ### Example 2
 piped commands, compressed
 ```sh
@@ -42,4 +43,3 @@ $ bx ec-to-wif -u 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9
 5JuBiWpsjfXNxsWuc39KntBAiAiAP2bHtrMGaYGKCppq4MuVcQL
 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8
 ```
-Examples 2 and 3 show that the compression flag is carried in the WIF, independently of the private key. The compression flag is only used when the public key is exposed.
