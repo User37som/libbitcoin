@@ -24,3 +24,13 @@ $ bx hd-to-wif xprv9s21ZrQH143K27rVid1zpeyqZygAX7W7AQ4cctwrSB4A2EoPNT22nR2FCm42o
 ```
 KxL385uvhm2PhgTjk6gvHPE81xNwCDd1WeQXPMR4DMZfVNJRSvwF
 ```
+### Example 2
+piped commands
+```sh
+$ bx seed | bx hd-new | bx hd-to-wif
+```
+```
+6aaa7ddba5ab18231c7e4d40327a1c66
+xprv9s21ZrQH143K2ZSgqjBCCxNPEUTQYsnmNAf8vH7jGtQHJoEUVvrRYTFWQbH9dAgWH73c1ut2jbNoxuzinaCpQPT6vSk6xkNJvi6mDm9yLkf
+L3ouKDHFbLZwd4sWLnExpQzFE2HfKhtSMnt8QkPXLksDRWdonAvk
+```
