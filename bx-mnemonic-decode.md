@@ -23,6 +23,7 @@ WORD                 The set of words from the Electrum word list. If not
                      specified the words are read from STDIN.
 ```
 ### Example 1
+128 bit value
 ```sh
 $ bx mnemonic-decode eternity blood task eternity blood task eternity blood task eternity blood task
 ```
