@@ -18,7 +18,6 @@ WIF                  The value to convert. If not specified the value is
                      read from STDIN.
 ```
 ### Example 1
-compressed
 ```sh
 $ bx wif-to-ec L21LJEeJwK35wby1BeTjwWssrhrgQE2MZrpTm2zbMC677czAHHu3
 ```
