@@ -1,6 +1,6 @@
 Generate a pseudorandom seed.
 
-> WARNING: Pseudorandom seeding can introduce cryptographic weakness into your keys. This command is provided as a convenience. 
+> WARNING: Pseudorandom seeding can introduce [cryptographic weakness](http://cwe.mitre.org/data/definitions/338.html) into your keys. This command is provided as a convenience. 
 
 ```sh
 $ bx seed --help
