@@ -1,13 +1,13 @@
 ### BX Menu
 * **[Home](Home)**
 * **General Information**
-  * [Download BX](Download)
+  * [Acronyms](Acronyms)
   * [Build BX](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#installation)
     * [Linux](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#debianubuntu)
     * [Windows](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#windows)
     * [Macintosh](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#macintosh)
   * [Developer Documentation](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#bitcoin-explorer)
-  * [Acronyms](Acronyms)
+  * [Download BX](Download)
 * **Meta Commands**
   * [help](bx-help)
 * **[Wallet Commands](Wallet-Commands)**
