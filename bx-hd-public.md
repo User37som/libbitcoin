@@ -55,7 +55,7 @@ $ bx hd-public -d -i 2147483647 xprv9vHkqa6EV4sPZHYqZznhT2NPtPCjKuDKGY38FBWLvgaD
 xprv9wSp6B7kry3Vj9m1zSnLvN3xH8RdsPP1Mh7fAaR7aRLcQMKTR2vidYEeEg2mUCTAwCd6vnxVrcjfy2kRgVsFawNzmjuHc2YmYRmagcEPdU9
 ```
 ### Example 5
-piped commands
+piped commands (public key from private key)
 ```sh
 $ bx seed | bx hd-new | bx hd-public
 ```
@@ -63,4 +63,15 @@ $ bx seed | bx hd-new | bx hd-public
 091974a96a5bfc5b0d4a5ddb3ed987bf
 xprv9s21ZrQH143K4R2ZMbGkj7RB7wvDhi9ciTTvoLz92LBxfhpfuebjpzwYW9DVzainPDChhipGuEpyfV76ntw51v95FNBnEhHAgiLsJ9DaR9m
 xpub69jBNd8w5JXfxde1m46b1oHPVdnG4RWS46ZDSP5gVNph7AbDqJzbdRbpYsYwTKAec6YSMMZEZNXLDDtNQcvVaYHgdSuZkCnqCaTM4PxXBZ2
+```
+### Example 6
+piped commands (public key from public key)
+```sh
+$ bx seed | bx hd-new | bx hd-public | bx hd-public
+```
+```
+57f459ef3678f128bb629f52700efd45
+xprv9s21ZrQH143K4QefY9JuM9wexdgjbPjJhuvMbQkmH15YTgPLUEzvxcaPzkSGHZfEUbNDfoCsK6fY6H3tdknHxgRif4ioyPNr4SGDXXiDZMW
+xpub67w3gvBS2dbj3P4DTpv6HPZySduEnFdCu5k4x7xN6XH67To6w1Avef8KicobwkKsPrvmeAp6KXSJkwWzuVZmgEostiHPsgADj3iyPQhfw1N
+xpub6A62mGQWcqWkaGAQTHjLxDYnXiD6idRWmkq1oPPUzgJUbtRurwymcKikyNf1dmaP9RZwpgBt2FUqHcNgCf1KZb6LoCSrYgzn8jjcvt9MLD2
 ```
