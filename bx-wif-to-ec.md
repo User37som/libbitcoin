@@ -18,7 +18,7 @@ WIF                  The value to convert. If not specified the value is
                      read from STDIN.
 ```
 ### Example 1
-uncompressed
+compressed
 ```sh
 $ bx wif-to-ec L21LJEeJwK35wby1BeTjwWssrhrgQE2MZrpTm2zbMC677czAHHu3
 ```
@@ -26,7 +26,7 @@ $ bx wif-to-ec L21LJEeJwK35wby1BeTjwWssrhrgQE2MZrpTm2zbMC677czAHHu3
 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8
 ```
 ### Example 2
-piped commands, compression affects WIF but not private key
+piped commands, uncompressed affects WIF but not private key
 ```sh
 $ bx ec-to-wif -u 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8 | bx wif-to-ec
 ```
