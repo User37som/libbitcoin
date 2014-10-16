@@ -25,6 +25,7 @@ $ bx satoshi-to-btc 42
 0.00000042
 ```
 # Example 2
+maximum coinage
 ```sh
 $ bx satoshi-to-btc 2099999997690000
 ```
@@ -32,6 +33,7 @@ $ bx satoshi-to-btc 2099999997690000
 20999999.9769
 ```
 # Example 3
+maximum representable in bx ([64 bit unsigned integer](http://en.wikipedia.org/wiki/Wheat_and_chessboard_problem))
 ```sh
 $ bx satoshi-to-btc 18446744073709551615
 ```
