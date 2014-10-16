@@ -19,15 +19,24 @@ BTC                  The number of BTC to convert. If not specified the
 ```
 ### Example 1
 ```sh
-$ bx btc-to-satoshi 1
+$ bx btc-to-satoshi 42
 ```
 ```
-100000000
+4200000000
 ```
 ### Example 2
+maximum coinage
 ```sh
-$ bx btc-to-satoshi 21000000
+$ bx btc-to-satoshi 20999999.9769
 ```
 ```
-2100000000000000
+2099999997690000
+```
+### Example 3
+maximum representable
+```sh
+$ bx btc-to-satoshi 184467440737.09551615
+```
+```
+18446744073709551615
 ```
