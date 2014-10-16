@@ -19,9 +19,11 @@ HD_KEY               The HD public or private key to convert. If not
 ```
 ### Example 1
 private key
-<div class="highlight highlight-sh"><pre style="word-wrap:break">
+<div class="highlight highlight-sh">
+<pre style="word-wrap:break">
 $ bx hd-to-address xprv9s21ZrQH143K3QTDL4LXw2F7HEK3wJUD2nW2nRk4stbPy6cq3jPPqjiChkVvvNKmPGJxWUtg6LnF5kejMRNNU3TGtRBeJgk33yuGBxrMPHi
-</pre></div>
+</pre>
+</div>
 ```
 15mKKb2eos1hWa6tisdPwwDC1a5J1y9nma
 ```
