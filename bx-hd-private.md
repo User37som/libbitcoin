@@ -52,3 +52,13 @@ $ bx hd-private -d -i 2147483647 xprv9vHkqa6EV4sPZHYqZznhT2NPtPCjKuDKGY38FBWLvga
 ```
 xprv9wSp6B7kry3Vj9m1zSnLvN3xH8RdsPP1Mh7fAaR7aRLcQMKTR2vidYEeEg2mUCTAwCd6vnxVrcjfy2kRgVsFawNzmjuHc2YmYRmagcEPdU9
 ```
+### Example 5
+piped commands
+```sh
+$ bx seed | hd-new | hd-private
+```
+```
+875d946b5db47508d67756250f63dd6d
+xprv9s21ZrQH143K2odHtyepinTKCiDf8eBUv5fTHtwDHef5VwX79HyVkut91SFpMUvRHF9f2jwkoQ1Z4kpsrpfvS8ZX4QKCcoZoMeXmLWfPKvB
+xprv9vHdLyX7nuCbJGV6xHSSi6MxqibjVeiKRF4Z7P2fPKZgpFvmU1oM9mXJqAXCpsHS7FX2Z2fmSTigfeW32bGAQvkLtgQRqgHJPWSptU1gyo6
+```
