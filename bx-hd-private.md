@@ -1,3 +1,6 @@
+Derive a child HD (BIP32) private key from another HD private key. 
+```sh
+$ bx hd-private --help
 ```
 Usage: bx hd-private [-dh] [--config VALUE] [--index VALUE]              
 [HD_PRIVATE_KEY]                                                         
