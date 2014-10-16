@@ -17,7 +17,7 @@ Arguments (positional):
 HD_PRIVATE_KEY       The HD private key to convert. If not specified the 
                      key is read from STDIN.
 ```
-Example 1
+### Example 1
 ```sh
 $ bx hd-to-wif xprv9s21ZrQH143K27rVid1zpeyqZygAX7W7AQ4cctwrSB4A2EoPNT22nR2FCm42oc6UmTNGnjwLscDdkof6dyRVwoG8nU6uY8XTGNHiNzAx3TD
 ```
