@@ -18,7 +18,7 @@ HD_KEY               The HD public or private key to convert. If not
                      specified the key is read from STDIN.   
 ```
 ### Example 1
-private to address
+private key
 ```sh
 $ bx hd-to-address xprv9s21ZrQH143K3QTDL4LXw2F7HEK3wJUD2nW2nRk4stbPy6cq3jPPqjiChkVvvNKmPGJxWUtg6LnF5kejMRNNU3TGtRBeJgk33yuGBxrMPHi
 ```
@@ -33,11 +33,13 @@ $ bx hd-to-address xpub661MyMwAqRbcFtXgS5sYJABqqG9YLmC4Q1Rdap9gSE8NqtwybGhePY2gZ
 ```
 15mKKb2eos1hWa6tisdPwwDC1a5J1y9nma
 ```
-### Example 2
-private to public to address
+### Example 3
+piped commands
 ```sh
-$ bx hd-to-public xprv9s21ZrQH143K3QTDL4LXw2F7HEK3wJUD2nW2nRk4stbPy6cq3jPPqjiChkVvvNKmPGJxWUtg6LnF5kejMRNNU3TGtRBeJgk33yuGBxrMPHi | bx hd-to-address
+$ bx seed | bx hd-new | bx hd-to-address
 ```
 ```
-15mKKb2eos1hWa6tisdPwwDC1a5J1y9nma
+acedf59ea292668e758ab618506b7617
+xprv9s21ZrQH143K38hVxZsYQMxwkxxaoWLSkf4WGkQyA9BxJbg5nDcX6VVHsHNcewpGu9pW15U2NJneTBKQw3sA2GxfRY7m8SYjUJnUtKXec6g
+1N3uiwCHDrQrkckYTWj8XzCr2mZgjgeDST
 ```
