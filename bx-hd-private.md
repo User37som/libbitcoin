@@ -21,7 +21,6 @@ HD_PRIVATE_KEY       The parent HD private key. If not specified the key
                      is read from STDIN. 
 ```
 ### Example 1
-
 ```
 ```
 ```
