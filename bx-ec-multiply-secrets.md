@@ -18,7 +18,7 @@ SECRET               The set of Base16 EC secrets to multiply. If not
                      specified the secrets are read from STDIN.
 ```
 # Example 1
-one secret (i.e. SECRET^1)
+one secret (SECRET^1)
 ```sh
 $ bx ec-multiply-secrets 1bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
@@ -26,7 +26,7 @@ $ bx ec-multiply-secrets 1bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca37
 1bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
 # Example 2
-two same secrets (i.e. SECRET^2)
+two same secrets (SECRET^2)
 ```sh
 $ bx ec-multiply-secrets 1bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 1bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
@@ -34,7 +34,7 @@ $ bx ec-multiply-secrets 1bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca37
 e5b87c7917f8414d2fa5caa32ea61b06fca755fee6a113179db70f5e0d5393ba
 ```
 # Example 3
-three same secrets (i.e. SECRET^3)
+three same secrets (SECRET^3)
 ```sh
 $ bx ec-multiply-secrets 1bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 1bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 1bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
