@@ -31,3 +31,4 @@ $ bx wif-to-public 5JuBiWpsjfXNxsWuc39KntBAiAiAP2bHtrMGaYGKCppq4MuVcQL
 ```
 0447140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36e87bb04f401be3b770a0f3e2267a6c3b14a3074f6b5ce4419f1fcdc1ca4b1cb6
 ```
+Examples 2 and 3 show that the compression flag is carried in the WIF, independently of the private key and used when the public key is exposed.
