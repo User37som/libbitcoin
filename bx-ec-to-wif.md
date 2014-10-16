@@ -35,3 +35,13 @@ $ bx ec-to-wif -u 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9
 ```
 5JuBiWpsjfXNxsWuc39KntBAiAiAP2bHtrMGaYGKCppq4MuVcQL
 ```
+### Example 3
+piped commands
+```sh
+$ bx seed | bx ec-new | bx ec-to-wif
+```
+```
+6e3f120eb1b8c51486775550b7a44d84
+984826b715209c50673499ac5faa0b84a4d61e9ef62a231a79ea67102909a0f3
+L2Kj7UjmWSaJQed5RKLeJk12Ai17CZdmk2svNzi2aUkMTgYC1Tb1
+```
