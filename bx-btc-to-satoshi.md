@@ -33,7 +33,7 @@ $ bx btc-to-satoshi 20999999.9769
 2099999997690000
 ```
 ### Example 3
-maximum representable in 64 bits unsigned
+maximum representable in bx (64 bit unsigned integer)
 ```sh
 $ bx btc-to-satoshi 184467440737.09551615
 ```
