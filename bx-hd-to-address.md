@@ -1,4 +1,4 @@
-<pre>alert('foo')</pre>
+<pre style="">alert('foo')</pre>
 Convert a HD (BIP32) public or private key to a Bitcoin address.   
 ```sh
 $ bx hd-to-address --help
