@@ -25,3 +25,11 @@ $ bx hd-new baadf00dbaadf00dbaadf00dbaadf00d
 ```
 xprv9s21ZrQH143K3bJ7oEuyFtvSpSHmdsmfiPcDXX2RpArAvnuBwcUo8KbeNXLvdbBPgjeFdEpQCAuxLaAP3bJRiiTdw1Kx4chf9zSGp95KBBR
 ```
+### Example 2
+short seed error
+```sh
+$ bx hd-new baadf00dbaadf00d
+```
+```
+The seed is less than 128 bits long.
+```
