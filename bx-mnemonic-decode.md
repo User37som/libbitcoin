@@ -30,6 +30,7 @@ $ bx mnemonic-decode eternity blood task eternity blood task eternity blood task
 baadf00dbaadf00dbaadf00dbaadf00d
 ```
 ### Example 2
+minimum length
 ```sh
 $ bx mnemonic-decode eternity blood task
 ```
