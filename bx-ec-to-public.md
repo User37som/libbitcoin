@@ -21,18 +21,18 @@ EC_PRIVATE_KEY       The Base16 EC private key. If not specified the key
 ```
 ### Example 1
 ```sh
-$ bx ec-to-public 4c721ccd679b817ea5e86e34f9d46abb1660a63955dde908702214eaab038475
+$ bx ec-to-public 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8
 ```
 ```
-03ac9e60013853128b42a1324609bac2ccff6a0b4844b6301f1f552e15ee14c7a5
+0247140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36
 ```
 ### Example 2
 --uncompressed
 ```sh
-$ bx ec-to-public -u 4c721ccd679b817ea5e86e34f9d46abb1660a63955dde908702214eaab038475
+$ bx ec-to-public -u 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8
 ```
 ```
-04ac9e60013853128b42a1324609bac2ccff6a0b4844b6301f1f552e15ee14c7a56e880343da4e6701e0c2266db10cffbd2b8c81d54ba77766d776c661476d1069
+0447140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36e87bb04f401be3b770a0f3e2267a6c3b14a3074f6b5ce4419f1fcdc1ca4b1cb6
 ```
 ### Example 2
 piped commands
