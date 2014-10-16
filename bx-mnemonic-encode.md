@@ -31,10 +31,19 @@ $ bx mnemonic-encode baadf00dbaadf00dbaadf00dbaadf00d
 eternity blood task eternity blood task eternity blood task eternity blood task
 ```
 ### Example 2
-64 bit seed, short seed error
+short seed error
 ```sh
 $ bx mnemonic-encode baadf00dbaadf00d
 ```
 ```
 The seed is less than 128 bits long.
+```
+### Example 3
+piped commands
+```sh
+$ bx seed | bx mnemonic-encode
+```
+```
+3dce4601da9a3d3c31b2af0e4677ca46
+sweat gasp monkey grip lesson eternity neck candle physical grown bread belly
 ```
