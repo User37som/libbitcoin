@@ -36,3 +36,11 @@ $ bx mnemonic-decode eternity blood task
 ```
 baadf00d
 ```
+### Example 3
+short sentence error
+```sh
+$ bx mnemonic-decode eternity blood
+```
+```
+At least three words are required.
+```
