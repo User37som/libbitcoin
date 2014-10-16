@@ -22,6 +22,7 @@ private key
 ```sh
 $ bx hd-to-address xprv9s21ZrQH143K3QTDL4LXw2F7HEK3wJUD2nW2nRk4stbPy6cq3jPPqjiChkVvvNKmPGJxWUtg6LnF5kejMRNNU3TGtRBeJgk33yuGBxrMPHi
 ```
+```
 15mKKb2eos1hWa6tisdPwwDC1a5J1y9nma
 ```
 ### Example 2
