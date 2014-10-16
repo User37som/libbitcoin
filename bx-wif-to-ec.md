@@ -19,7 +19,7 @@ WIF                  The value to convert. If not specified the value is
 ```
 ### Example 1
 ```sh
-$
+$ bx wif-to-ec
 ```
 ```
 ```
