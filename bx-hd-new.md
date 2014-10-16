@@ -42,7 +42,7 @@ $ bx hd-new baadf00dbaadf00d
 ```
 The seed is less than 128 bits long.
 ```
-### Example 3
+### Example 4
 piped commands
 ```sh
 $ bx seed | bx hd-new
