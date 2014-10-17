@@ -34,3 +34,17 @@ wrapper
     version 0
 }
 ```
+### Example 2
+version 42
+```sh
+$ bx wrap-decode 2a031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006298eebe4
+```
+```js
+wrapper
+{
+    checksum 3840642601
+    payload 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+    version 42
+}
+
+```
