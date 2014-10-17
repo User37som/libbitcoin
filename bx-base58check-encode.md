@@ -44,3 +44,12 @@ $ bx base16-encode "Satoshi Nakamoto" | bx base58check-encode
 5361746f736869204e616b616d6f746f
 12ANjYr7zPnxRdZfnmC2e6jjHDpBY
 ```
+Notice that the following commands produce the equivalent result.
+```sh
+$ bx base16-encode "Satoshi Nakamoto" | bx wrap-encode | bx base58-encode
+```
+```
+5361746f736869204e616b616d6f746f
+005361746f736869204e616b616d6f746f5311991f
+12ANjYr7zPnxRdZfnmC2e6jjHDpBY
+```
