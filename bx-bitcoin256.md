@@ -19,8 +19,8 @@ BASE16               The Base16 data to hash. If not specified the data
 ```
 ### Example 1
 ```sh
-$ bx bitcoin256 baadf00d
+$ bx bitcoin256 900df00d
 ```
 ```
-1ae79d785d7a487ec4cc49a340bd962638a6f55d5452ee547b61e654f6147d70
+23429b4cc436b2ebd4aa33b904a1e08f195715c34d275e9088ea7b12af3872cd
 ```
