@@ -40,7 +40,6 @@ $ bx btc-to-satoshi 184467440737.09551615
 ```
 18446744073709551615
 ```
-```
 ### Example 4
 piped commands
 ```sh
