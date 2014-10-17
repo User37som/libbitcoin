@@ -46,3 +46,21 @@ wrapper
     version 42
 }
 ```
+### Example 3
+```sh
+$ bx base58check-decode 12ANjYr7zPnxRdZfnmC2e6jjHDpBY
+```
+```js
+wrapper
+{
+    checksum 530125139
+    payload 5361746f736869204e616b616d6f746f
+    version 0
+}
+```
+```sh
+$ bx base16-decode 5361746f736869204e616b616d6f746f
+```
+```
+Satoshi Nakamoto
+```
