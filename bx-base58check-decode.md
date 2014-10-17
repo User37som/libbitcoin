@@ -64,3 +64,16 @@ $ bx base16-decode 5361746f736869204e616b616d6f746f
 ```
 Satoshi Nakamoto
 ```
+Notice that the following commands produce the equivalent result.
+```sh
+$ bx base58-decode 12ANjYr7zPnxRdZfnmC2e6jjHDpBY | bx wrap-decode
+```
+```js
+005361746f736869204e616b616d6f746f5311991f
+wrapper
+{
+    checksum 530125139
+    payload 5361746f736869204e616b616d6f746f
+    version 0
+}
+```
