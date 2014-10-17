@@ -34,3 +34,5 @@ $ bx sha256 900df00d | bx sha256
 f0ebe3bd55115e573ba35c2b1b65a923ff64c7a548d0deab73f9314754a9149d
 cd7238af127bea88905e274dc31557198fe0a104b933aad4ebb236c44c9b4223
 ```
+
+> Notice that the resulting hash [cd7238af...] is in the reverse order of the `bitcoin256` command output [...af3872cd]. This is an idiosyncrasy of the reference implementation.
