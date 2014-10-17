@@ -35,3 +35,11 @@ $ bx address-encode -v 42 b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
 ```
 JBeTK2YUWEFTTQvcqEyQoS3poXKjjc1oEP
 ```
+### Example 3
+piped commands
+```sh
+$ 
+```
+```
+
+```
