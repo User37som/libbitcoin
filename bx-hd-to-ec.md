@@ -1,5 +1,4 @@
-Convert a HD (BIP32) public or private key to the equivalent EC    
-public or private key.
+Convert a HD (BIP32) public or private key to the equivalent EC public or private key.
 ```sh
 $ bx hd-to-ec --help
 ```
