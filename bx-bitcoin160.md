@@ -17,7 +17,7 @@ Arguments (positional):
 BASE16               The Base16 data to hash. If not specified the data  
                      is value from STDIN.
 ```
-# Example 1
+### Example 1
 ```sh
 $ bx bitcoin160 900df00d
 ```
