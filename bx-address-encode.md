@@ -36,14 +36,14 @@ $ bx address-encode -v 42 b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
 JBeTK2YUWEFTTQvcqEyQoS3poXKjjc1oEP
 ```
 ### Example 3
-seed
+address breakdown
 ```sh
 $ bx seed
 ```
+```
 9bb08de6bcc361df764c1edd9cc93059 
 ```
-```
-then
+This produces a public key payment address generated using the `address-encode` command, which is limited to accepting a 160 bit payload.
 ```sh
 $ bx ec-new 9bb08de6bcc361df764c1edd9cc93059 | bx ec-to-public | bx bitcoin160 | bx address-encode
 ```
@@ -53,7 +53,7 @@ $ bx ec-new 9bb08de6bcc361df764c1edd9cc93059 | bx ec-to-public | bx bitcoin160 |
 0423c50b6c4d2caa9fb3822eb0bc8e1f116ab43b
 1NtZ6Dsj6vumHnAmA87aqLy6JhrsbpPKP
 ```
-Same
+The same address results from use of the more general `base58check-encode` command.
 ```sh
 $ bx ec-new 9bb08de6bcc361df764c1edd9cc93059 | bx ec-to-public | bx bitcoin160 | bx base58check-encode
 ```
