@@ -25,7 +25,7 @@ WRAPPED              The Base16 data to unwrap. If not specified the
 ```sh
 $ bx wrap-decode 00031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd0065b09d03c
 ```
-```sh
+```js
 wrapper
 {
     checksum 1020266843
