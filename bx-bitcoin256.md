@@ -24,3 +24,12 @@ $ bx bitcoin256 900df00d
 ```
 23429b4cc436b2ebd4aa33b904a1e08f195715c34d275e9088ea7b12af3872cd
 ```
+### Example 2
+piped commands, bitcoin256 equivalent
+```sh
+$ bx sha256 900df00d | bx sha256
+```
+```
+f0ebe3bd55115e573ba35c2b1b65a923ff64c7a548d0deab73f9314754a9149d
+cd7238af127bea88905e274dc31557198fe0a104b933aad4ebb236c44c9b4223
+```
