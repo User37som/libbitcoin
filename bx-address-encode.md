@@ -38,16 +38,14 @@ JBeTK2YUWEFTTQvcqEyQoS3poXKjjc1oEP
 ### Example 3
 [public key hash payment address](https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses) composition
 ```sh
-$ bx ec-to-public -u 18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a206321725
+$ bx ec-to-public -u 18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a206321725 | bx sha256 | bx ripemd160 | bx wrap-encode | bx base58-encode
 ```
 ```
 0450863ad64a87ae8a2fe83c1af1a8403cb53f53e486d8511dad8a04887e5b23522cd470243453a299fa9e77237716103abc11a1df38855ed6f2ee187e9c582ba6
-```
-```sh
-$ bx sha256 0450863ad64a87ae8a2fe83c1af1a8403cb53f53e486d8511dad8a04887e5b23522cd470243453a299fa9e77237716103abc11a1df38855ed6f2ee187e9c582ba6
-```
-```
 600ffe422b4e00731a59557a5cca46cc183944191006324a447bdb2d98d4b408
+010966776006953d5567439e5e39f86a0d273bee
+00010966776006953d5567439e5e39f86a0d273beed61967f6
+16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
 ```
 ### Example 4
 equivalent piped commands
