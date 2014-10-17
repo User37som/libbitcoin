@@ -31,3 +31,16 @@ received 6538155229
 unconfirmed 6538155229
 confirmed 1538155229
 ```
+### Example 2
+--format json
+```sh
+$ bx fetch-balance -f json 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+```
+```sh
+{
+    "address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+    "received": "6538155229",
+    "unconfirmed": "6538155229",
+    "confirmed": "1538155229"
+}
+```
