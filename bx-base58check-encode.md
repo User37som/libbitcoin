@@ -35,7 +35,7 @@ $ bx base58check-encode -v 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7
 ```
 7DTXS6pY6a98XH2oQTZUbbd1Z7P4NzkJqfraixprPutXQVTkwBGw
 ```
-### Example 2
+### Example 3
 piped commands
 ```sh
 $ bx base16-encode "Satoshi Nakamoto" | bx base58check-encode
