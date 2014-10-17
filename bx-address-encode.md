@@ -36,9 +36,9 @@ $ bx address-encode -v 42 b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
 JBeTK2YUWEFTTQvcqEyQoS3poXKjjc1oEP
 ```
 ### Example 3
-address composition
+[public key hash payment address](https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses) composition
 ```sh
-$ bx ec-new 9bb08de6bcc361df764c1edd9cc93059 | bx ec-to-public | bx bitcoin160 | bx address-encode
+$ bx ec-to-public 18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a206321725 | bx bitcoin160 | bx address-encode
 ```
 ```
 57b3a15beaf761a0dde5ee5da8634a80fa6508169feb26f62ca75573d7ae7ef6
