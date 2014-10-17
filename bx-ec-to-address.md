@@ -63,6 +63,7 @@ a927f06ad73c139d7f912c06700bc8ee8060ab0e5507e8119ddf56ad3dbb9576
 13ua8RRSxLpL5WL5cKUDepUCvJZgGWuKh7
 ```
 > Note that `$ bx seed` produces random output.
+
 ### Example 6
 *[Technical background of version 1 Bitcoin addresses]((https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses))*
 ```sh
