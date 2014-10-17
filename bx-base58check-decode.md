@@ -64,3 +64,5 @@ $ bx base16-decode 5361746f736869204e616b616d6f746f
 ```
 Satoshi Nakamoto
 ```
+
+> Currently complex types cannot be provided as input to BX commands, so this cannot be piped directly.
