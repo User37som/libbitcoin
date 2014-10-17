@@ -49,11 +49,11 @@ $ bx ec-to-public -u 18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a2063
 ### Example 4
 *[Technical background of version 1 Bitcoin addresses]((https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses))* (full version)
 
-0 - Having a private ECDSA key
+0. Having a private ECDSA key.
 ```
 18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a206321725
 ```
-1 - Take the corresponding public key generated with it (65 bytes, 1 byte 0x04, 32 bytes corresponding to X coordinate, 32 bytes corresponding to Y coordinate)
+1. Take the corresponding public key generated with it (65 bytes, 1 byte 0x04, 32 bytes corresponding to X coordinate, 32 bytes corresponding to Y coordinate).
 ```sh
 $ bx ec-to-public -u 18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a206321725
 ```
