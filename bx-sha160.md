@@ -21,5 +21,6 @@ BASE16               The Base16 data to hash. If not specified the value
 ```sh
 $ bx sha160 900df00d
 ```
-```ec5386a03e88b5ac9328f4eabe5103e601906daa
+```
+ec5386a03e88b5ac9328f4eabe5103e601906daa
 ```
