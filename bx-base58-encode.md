@@ -24,3 +24,11 @@ $ bx base58-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513
 ```
 vYxp6yFC7qiVtK1RcGQQt3L6EqTc8YhEDLnSMLqDvp8D
 ```
+# Example 2
+```sh
+$ bx base16-encode "Satoshi Nakamoto" | bx base58-encode
+```
+```
+5361746f736869204e616b616d6f746f
+BJBRbygJtzBfp4gjJG2iqL
+```
