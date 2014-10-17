@@ -22,6 +22,7 @@ WRAPPED              The Base16 data to unwrap. If not specified the
                      value is read from STDIN.
 ```
 ### Example 1
+version 0
 ```sh
 $ bx wrap-decode 00031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd0065b09d03c
 ```
