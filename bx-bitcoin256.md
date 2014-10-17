@@ -1,5 +1,4 @@
-Perform a SHA256 hash of a SHA256 hash of Base16 data and then     
-reverse the byte order. 
+Perform a SHA256 hash of a SHA256 hash of Base16 data and then reverse the byte order. 
 ```sh
 $ bx bitcoin256 --help
 ```
