@@ -17,14 +17,14 @@ Arguments (positional):
 SATOSHI              The whole number of satoshi to convert. If not      
                      specified the value is read from STDIN.
 ```
-# Example 1
+### Example 1
 ```sh
 $ bx satoshi-to-btc 42
 ```
 ```
 0.00000042
 ```
-# Example 2
+### Example 2
 maximum coinage
 ```sh
 $ bx satoshi-to-btc 2099999997690000
@@ -32,7 +32,7 @@ $ bx satoshi-to-btc 2099999997690000
 ```
 20999999.9769
 ```
-# Example 3
+### Example 3
 maximum representable in bx ([64 bit unsigned integer](http://en.wikipedia.org/wiki/Wheat_and_chessboard_problem))
 ```sh
 $ bx satoshi-to-btc 18446744073709551615
@@ -40,7 +40,7 @@ $ bx satoshi-to-btc 18446744073709551615
 ```
 184467440737.09551615
 ```
-# Example 4
+### Example 4
 piped commands
 ```sh
 $ bx satoshi-to-btc 18446744073709551615 | bx btc-to-satoshi
