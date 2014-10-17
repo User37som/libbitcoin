@@ -36,10 +36,41 @@ $ bx address-encode -v 42 b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
 JBeTK2YUWEFTTQvcqEyQoS3poXKjjc1oEP
 ```
 ### Example 3
-piped commands
+seed
 ```sh
-$ 
+$ bx seed
+```
+9bb08de6bcc361df764c1edd9cc93059 
 ```
 ```
-
+then
+```sh
+$ bx ec-new 9bb08de6bcc361df764c1edd9cc93059 | bx ec-to-public | bx bitcoin160 | bx address-encode
+```
+```
+57b3a15beaf761a0dde5ee5da8634a80fa6508169feb26f62ca75573d7ae7ef6
+031c9e4b5e45e636eac2b0bfff36530d6a048049dac66e88d3797371fadacb5040
+0423c50b6c4d2caa9fb3822eb0bc8e1f116ab43b
+1NtZ6Dsj6vumHnAmA87aqLy6JhrsbpPKP
+```
+Same
+```sh
+$ bx ec-new 9bb08de6bcc361df764c1edd9cc93059 | bx ec-to-public | bx bitcoin160 | bx base58check-encode
+```
+```
+57b3a15beaf761a0dde5ee5da8634a80fa6508169feb26f62ca75573d7ae7ef6
+031c9e4b5e45e636eac2b0bfff36530d6a048049dac66e88d3797371fadacb5040
+0423c50b6c4d2caa9fb3822eb0bc8e1f116ab43b
+1NtZ6Dsj6vumHnAmA87aqLy6JhrsbpPKP
+```
+Same
+```sh
+$ bx ec-new 9bb08de6bcc361df764c1edd9cc93059 | bx ec-to-public | bx bitcoin160 | bx wrap-encode | bx base58-encode
+```
+```
+57b3a15beaf761a0dde5ee5da8634a80fa6508169feb26f62ca75573d7ae7ef6
+031c9e4b5e45e636eac2b0bfff36530d6a048049dac66e88d3797371fadacb5040
+0423c50b6c4d2caa9fb3822eb0bc8e1f116ab43b
+000423c50b6c4d2caa9fb3822eb0bc8e1f116ab43b5728093a
+1NtZ6Dsj6vumHnAmA87aqLy6JhrsbpPKP
 ```
