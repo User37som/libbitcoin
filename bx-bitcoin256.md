@@ -16,7 +16,7 @@ Options (named):
 Arguments (positional):
 
 BASE16               The Base16 data to hash. If not specified the data  
-                     is value from STDIN.
+                     is read from STDIN.
 ```
 ### Example 1
 ```sh
