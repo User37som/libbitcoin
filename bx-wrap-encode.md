@@ -96,7 +96,7 @@ $ bx base58-encode 00010966776006953d5567439e5e39f86a0d273beed61967f6
 16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
 ```
 ### Example 4
-Show equivalence to steps 4-8 in Example 2.
+Demonstrate `wrap-encode` equivalence to steps 4-8 in Example 2.
 ```sh
 $ bx wrap-encode 010966776006953d5567439e5e39f86a0d273bee | bx base58-encode
 ```
