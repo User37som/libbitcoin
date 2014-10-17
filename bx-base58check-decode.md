@@ -34,7 +34,7 @@ wrapper
 }
 ```
 ### Example 2
-version 42 (Example 1 payload)
+version 42
 ```sh
 $ bx base58check-decode 7DTXS6pY6a98XH2oQTZUbbd1Z7P4NzkJqfraixprPutXQVTkwBGw
 ```
