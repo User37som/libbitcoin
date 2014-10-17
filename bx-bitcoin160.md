@@ -24,8 +24,7 @@ $ bx bitcoin160 900df00d
 ```
 49f180cdaa4c6564f74a0b0321633bbcba4ef9c5
 ```
-### Example 2
-piped commands, bitcoin160 equivalent
+Notice that the following commands produce the equivalent result.
 ```sh
 $ bx sha256 900df00d | bx ripemd160
 ```
