@@ -1,11 +1,13 @@
-Perform a SHA256 hash of a SHA256 hash of Base16 data.   
+Perform a SHA256 hash of a SHA256 hash of Base16 data and then     
+reverse the byte order. 
 ```sh
 $ bx bitcoin256 --help
 ```
 ```
 Usage: bx bitcoin256 [-h] [--config VALUE] [BASE16]                      
 
-Info: Perform a SHA256 hash of a SHA256 hash of Base16 data.             
+Info: Perform a SHA256 hash of a SHA256 hash of Base16 data and then     
+reverse the byte order.                                                  
 
 Options (named):
 
@@ -25,7 +27,7 @@ $ bx bitcoin256 900df00d
 23429b4cc436b2ebd4aa33b904a1e08f195715c34d275e9088ea7b12af3872cd
 ```
 ### Example 2
-piped commands, bitcoin256 equivalent
+piped commands, bitcoin256 equivalent (with byte order reversed)
 ```sh
 $ bx sha256 900df00d | bx sha256
 ```
