@@ -25,7 +25,7 @@ $ bx sha256 900df00d
 f0ebe3bd55115e573ba35c2b1b65a923ff64c7a548d0deab73f9314754a9149d
 ```
 ### Example 2
-piped commands, [FIPS 180-2 SHA-1 Vector A](http://www.nsrl.nist.gov/testdata)
+piped commands, [FIPS 180-2 SHA-256 Vector A](http://www.nsrl.nist.gov/testdata)
 ```sh
 $ bx base16-encode abc | bx sha256
 ```
@@ -34,7 +34,7 @@ $ bx base16-encode abc | bx sha256
 ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad
 ```
 ### Example 3
-piped commands, [FIPS 180-2 SHA-1 Vector B](http://www.nsrl.nist.gov/testdata)
+piped commands, [FIPS 180-2 SHA-256 Vector B](http://www.nsrl.nist.gov/testdata)
 ```sh
 $ bx base16-encode abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq| bx sha256
 ```
