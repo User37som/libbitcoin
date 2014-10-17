@@ -17,7 +17,7 @@ Arguments (positional):
 POINT                The Base16 EC point to multiply.                    
 SECRET               The Base16 EC secret to multiply.
 ```
-# Example 1
+### Example 1
 ```sh
 $ x ec-multiply 021bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 1bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
