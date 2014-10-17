@@ -63,3 +63,12 @@ a927f06ad73c139d7f912c06700bc8ee8060ab0e5507e8119ddf56ad3dbb9576
 13ua8RRSxLpL5WL5cKUDepUCvJZgGWuKh7
 ```
 > Note that `$ bx seed` produces random output.
+### Example 6
+*[Technical background of version 1 Bitcoin addresses]((https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses))*
+```sh
+$ bx ec-to-public -u 18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a206321725 | bx ec-to-address
+```
+```
+0450863ad64a87ae8a2fe83c1af1a8403cb53f53e486d8511dad8a04887e5b23522cd470243453a299fa9e77237716103abc11a1df38855ed6f2ee187e9c582ba6
+16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
+```
