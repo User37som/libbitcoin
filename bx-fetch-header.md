@@ -51,7 +51,7 @@ header
 }
 ```
 ### Example 3
---hash 000000000019d668...
+--hash [genesis block]
 ```sh
 $ bx fetch-header -s 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
 ```
@@ -68,7 +68,7 @@ header
 }
 ```
 ### Example 4
---height 1 --hash 000000000019d668...
+--height 1 --hash [genesis block]
 ```sh
 $ bx fetch-header -t 1 -s 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
 ```
