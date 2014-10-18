@@ -33,7 +33,7 @@ unconfirmed 6538155229
 confirmed 1538155229
 ```
 
-> These numeric values will change over time as more people send coin to Satoshi, and/or the coin at this address is spent.
+> These numeric values will change over time as more people send money to Satoshi, and/or the money at this address is spent.
 
 ### Example 2
 --format json
