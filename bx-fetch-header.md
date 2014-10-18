@@ -85,4 +85,4 @@ header
 }
 ```
 
-> If both `--hash` and `--height` are specified `--height` is ignored.
+> The genesis block is height 0. Notice that when both hash and height are specified height is ignored.
