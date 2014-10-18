@@ -88,4 +88,4 @@ header
 }
 ```
 
-> The genesis block is height 0. Notice that when both hash and height are specified height is ignored. To test a height against a block hash request the hash based on height alone and then compare the hash value against the returned `header.hash` property.
+> The genesis block is height 0. Notice that height is ignored when both hash and height are specified. To test a height against a block hash request the hash based on height alone and then compare the hash value against the returned `header.hash` property.
