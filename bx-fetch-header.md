@@ -51,7 +51,7 @@ header
 }
 ```
 
-> Notice that the `header.previous_block_hash` property matches the `header.hash` property returned for block 0.
+> Notice that the `header.previous_block_hash` property matches the `header.hash` property returned for the height 0 request.
 
 ### Example 3
 --hash [genesis block]
