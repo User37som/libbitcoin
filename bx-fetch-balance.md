@@ -48,7 +48,7 @@ $ bx fetch-balance -f json 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
     "confirmed": "1538155229"
 }
 ```
-### Example 2
+### Example 3
 --format xml
 ```sh
 $ bx fetch-balance -f xml 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
