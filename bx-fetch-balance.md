@@ -19,7 +19,7 @@ Options (named):
 Arguments (positional):
 
 BITCOIN_ADDRESS      The set of Bitcoin addresses. If not specified the  
-                     address is read from STDIN.
+                     addresses are read from STDIN.
 ```
 ### Example 1
 first address on the blockchain
