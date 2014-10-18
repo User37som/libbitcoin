@@ -26,11 +26,14 @@ first address on the blockchain
 ```sh
 $ bx fetch-balance 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ```
-```
-address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
-received 6538155229
-unconfirmed 6538155229
-confirmed 1538155229
+```js
+balance
+{
+    address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+    received 6538241483
+    unconfirmed 6538241483
+    confirmed 1538241483
+}
 ```
 
 > These numeric values will change over time as more people send money to Satoshi, and/or the money at this address is spent.
@@ -42,10 +45,12 @@ $ bx fetch-balance -f json 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ```
 ```sh
 {
-    "address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
-    "received": "6538155229",
-    "unconfirmed": "6538155229",
-    "confirmed": "1538155229"
+    "balance": {
+        "address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa",
+        "received": "6538241483",
+        "unconfirmed": "6538241483",
+        "confirmed": "1538241483"
+    }
 }
 ```
 ### Example 3
@@ -55,5 +60,6 @@ $ bx fetch-balance -f xml 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ```
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<address>1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</address><received>6538155229</received><unconfirmed>6538155229</unconfirmed><confirmed>1538155229</confirmed>
+<balance><address>1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</address><received>6538241483</received><unconfirmed>6538241483</unconfirmed><confirmed>1538241483</confirmed></balance>
+C:\Source\evoskuil\libbitcoin-explorer\bin\Win32\Debug\CTP_Nov2013\static>
 ```
