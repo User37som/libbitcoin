@@ -50,6 +50,8 @@ header
     version 1
 }
 ```
+
+> Notice that the `header.previous_block_hash` property matches the `header.hash` property returned for block 0.
 ### Example 3
 --hash [genesis block]
 ```sh
