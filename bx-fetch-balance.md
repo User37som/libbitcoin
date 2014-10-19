@@ -65,13 +65,13 @@ $ bx fetch-balance -f xml 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ### Example 4
 multiple addresses
 ```sh
-$ bx fetch-balance -f xml 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+$ bx fetch-balance -f xml 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
 ```
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<balance><address>1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</address><received>6538241483</received><unconfirmed>6538241483</unconfirmed><confirmed>1538241483</confirmed></balance>
+<balance><address>13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe</address><received>90000</received><unconfirmed>90000</unconfirmed><confirmed>90000</confirmed></balance>
 <?xml version="1.0" encoding="utf-8"?>
-<balance><address>1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</address><received>6538241483</received><unconfirmed>6538241483</unconfirmed><confirmed>1538241483</confirmed></balance>
+<balance><address>134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz</address><received>100000</received><unconfirmed>0</unconfirmed><confirmed>0</confirmed></balance>
 ```
 
 > Notice that each result produces an independent XML (or JSON/INFO) document.
