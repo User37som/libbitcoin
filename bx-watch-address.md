@@ -21,7 +21,7 @@ Arguments (positional):
 BITCOIN_ADDRESS      The participating Bitcoin address. If not specified 
                      the address is read from STDIN.
 ```
-This command will reflect only transactions created after the subscription is established.
+This command reflects transactions created after the subscription is established.
 ### Example 1
 monitor donations to Satoshi
 ```sh
