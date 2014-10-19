@@ -1,4 +1,3 @@
-
 ```sh
 $ bx fetch-balance --help
 ```
@@ -19,7 +18,7 @@ $ bx fetch-balance 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ### Example 2
 --format json
 ```sh
-$ bx fetch-balance -f json 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+$ bx fetch-balance -f json 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz
 ```
 ```sh
 
