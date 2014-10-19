@@ -86,47 +86,13 @@ history
 ### Example 3
 multiple addresses
 ```sh
-$ bx fetch-history 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
+$ bx fetch-history -f xml 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
 ```
-```js
-history
-{
-    address 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz
-    records
-    {
-        record
-        {
-            input
-            {
-                hash b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5
-                height 247742
-                index 0
-            }
-            output
-            {
-                hash 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3
-                height 247683
-                index 1
-            }
-            value 100000
-        }
-    }
-}
-history
-{
-    address 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
-    records
-    {
-        record
-        {
-            output
-            {
-                hash b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5
-                height 247742
-                index 0
-            }
-            value 90000
-        }
-    }
-}
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<history><address>13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe</address><records><record><output><hash>b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5</hash><height>247742</height><index>0</index></output><value>90000</value></record></records></history>
+<?xml version="1.0" encoding="utf-8"?>
+<history><address>134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz</address><records><record><input><hash>b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5</hash><height>247742</height><index>0</index></input><output><hash>97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3</hash><height>247683</height><index>1</index></output><value>100000</value></record></records></history>
 ```
+
+> Notice that each result produces an independent XML (or JSON/INFO) document.
