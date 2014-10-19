@@ -38,12 +38,20 @@ history
             output
             {
                 height 247683
-                point 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3:1
+                point
+                {
+                    hash 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3
+                    index 1
+                }
             }
             input
             {
                 height 247742
-                point b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5:0
+                point
+                {
+                    hash b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5
+                    index 0
+                }
             }
         }
     }
@@ -66,7 +74,11 @@ history
             output
             {
                 height 247742
-                point b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5:0
+                point
+                {
+                    hash b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5
+                    index 0
+                }
             }
         }
     }
