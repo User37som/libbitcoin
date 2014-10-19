@@ -1,16 +1,18 @@
 Get the block header from the specified hash or height. Height is ignored if both are specified.
 ```sh
-$ bx fetch-header [-h] [--config VALUE] [--format VALUE] [--hash    
+$ bx fetch-header --help
+```
+```
+Usage: bx fetch-header [-h] [--config VALUE] [--format VALUE] [--hash    
 VALUE] [--height VALUE]                                                  
-```
-```
+
 Info: Get the block header from the specified hash or height. Height is  
 ignored if both are specified. Requires an Obelisk server connection.    
 
 Options (named):
 
 -c [--config]        The path to the configuration settings file.        
--f [--format]        The output format. Options are 'info', 'json', and  
+-f [--format]        The output format. Options are 'info', 'json' and   
                      'xml', defaults to 'info'.                          
 -h [--help]          Get a description and instructions for this command.
 -s [--hash]          The Base16 block hash.                              
