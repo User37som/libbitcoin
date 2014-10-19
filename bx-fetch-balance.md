@@ -26,7 +26,7 @@ $ bx fetch-balance -f json 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz
 ### Example 3
 --format xml
 ```sh
-$ bx fetch-balance -f xml 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+$ bx fetch-balance -f xml 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
 ```
 ```xml
 
