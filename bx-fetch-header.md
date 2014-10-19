@@ -54,7 +54,7 @@ header
 > Notice that the `header.previous_block_hash` property matches the `header.hash` property returned for the height 0 request.
 
 ### Example 3
---hash [genesis block]
+--hash [[genesis block](https://en.bitcoin.it/wiki/Genesis_block)]
 ```sh
 $ bx fetch-header -s 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
 ```
@@ -71,7 +71,7 @@ header
 }
 ```
 ### Example 4
---height 1 --hash [genesis block]
+--height 1 --hash [[genesis block](https://en.bitcoin.it/wiki/Genesis_block)]
 ```sh
 $ bx fetch-header -t 1 -s 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
 ```
