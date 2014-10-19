@@ -3,7 +3,7 @@ Get the block height and index of a transaction.
 $ bx fetch-tx-index --help
 ```
 ```
-Usage: bx fetch-tx-index [-h] [--config VALUE] [--format VALUE] [HASH]...
+Usage: bx fetch-tx-index [-h] [--config VALUE] [--format VALUE] [HASH]   
 
 Info: Get the block height and index of a transaction. Requires an       
 Obelisk server connection.                                               
@@ -17,9 +17,8 @@ Options (named):
 
 Arguments (positional):
 
-HASH                 The set of Base16 transaction hashes. If not        
-                     specified the transaction hashes are read from      
-                     STDIN.
+HASH                 The Base16 transaction hash of the transaction index
+to get. If not specified the transaction hash is read from STDIN.
 ```
 ### Example 1
 [DPR Seized Coins #1](https://blockchain.info/tx/e3d6fe810f79b293705ed6e587951332c545a87fac860278b2ad4447106bb789) 
