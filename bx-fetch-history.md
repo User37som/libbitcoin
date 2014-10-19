@@ -1,10 +1,10 @@
-Get list of output points, values, and spends for one or more Bitcoin addresses.
+Get list of output points, values, and spends for a Bitcoin address.
 ```sh
 $ bx fetch-history --help
 ```
 ```
 Usage: bx fetch-history [-h] [--config VALUE] [--format VALUE]           
-[BITCOIN_ADDRESS]...                                                     
+BITCOIN_ADDRESS                                                          
 
 Info: Get list of output points, values, and spends for one or more      
 Bitcoin addresses. Requires an Obelisk server connection.                
@@ -18,8 +18,8 @@ Options (named):
 
 Arguments (positional):
 
-BITCOIN_ADDRESS      The set of Bitcoin addresses. If not specified the  
-                     addresses are read from STDIN.
+BITCOIN_ADDRESS      The Bitcoin address. If not specified the address is
+                     read from STDIN.
 ```
 ### Example 1
 [134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz](https://blockchain.info/address/134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz)
@@ -27,27 +27,24 @@ BITCOIN_ADDRESS      The set of Bitcoin addresses. If not specified the
 $ bx fetch-history 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz
 ```
 ```js
-history
+transfers
 {
-    address 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz
-    records
+    transfer
     {
-        record
+
+        input
         {
-            input
-            {
-                height 247742
-                hash b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5
-                index 0
-            }
-            output
-            {
-                height 247683
-                hash 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3
-                index 1
-            }
-            value 100000
+            height 247742
+            hash b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5
+            index 0
         }
+        output
+        {
+            height 247683
+            hash 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3
+            index 1
+        }
+        value 100000
     }
 }
 ```
@@ -62,37 +59,19 @@ history
 $ bx fetch-history 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
 ```
 ```js
-history
+transfers
 {
-    address 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
-    records
+    transfer
     {
-        record
+        output
         {
-            output
-            {
-                hash b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5
-                height 247742
-                index 0
-            }
-            value 90000
+            hash b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5
+            height 247742
+            index 0
         }
+        value 90000
     }
 }
 ```
 
 > A missing `input` property indicates that the output is unspent. The output for this example could become spent, and/or more output may be spent to this address.
-
-### Example 3
-multiple addresses
-```sh
-$ bx fetch-history -f xml 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
-```
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<history><address>13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe</address><records><record><output><hash>b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5</hash><height>247742</height><index>0</index></output><value>90000</value></record></records></history>
-<?xml version="1.0" encoding="utf-8"?>
-<history><address>134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz</address><records><record><input><hash>b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5</hash><height>247742</height><index>0</index></input><output><hash>97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3</hash><height>247683</height><index>1</index></output><value>100000</value></record></records></history>
-```
-
-> Notice that each result produces an independent XML (or JSON/INFO) document.
