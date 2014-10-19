@@ -1,6 +1,6 @@
 Watch the network for transactions in which an address participates.
 ```sh
-$ bx watch-address -h 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+$ bx watch-address --help
 ```
 ```
 Usage: bx watch-address [-h] [--config VALUE] [--format VALUE]           
@@ -12,16 +12,19 @@ participates. Requires an Obelisk server connection.
 Options (named):
 
 -c [--config]        The path to the configuration settings file.        
--f [--format]        The output format. Options are 'json', 'xml', 'info'
-                     or 'native', defaults to native.                    
+-f [--format]        The output format. Options are 'info', 'json' and   
+                     'xml', defaults to 'info'.                          
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
 
 BITCOIN_ADDRESS      The participating Bitcoin address. If not specified 
-                     the address is read from STDIN.
+                     the address is read from STDIN. 
 ```
 This command reflects transactions created after the subscription is established.
+
+> Currently the `ctrl-c` is not handled and the process must be terminated to stop monitoring.
+
 ### Example 1
 monitor donations to Satoshi
 ```sh
