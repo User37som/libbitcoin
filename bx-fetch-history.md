@@ -49,3 +49,26 @@ history
     }
 }
 ```
+### Example 2
+[13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe](https://blockchain.info/address/13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe)
+```sh
+$ bx fetch-history 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
+```
+```js
+history
+{
+    address 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
+    records
+    {
+        record
+        {
+            value 90000
+            output
+            {
+                height 247742
+                point b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5:0
+            }
+        }
+    }
+}
+```
