@@ -22,8 +22,14 @@ HASH                 The set of Base16 transaction hashes. If not
                      STDIN.
 ```
 ### Example 1
+[DPR Seized Coins #1](https://blockchain.info/tx/e3d6fe810f79b293705ed6e587951332c545a87fac860278b2ad4447106bb789) 
 ```sh
-$ 
-```
-```
+$ bx fetch-tx-index e3d6fe810f79b293705ed6e587951332c545a87fac860278b2ad4447106bb789
+```js
+metadata
+{
+    hash e3d6fe810f79b293705ed6e587951332c545a87fac860278b2ad4447106bb789
+    height 325116
+    index 179
+}
 ```
