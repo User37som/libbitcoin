@@ -62,7 +62,6 @@ $ bx fetch-balance -f xml 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 <?xml version="1.0" encoding="utf-8"?>
 <balance><address>1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</address><received>6538241483</received><unconfirmed>6538241483</unconfirmed><confirmed>1538241483</confirmed></balance>
 ```
-```
 ### Example 4
 multiple addresses
 ```sh
