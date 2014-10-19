@@ -130,7 +130,7 @@ transaction
 }
 ```
 ### Example 5
-pipe to file, [DPR Seized Coins #1](https://blockchain.info/address/1FfmbHfnpaZjKFvyi1okTjJJusN455paPH) 
+pipe to file, [DPR Seized Coins #1](https://blockchain.info/tx/e3d6fe810f79b293705ed6e587951332c545a87fac860278b2ad4447106bb789) 
 ```sh
 $ bx fetch-tx -f info e3d6fe810f79b293705ed6e587951332c545a87fac860278b2ad4447106bb789 > dpr1.txt
 ```
