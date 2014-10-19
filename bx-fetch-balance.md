@@ -22,7 +22,7 @@ BITCOIN_ADDRESS      The set of Bitcoin addresses. If not specified the
                      addresses are read from STDIN.
 ```
 ### Example 1
-first address on the blockchain
+[first address](https://blockchain.info/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa) on the blockchain
 ```sh
 $ bx fetch-balance 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ```
