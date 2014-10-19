@@ -23,7 +23,7 @@ BITCOIN_ADDRESS      The participating Bitcoin address. If not specified
 ```
 This command reflects transactions created after the subscription is established.
 
-> Currently the `ctrl-c` is not handled and the process must be terminated to stop monitoring.
+> Currently the `ctrl-c` is not handled and the process must be terminated to stop the watcher.
 
 ### Example 1
 monitor donations to Satoshi
