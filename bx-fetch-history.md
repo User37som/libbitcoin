@@ -1,3 +1,4 @@
+Get list of output points, values, and spends for a Bitcoin address.
 ```sh
 $ bx fetch-history --help
 ```
