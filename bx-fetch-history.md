@@ -22,6 +22,7 @@ BITCOIN_ADDRESS      The set of Bitcoin addresses. If not specified the
                      addresses are read from STDIN.
 ```
 ### Example 1
+[134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz](https://blockchain.info/address/134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz)
 ```sh
 $ bx fetch-history 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz
 ```
