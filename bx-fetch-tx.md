@@ -38,8 +38,7 @@ $ bx fetch-tx 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b |
 ÿÿÿÿMÿÿEThe Times 03/Jan/2009 Chancellor on brink of second bailout for banksÿÿÿÿò*CAgŠý°þUH'gñ¦q0·\Ö¨(à9	¦ybàêaÞ¶Iö¼?Lï8ÄóUåÁÞ\8M÷ºWŠLp+kñ_¬
 ```
 ### Example 3
-decoding [Satoshi's words](http://www.thetimes.co.uk/tto/business/industries/banking/article2160028.ece)
---format json
+--format json, decoding [Satoshi's words](http://www.thetimes.co.uk/tto/business/industries/banking/article2160028.ece)
 ```sh
 $ bx fetch-tx -f json 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
 ```
