@@ -11,15 +11,15 @@ Obelisk server connection.
 Options (named):
 
 -c [--config]        The path to the configuration settings file.        
--f [--format]        The output format. Options are 'info', 'json', and  
-                     'xml', defaults to 'info'.                         
+-f [--format]        The output format. Options are 'info', 'json' and   
+                     'xml', defaults to 'info'.                          
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
 
 HASH                 The Base16 transaction hash of the transaction index
                      to get. If not specified the transaction hash is    
-                     read from STDIN.
+                     read from STDIN.  
 ```
 ### Example 1
 [DPR Seized Coins #1](https://blockchain.info/tx/e3d6fe810f79b293705ed6e587951332c545a87fac860278b2ad4447106bb789) 
