@@ -72,6 +72,9 @@ $ bx fetch-stealth -f json -t 325500 01
     }
 }
 ```
+
+> Notice that the transaction [4e36b6ff...](https://blockchain.info/tx/4e36b6ff5630631489ff40a18fe764051898ad032eb2e0a3af4c12c1e03475cc) is identified with "Stealth Address Data".
+
 ### Example 3
 pipe to file, all stealth transactions 
 ```sh
