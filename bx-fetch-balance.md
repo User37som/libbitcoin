@@ -1,10 +1,10 @@
-Get the balance in satoshi of one or more Bitcoin addresses.
+Get the balance in satoshi of a Bitcoin address.
 ```sh
 $ bx fetch-balance --help
 ```
 ```
 Usage: bx fetch-balance [-h] [--config VALUE] [--format VALUE]           
-[BITCOIN_ADDRESS]...                                                     
+BITCOIN_ADDRESS                                                          
 
 Info: Get the balance in satoshi of one or more Bitcoin addresses.       
 Requires an Obelisk server connection.                                   
@@ -18,8 +18,8 @@ Options (named):
 
 Arguments (positional):
 
-BITCOIN_ADDRESS      The set of Bitcoin addresses. If not specified the  
-                     addresses are read from STDIN.
+BITCOIN_ADDRESS      The Bitcoin address. If not specified the           
+                     address is read from STDIN.
 ```
 ### Example 1
 [first address](https://blockchain.info/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa) on the blockchain
