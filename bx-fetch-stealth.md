@@ -59,16 +59,16 @@ stealth
 ### Example 2
 --height 325500, prefix 01
 ```sh
-$ bx fetch-stealth -t 325500 01
+$ bx fetch-stealth -f json -t 325500 01
 ```
 ```js
-stealth
 {
-    match
-    {
-        ephemeral_public_key 022ec7cd1d0697e746c4044a4582db99ac85e9158ebd2c0fb2a797759ca418dd8d
-        paid_address 1GqSZbEXDQ98aDKhja33cAXRdT9Z8RhRuZ
-        transaction_hash 4e36b6ff5630631489ff40a18fe764051898ad032eb2e0a3af4c12c1e03475cc
+    "stealth": {
+        "match": {
+            "ephemeral_public_key": "022ec7cd1d0697e746c4044a4582db99ac85e9158ebd2c0fb2a797759ca418dd8d",
+            "paid_address": "1GqSZbEXDQ98aDKhja33cAXRdT9Z8RhRuZ",
+            "transaction_hash": "4e36b6ff5630631489ff40a18fe764051898ad032eb2e0a3af4c12c1e03475cc"
+        }
     }
 }
 ```
