@@ -31,7 +31,6 @@ transfers
 {
     transfer
     {
-
         input
         {
             height 247742
