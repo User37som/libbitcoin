@@ -82,3 +82,51 @@ history
 ```
 
 > A missing `input` property indicates that the output is unspent. The output for this example could become spent, and/or more output may be spent to this address.
+
+### Example 3
+multiple addresses
+```sh
+$ bx fetch-history 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
+```
+```js
+history
+{
+    address 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz
+    records
+    {
+        record
+        {
+            input
+            {
+                hash b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5
+                height 247742
+                index 0
+            }
+            output
+            {
+                hash 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3
+                height 247683
+                index 1
+            }
+            value 100000
+        }
+    }
+}
+history
+{
+    address 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
+    records
+    {
+        record
+        {
+            output
+            {
+                hash b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5
+                height 247742
+                index 0
+            }
+            value 90000
+        }
+    }
+}
+```
