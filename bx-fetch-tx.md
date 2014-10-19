@@ -81,43 +81,50 @@ $ bx base16-decode 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204
 $ bx fetch-tx -f info 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b06b588
 ```
 ```js
+transaction
 {
-    "transaction": {
-        "hash": "4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b06b588",
-        "inputs": {
-            "input": {
-                "address": "136Zngm3jPWjXr62D6aAqiHViwC8GX7KrT",
-                "previous_output": {
-                    "hash": "e58f3fb6e2ebe8e74e5af032dfd8c8e5e51f53d59489591a71599a80bdca910d",
-                    "index": "0"
-                },
-                "script": "[ 304502210092947e1d588378cd215c2d3990b862cf368657741b5941c3cadf87a46b5a211d02205ef4ba2c1f35886e4272250a2abec2d1f2f21d5c581bf3eb5fc27b5be332660701 ] [ 04aefca2b53d176aa22f730a5497eb32011e15387c63a75780efeb21e981e9728033808732a321b48a8e0e2a5f9c1efb745dd41e9c92c6260daad567544b122446 ]",
-                "sequence": "4294967295"
-            },
-            "input": {
-                "address": "16twDP2ZL2nZTRsWmfpNrgs9PNDECyBJEV",
-                "previous_output": {
-                    "hash": "203609ba699c1f56e4a8d793a8cd746aa5aa5fc2e71205cf67a94487b45bafa9",
-                    "index": "1"
-                },
-                "script": "[ 3045022100b7e63179ce698082c0f97c4ba6e24f5c7b7d37e5098c1b46674d03ef17a68b8d022008ebc699df19f11a11e76320719d7c139bb10ce9aa255f674a44b95f54053d9d01 ] [ 04c8f5fbadfe4534eaa3e2ec49dd797aaa43cb13d669dbd6ab769ea45a5ebcdacc6aee8e0e75fec2cb7fa088e16ead1a979f394b5af9e0d2998b6dc5bb6c41b005 ]",
-                "sequence": "4294967295"
+    hash 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b06b588
+    inputs
+    {
+        input
+        {
+            address 136Zngm3jPWjXr62D6aAqiHViwC8GX7KrT
+            previous_output
+            {
+                hash e58f3fb6e2ebe8e74e5af032dfd8c8e5e51f53d59489591a71599a80bdca910d
+                index 0
             }
-        },
-        "lock_time": "0",
-        "outputs": {
-            "output": {
-                "address": "1HB5XMLmzFVj8ALj6mfBsbifRoD4miY36v",
-                "script": "dup hash160 [ b169f2b0b866db05900b93a5d76345f18d3afb24 ] equalverify checksig",
-                "value": "7500000"
-            },
-            "output": {
-                "address": "16kZCdRoVmv9aWXagqxqm5NbLm19mQTr1V",
-                "script": "dup hash160 [ 3f156517411bd0ea2f22e2f42d6846b405facb27 ] equalverify checksig",
-                "value": "97317"
+            script "[ 304502210092947e1d588378cd215c2d3990b862cf368657741b5941c3cadf87a46b5a211d02205ef4ba2c1f35886e4272250a2abec2d1f2f21d5c581bf3eb5fc27b5be332660701 ] [ 04aefca2b53d176aa22f730a5497eb32011e15387c63a75780efeb21e981e9728033808732a321b48a8e0e2a5f9c1efb745dd41e9c92c6260daad567544b122446 ]"
+            sequence 4294967295
+        }
+        input
+        {
+            address 16twDP2ZL2nZTRsWmfpNrgs9PNDECyBJEV
+            previous_output
+            {
+                hash 203609ba699c1f56e4a8d793a8cd746aa5aa5fc2e71205cf67a94487b45bafa9
+                index 1
             }
-        },
-        "version": "1"
+            script "[ 3045022100b7e63179ce698082c0f97c4ba6e24f5c7b7d37e5098c1b46674d03ef17a68b8d022008ebc699df19f11a11e76320719d7c139bb10ce9aa255f674a44b95f54053d9d01 ] [ 04c8f5fbadfe4534eaa3e2ec49dd797aaa43cb13d669dbd6ab769ea45a5ebcdacc6aee8e0e75fec2cb7fa088e16ead1a979f394b5af9e0d2998b6dc5bb6c41b005 ]"
+            sequence 4294967295
+        }
     }
+    lock_time 0
+    outputs
+    {
+        output
+        {
+            address 1HB5XMLmzFVj8ALj6mfBsbifRoD4miY36v
+            script "dup hash160 [ b169f2b0b866db05900b93a5d76345f18d3afb24 ] equalverify checksig"
+            value 7500000
+        }
+        output
+        {
+            address 16kZCdRoVmv9aWXagqxqm5NbLm19mQTr1V
+            script "dup hash160 [ 3f156517411bd0ea2f22e2f42d6846b405facb27 ] equalverify checksig"
+            value 97317
+        }
+    }
+    version 1
 }
 ```
