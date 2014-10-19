@@ -21,41 +21,6 @@ HASH                 The set of Base16 transaction hashes of transactions
                      read from STDIN.
 ```
 ### Example 1
-[first transaction](https://blockchain.info/tx/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b) on the blockchain
-```sh
-$ bx fetch-tx 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
-```
-```js
-transaction
-{
-    hash 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
-    inputs
-    {
-        input
-        {
-            previous_output
-            {
-                hash 0000000000000000000000000000000000000000000000000000000000000000
-                index 4294967295
-            }
-            script "[ 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73 ]"
-            sequence 4294967295
-        }
-    }
-    lock_time 0
-    outputs
-    {
-        output
-        {
-            address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
-            script "[ 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f ] checksig"
-            value 5000000000
-        }
-    }
-    version 1
-}
-```
-### Example 2
 --format json, decoding [Satoshi's words](http://www.thetimes.co.uk/tto/business/industries/banking/article2160028.ece)
 ```sh
 $ bx fetch-tx -f json 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
@@ -93,7 +58,7 @@ $ bx base16-decode 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204
 ```
 ÿÿEThe Times 03/Jan/2009 Chancellor on brink of second bailout for banks
 ```
-### Example 3
+### Example 2
 --format info, [first WikiLeaks transaction](https://blockchain.info/tx/4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b06b588)
 ```sh
 $ bx fetch-tx -f info 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b06b588
@@ -146,7 +111,7 @@ transaction
     version 1
 }
 ```
-### Example 4
+### Example 3
 pipe to file, [DPR Seized Coins #1](https://blockchain.info/tx/e3d6fe810f79b293705ed6e587951332c545a87fac860278b2ad4447106bb789) 
 ```sh
 $ bx fetch-tx -f xml e3d6fe810f79b293705ed6e587951332c545a87fac860278b2ad4447106bb789 > dpr1.xml
