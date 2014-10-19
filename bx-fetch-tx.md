@@ -3,22 +3,23 @@ Get transactions by hash.
 $ bx fetch-tx --help
 ```
 ```
-Usage: bx fetch-tx [-h] [--config VALUE] [--format VALUE] [HASH]...      
+Usage: bx fetch-tx [-h] [--config VALUE] [--format VALUE] [HASH]         
 
-Info: Get transactions by hash. Requires an Obelisk server connection.   
+Info: Get a transaction by its hash. Requires an Obelisk server          
+connection.                                                              
 
 Options (named):
 
 -c [--config]        The path to the configuration settings file.        
--f [--format]        The output format. Options are 'info', 'json', and  
+-f [--format]        The output format. Options are 'info', 'json' and   
                      'xml', defaults to 'info'.                          
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
 
-HASH                 The set of Base16 transaction hashes of transactions
-                     to get. If not specified the transaction hashes are 
-                     read from STDIN.
+HASH                 The Base16 transaction hash of the transaction to   
+                     get. If not specified the transaction hash is read  
+                     from STDIN.
 ```
 ### Example 1
 [Satoshi's words](http://www.thetimes.co.uk/tto/business/industries/banking/article2160028.ece)
