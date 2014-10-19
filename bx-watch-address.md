@@ -21,13 +21,17 @@ Arguments (positional):
 BITCOIN_ADDRESS      The participating Bitcoin address. If not specified 
                      the address is read from STDIN.
 ```
+This command will reflect only transactions created after the subscription is established.
 ### Example 1
+monitor donations to Satoshi
 ```sh
 $ bx watch-address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ```
+This message will be written once the subscription is established.
 ```
 Watching address: 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa...
 ```
+For each new transaction that impacts the address a new `watch_address` will be written.
 ```sh
 watch_address
 {
@@ -150,3 +154,5 @@ watch_address
     }
 }
 ```
+
+> Notice that the last transaction is unconfirmed and therefore shows up in block `0000000000000000000000000000000000000000000000000000000000000000`. The other transactions are both show in block `0000000000000000013aeff116df0b35ce5b98a3ef1880289323050858fe838e`, which was the most recent block at the time.
