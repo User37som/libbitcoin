@@ -18,7 +18,7 @@ Options (named):
 Arguments (positional):
 
 HASH                 The Base16 transaction hash of the transaction index
-                     to get. If not specified the transaction hash is 
+                     to get. If not specified the transaction hash is    
                      read from STDIN.
 ```
 ### Example 1
