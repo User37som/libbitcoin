@@ -21,6 +21,11 @@ Arguments (positional):
 BITCOIN_ADDRESS      The set of Bitcoin addresses. If not specified the  
                      addresses are read from STDIN.
 ```
+
+> The `output.height` property indicates the block height at which the output is confirmed. A missing value indicates that the output is unconfirmed.
+
+> The `input` property indicates that the output has been spent. The `input.height` property indicates the block height at which the spend is confirmed. A missing value indicates that the spend is unconfirmed.
+
 ### Example 1
 [134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz](https://blockchain.info/address/134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz)
 ```sh
