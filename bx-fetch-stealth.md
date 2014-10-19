@@ -57,7 +57,7 @@ stealth
 }
 ```
 ### Example 2
---height 325500, prefix 01
+--format json, --height 325500, prefix 01
 ```sh
 $ bx fetch-stealth -f json -t 325500 01
 ```
