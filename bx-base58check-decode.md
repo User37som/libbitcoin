@@ -11,8 +11,8 @@ Info: Convert a Base58Check value to Base16.
 Options (named):
 
 -c [--config]        The path to the configuration settings file.
--f [--format]        The output format. Options are 'json', 'xml', 'info'
-                     or 'native', defaults to native.
+-f [--format]        The output format. Options are 'info', 'json', and  
+                     'xml', defaults to 'info'.                          
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
