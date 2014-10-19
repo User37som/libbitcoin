@@ -81,4 +81,4 @@ history
 }
 ```
 
-> A missing `input` property indicates that the output is unspent. The output for this example could become spent.
+> A missing `input` property indicates that the output is unspent. The output for this example could become spent, or more inputs may be received.
