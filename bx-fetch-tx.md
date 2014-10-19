@@ -65,7 +65,7 @@ $ bx base16-decode 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204
 ### Example 2
 --format json, [first WikiLeaks transaction](https://blockchain.info/tx/4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b06b588)
 ```sh
-$ bx fetch-tx -f xml 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b06b588
+$ bx fetch-tx -f json 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b06b588
 ```
 ```js
 {
