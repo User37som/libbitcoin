@@ -20,4 +20,4 @@ $ bx fetch-height
 325956
 ```
 
-> This value will vary as more blocks are mined and may vary slightly between servers.
+> The height will increase as more blocks are mined and may vary slightly between servers.
