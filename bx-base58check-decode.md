@@ -79,16 +79,16 @@ $ bx base16-decode 5361746f736869204e616b616d6f746f
 Satoshi Nakamoto
 ```
 ### Example 4
-piped input, --format xml
+piped input
 ```sh
-$ echo 7DTXS6pY6a98XH2oQTZUbbd1Z7P4NzkJqfraixprPutXQVTkwBGw | bx base58check-decode
+$ echo 12ANjYr7zPnxRdZfnmC2e6jjHDpBY | bx base58check-decode
 ```
 ```js
-7DTXS6pY6a98XH2oQTZUbbd1Z7P4NzkJqfraixprPutXQVTkwBGw 
+12ANjYr7zPnxRdZfnmC2e6jjHDpBY 
 wrapper
 {
-    checksum 3840642601
-    payload 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
-    version 42
+    checksum 530125139
+    payload 5361746f736869204e616b616d6f746f
+    version 0
 }
 ```
