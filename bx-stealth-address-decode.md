@@ -4,7 +4,7 @@ $ bx stealth-address-decode --help
 ```
 ```
 Usage: bx stealth-address-decode [-h] [--config VALUE] [--format VALUE]  
-STEALTH_ADDRESS                                                          
+[STEALTH_ADDRESS]                                                        
 
 Info: Decode a stealth address.                                          
 
@@ -17,7 +17,8 @@ Options (named):
 
 Arguments (positional):
 
-STEALTH_ADDRESS      The stealth payment address.
+STEALTH_ADDRESS      The stealth payment address. If not specified the   
+                     address is read from STDIN.                         
 ```
 ### Example 1
 scan key is spend key
