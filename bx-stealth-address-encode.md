@@ -24,8 +24,7 @@ SCAN_PUBKEY          The Base16 EC public key required to generate a
                      payment.                                            
 SPEND_PUBKEY         The set of Base16 EC public keys corresponding to   
                      private keys that will be able to spend payments to 
-                     the address. Defaults to the value of               
-                     SCAN_EC_PUBLIC_KEY.
+                     the address. Defaults to the value of SCAN_PUBKEY.  
 ```
 ### Example 1
 scan key only
