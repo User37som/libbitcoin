@@ -79,7 +79,7 @@ stealth_address
 }
 ```
 ### Example 4
-prefix 11111111110000000000111111111100
+maximum length prefix
 ```sh
 bx stealth-address-decode 5b4Xkx9DVQj5nznykpKLeoNWHes1ZHJh3aCvxNNXUTuErKTyYq8NKX3xNb3Q7xg
 ```
@@ -93,6 +93,26 @@ stealth_address
     spend
     {
         public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+    }
+    testnet false
+}
+```
+### Example 5
+prefix and one of two signatures
+```sh
+bx stealth-address-decode JubEFUfmd2J3i83L9qWNr7fDSbb2bE7PY6RvEzH6wsNW8Ls7Mw3hxKZHWr3SvEz4o6NWLguFmyK9yBPrzxtC7ssTXQKJnyMUpL71mzBgd
+```
+```js
+stealth_address
+{
+    encoded JubEFUfmd2J3i83L9qWNr7fDSbb2bE7PY6RvEzH6wsNW8Ls7Mw3hxKZHWr3SvEz4o6NWLguFmyK9yBPrzxtC7ssTXQKJnyMUpL71mzBgd
+    prefix 000000001010
+    scan_public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+    signatures 1
+    spend
+    {
+        public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+        public_key 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
     }
     testnet false
 }
