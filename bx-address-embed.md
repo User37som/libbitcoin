@@ -31,6 +31,15 @@ $ bx address-embed "Satoshi Nakamoto"
 168LnUjqoJLie1PW5dTaF2vKUU9Jf6Fe4a
 ```
 ### Example 2
+piped input
+```sh
+$ echo Satoshi Nakamoto | bx address-embed
+```
+```
+Satoshi Nakamoto 
+168LnUjqoJLie1PW5dTaF2vKUU9Jf6Fe4a
+```
+### Example 3
 --version 42
 ```sh
 $ bx address-embed -v 42 "Satoshi Nakamoto"
