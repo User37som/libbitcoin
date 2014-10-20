@@ -81,10 +81,14 @@ Satoshi Nakamoto
 ### Example 4
 piped input, --format xml
 ```sh
-$ echo 7DTXS6pY6a98XH2oQTZUbbd1Z7P4NzkJqfraixprPutXQVTkwBGw | bx base58check-decode -f xml
+$ echo 7DTXS6pY6a98XH2oQTZUbbd1Z7P4NzkJqfraixprPutXQVTkwBGw | bx base58check-decode
 ```
 ```js
 7DTXS6pY6a98XH2oQTZUbbd1Z7P4NzkJqfraixprPutXQVTkwBGw 
-<?xml version="1.0" encoding="utf-8"?>
-<wrapper><checksum>3840642601</checksum><payload>031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006</payload><version>42</version></wrapper>
+wrapper
+{
+    checksum 3840642601
+    payload 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+    version 42
+}
 ```
