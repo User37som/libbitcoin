@@ -43,3 +43,12 @@ $ bx wrap-encode 010966776006953d5567439e5e39f86a0d273bee | bx base58-encode
 00010966776006953d5567439e5e39f86a0d273beed61967f6
 16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
 ```
+### Example 4
+piped input
+```sh
+$ bx base16-encode "Satoshi Nakamoto" | bx wrap-encode
+```
+```
+5361746f736869204e616b616d6f746f
+005361746f736869204e616b616d6f746f5311991f
+```
