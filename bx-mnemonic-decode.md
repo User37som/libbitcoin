@@ -52,5 +52,6 @@ piped commands
 $ echo eternity blood task | bx mnemonic-decode
 ```
 ```
+eternity blood task
 baadf00d
 ```
