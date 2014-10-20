@@ -36,12 +36,10 @@ xpub661MyMwAqRbcFW31YEwpkMuc5THy2PSt5bDMsktWQcFF8syAmRUapSCGu8ED9W6oDMSgv6Zz8ido
 ### Example 3
 piped commands
 ```sh
-$ bx seed | bx hd-new | bx hd-to-public | bx hd-to-ec | bx ec-to-address
+$ bx seed | bx hd-new | bx hd-to-public
 ```
 ```
 53dc6e013ee4de6c858adb4ef75eb772
 xprv9s21ZrQH143K4BXnA5VBs3HYVS9mkTjbXFfDepC5f6yAtU38MYmUUq7www2BjDWqZWR7EXtToXEphCWCxiQ6SwrpwcaUH7uDp2VGD47Hna7
 xpub661MyMwAqRbcGfcFG72CEBEH3TzG9vTStUapTCbhDSW9mGNGu65j2dSRoDg3Uy79LHe9wFqFbhjM7UitQu5gAvkPnHtAWRLFzDRTM2t3C43
-02eba03fad057d716944cfe163464911ae485ac0cac10a27152092c6732ae23dde
-1LP2m4sBxAsgNzfTdPrQGJ2sCgcTJr73EC
 ```
