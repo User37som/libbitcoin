@@ -41,7 +41,7 @@ $ bx satoshi-to-btc 18446744073709551615
 184467440737.09551615
 ```
 ### Example 4
-piped commands
+piped commands, round trip
 ```sh
 $ bx satoshi-to-btc 18446744073709551615 | bx btc-to-satoshi
 ```
