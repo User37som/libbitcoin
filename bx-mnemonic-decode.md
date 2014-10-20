@@ -47,7 +47,7 @@ $ bx mnemonic-decode eternity blood
 At least three words are required.
 ```
 ### Example 4
-piped commands
+read from STDIN
 ```sh
 $ echo eternity blood task | bx mnemonic-decode
 ```
