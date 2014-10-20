@@ -61,3 +61,17 @@ vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5
 > In this case the scan key is specified as a spend key along with a second spend key. As in this case, if additional spend keys are specified and the scan key is to be a spend key as well, the scan key must be explicitly specified.
 
 > Obelisk does not yet support discovery of multiple signature stealth transactions.
+
+> By default signature by all spend keys is required to spend payments to the address.
+
+### Example 4
+scan key and additional spend key, one of two signatures required
+```sh
+$ bx stealth-address-encode -s 1 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+```
+```
+WARNING: multiple signature stealth transactions are not yet fully supported.
+vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5n5Rv6yv6Yht9uWN7nyPnY7
+```
+
+> Notice the address differs from the previous example because the signature requirement has been altered.
