@@ -100,3 +100,12 @@ $ bx stealth-address-encode -p 11111111110000000000111111111100 031bab84e687e365
 ```
 5b4Xkx9DVQj5nznykpKLeoNWHes1ZHJh3aCvxNNXUTuErKTyYq8NKX3xNb3Q7xg
 ```
+### Example 8
+--prefix 000000001010, --signatures 1
+```sh
+bx stealth-address-encode -p 000000001010 -s 1 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+```
+```
+WARNING: multiple signature stealth transactions are not yet fully supported.
+JubEFUfmd2J3i83L9qWNr7fDSbb2bE7PY6RvEzH6wsNW8Ls7Mw3hxKZHWr3SvEz4o6NWLguFmyK9yBPrzxtC7ssTXQKJnyMUpL71mzBgd
+```
