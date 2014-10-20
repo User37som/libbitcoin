@@ -58,12 +58,6 @@ wrapper
     version 0
 }
 ```
-```sh
-$ bx base16-decode 5361746f736869204e616b616d6f746f
-```
-```
-Satoshi Nakamoto
-```
 Notice that the following commands produce the equivalent result.
 ```sh
 $ bx base58-decode 12ANjYr7zPnxRdZfnmC2e6jjHDpBY | bx wrap-decode
@@ -76,4 +70,11 @@ wrapper
     payload 5361746f736869204e616b616d6f746f
     version 0
 }
+```
+Extract the payload value.
+```sh
+$ bx base16-decode 5361746f736869204e616b616d6f746f
+```
+```
+Satoshi Nakamoto
 ```
