@@ -121,7 +121,7 @@ stealth_address
 ### Example 6
 --format json, piped input
 ```sh
-$ echo hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i | bx stealth-address-decode
+$ echo hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i | bx stealth-address-decode -f json
 ```
 ```js
 {
