@@ -28,7 +28,29 @@ SPEND_PUBKEY         The set of Base16 EC public keys corresponding to
                      SCAN_EC_PUBLIC_KEY.
 ```
 ### Example 1
+scan key only
 ```sh
+$ bx stealth-address-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
 ```
+hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
+```
+### Example 2
+scan key and redundant spend key
+```sh
+$ bx stealth-address-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+```
+```
+hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
+```
+
+> Notice that the stealth address remains unchanged when the spend key is explicitly the same as the scan key.
+
+### Example 3
+scan key and one different spend key
+```sh
+$ bx stealth-address-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+```
+```
+vJmwY32eS5VDC2C4GaZyXt7i4iCjzSMZ1XSd6KbkA7QbGE492akT2eZZMjCwWDqKRSYhnSA8Bgp78KeAYFVCi8ke5mELdoYMBNep7L
 ```
