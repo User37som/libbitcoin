@@ -47,7 +47,7 @@ $ bx stealth-address-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da797
 hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
 ```
 
-> Notice that the stealth address remains unchanged when the spend key is explicitly the same as the scan key.
+> Notice that the stealth address remains unchanged when the only spend key is explicitly the same as the scan key.
 
 ### Example 3
 scan key and additional spend key
