@@ -42,3 +42,11 @@ $ bx base16-encode abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
 ```
 6162636462636465636465666465666765666768666768696768696a68696a6b696a6b6c6a6b6c6d6b6c6d6e6c6d6e6f6d6e6f706e6f7071
 ```
+### Example 4
+routed input, hash self
+```sh
+$ bx base16-encode < bx.exe | bx sha256
+```
+```
+f9c8f0a86f772a2dd1adf7e43f427ec99e59084b4cd9b41861a2c9d84010575d
+```
