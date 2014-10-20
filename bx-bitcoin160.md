@@ -35,9 +35,9 @@ f0ebe3bd55115e573ba35c2b1b65a923ff64c7a548d0deab73f9314754a9149d
 ### Example 2
 piped commands
 ```sh
-$ bx base16-encode "Gilded tombs do worms enfold." | bx bitcoin160
+$ bx base16-encode "Gilded tombs do worms enfold" | bx bitcoin160
 ```
 ```
-47696c64656420746f6d627320646f20776f726d7320656e666f6c642e
-00464bfc50f21663f6b3b012740dc0a86cd65a09
+47696c64656420746f6d627320646f20776f726d7320656e666f6c64
+2223c9feeb501ebba58cf93bc2a7bb64d20d0149
 ```
