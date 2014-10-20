@@ -37,12 +37,10 @@ $ bx hd-to-ec xpub661MyMwAqRbcFtXgS5sYJABqqG9YLmC4Q1Rdap9gSE8NqtwybGhePY2gZ29ESF
 ### Example 3
 piped commands
 ```sh
-$ bx seed | bx hd-new | bx hd-to-ec | bx ec-to-public | bx ec-to-address
+$ bx seed | bx hd-new | bx hd-to-ec
 ```
 ```
 4ee7ae9ae9e6f1e9944ee1dab8f3d496
 xprv9s21ZrQH143K2uREj44qaJdyaaStTzV4SdfZbKHsSPHkL92aHxXQuxaZQ8pcvYVX2NvosgjGhJ38r7V7dEmUqaDJm9mtKPNx1mNbGLtmjGw
 ffcfba33f9595f45e9b35ba6166c2fc801b056be83586e6c4a049ed6829f9bb5
-021803b7f223b68e3177bb0b0b2ff74405788e6417c1345d0b4a2f3c55ff84ba69
-1DdxNqqMb7grqwHvPAJfvFJxrUQoRHPwVq
 ```
