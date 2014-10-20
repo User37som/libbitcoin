@@ -62,10 +62,10 @@ vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5
 
 > Obelisk does not yet support discovery of multiple signature stealth transactions.
 
-> By default signature by all spend keys is required to spend payments to the address.
+> By default signature by all spend keys is required to spend payments to the address. The warning message is written to STDERR although the command returns success.
 
 ### Example 4
-scan key and additional spend key, one of two signatures required
+--signatures 1, one of two signatures required
 ```sh
 $ bx stealth-address-encode -s 1 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
@@ -75,3 +75,28 @@ vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5
 ```
 
 > Notice the address differs from the previous example because the signature requirement has been altered.
+
+### Example 5
+--signatures 42, signature overflow error
+```sh
+$ bx stealth-address-encode -s 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+```
+```
+The number of signatures is greater than the number of SPEND_PUBKEYs.
+```
+### Example 6
+--signatures 42, signature overflow error
+```sh
+$ bx stealth-address-encode -s 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+```
+```
+The number of signatures is greater than the number of SPEND_PUBKEYs.
+```
+### Example 7
+--prefix 11111111110000000000111111111100
+```sh
+$ bx stealth-address-encode -p 11111111110000000000111111111100 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+```
+```
+5b4Xkx9DVQj5nznykpKLeoNWHes1ZHJh3aCvxNNXUTuErKTyYq8NKX3xNb3Q7xg
+```
