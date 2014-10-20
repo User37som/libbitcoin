@@ -56,3 +56,20 @@ $ bx address-decode -f xml 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
 <?xml version="1.0" encoding="utf-8"?>
 <wrapper><checksum>1476364070</checksum><payload>b472a266d0bd89c13706a4132ccfb16f7c3b9fcb</payload><version>0</version></wrapper>
 ```
+### Example 4
+piped commands
+```sh
+$ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address | bx address-decode
+```
+```js
+f0630cf3954c95d53a021ee0bb6668dd
+e6d6c2ff0fec07704a57c5f8baaef838ab8254ca29b33f504cec73064548b925
+03fa282f3907f0929782279a23d6e2ddda2c8309eba0c2f3b00ccb9f9e3d0a5606
+1PCZAeAsyyeDDFtfdce3p5ppkAfmFBDTsf
+wrapper
+{
+    checksum 2412660015
+    payload f382319f0335055fd7501c0ad8300aba25fa8c05
+    version 0
+}
+```
