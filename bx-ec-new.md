@@ -26,6 +26,15 @@ $ bx ec-new baadf00dbaadf00dbaadf00dbaadf00d
 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8
 ```
 ### Example 2
+piped input
+```sh
+$ echo baadf00dbaadf00dbaadf00dbaadf00d | bx ec-new
+```
+```
+baadf00dbaadf00dbaadf00dbaadf00d 
+8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8
+```
+### Example 3
 short seed error
 ```sh
 $ bx ec-new baadf00dbaadf00d
