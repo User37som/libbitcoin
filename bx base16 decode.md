@@ -41,3 +41,12 @@ $ bx base16-decode 6162636462636465636465666465666765666768666768696768696a68696
 ```
 abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
 ```
+### Example 4
+pipe commands, round trip
+```sh
+$ bx base16-encode "Satoshi Nakamoto" | bx base16-decode
+```
+```
+5361746f736869204e616b616d6f746f
+Satoshi Nakamoto
+```
