@@ -101,7 +101,7 @@ $ bx stealth-address-encode -p 11111111110000000000111111111100 031bab84e687e365
 5b4Xkx9DVQj5nznykpKLeoNWHes1ZHJh3aCvxNNXUTuErKTyYq8NKX3xNb3Q7xg
 ```
 
-> This example shows the maximum length prefix of of 32 bits. Generally speaking the privacy afforded by stealth transactions is reduced as the search prefix increases in length. The prefix is a transaction search optimization for the recipient. The most private stealth transactions would not use a prefix.
+> This example shows the maximum length prefix of 32 bits. Generally speaking the privacy afforded by stealth transactions is reduced as the search prefix increases in length. The prefix is a transaction search optimization for the recipient. The most private stealth transactions would not use a prefix.
 
 ### Example 8
 --prefix 000000001010, --signatures 1
