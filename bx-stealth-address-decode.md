@@ -98,7 +98,7 @@ stealth_address
 }
 ```
 ### Example 5
-prefix and one of two signatures
+prefix and one of two signatures required
 ```sh
 bx stealth-address-decode JubEFUfmd2J3i83L9qWNr7fDSbb2bE7PY6RvEzH6wsNW8Ls7Mw3hxKZHWr3SvEz4o6NWLguFmyK9yBPrzxtC7ssTXQKJnyMUpL71mzBgd
 ```
