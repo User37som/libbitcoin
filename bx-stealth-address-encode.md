@@ -85,14 +85,6 @@ $ bx stealth-address-encode -s 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea662
 The number of signatures is greater than the number of SPEND_PUBKEYs.
 ```
 ### Example 6
---signatures 42, signature overflow error
-```sh
-$ bx stealth-address-encode -s 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
-```
-```
-The number of signatures is greater than the number of SPEND_PUBKEYs.
-```
-### Example 7
 --prefix 11111111110000000000111111111100
 ```sh
 $ bx stealth-address-encode -p 11111111110000000000111111111100 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
@@ -103,7 +95,7 @@ $ bx stealth-address-encode -p 11111111110000000000111111111100 031bab84e687e365
 
 > This example shows the maximum length prefix of 32 bits. Generally speaking the privacy afforded by stealth transactions is reduced as the search prefix increases in length. The prefix is a transaction search optimization for the recipient. The most private stealth transactions would not use a prefix.
 
-### Example 8
+### Example 7
 --prefix 000000001010, --signatures 1
 ```sh
 bx stealth-address-encode -p 000000001010 -s 1 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
