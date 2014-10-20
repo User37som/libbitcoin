@@ -110,7 +110,7 @@ $ bx fetch-tx -f json 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b
 }
 ```
 ### Example 3
-pipe to file, [DPR Seized Coins #1](https://blockchain.info/tx/e3d6fe810f79b293705ed6e587951332c545a87fac860278b2ad4447106bb789) 
+redirect to file, [DPR Seized Coins #1](https://blockchain.info/tx/e3d6fe810f79b293705ed6e587951332c545a87fac860278b2ad4447106bb789) 
 ```sh
 $ bx fetch-tx -f xml e3d6fe810f79b293705ed6e587951332c545a87fac860278b2ad4447106bb789 > dpr1.xml
 ```
