@@ -35,6 +35,9 @@ $ bx stealth-address-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da797
 ```
 hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
 ```
+
+> This is the simplest address, as the only spend key is the same as the scan key.
+
 ### Example 2
 scan key and redundant spend key
 ```sh
@@ -47,10 +50,12 @@ hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
 > Notice that the stealth address remains unchanged when the spend key is explicitly the same as the scan key.
 
 ### Example 3
-scan key and one different spend key
+scan key and additional spend key
 ```sh
-$ bx stealth-address-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+$ bx stealth-address-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
 ```
-vJmwY32eS5VDC2C4GaZyXt7i4iCjzSMZ1XSd6KbkA7QbGE492akT2eZZMjCwWDqKRSYhnSA8Bgp78KeAYFVCi8ke5mELdoYMBNep7L
+vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5n5Rv6yv6Yht9uWNcbDGD7d
 ```
+
+> In this case the scan key is specified as a spend key along with a second spend key. As in this case, if additional spend keys are specified and the scan key is to be a spend key as well, the scan key must be explicitly specified.
