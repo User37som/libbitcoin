@@ -47,3 +47,16 @@ wrapper
     version 42
 }
 ```
+### Example 3
+piped input
+```sh
+$ echo 2a031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006298eebe4 | bx wrap-decode
+```
+```js
+wrapper
+{
+    checksum 3840642601
+    payload 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+    version 42
+}
+```
