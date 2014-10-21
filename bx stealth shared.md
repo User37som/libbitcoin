@@ -38,4 +38,4 @@ $ bx stealth-shared 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0dd
 78dac4cad97b62efc67aff4890c3bc799815d144c5f93b171f559b43bca52590
 ```
 
-> Notice the result of each operation is the same.
+> Notice the resulting shared secret is the same as in the previous example.
