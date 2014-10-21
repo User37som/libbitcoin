@@ -1,9 +1,9 @@
 Encode a stealth payment address. 
 ```sh
-$ bx stealth-address-encode --help
+$ bx stealth-encode --help
 ```
 ```
-Usage: bx stealth-address-encode [-h] [--config VALUE] [--prefix VALUE]  
+Usage: bx stealth-encode [-h] [--config VALUE] [--prefix VALUE]          
 [--signatures VALUE] SCAN_PUBKEY [SPEND_PUBKEY]...                       
 
 Info: Encode a stealth payment address.                                  
@@ -29,7 +29,7 @@ SPEND_PUBKEY         The set of Base16 EC public keys corresponding to
 ### Example 1
 scan key only
 ```sh
-$ bx stealth-address-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+$ bx stealth-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
 ```
 hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
@@ -40,7 +40,7 @@ hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
 ### Example 2
 scan key and redundant spend key
 ```sh
-$ bx stealth-address-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+$ bx stealth-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
 ```
 hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
@@ -51,7 +51,7 @@ hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
 ### Example 3
 scan key and additional spend key
 ```sh
-$ bx stealth-address-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+$ bx stealth-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
 ```
 WARNING: multiple signature stealth transactions are not yet fully supported.
@@ -67,7 +67,7 @@ vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5
 ### Example 4
 --signatures 1, one of two signatures required
 ```sh
-$ bx stealth-address-encode -s 1 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+$ bx stealth-encode -s 1 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
 ```
 WARNING: multiple signature stealth transactions are not yet fully supported.
@@ -79,7 +79,7 @@ vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5
 ### Example 5
 --signatures 42, signature overflow error
 ```sh
-$ bx stealth-address-encode -s 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+$ bx stealth-encode -s 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
 ```
 The number of signatures is greater than the number of SPEND_PUBKEYs.
@@ -98,7 +98,7 @@ $ bx stealth-address-encode -p 11111111110000000000111111111100 031bab84e687e365
 ### Example 7
 --prefix 000000001010, --signatures 1
 ```sh
-bx stealth-address-encode -p 000000001010 -s 1 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+bx stealth-encode -p 000000001010 -s 1 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
 ```
 WARNING: multiple signature stealth transactions are not yet fully supported.
