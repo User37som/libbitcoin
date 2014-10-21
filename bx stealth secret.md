@@ -40,9 +40,6 @@ $ bx stealth-shared af4afaeb40810e5f8abdbb177c31a2d310913f91cf556f5350bca10cbfe8
 78dac4cad97b62efc67aff4890c3bc799815d144c5f93b171f559b43bca52590
 4c721ccd679b817ea5e86e34f9d46abb1660a63955dde908702214eaab038475
 ```
-
-> Notice that the three EC values necessary to generate the stealth secret can be combined in a single command line.
-
 ### Example 3
 piped commands, ephemeral secret and scan public key
 ```sh
