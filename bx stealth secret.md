@@ -1,9 +1,9 @@
 Derive the stealth private key necessary to spend a stealth payment.
 ```sh
-$ bx stealth-uncover-secret --help
+$ bx stealth-secret --help
 ```
 ```
-Usage: bx stealth-uncover-secret [-h] [--config VALUE] EPHEMERAL_PUBKEY  
+Usage: bx stealth-secret [-h] [--config VALUE] EPHEMERAL_PUBKEY          
 SCAN_SECRET SPEND_SECRET                                                 
 
 Info: Derive the stealth private key necessary to spend a stealth        
