@@ -23,7 +23,7 @@ SHARED_SECRET        The Base16 EC shared secret corresponding to the
                      STDIN.
 ```
 ### Example 1
-spend secret, shared secret
+spend secret, shared secret (parameters reversed)
 ```sh
 $ bx stealth-secret d39758028e201e8edf6d6eec6910ae4038f9b1db3f2d4e2d109ed833be94a026 78dac4cad97b62efc67aff4890c3bc799815d144c5f93b171f559b43bca52590
 ```
