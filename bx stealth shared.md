@@ -23,7 +23,7 @@ PUBKEY               A Base16 EC public key. Either the scan or ephemeral
 ```
 Through the public exchange of public keys two parties can obtain a shared secret. The secret is unlocked by each only through possession of the private key corresponding to the exchanged public key.
 
-In stealth terminology the **scan** secret is created by the receiver and the **ephemeral** secret is created by the spender. The scan secret can be safely reused and the ephemeral secret should be unique for each payment. Each secret (or private key) has a derivable public key.
+In stealth terminology the **scan** secret is created by the receiver and the **ephemeral** secret is created by the spender. The scan secret can be safely reused and the ephemeral secret should be unique for each payment. Each secret is a private key and has a derivable public key.
 ### Example 1
 scan secret, ephemeral public key
 ```sh
