@@ -33,7 +33,7 @@ $ bx stealth-public 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a3
 ### Example 2
 piped commands, ephemeral secret and scan public key
 ```sh
-$ bx stealth-shared 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 | bx stealth-public  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+$ bx stealth-shared 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 | bx stealth-public 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
 ```
 78dac4cad97b62efc67aff4890c3bc799815d144c5f93b171f559b43bca52590
