@@ -82,7 +82,7 @@ stealth_address
 ### Example 4
 maximum length prefix
 ```sh
-bx stealth-decode 5b4Xkx9DVQj5nznykpKLeoNWHes1ZHJh3aCvxNNXUTuErKTyYq8NKX3xNb3Q7xg
+$ bx stealth-decode 5b4Xkx9DVQj5nznykpKLeoNWHes1ZHJh3aCvxNNXUTuErKTyYq8NKX3xNb3Q7xg
 ```
 ```js
 stealth_address
@@ -101,7 +101,7 @@ stealth_address
 ### Example 5
 prefix and one of two signatures required
 ```sh
-bx stealth-decode JubEFUfmd2J3i83L9qWNr7fDSbb2bE7PY6RvEzH6wsNW8Ls7Mw3hxKZHWr3SvEz4o6NWLguFmyK9yBPrzxtC7ssTXQKJnyMUpL71mzBgd
+$ bx stealth-decode JubEFUfmd2J3i83L9qWNr7fDSbb2bE7PY6RvEzH6wsNW8Ls7Mw3hxKZHWr3SvEz4o6NWLguFmyK9yBPrzxtC7ssTXQKJnyMUpL71mzBgd
 ```
 ```js
 stealth_address
