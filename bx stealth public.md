@@ -1,7 +1,7 @@
 Derive the stealth public key necessary to identify a stealth payment.
 ```sh
-$ bx stealth-uncover-public [-h] [--config VALUE] EPHEMERAL_PUBKEY  
-SCAN_SECRET SPEND_PUBKEY                                                 
+$ bx stealth-public [-h] [--config VALUE] EPHEMERAL_PUBKEY SCAN_SECRET   
+SPEND_PUBKEY                                                             
 ```
 ```
 Info: Derive the stealth public key necessary to identify a stealth      
