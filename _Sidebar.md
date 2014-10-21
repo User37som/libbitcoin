@@ -31,12 +31,11 @@
   * [wif-to-ec](bx-wif-to-ec)
   * [wif-to-public](bx-wif-to-public)
 * **[Stealth Commands](Stealth-Commands)**
-  * [stealth-address-decode](bx-stealth-address-decode)
-  * [stealth-address-encode](bx-stealth-address-encode)
-  * [stealth-new](bx-stealth-new)
-  * [stealth-shared-secret](bx-stealth-shared-secret)
-  * [stealth-uncover-public](bx-stealth-uncover-public)
-  * [stealth-uncover-secret](bx-stealth-uncover-secret)
+  * [stealth-decode](bx-stealth-decode)
+  * [stealth-encode](bx-stealth-encode)
+  * [stealth-shared](bx-stealth-shared)
+  * [stealth-public](bx-stealth-public)
+  * [stealth-secret](bx-stealth-secret)
 * **[Transaction Commands](Transaction-Commands)**
   * [input-set](bx-input-set)
   * [input-sign](bx-input-sign)
