@@ -33,9 +33,9 @@
 * **[Stealth Commands](Stealth-Commands)**
   * [stealth-decode](bx-stealth-decode)
   * [stealth-encode](bx-stealth-encode)
-  * [stealth-shared](bx-stealth-shared)
   * [stealth-public](bx-stealth-public)
   * [stealth-secret](bx-stealth-secret)
+  * [stealth-shared](bx-stealth-shared)
 * **[Transaction Commands](Transaction-Commands)**
   * [input-set](bx-input-set)
   * [input-sign](bx-input-sign)
