@@ -31,7 +31,7 @@ $ bx stealth-public 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a3
 03ac9e60013853128b42a1324609bac2ccff6a0b4844b6301f1f552e15ee14c7a5
 ```
 ### Example 2
-piped commands, ephemeral secret and scan public key
+piped commands, ephemeral secret and scan public key (payer scenario)
 ```sh
 $ bx stealth-shared 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 | bx stealth-public 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
@@ -43,7 +43,7 @@ $ bx stealth-shared 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0dd
 > Notice that the three EC values necessary to generate the stealth public key can be combined in a single command line.
 
 ### Example 3
-piped commands, scan secret and ephemeral public key
+piped commands, scan secret and ephemeral public key (receiver scenario)
 ```sh
 $ bx stealth-shared af4afaeb40810e5f8abdbb177c31a2d310913f91cf556f5350bca10cbfe8b9ec 0247140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36 | bx stealth-public 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
@@ -51,5 +51,3 @@ $ bx stealth-shared af4afaeb40810e5f8abdbb177c31a2d310913f91cf556f5350bca10cbfe8
 78dac4cad97b62efc67aff4890c3bc799815d144c5f93b171f559b43bca52590
 03ac9e60013853128b42a1324609bac2ccff6a0b4844b6301f1f552e15ee14c7a5
 ```
-
-> This is a non-typical scenario as the user holds both the ephemeral secret and the scan secret. This implies that the user is operating in the role of payer and receiver.
