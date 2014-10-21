@@ -54,7 +54,7 @@ $ bx stealth-shared 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0dd
 
 > This is a non-typical scenario as the user holds both the ephemeral secret and the scan secret. This implies that the user is operating in the role of payer and receiver.
 
-### Example 3
+### Example 4
 parameter reversal
 ```sh
 $ bx stealth-secret 78dac4cad97b62efc67aff4890c3bc799815d144c5f93b171f559b43bca52590 d39758028e201e8edf6d6eec6910ae4038f9b1db3f2d4e2d109ed833be94a026
