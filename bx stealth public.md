@@ -21,7 +21,7 @@ SHARED_SECRET        The Base16 EC shared secret corresponding to the
                      SPEND_PUBKEY. If not specified the key is read from 
                      STDIN.
 ```
-The **stealth public key** is derivable by the owner of the **ephemeral secret** (payer) and the owner of the **scan secret** (receiver). In other words, any party that can obtain the **shared secret**. The stealth public key is used by the payer to generate the payment address and by the receiver to identify payments.
+The **stealth public key** is independently derivable by the owner of the **ephemeral secret** (payer) and by the owner of the **scan secret** (receiver). In other words, any party that can obtain the **shared secret**. The stealth public key is used by the payer to generate the payment address and by the receiver to identify payments.
 ### Example 1
 spend secret, shared secret
 ```sh
