@@ -1,9 +1,9 @@
 Decode a stealth address.
 ```sh
-$ bx stealth-address-decode --help
+$ bx stealth-decode --help
 ```
 ```
-Usage: bx stealth-address-decode [-h] [--config VALUE] [--format VALUE]  
+Usage: bx stealth-decode [-h] [--config VALUE] [--format VALUE]          
 [STEALTH_ADDRESS]                                                        
 
 Info: Decode a stealth address.                                          
@@ -23,7 +23,7 @@ STEALTH_ADDRESS      The stealth payment address. If not specified the
 ### Example 1
 scan key is spend key
 ```sh
-$ bx stealth-address-decode hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
+$ bx stealth-decode hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
 ```
 ```js
 stealth_address
@@ -42,7 +42,7 @@ stealth_address
 ### Example 2
 scan key and additional spend key
 ```sh
-$ bx stealth-address-decode vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5n5Rv6yv6Yht9uWNcbDGD7d
+$ bx stealth-decode vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5n5Rv6yv6Yht9uWNcbDGD7d
 ```
 ```js
 stealth_address
@@ -62,7 +62,7 @@ stealth_address
 ### Example 3
 one of two signatures required
 ```sh
-$ bx stealth-address-decode vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5n5Rv6yv6Yht9uWN7nyPnY7
+$ bx stealth-decode vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5n5Rv6yv6Yht9uWN7nyPnY7
 ```
 ```js
 stealth_address
@@ -82,7 +82,7 @@ stealth_address
 ### Example 4
 maximum length prefix
 ```sh
-bx stealth-address-decode 5b4Xkx9DVQj5nznykpKLeoNWHes1ZHJh3aCvxNNXUTuErKTyYq8NKX3xNb3Q7xg
+bx stealth-decode 5b4Xkx9DVQj5nznykpKLeoNWHes1ZHJh3aCvxNNXUTuErKTyYq8NKX3xNb3Q7xg
 ```
 ```js
 stealth_address
@@ -101,7 +101,7 @@ stealth_address
 ### Example 5
 prefix and one of two signatures required
 ```sh
-bx stealth-address-decode JubEFUfmd2J3i83L9qWNr7fDSbb2bE7PY6RvEzH6wsNW8Ls7Mw3hxKZHWr3SvEz4o6NWLguFmyK9yBPrzxtC7ssTXQKJnyMUpL71mzBgd
+bx stealth-decode JubEFUfmd2J3i83L9qWNr7fDSbb2bE7PY6RvEzH6wsNW8Ls7Mw3hxKZHWr3SvEz4o6NWLguFmyK9yBPrzxtC7ssTXQKJnyMUpL71mzBgd
 ```
 ```js
 stealth_address
@@ -121,7 +121,7 @@ stealth_address
 ### Example 6
 --format json, piped input
 ```sh
-$ echo hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i | bx stealth-address-decode -f json
+$ echo hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i | bx stealth-decode -f json
 ```
 ```js
 {
