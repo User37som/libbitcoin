@@ -87,12 +87,11 @@ send-tx-p2p
 sha160
 sha256
 sha512
-stealth-address-decode
-stealth-address-encode
-stealth-new
-stealth-shared-secret
-stealth-uncover-public
-stealth-uncover-secret
+stealth-decode
+stealth-encode
+stealth-public
+stealth-secret
+stealth-shared
 tx-decode
 tx-encode
 tx-sign
