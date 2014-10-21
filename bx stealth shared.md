@@ -31,6 +31,15 @@ $ bx stealth-shared af4afaeb40810e5f8abdbb177c31a2d310913f91cf556f5350bca10cbfe8
 ```
 ### Example 2
 ephemeral secret / scan public key
+
+First show the derivation of the scan public key from the scan secret.
+```sh
+$ bx ec-to-public af4afaeb40810e5f8abdbb177c31a2d310913f91cf556f5350bca10cbfe8b9ec
+```
+```
+031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+```
+Then generate the shared secret.
 ```sh
 $ bx stealth-shared 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
@@ -38,12 +47,6 @@ $ bx stealth-shared 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0dd
 78dac4cad97b62efc67aff4890c3bc799815d144c5f93b171f559b43bca52590
 ```
 ### Example 3
-```sh
-$ bx ec-to-public af4afaeb40810e5f8abdbb177c31a2d310913f91cf556f5350bca10cbfe8b9ec
-```
-```
-031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
-```
 ```sh
 $ bx ec-to-public 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8
 ```
