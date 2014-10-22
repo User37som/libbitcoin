@@ -1,4 +1,4 @@
-### Confirm a Payment
+### Receive Bitcoin
 Generate a **private key** from a random seed value.
 ```sh
 $ bx seed | bx ec-new
@@ -103,7 +103,7 @@ transaction
     version 1
 }
 ```
-### Spend the Payment
+### Spend Bitcoin
 Obtain an **address** to which the money will be sent, such as [Freenet](https://blockchain.info/address/1966U1pjj15tLxPXZ19U48c99EJDkdXeqb).
 ```
 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb
