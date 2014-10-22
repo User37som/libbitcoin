@@ -168,10 +168,24 @@ wrapper
     version 0
 }
 ```
+Notice that the `wrapper.payload` can alternatively be obtained from the public key.
+```sh
+$ bx bitcoin160 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31
+```
+```
+c564c740c6900b93afc9f1bdaef0a9d466adf6ee
+```
 Encode the `wrapper.payload` within the following script.
 ```sh
 $ bx script-encode dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig
 ```
 ```
 76a914c564c740c6900b93afc9f1bdaef0a9d466adf6ee88ac
+```
+Create a signature for the first input of the new transaction.
+```sh
+$ bx input-sign 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 707e3d717925ba2e98234dd6f3a38eb5 76a914c564c740c6900b93afc9f1bdaef0a9d466adf6ee88ac 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af00000000000017a9140136d001619faba572df2ef3d193a57ad29122d98700000000
+```
+```
+30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022071a0d1e7dd23492df67275d2464922ff6f658d532fba4c0500f0dc8a0a1723f7
 ```
