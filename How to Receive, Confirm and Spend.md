@@ -1,3 +1,4 @@
+T
 ### Receive Bitcoin
 Generate a **private key** from a random seed value.
 ```sh
