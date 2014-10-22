@@ -62,6 +62,19 @@ The value of `transfers[0].output.hash` should match the transaction identifier 
 
 Notice that `transfers[0].output.height` shows that the transaction now has at least one confirmation.
 
+Look up the **block index** for the transaction by its hash.
+```sh
+$ bx fetch-tx-index 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
+```
+```js
+metadata
+{
+    hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
+    height 326392
+    index 3
+}
+```
+### Spend Bitcoin
 Look up the **transaction** by its hash.
 ```sh
 $ bx fetch-tx 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
@@ -103,7 +116,6 @@ transaction
     version 1
 }
 ```
-### Spend Bitcoin
 The **input** for the new transaction will be `transaction.outputs[0]`. This input is formatted as `transaction hash:index`, where the index is the zero-based position of the previous output in its transaction.
 ```
 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0
