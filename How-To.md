@@ -28,8 +28,9 @@ balance
     confirmed 0
 }
 ```
+Notice that `balance.confirmed` shows that the transaction has no confirmations.
 
-> Notice that `balance.confirmed` shows that the transaction has no confirmations.
+The [address](https://blockchain.info/address/1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6) can be also located on blockchain.info.
 
 Look up the history for the address.
 ```sh
@@ -50,8 +51,9 @@ transfers
     }
 }
 ```
-The value of `transfers.transfer.output.hash` should match the transaction identifier shown by your wallet. The [transaction](https://blockchain.info/tx/7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d) can be located on blockchain.info.
+The value of `transfers.transfer.output.hash` should match the transaction identifier shown by your wallet.
 
-> Notice that `transfers.transfer.output.height` shows that the transaction now has at least one confirmation.
+Notice that `transfers.transfer.output.height` shows that the transaction now has at least one confirmation.
 
+The [transaction](https://blockchain.info/tx/7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d) can also be located on blockchain.info.
 ```
