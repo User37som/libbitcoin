@@ -157,7 +157,7 @@ transaction
 ```
 Notice that `transactions.inputs[0].script` is empty. This means that that input has not been signed.
 
-Notice that a [pay-to-pubkey-hash](https://en.bitcoin.it/wiki/Script#Scripts) has been generated for `transactions.outputs[0].script`.
+Notice that a [pay-to-pubkey-hash](https://en.bitcoin.it/wiki/Script#Scripts) script has been generated for `transactions.outputs[0].script`.
 
 Generate a random nonce.
 ```sh
