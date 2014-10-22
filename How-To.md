@@ -112,11 +112,11 @@ The first output above will become the input to a new transaction. This input is
 ```
 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0
 ```
-The output for the new transaction is described as `address:amount`, where the amount is a number of satoshi. There is 100,000 satoshi available to spend, of which this transaction will spend 45% to DarkWallet.
+The output for the new transaction is described as `address:amount`, where the amount is a number of satoshis. There are 100,000 satoshis available to spend, of which this transaction will spend 45% to DarkWallet.
 ```
 31oSGBBNrpCiENH3XMZpiP6GTC4tad4bMy:45000
 ```
-The remainder will not be explicitly spent, which will result in 55,000 satoshi being earned by miners as a transaction fee.
+The remainder will not be explicitly spent, which will result in 55,000 satoshis being earned by miners as a transaction fee.
 
 Construct the transaction from the inputs and outputs, in this case one of each.
 ```sh
