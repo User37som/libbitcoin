@@ -163,7 +163,7 @@ transaction
     version 1
 }
 ```
-Notice that `transactions.inputs[0].script` is empty. This means that that input has not been signed.
+Notice that `transactions.inputs[0].script` is empty. This means that the input has not been signed.
 
 Generate a random **nonce**.
 ```sh
