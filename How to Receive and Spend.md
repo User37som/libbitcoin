@@ -62,18 +62,6 @@ The value of `transfers[0].output.hash` should match the transaction identifier 
 
 Notice that `transfers[0].output.height` shows that the transaction now has at least one confirmation.
 ### Determine Confirmation Level
-Look up the **block index** for the transaction by its hash.
-```sh
-$ bx fetch-tx-index 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
-```
-```js
-metadata
-{
-    hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
-    height 326392
-    index 3
-}
-```
 Look up the current **top block**.
 ```sh
 $ bx fetch-height
