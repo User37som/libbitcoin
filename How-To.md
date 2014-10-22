@@ -111,4 +111,46 @@ The output for the new transaction is described as `address:amount`, where the a
 ```
 31oSGBBNrpCiENH3XMZpiP6GTC4tad4bMy:45000
 ```
-The remainder will not be explicitly spent. This will result in 55,000 satoshi being earned by miners as a transaction fee.
+The remainder will not be explicitly spent, which will result in 55,000 satoshi being earned by miners as a transaction fee.
+
+Construct the transaction from the inputs and outputs, in this case one of each.
+```sh
+$ bx tx-encode -f info -i 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0 -o 31oSGBBNrpCiENH3XMZpiP6GTC4tad4bMy:45000
+```
+```
+01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af00000000000017a9140136d001619faba572df2ef3d193a57ad29122d98700000000
+```
+Visually inspect the transaction.
+```sh
+$ bx tx-decode 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af00000000000017a9140136d001619faba572df2ef3d193a57ad29122d98700000000
+```
+```js
+transaction
+{
+    hash 1919a7e47a47b0e602f2a2c6ab1a12b2091d5170d4650c8a274ae7dc139a5f9d
+    inputs
+    {
+        input
+        {
+            previous_output
+            {
+                hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
+                index 0
+            }
+            script ""
+            sequence 4294967295
+        }
+    }
+    lock_time 0
+    outputs
+    {
+        output
+        {
+            address 31oSGBBNrpCiENH3XMZpiP6GTC4tad4bMy
+            script "hash160 [ 0136d001619faba572df2ef3d193a57ad29122d9 ] equal"
+            value 45000
+        }
+    }
+    version 1
+}
+```
