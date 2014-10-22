@@ -7,7 +7,7 @@ $ bx seed | bx ec-new
 dbcd61584666028ac88798bacdc76f4b (seed)
 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 (private key)
 ```
-Make a Bitcoin address from the private key.
+Create a Bitcoin address from the private key.
 ```sh
 $ bx ec-to-public 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 | bx ec-to-address
 ```
@@ -125,7 +125,7 @@ $ bx tx-encode -i 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c9401
 ```
 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
-Visually inspect the transaction.
+Inspect the transaction visually.
 ```sh
 $ bx tx-decode 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
