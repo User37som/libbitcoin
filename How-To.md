@@ -1,4 +1,4 @@
-# Confirm a Payment
+### Confirm a Payment
 Generate a private key from a random seed value.
 ```sh
 $ bx seed | bx ec-new
