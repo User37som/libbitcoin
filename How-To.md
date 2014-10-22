@@ -58,9 +58,9 @@ transfers
     }
 }
 ```
-The value of `transfers.transfer.output.hash` should match the transaction identifier shown by your wallet.
+The value of `transfers[0].output.hash` should match the transaction identifier shown by your wallet.
 
-Notice that `transfers.transfer.output.height` shows that the transaction now has at least one confirmation.
+Notice that `transfers[0].output.height` shows that the transaction now has at least one confirmation.
 
 Look up the **transaction** by its hash.
 ```sh
