@@ -28,6 +28,9 @@ balance
     confirmed 0
 }
 ```
+
+> Notice that `balance.confirmed` shows that the transaction has no confirmations.
+
 Look up the history for the address.
 ```sh
 $ bx fetch-history 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
@@ -48,4 +51,7 @@ transfers
 }
 ```
 The value of `transfers.transfer.output.hash` should match the transaction identifier shown by your wallet.
+
+> Notice that `transfers.transfer.output.height` shows that the transaction how has at least one confirmation.
+
 ```
