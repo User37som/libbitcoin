@@ -56,7 +56,6 @@ The value of `transfers.transfer.output.hash` should match the transaction ident
 Notice that `transfers.transfer.output.height` shows that the transaction now has at least one confirmation.
 
 The [transaction](https://blockchain.info/tx/7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d) can also be located on blockchain.info.
-```
 ### Spend the Payment
 Obtain an address to which the money will be sent, such as [DarkWallet](https://blockchain.info/address/31oSGBBNrpCiENH3XMZpiP6GTC4tad4bMy).
 ```
