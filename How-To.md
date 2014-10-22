@@ -50,7 +50,7 @@ transfers
     }
 }
 ```
-The value of `transfers.transfer.output.hash` should match the transaction identifier shown by your wallet.
+The value of `transfers.transfer.output.hash` should match the transaction identifier shown by your wallet. This can be confirmed on [blockchain.info](http://blockchain.info/tx/7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d).
 
 > Notice that `transfers.transfer.output.height` shows that the transaction now has at least one confirmation.
 
