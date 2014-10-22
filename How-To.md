@@ -1,5 +1,5 @@
 ### Confirm a Payment
-Generate a private key from a random seed value.
+Generate a **private key** from a random seed value.
 ```sh
 $ bx seed | bx ec-new
 ```
@@ -7,7 +7,7 @@ $ bx seed | bx ec-new
 dbcd61584666028ac88798bacdc76f4b (seed)
 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 (private key)
 ```
-Create a Bitcoin address from the private key.
+Create a Bitcoin **address** from the private key.
 ```sh
 $ bx ec-to-public 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 | bx ec-to-address
 ```
@@ -15,7 +15,7 @@ $ bx ec-to-public 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf7623
 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 (public key)
 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6 (bitcoin address)
 ```
-Determine the number of satoshis in 0.001 bitcoins.
+Determine the number of **satoshis** in 0.001 bitcoins.
 ```sh
 $ bx btc-to-satoshi 0.001
 ```
@@ -24,7 +24,7 @@ $ bx btc-to-satoshi 0.001
 ```
 Send 0.001 bitcoins (100000 satoshis) to the address using any wallet.
 
-Look up the balance of the address.
+Look up the **balance** of the address.
 ```sh
 $ bx fetch-balance 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
 ```
@@ -39,7 +39,7 @@ balance
 ```
 Notice that `balance.confirmed` shows that the transaction has no confirmations.
 
-Look up the history for the address.
+Look up the **history** for the address.
 ```sh
 $ bx fetch-history 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
 ```
@@ -62,7 +62,7 @@ The value of `transfers.transfer.output.hash` should match the transaction ident
 
 Notice that `transfers.transfer.output.height` shows that the transaction now has at least one confirmation.
 
-Look up the transaction by its hash.
+Look up the **transaction** by its hash.
 ```sh
 $ bx fetch-tx 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
 ```
@@ -104,7 +104,7 @@ transaction
 }
 ```
 ### Spend the Payment
-Obtain an address to which the money will be sent, such as [Freenet](https://blockchain.info/address/1966U1pjj15tLxPXZ19U48c99EJDkdXeqb).
+Obtain an **address** to which the money will be sent, such as [Freenet](https://blockchain.info/address/1966U1pjj15tLxPXZ19U48c99EJDkdXeqb).
 ```
 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb
 ```
@@ -118,7 +118,7 @@ The output for the new transaction is described as `address:amount`, where the a
 ```
 In this example the remainder will not be spent to any address. This will result in 55,000 satoshis being earned by miners as a transaction fee.
 
-Construct the transaction from the inputs and outputs, in this case one of each.
+Construct the **transaction** from the inputs and outputs, in this case one of each.
 ```sh
 $ bx tx-encode -i 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0 -o 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb:45000
 ```
@@ -161,43 +161,34 @@ transaction
 ```
 Notice that `transactions.inputs.input.script` is empty. This means that that input has not been signed.
 
-Signing requires the private key `4ce3eb6b...` corresponding to the address `1JziqzXe...` of the previous output `7c3e880e...:0`.
-
-Constructing a signature script for the transaction requires the hashed public key also corresponding to the address `1JziqzXe...`.
-
-Decode the address.
+Create a **public key hash** corresponding to the address `1JziqzXe...`.
 ```sh
-$ bx address-decode 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
+$ bx bitcoin160 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31
 ```
-```js
-wrapper
-{
-    checksum 3046565692
-    payload c564c740c6900b93afc9f1bdaef0a9d466adf6ee
-    version 0
-}
 ```
-Create a [public key script](https://en.bitcoin.it/wiki/Script#Scripts) using the `wrapper.payload`.
+c564c740c6900b93afc9f1bdaef0a9d466adf6ee
+```
+Create a **[public key script](https://en.bitcoin.it/wiki/Script#Scripts)** using the hash.
 ```js
 "dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig"
 ```
-Generate a random nonce for use in signing.
+Generate a random nonce.
 ```sh
 $ bx seed
 ```
 ```
 707e3d717925ba2e98234dd6f3a38eb5
 ```
-Create a signature for the first input of the new transaction.
+Create a **signature** for the first input `7c3e880e...:0` of the new transaction, using the private key `4ce3eb6b...`, nonce, script and transaction.
 ```sh
-$ bx input-sign 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 707e3d717925ba2e98234dd6f3a38eb5 76a914c564c740c6900b93afc9f1bdaef0a9d466adf6ee88ac ... ...
+$ bx input-sign 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 707e3d717925ba2e98234dd6f3a38eb5 "dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig" 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
 ```
-
+30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c151680220261c8994ba4c54f5ae0c47d10b23ab9ffd1bd1cb270f562ebd5a5c28664bb394
 ```
-Create a signature script and assign it to the new transaction input.
-```sh
-bx input-set "[ 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022071a0d1e7dd23492df67275d2464922ff6f658d532fba4c0500f0dc8a0a1723f7 ] [ 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 ]"
+Create a **signature script**, using the signature and public key, and assign it to the new transaction input.
+```js
+bx input-set "[ 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c151680220261c8994ba4c54f5ae0c47d10b23ab9ffd1bd1cb270f562ebd5a5c28664bb394 ] [ 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 ]"
 ```
 ```
 
