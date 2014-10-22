@@ -154,4 +154,4 @@ transaction
     version 1
 }
 ```
-Notice that `transactions.inputs.input.script` is empty. This means that that input has not been signed. Signature is required by the private key corresponding to the address `1JziqzXe...` of the previous output `7c3e880e...:0`.
+Notice that `transactions.inputs.input.script` is empty. This means that that input has not been signed. Signature is required by the private key `4ce3eb6b...` corresponding to the address `1JziqzXe...` of the previous output `7c3e880e...:0`.
