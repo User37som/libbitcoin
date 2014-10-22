@@ -22,7 +22,7 @@ $ bx btc-to-satoshi 0.001
 ```
 100000
 ```
-Send 0.001 bitcoins to the address using any wallet.
+Send 0.001 bitcoins (100000 satoshis) to the address using any wallet.
 
 Look up the balance of the address.
 ```sh
