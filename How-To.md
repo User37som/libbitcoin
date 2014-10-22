@@ -108,11 +108,11 @@ Obtain an **address** to which the money will be sent, such as [Freenet](https:/
 ```
 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb
 ```
-The first output above will become the input to a new transaction. This input is described as `transaction hash:index`, where the index is zero-based.
+The **input** for the new transaction will be `transaction.outputs.output`. This input is formatted as `transaction hash:index`, where the index is zero-based of the previous output in its transaction.
 ```
 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0
 ```
-The output for the new transaction is described as `address:amount`, where the amount is a number of satoshis. There are 100,000 satoshis available to spend, of which this transaction will spend 45% to Freenet.
+The **output** for the new transaction is described as `address:amount`, where the amount is a number of satoshis. There are 100,000 satoshis available to spend, of which this transaction will spend 45% to Freenet.
 ```
 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb:45000
 ```
