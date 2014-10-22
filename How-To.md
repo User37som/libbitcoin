@@ -168,7 +168,7 @@ $ bx bitcoin160 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea
 ```
 c564c740c6900b93afc9f1bdaef0a9d466adf6ee
 ```
-Create a **[public key script](https://en.bitcoin.it/wiki/Script#Scripts)** using the hash.
+Create a [pay-to-pubkey-hash](https://en.bitcoin.it/wiki/Script#Scripts) **script**, using the hash.
 ```js
 "dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig"
 ```
