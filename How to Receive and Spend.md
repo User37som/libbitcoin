@@ -62,7 +62,7 @@ The value of `transfers[0].output.hash` should match the transaction identifier 
 
 Notice that `transfers[0].output.height` shows that the transaction now has at least one confirmation.
 ### Determine Confirmation Level
-Look up the current **height** of the blockchain.
+Look up the current **blockchain height**.
 ```sh
 $ bx fetch-height
 ```
