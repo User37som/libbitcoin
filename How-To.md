@@ -161,7 +161,7 @@ transaction
 ```
 Notice that `transactions.inputs.input.script` is empty. This means that that input has not been signed.
 
-The signing process requires the private key `4ce3eb6b...` corresponding to the address `1JziqzXe...` of the previous output `7c3e880e...:0`.
+Signing requires the private key `4ce3eb6b...` corresponding to the address `1JziqzXe...` of the previous output `7c3e880e...:0`.
 
 Constructing a signature script for the transaction requires the hashed public key also corresponding to the address `1JziqzXe...`.
 
@@ -178,10 +178,10 @@ wrapper
 }
 ```
 Create a [public key script](https://en.bitcoin.it/wiki/Script#Scripts) using the `wrapper.payload`.
+```js
+"dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig"
 ```
-dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig
-```
-Generate a random nonce for the signature process.
+Generate a random nonce for use in signing.
 ```sh
 $ bx seed
 ```
