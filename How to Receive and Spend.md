@@ -112,7 +112,7 @@ transaction
     version 1
 }
 ```
-The **input** for the new transaction will be `transaction.outputs[0]`. This input is formatted as `transaction hash:index`, where the index is the zero-based position of the previous output in its transaction.
+The **input** for the new transaction will be `transaction.outputs[0]`. This input is formatted as `transaction hash:index`, where the index is the zero-based position of this previous output in its transaction.
 ```
 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0
 ```
