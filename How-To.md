@@ -108,7 +108,7 @@ Obtain an **address** to which the money will be sent, such as [Freenet](https:/
 ```
 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb
 ```
-The **input** for the new transaction will be `transaction.outputs.output`. This input is formatted as `transaction hash:index`, where the index is zero-based of the previous output in its transaction.
+The **input** for the new transaction will be `transaction.outputs[0]`. This input is formatted as `transaction hash:index`, where the index is zero-based of the previous output in its transaction.
 ```
 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0
 ```
@@ -159,7 +159,7 @@ transaction
     version 1
 }
 ```
-Notice that `transactions.inputs.input.script` is empty. This means that that input has not been signed.
+Notice that `transactions.inputs[0].script` is empty. This means that that input has not been signed.
 
 Create a **public key hash** corresponding to the address `1JziqzXe...`.
 ```sh
@@ -228,4 +228,4 @@ transaction
     version 1
 }
 ```
-Notice that the signature script has been applied to `transaction.inputs.input.script` and that `transaction.hash` has been modified.
+Notice that the signature script has been applied to `transaction.inputs[0].script` and that `transaction.hash` has been modified.
