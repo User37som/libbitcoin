@@ -8,7 +8,7 @@
     * [Macintosh](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#macintosh)
   * [Developer Info](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#bitcoin-explorer)
   * [Download BX](Download)
-* Tutorials
+* **Tutorials**
   * [How to Spend and Receive](How-to-Spend-and-Receive)
 * **Meta Commands**
   * [help](bx-help)
