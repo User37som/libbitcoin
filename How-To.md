@@ -52,6 +52,6 @@ transfers
 ```
 The value of `transfers.transfer.output.hash` should match the transaction identifier shown by your wallet.
 
-> Notice that `transfers.transfer.output.height` shows that the transaction how has at least one confirmation.
+> Notice that `transfers.transfer.output.height` shows that the transaction now has at least one confirmation.
 
 ```
