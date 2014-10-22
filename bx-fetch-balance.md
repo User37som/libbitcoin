@@ -30,9 +30,9 @@ $ bx fetch-balance 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 balance
 {
     address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
-    received 6538241483
-    unconfirmed 6538241483
     confirmed 1538241483
+    received 6538241483
+    unspent 6538241483
 }
 ```
 
@@ -47,9 +47,9 @@ $ bx fetch-balance -f json 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz
 {
     "balance": {
         "address": "134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz",
-        "received": "100000",
-        "unconfirmed": "0",
         "confirmed": "0"
+        "received": "100000",
+        "unspent": "0",
     }
 }
 ```
@@ -60,5 +60,5 @@ $ bx fetch-balance -f xml 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
 ```
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<balance><address>13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe</address><received>90000</received><unconfirmed>90000</unconfirmed><confirmed>90000</confirmed></balance>
+<balance><address>13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe</address><confirmed>90000</confirmed><received>90000</received><unspent>90000</unspent></balance>
 ```
