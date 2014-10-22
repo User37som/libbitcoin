@@ -168,7 +168,7 @@ $ bx bitcoin160 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea
 ```
 c564c740c6900b93afc9f1bdaef0a9d466adf6ee
 ```
-Create a [pay-to-pubkey-hash](https://en.bitcoin.it/wiki/Script#Scripts) **script**, using the hash.
+Create a [pay-to-pubkey-hash](https://en.bitcoin.it/wiki/Script#Scripts) **script** using the hash.
 ```js
 "dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig"
 ```
@@ -186,17 +186,46 @@ $ bx input-sign 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350
 ```
 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c151680220261c8994ba4c54f5ae0c47d10b23ab9ffd1bd1cb270f562ebd5a5c28664bb394
 ```
-Create a **signature script**, using the signature and public key, and assign it to the new transaction input.
+Create a **signature script**, using the signature and public key, and assign it to the first input of the transaction.
 ```js
-bx input-set "[ 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c151680220261c8994ba4c54f5ae0c47d10b23ab9ffd1bd1cb270f562ebd5a5c28664bb394 ] [ 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 ]"
+$ bx input-set "[ 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c151680220261c8994ba4c54f5ae0c47d10b23ab9ffd1bd1cb270f562ebd5a5c28664bb394 ] [ 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 ]" 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
 ```
-
+01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c000000006a4730450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c151680220261c8994ba4c54f5ae0c47d10b23ab9ffd1bd1cb270f562ebd5a5c28664bb3942103e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
-Decode the transaction.
+Inspect the transaction visually.
 ```sh
-$ bx tx-decode 
+$ bx tx-decode 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c000000006a4730450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c151680220261c8994ba4c54f5ae0c47d10b23ab9ffd1bd1cb270f562ebd5a5c28664bb3942103e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
 ```js
-
+transaction
+{
+    hash f0c5cde5e83d850aee62c64943f3bd361b6db218e80c93733f4d1e4f5243ce26
+    inputs
+    {
+        input
+        {
+            address 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
+            previous_output
+            {
+                hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
+                index 0
+            }
+            script "[ 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c151680220261c8994ba4c54f5ae0c47d10b23ab9ffd1bd1cb270f562ebd5a5c28664bb394 ] [ 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 ]"
+            sequence 4294967295
+        }
+    }
+    lock_time 0
+    outputs
+    {
+        output
+        {
+            address 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb
+            script "dup hash160 [ 58b7a60f11a904feef35a639b6048de8dd4d9f1c ] equalverify checksig"
+            value 45000
+        }
+    }
+    version 1
+}
 ```
+Notice that the signature script has been applied to `transaction.inputs.input.script` and that `transaction.hash` has been modified.
