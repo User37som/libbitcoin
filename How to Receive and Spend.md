@@ -1,5 +1,5 @@
 ### Receive Bitcoin
-Generate a **private key** from a random seed value.
+Generate a **private key** from a random **seed** value.
 ```sh
 $ bx seed | bx ec-new
 ```
@@ -62,7 +62,7 @@ The value of `transfers[0].output.hash` should match the transaction identifier 
 
 Notice that `transfers[0].output.height` shows that the transaction now has at least one confirmation.
 ### Determine Confirmation Level
-Look up the current **top block**.
+Look up the current **height** of the blockchain.
 ```sh
 $ bx fetch-height
 ```
