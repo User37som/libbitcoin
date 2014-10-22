@@ -161,6 +161,8 @@ transaction
 ```
 Notice that `transactions.inputs[0].script` is empty. This means that that input has not been signed.
 
+Notice that a [pay-to-pubkey-hash](https://en.bitcoin.it/wiki/Script#Scripts) has been generated for `transactions.outputs[0].script`. The type of script determine from the value specified for `--output`.
+
 Create a **public key hash** corresponding to the address `1JziqzXe...`.
 ```sh
 $ bx bitcoin160 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31
@@ -229,3 +231,10 @@ transaction
 }
 ```
 Notice that the signature script has been applied to `transaction.inputs[0].script` and that `transaction.hash` has been modified.
+
+Validate the signature of the transaction's first input.
+```sh
+$ 
+```
+```
+```
