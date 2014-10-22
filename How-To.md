@@ -104,35 +104,35 @@ transaction
 }
 ```
 ### Spend the Payment
-Obtain an address to which the money will be sent, such as [DarkWallet](https://blockchain.info/address/31oSGBBNrpCiENH3XMZpiP6GTC4tad4bMy).
+Obtain an address to which the money will be sent, such as [Freenet](https://blockchain.info/address/1966U1pjj15tLxPXZ19U48c99EJDkdXeqb).
 ```
-31oSGBBNrpCiENH3XMZpiP6GTC4tad4bMy
+1966U1pjj15tLxPXZ19U48c99EJDkdXeqb
 ```
 The first output above will become the input to a new transaction. This input is described as `transaction hash:index`, where the index is zero-based.
 ```
 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0
 ```
-The output for the new transaction is described as `address:amount`, where the amount is a number of satoshis. There are 100,000 satoshis available to spend, of which this transaction will spend 45% to DarkWallet.
+The output for the new transaction is described as `address:amount`, where the amount is a number of satoshis. There are 100,000 satoshis available to spend, of which this transaction will spend 45% to Freenet.
 ```
-31oSGBBNrpCiENH3XMZpiP6GTC4tad4bMy:45000
+1966U1pjj15tLxPXZ19U48c99EJDkdXeqb:45000
 ```
-The remainder will not be explicitly spent, which will result in 55,000 satoshis being earned by miners as a transaction fee.
+In this example the remainder will not be spent to any address. This will result in 55,000 satoshis being earned by miners as a transaction fee.
 
 Construct the transaction from the inputs and outputs, in this case one of each.
 ```sh
-$ bx tx-encode -f info -i 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0 -o 31oSGBBNrpCiENH3XMZpiP6GTC4tad4bMy:45000
+$ bx tx-encode -i 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0 -o 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb:45000
 ```
 ```
-01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af00000000000017a9140136d001619faba572df2ef3d193a57ad29122d98700000000
+01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
 Visually inspect the transaction.
 ```sh
-$ bx tx-decode 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af00000000000017a9140136d001619faba572df2ef3d193a57ad29122d98700000000
+$ bx tx-decode 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
 ```js
 transaction
 {
-    hash 1919a7e47a47b0e602f2a2c6ab1a12b2091d5170d4650c8a274ae7dc139a5f9d
+    hash e433a95114dc4eb2209f7c329bad265890affb728a60ac1b967d99bbe1f25971
     inputs
     {
         input
@@ -151,17 +151,21 @@ transaction
     {
         output
         {
-            address 31oSGBBNrpCiENH3XMZpiP6GTC4tad4bMy
-            script "hash160 [ 0136d001619faba572df2ef3d193a57ad29122d9 ] equal"
+            address 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb
+            script "dup hash160 [ 58b7a60f11a904feef35a639b6048de8dd4d9f1c ] equalverify checksig"
             value 45000
         }
     }
     version 1
 }
 ```
-Notice that `transactions.inputs.input.script` is empty. This means that that input has not been signed. Signature is required by the private key `4ce3eb6b...` corresponding to the address `1JziqzXe...` of the previous output `7c3e880e...:0`.
+Notice that `transactions.inputs.input.script` is empty. This means that that input has not been signed.
 
-Constructing a signature script for the transaction requires the hashed public key of the address. Decode the address.
+The signing process requires the private key `4ce3eb6b...` corresponding to the address `1JziqzXe...` of the previous output `7c3e880e...:0`.
+
+Constructing a signature script for the transaction requires the hashed public key also corresponding to the address `1JziqzXe...`.
+
+Decode the address.
 ```sh
 $ bx address-decode 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
 ```
@@ -173,66 +177,35 @@ wrapper
     version 0
 }
 ```
-Notice that the `wrapper.payload` can alternatively be obtained from the public key.
+Create a [public key script](https://en.bitcoin.it/wiki/Script#Scripts) using the `wrapper.payload`.
+```
+dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig
+```
+Generate a random nonce for the signature process.
 ```sh
-$ bx bitcoin160 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31
+$ bx seed
 ```
 ```
-c564c740c6900b93afc9f1bdaef0a9d466adf6ee
-```
-Encode the `wrapper.payload` within the following script.
-```sh
-$ bx script-encode dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig
-```
-```
-76a914c564c740c6900b93afc9f1bdaef0a9d466adf6ee88ac
+707e3d717925ba2e98234dd6f3a38eb5
 ```
 Create a signature for the first input of the new transaction.
 ```sh
-$ bx input-sign 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 707e3d717925ba2e98234dd6f3a38eb5 76a914c564c740c6900b93afc9f1bdaef0a9d466adf6ee88ac 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af00000000000017a9140136d001619faba572df2ef3d193a57ad29122d98700000000
+$ bx input-sign 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 707e3d717925ba2e98234dd6f3a38eb5 76a914c564c740c6900b93afc9f1bdaef0a9d466adf6ee88ac ... ...
 ```
 ```
-30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022071a0d1e7dd23492df67275d2464922ff6f658d532fba4c0500f0dc8a0a1723f7
+
 ```
 Create a signature script and assign it to the new transaction input.
 ```sh
-bx input-set "[ 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022071a0d1e7dd23492df67275d2464922ff6f658d532fba4c0500f0dc8a0a1723f7 ] [ 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 ]" 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af00000000000017a9140136d001619faba572df2ef3d193a57ad29122d98700000000
+bx input-set "[ 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022071a0d1e7dd23492df67275d2464922ff6f658d532fba4c0500f0dc8a0a1723f7 ] [ 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 ]"
 ```
 ```
-01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c000000006a4730450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022071a0d1e7dd23492df67275d2464922ff6f658d532fba4c0500f0dc8a0a1723f72103e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31ffffffff01c8af00000000000017a9140136d001619faba572df2ef3d193a57ad29122d98700000000
+
 ```
 Decode the transaction.
 ```sh
-$ bx tx-decode 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c000000006a4730450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022071a0d1e7dd23492df67275d2464922ff6f658d532fba4c0500f0dc8a0a1723f72103e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31ffffffff01c8af00000000000017a9140136d001619faba572df2ef3d193a57ad29122d98700000000
+$ bx tx-decode 
 ```
 ```js
-transaction
-{
-    hash c9a9a484157208b040b00f3b9d6af4bdd0992e1ae91bf36238c07e593d73c56d
-    inputs
-    {
-        input
-        {
-            address 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
-            previous_output
-            {
-                hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
-                index 0
-            }
-            script "[ 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022071a0d1e7dd23492df67275d2464922ff6f658d532fba4c0500f0dc8a0a1723f7 ] [ 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 ]"
-            sequence 4294967295
-        }
-    }
-    lock_time 0
-    outputs
-    {
-        output
-        {
-            address 31oSGBBNrpCiENH3XMZpiP6GTC4tad4bMy
-            script "hash160 [ 0136d001619faba572df2ef3d193a57ad29122d9 ] equal"
-            value 45000
-        }
-    }
-    version 1
-}
+
 ```
