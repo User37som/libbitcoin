@@ -23,9 +23,9 @@ $ bx fetch-balance 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
 balance
 {
     address 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
-    received 100000
-    unconfirmed 100000
     confirmed 0
+    received 100000
+    unspent 100000
 }
 ```
 Notice that `balance.confirmed` shows that the transaction has no confirmations.
