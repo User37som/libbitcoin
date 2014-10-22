@@ -36,6 +36,11 @@ balance
 }
 ```
 
+The following properties represent a number of satoshis associated with the address in the following manner.
+* confirmed: The number with at least one confirmation, excluding those spent.
+* received: The number confirmed or unconfirmed, including those spent.
+* unspent: The number received that remain unspent.
+
 > These numeric values will change over time as more people send money to Satoshi, and/or the money at this address is spent. This first transaction is unique in that it contains [50 bitcoin that can never be confirmed](https://en.bitcoin.it/wiki/Genesis_block).
 
 ### Example 2
