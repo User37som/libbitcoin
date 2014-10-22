@@ -9,7 +9,7 @@
   * [Developer Info](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#bitcoin-explorer)
   * [Download BX](Download)
 * **Tutorials**
-  * [How to Receive and Spend](How-to-Receive-and-Spend)
+  * [How to Receive, Confirm and Spend](How-to-Receive-Confirm-and-Spend)
 * **Meta Commands**
   * [help](bx-help)
 * **[Wallet Commands](Wallet-Commands)**
