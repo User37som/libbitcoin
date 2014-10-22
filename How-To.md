@@ -180,7 +180,7 @@ $ bx input-set "[ 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e90
 ```
 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c000000006a4730450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c151680220261c8994ba4c54f5ae0c47d10b23ab9ffd1bd1cb270f562ebd5a5c28664bb3942103e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
-Inspect the transaction visually.
+Inspect the updated transaction visually.
 ```sh
 $ bx tx-decode 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c000000006a4730450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c151680220261c8994ba4c54f5ae0c47d10b23ab9ffd1bd1cb270f562ebd5a5c28664bb3942103e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
@@ -215,7 +215,7 @@ transaction
     version 1
 }
 ```
-Notice that the signature script has been applied to `transaction.inputs[0].script` and that `transaction.hash` has been modified.
+Notice that the signature script has been applied to `transaction.inputs[0].script` and that `transaction.hash` has been updated.
 
 Validate the signature of the transaction's first input, using the public key, previous output script, signature and transaction.
 ```sh
