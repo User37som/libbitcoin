@@ -69,7 +69,7 @@ $ bx fetch-height
 ```
 326525
 ```
-The are currently `326525 - 326392 = 133` confirmations for the transaction.
+Using `transfers[0].output.height`, the are currently `326525 - 326392 = 133` confirmations for the transaction.
 ### Spend Bitcoin
 Look up the **transaction** by its hash.
 ```sh
