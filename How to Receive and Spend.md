@@ -237,3 +237,6 @@ $ bx send-tx 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0
 ```
 Sent transaction at 2014-Oct-22 00:27:08.
 ```
+The transaction may not show up on the network or may not become confirmed.
+
+Use previously discussed techniques for determining [balance](#Confirm-Receipt-of-Bitcoin), history and confirmation level.
