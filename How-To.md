@@ -155,3 +155,23 @@ transaction
 }
 ```
 Notice that `transactions.inputs.input.script` is empty. This means that that input has not been signed. Signature is required by the private key `4ce3eb6b...` corresponding to the address `1JziqzXe...` of the previous output `7c3e880e...:0`.
+
+Constructing a signature script for the transaction requires the hashed public key of the address. Decode the address.
+```sh
+$ bx address-decode 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
+```
+```js
+wrapper
+{
+    checksum 3046565692
+    payload c564c740c6900b93afc9f1bdaef0a9d466adf6ee
+    version 0
+}
+```
+Encode the `wrapper.payload` within the following script.
+```sh
+$ bx script-encode dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig
+```
+```
+76a914c564c740c6900b93afc9f1bdaef0a9d466adf6ee88ac
+```
