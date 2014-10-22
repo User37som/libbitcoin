@@ -15,7 +15,16 @@ $ bx ec-to-public 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf7623
 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 (public key)
 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6 (bitcoin address)
 ```
-Send some money (0.001 BTC) to the address using any wallet. Look up the balance of the address.
+Determine the number of satoshis in 0.001 bitcoins.
+```sh
+$ bx btc-to-satoshi 0.001
+```
+```
+100000
+```
+Send 0.001 bitcoins to the address using any wallet.
+
+Look up the balance of the address.
 ```sh
 $ bx fetch-balance 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
 ```
