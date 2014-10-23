@@ -28,7 +28,7 @@ TRANSACTION          The Base16 transaction. If not specified the
                      transaction is read from STDIN.
 ```
 ### Example 1
-one input, one output, standard prevout script, `sign_type` all
+one input, one output, standard prevout script, --sign_type all
 
 Start with one **input** point and one **output** point as follows.
 ```
