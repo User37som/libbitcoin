@@ -61,7 +61,7 @@ transfers
 The value of `transfers[0].received.hash` should match the transaction identifier shown by your wallet.
 
 Notice that `transfers[0].received.height` shows that the transaction now has at least one confirmation.
-### Determine Confirmation Level
+### Determine Receipt Confirmation Level
 Look up the current **blockchain height**.
 ```sh
 $ bx fetch-height
@@ -69,7 +69,7 @@ $ bx fetch-height
 ```
 326525
 ```
-Using `transfers[0].output.height`, there are currently `326525 - 326392 = 133` confirmations for the transaction.
+Using `transfers[0].received.height`, there are currently `326525 - 326392 = 133` confirmations for the transaction.
 
 View the [receive transaction](https://blockchain.info/tx/7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d) on blockchain.info.
 ### Spend Bitcoin
@@ -290,7 +290,7 @@ transfers
 }
 ```
 The amount previously received has been spent.
-### Determine Confirmation Level
+### Determine Spend Confirmation Level
 Look up the current **blockchain height**.
 ```sh
 $ bx fetch-height
