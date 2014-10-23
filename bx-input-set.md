@@ -22,7 +22,7 @@ TRANSACTION          The Base16 transaction. If not specified the
                      transaction is read from STDIN.
 ```
 ### Example 1
-sighash all
+input 0
 
 For the [previous step](bx-input-sign#example-1) see Example 1 of the `input-sign` command.
 
