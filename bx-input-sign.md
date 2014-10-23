@@ -45,7 +45,7 @@ $ bx seed
 
 > In future versions the above step will be unnecessary and the `--nonce` parameter will be made optional.
 
-Obtain the **previous output script** from the input point.
+Obtain the previous output **script** from the input point.
 ```sh
 $ bx fetch-tx 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
 ```
