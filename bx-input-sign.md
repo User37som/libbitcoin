@@ -80,7 +80,7 @@ transaction
     version 1
 }
 ```
-The previous output script for the new transaction is at `transaction.outputs[0].script`.
+The previous output script is at `transaction.outputs[0].script`.
 
 The private key for the address `1JziqzXe...` of the previous output will be required for signing:
 ```
