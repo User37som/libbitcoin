@@ -85,7 +85,7 @@ transaction
 ```
 The previous output script is at `transaction.outputs[0].script`.
 
-> There are isolated cases where the script cannot be obtained literally from this location, however this is sufficient in more recent transactions.
+> There are isolated cases where the script cannot be obtained literally from this location, however this is sufficient in more recent transactions. In cases where the script is of a typical form, as in this case, it may be inferred from the address.
 
 The private key for the address `1JziqzXe...` of the previous output will be required for signing. The value is provided here for demonstration purposes.
 ```
