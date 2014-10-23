@@ -22,6 +22,9 @@ TRANSACTION          The Base16 transaction. If not specified the
                      transaction is read from STDIN.
 ```
 ### Example 1
+
+For the **preceding step** see [Example 1](bx-input-sign) of the input-sign command.
+
 ```sh
 $ 
 ```
