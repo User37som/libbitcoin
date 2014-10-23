@@ -23,7 +23,7 @@ TRANSACTION          The Base16 transaction. If not specified the
 ```
 ### Example 1
 
-For the **preceding step** see [Example 1](bx-input-sign#example-1) of the `input-sign` command.
+For the [preceding step](bx-input-sign#example-1) see Example 1 of the `input-sign` command.
 
 Create a **signature script**, using the signature and public key, and assign it to the first input of the transaction.
 ```sh
