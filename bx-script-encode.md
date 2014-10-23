@@ -18,10 +18,11 @@ TOKEN                The plain text script tokens that make up the
                      script. If not specified the tokens are read from   
                      STDIN.
 ```
-This command is helpful in interpreting scripts as they appear in the wire protocol. It is not used in conjunction with other commands apart from `script-decode`.
+This command is helpful in interpreting scripts as they appear in the wire protocol. It is not used in conjunction with other commands apart from [script-decode](bx-script-decode).
 ### Example 1
 ```sh
-$ 
+$ bx script-encode dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig
 ```
 ```
+76a91489abcdefabbaabbaabbaabbaabbaabbaabbaabba88ac
 ```
