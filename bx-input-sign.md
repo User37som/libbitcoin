@@ -30,12 +30,12 @@ TRANSACTION          The Base16 transaction. If not specified the
 ### Example 1
 one input, one output, standard prevout script, sighash all
 
-Start with one input and one output as follows.
+Start with one **input** point and one **output** point as follows.
 ```
 --input 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0
 --output 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb:45000
 ```
-Create a random nonce.
+Create a random **nonce**.
 ```sh
 $ bx seed
 ```
@@ -45,7 +45,7 @@ $ bx seed
 
 > In future versions the above step will be unnecessary and the `--nonce` parameter will be made optional.
 
-Obtain the previous output script from the input point.
+Obtain the **previous output script** from the input point.
 ```sh
 $ bx fetch-tx 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
 ```
@@ -90,18 +90,18 @@ The previous output script is at `transaction.outputs[0].script`.
 
 > There are isolated cases where the script cannot be obtained literally from this location, however this is sufficient in more recent transactions. In cases where the script is of a typical form, as in this case, it may alternatively be inferred from the address.
 
-The private key for the address `1JziqzXe...` of the previous output will be required for signing. The value is provided here for demonstration purposes.
+The **private key** for the address `1JziqzXe...` of the previous output will be required for signing. The value is provided here for demonstration purposes.
 ```
 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350
 ```
-Create a new transaction, using the input and output.
+Create a new **transaction**, using the input and output.
 ```sh
 $ bx tx-encode -i 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0 -o 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb:45000
 ```
 ```
 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
-Create a signature for the transaction, nonce, private key, previous output script and the transaction.
+Create a **signature** for the transaction, nonce, private key, previous output script and the transaction.
 ```sh
 $ bx input-sign -n 707e3d717925ba2e98234dd6f3a38eb5 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 "dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig" 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
