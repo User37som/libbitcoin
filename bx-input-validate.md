@@ -35,6 +35,6 @@ $ bx input-validate 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad661
 ```
 The signature is valid.
 ```
-The base16 encoded transactioni
+The encoded transaction can now be validated against the blockchain using the [validate-tx](bxvalidate-tx) command.
 
 The **complete scenario** is detailed in [How to Receive and Spend](How-to-Receive-and-Spend).
