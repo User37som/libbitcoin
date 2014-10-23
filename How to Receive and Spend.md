@@ -266,7 +266,7 @@ Notice that the confirmed value has been reduced by the amount spent, to zero. T
 ### View History of Spend
 Look up the **history** for the address.
 ```sh
-$bx fetch-history 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
+$ bx fetch-history 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
 ```
 ```js
 transfers
