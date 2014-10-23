@@ -38,7 +38,7 @@ balance
 }
 ```
 Notice that `balance.confirmed` shows that the transaction has no confirmations.
-### View Payment History
+### View History of Receipt
 Look up the **history** for the address.
 ```sh
 $ bx fetch-history 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
