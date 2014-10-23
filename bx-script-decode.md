@@ -19,6 +19,7 @@ SCRIPT               The Base16 script. If not specified the script is
 ```
 This command is helpful in interpreting scripts as they appear in the wire protocol. It is not used in conjunction with other commands apart from `script-encode`.
 ### Example 1
+[Bitcoin Wiki script example](https://en.bitcoin.it/wiki/Script#Scripts)
 ```sh
 $ 
 ```
