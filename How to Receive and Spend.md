@@ -247,5 +247,40 @@ $ bx send-tx 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0
 Sent transaction at 2014-Oct-23 00:08:49.
 ```
 Use previously discussed techniques for determining [balance](#confirm-receipt-of-bitcoin), [history](#view-payment-history) and [confirmation level](#determine-confirmation-level).
-
+```sh
+$ bx fetch-balance 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
+```
+```js
+balance
+{
+    address 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
+    confirmed 0
+    received 100000
+    unspent 0
+}
+```
+```sh
+$bx fetch-history 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
+```
+```js
+transfers
+{
+    transfer
+    {
+        input
+        {
+            hash 37c9c4ee0e84c7c7924f74d92cf0779ec6e8fc4c57ebab2593562d52c61c5eb8
+            height 326581
+            index 0
+        }
+        output
+        {
+            hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
+            height 326392
+            index 0
+        }
+        value 100000
+    }
+}
+```
 View the [spend transaction](https://blockchain.info/tx/37c9c4ee0e84c7c7924f74d92cf0779ec6e8fc4c57ebab2593562d52c61c5eb8) on blockchain.info.
