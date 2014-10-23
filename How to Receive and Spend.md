@@ -48,13 +48,13 @@ transfers
 {
     transfer
     {
-        amount 100000
         received
         {
             hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
             height 326392
             index 0
         }
+        value 100000
     }
 }
 ```
@@ -259,7 +259,9 @@ balance
     unspent 0
 }
 ```
-Notice that the confirmed value has been reduced by the amount spent, to zero. This is because the amount is no longer confirmed to the address. Received is not reduced by spends, and so remains unchanged. Unspent is received minus the cumulative amount spent, or the amount that can be spent.
+Notice that the confirmed value has been reduced by the amount spent, to zero. This is because the amount is no longer confirmed to the address. Received is not reduced by spends, and so remains unchanged. Unspent is received minus the cumulative amount spent. These values 
+
+Look up the **history** for the address.
 ```sh
 $bx fetch-history 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
 ```
@@ -268,7 +270,6 @@ transfers
 {
     transfer
     {
-        amount 100000
         received
         {
             hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
@@ -281,6 +282,7 @@ transfers
             height 326581
             index 0
         }
+        value 100000
     }
 }
 ```
