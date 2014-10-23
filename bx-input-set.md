@@ -23,10 +23,12 @@ TRANSACTION          The Base16 transaction. If not specified the
 ```
 ### Example 1
 
-For the **preceding step** see [Example 1](bx-input-sign) of the input-sign command.
+For the **preceding step** see [Example 1](bx-input-sign) of the `input-sign` command.
 
 ```sh
 $ 
 ```
 ```
 ```
+
+The **complete scenario** is detailed in [How to Receive and Spend](How-to-Receive-and-Spend).
