@@ -27,6 +27,7 @@ PREVOUT_SCRIPT       The previous output script to use in signing.
 TRANSACTION          The Base16 transaction. If not specified the        
                      transaction is read from STDIN.
 ```
+This command generates a signature but does not apply it to the transaction.
 ### Example 1
 one input, one output, standard prevout script, --sign_type all
 
