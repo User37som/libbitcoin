@@ -31,13 +31,13 @@ transfers
 {
     transfer
     {
-        input
+        spent
         {
             hash b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5
             height 247742
             index 0
         }
-        output
+        received
         {
             hash 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3
             height 247683
@@ -48,9 +48,9 @@ transfers
 }
 ```
 
-> The `output.height` property indicates the block height at which the output is confirmed. A missing value indicates that the output is unconfirmed.
+> The `spent` property indicates that the received amount has been spent. The `spent.height` property indicates the block height at which the spend transaction is confirmed. A missing value indicates that the spend is unconfirmed.
 
-> The `input` property indicates that the output has been spent. The `input.height` property indicates the block height at which the spend is confirmed. A missing value indicates that the spend is unconfirmed.
+> The `received.height` property indicates the block height at which the receive transaction is confirmed. A missing value indicates that the receipt is unconfirmed.
 
 ### Example 2
 [13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe](https://blockchain.info/address/13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe)
@@ -62,7 +62,7 @@ transfers
 {
     transfer
     {
-        output
+        received
         {
             hash b7354b8b9cc9a856aedaa349cffa289ae9917771f4e06b2386636b3c073df1b5
             height 247742
@@ -73,4 +73,4 @@ transfers
 }
 ```
 
-> A missing `input` property indicates that the output is unspent. The output for this example could become spent, and/or more output may be spent to this address.
+> A missing `spent` property indicates that the output is unspent.
