@@ -108,6 +108,6 @@ $ bx input-sign -n 707e3d717925ba2e98234dd6f3a38eb5 4ce3eb6bd06c224e3c355352a488
 ```
 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022037109f0d06e6068b7447966f751de8474641ad2b15ec37f4a9d159b02af6817401
 ```
-For the **next step** see [Example 1](bx-input-set#example-1) of the `input-set` command.
+For the **next step** see [Example 1 of the input-set command](bx-input-set#example-1).
 
 The **complete scenario** is detailed in [How to Receive and Spend](How-to-Receive-and-Spend).
