@@ -39,6 +39,9 @@ $ bx seed
 ```
 707e3d717925ba2e98234dd6f3a38eb5 
 ```
+
+> In future versions the above step will be unnecessary and the `--nonce` parameter will be made optional.
+
 Obtain the previous output script from the input point.
 ```sh
 $ bx fetch-tx 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
@@ -81,6 +84,8 @@ transaction
 }
 ```
 The previous output script is at `transaction.outputs[0].script`.
+
+> There are isolated cases where the script cannot be obtained literally from this location, however this is sufficient in more recent transactions.
 
 The private key for the address `1JziqzXe...` of the previous output will be required for signing. The value is provided here for demonstration purposes.
 ```
