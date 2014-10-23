@@ -82,7 +82,7 @@ transaction
 ```
 The previous output script is at `transaction.outputs[0].script`.
 
-The private key for the address `1JziqzXe...` of the previous output will be required for signing:
+The private key for the address `1JziqzXe...` of the previous output will be required for signing. The value is provided here for demonstration purposes.
 ```
 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350
 ```
