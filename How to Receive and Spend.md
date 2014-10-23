@@ -69,6 +69,7 @@ $ bx fetch-height
 ```
 326525
 ```
+View the receive transaction on [blockchian.info](https://blockchain.info/tx/7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d).
 Using `transfers[0].output.height`, there are currently `326525 - 326392 = 133` confirmations for the transaction.
 ### Spend Bitcoin
 Look up the preceding **transaction** by its hash.
@@ -245,3 +246,5 @@ $ bx send-tx 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0
 Sent transaction at 2014-Oct-23 00:08:49.
 ```
 Use previously discussed techniques for determining [balance](#confirm-receipt-of-bitcoin), history and confirmation level.
+
+View the spend transaction on [blockchian.info](https://blockchain.info/tx/37c9c4ee0e84c7c7924f74d92cf0779ec6e8fc4c57ebab2593562d52c61c5eb8).
