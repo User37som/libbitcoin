@@ -79,13 +79,14 @@ transaction
     }
     version 1
 }
+```
 The previous output script for the new transaction is at `transaction.outputs[0].script`.
 
-The private key for the address `1JziqzXe...` (of the previous output) will be required for signing:
+The private key for the address `1JziqzXe...` of the previous output will be required for signing:
 ```
 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350
 ```
-Create and a new transaction, using the input and output.
+Create a new transaction, using the input and output.
 ```sh
 $ bx tx-encode -i 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0 -o 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb:45000
 ```
