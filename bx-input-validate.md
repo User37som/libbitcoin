@@ -24,7 +24,7 @@ TRANSACTION          The Base16 transaction. If not specified the
                      transaction is read from STDIN.
 ```
 ### Example 1
-validate the signature at the first transaction input, index 0
+validate the signature at the first transaction input, `index` 0
 
 For the [previous step](bx-input-set#example-1) see Example 1 of the `input-set` command.
 
@@ -35,4 +35,6 @@ $ bx input-validate 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad661
 ```
 The signature is valid.
 ```
+The base16 encoded transactioni
+
 The **complete scenario** is detailed in [How to Receive and Spend](How-to-Receive-and-Spend).
