@@ -248,6 +248,7 @@ $ bx send-tx 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0
 ```
 Sent transaction at 2014-Oct-23 00:08:49.
 ```
+### Confirm Spend of Bitcoin
 Look up the **balance** of the sender address.
 ```sh
 $ bx fetch-balance 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
@@ -262,7 +263,7 @@ balance
 }
 ```
 Notice that the confirmed value has been reduced by the amount spent, to zero. This is because the amount is no longer confirmed to the address. Received is not reduced by spends, and so remains unchanged. Unspent is received minus the cumulative amount spent.
-
+### View History of Spend
 Look up the **history** for the address.
 ```sh
 $bx fetch-history 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
