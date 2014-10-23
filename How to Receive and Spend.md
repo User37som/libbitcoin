@@ -48,19 +48,19 @@ transfers
 {
     transfer
     {
-        output
+        amount 100000
+        received
         {
             hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
             height 326392
             index 0
         }
-        value 100000
     }
 }
 ```
-The value of `transfers[0].output.hash` should match the transaction identifier shown by your wallet.
+The value of `transfers[0].received.hash` should match the transaction identifier shown by your wallet.
 
-Notice that `transfers[0].output.height` shows that the transaction now has at least one confirmation.
+Notice that `transfers[0].received.height` shows that the transaction now has at least one confirmation.
 ### Determine Confirmation Level
 Look up the current **blockchain height**.
 ```sh
@@ -268,22 +268,20 @@ transfers
 {
     transfer
     {
-        input
-        {
-            hash 37c9c4ee0e84c7c7924f74d92cf0779ec6e8fc4c57ebab2593562d52c61c5eb8
-            height 326581
-            index 0
-        }
-        output
+        amount 100000
+        received
         {
             hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
             height 326392
             index 0
         }
-        value 100000
+        spent
+        {
+            hash 37c9c4ee0e84c7c7924f74d92cf0779ec6e8fc4c57ebab2593562d52c61c5eb8
+            height 326581
+            index 0
+        }
     }
 }
 ```
-The receipt by the address is represented  is `transactions[0].output` and the spend by `transactions[0].input`.
-
 View the [spend transaction](https://blockchain.info/tx/37c9c4ee0e84c7c7924f74d92cf0779ec6e8fc4c57ebab2593562d52c61c5eb8) on blockchain.info.
