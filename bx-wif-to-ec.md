@@ -25,6 +25,14 @@ $ bx wif-to-ec L21LJEeJwK35wby1BeTjwWssrhrgQE2MZrpTm2zbMC677czAHHu3
 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8
 ```
 ### Example 2
+[Bitcoin Wiki example](https://en.bitcoin.it/wiki/Wallet_import_format)
+```sh
+$ bx wif-to-ec 5HueCGU8rMjxEXxiPuD5BDku4MkFqeZyd4dZ1jvhTVqvbTLvyTJ
+```
+```
+0c28fca386c7a227600b2fe50b7cae11ec86d3bf1fbe471be89827e19d72aa1d
+```
+### Example 3
 piped commands, compressed
 ```sh
 $ bx ec-to-wif 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8 | bx wif-to-ec
@@ -32,13 +40,6 @@ $ bx ec-to-wif 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8 
 ```
 L21LJEeJwK35wby1BeTjwWssrhrgQE2MZrpTm2zbMC677czAHHu3
 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8
-```
-### Example 3
-[Bitcoin Wiki example](https://en.bitcoin.it/wiki/Wallet_import_format)
-```sh
-$ bx wif-to-ec 5HueCGU8rMjxEXxiPuD5BDku4MkFqeZyd4dZ1jvhTVqvbTLvyTJ
-```
-0c28fca386c7a227600b2fe50b7cae11ec86d3bf1fbe471be89827e19d72aa1d
 ```
 ### Example 4
 piped commands, uncompressed
