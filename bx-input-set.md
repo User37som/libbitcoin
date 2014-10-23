@@ -21,6 +21,7 @@ SIGNATURE_SCRIPT     The signature script to assign to the input.
 TRANSACTION          The Base16 transaction. If not specified the        
                      transaction is read from STDIN.
 ```
+This command is used to apply a signature script to a transaction input, modifying the transaction. The resulting transaction can then be validated against the blockchain using the [validate-tx](bx-validate-tx) command, or broadcast to the blockchain using the [send-tx](bx-send-tx), [send-tx-node](bx-send-tx-node) or [send-tx-p2p](bx-send-tx-p2p) command.
 ### Example 1
 assign a signature script to the first transaction input, --index 0
 
