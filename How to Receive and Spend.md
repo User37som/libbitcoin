@@ -290,5 +290,14 @@ transfers
 }
 ```
 The amount previously received has been spent.
+### Determine Confirmation Level
+Look up the current **blockchain height**.
+```sh
+$ bx fetch-height
+```
+```
+326590
+```
+Using `transfers[0].spent.height`, there are currently `326590 - 326581 = 9` confirmations for the transaction.
 
 View the [spend transaction](https://blockchain.info/tx/37c9c4ee0e84c7c7924f74d92cf0779ec6e8fc4c57ebab2593562d52c61c5eb8) on blockchain.info.
