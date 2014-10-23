@@ -32,7 +32,6 @@ TRANSACTION          The Base16 transaction. If not specified the
 
 `--output 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb:45000`
 
-```
 Create a random nonce.
 ```sh
 $ bx seed
