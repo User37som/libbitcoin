@@ -4,7 +4,7 @@ $ bx input-sign --help
 ```
 ```
 Usage: bx input-sign [-h] --nonce VALUE [--config VALUE] [--index VALUE] 
-[--sign_type VALUE] EC_PRIVATE_KEY PREVOUT_SCRIPT TRANSACTION            
+[--sign_type VALUE] EC_PRIVATE_KEY PREVOUT_SCRIPT [TRANSACTION]          
 
 Info: Create a Bitcoin signature for a transaction input.                
 
