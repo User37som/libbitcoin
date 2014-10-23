@@ -259,7 +259,7 @@ balance
     unspent 0
 }
 ```
-Notice that the confirmed value has been reduced by the amount spent, to zero. This is because the amount is no longer confirmed to the address. Received is not reduced by spends, and so remains unchanged. Unspent is received minus the cumulative amount spent. These values 
+Notice that the confirmed value has been reduced by the amount spent, to zero. This is because the amount is no longer confirmed to the address. Received is not reduced by spends, and so remains unchanged. Unspent is received minus the cumulative amount spent.
 
 Look up the **history** for the address.
 ```sh
@@ -286,4 +286,6 @@ transfers
     }
 }
 ```
+The amount previously received has been spent.
+
 View the [spend transaction](https://blockchain.info/tx/37c9c4ee0e84c7c7924f74d92cf0779ec6e8fc4c57ebab2593562d52c61c5eb8) on blockchain.info.
