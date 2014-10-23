@@ -26,8 +26,8 @@ sighash all
 
 For the [previous step](bx-input-sign#example-1) see Example 1 of the `input-sign` command.
 
-The private key, signature, and transaction are carried over from the previous .
-```
+The private key, signature, and transaction are carried over from the previous step.
+
 Derive the **public key** corresponding to the private key.
 ```sh
 $ bx ec-to-public 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350
