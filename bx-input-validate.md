@@ -24,7 +24,7 @@ TRANSACTION          The Base16 transaction. If not specified the
                      transaction is read from STDIN.
 ```
 ### Example 1
-sighash all
+validate the signature at the first transaction input, index 0
 
 For the [previous step](bx-input-set#example-1) see Example 1 of the `input-set` command.
 
