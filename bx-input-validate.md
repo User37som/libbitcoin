@@ -4,7 +4,7 @@ $ bx input-validate --help
 ```
 ```
 Usage: bx input-validate [-h] [--config VALUE] [--index VALUE]           
-EC_PUBLIC_KEY PREVOUT_SCRIPT SIGNATURE TRANSACTION                       
+EC_PUBLIC_KEY PREVOUT_SCRIPT SIGNATURE [TRANSACTION]                     
 
 Info: Validate a transaction signature.                                  
 
