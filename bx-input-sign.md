@@ -28,10 +28,13 @@ TRANSACTION          The Base16 transaction. If not specified the
                      transaction is read from STDIN.
 ```
 ### Example 1
-`--input 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0`
+one input, one output, standard prevout script, sighash all
 
-`--output 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb:45000`
-
+Start with one input and one output as follows.
+```
+--input 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d:0
+--output 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb:45000
+```
 Create a random nonce.
 ```sh
 $ bx seed
