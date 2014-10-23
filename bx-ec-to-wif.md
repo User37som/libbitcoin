@@ -36,6 +36,14 @@ $ bx ec-to-wif -u 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9
 5JuBiWpsjfXNxsWuc39KntBAiAiAP2bHtrMGaYGKCppq4MuVcQL
 ```
 ### Example 3
+[Bitcoin Wiki Example](https://en.bitcoin.it/wiki/Wallet_import_format)
+```sh
+$ bx ec-to-wif -u 0C28FCA386C7A227600B2FE50B7CAE11EC86D3BF1FBE471BE89827E19D72AA1D
+```
+```
+5HueCGU8rMjxEXxiPuD5BDku4MkFqeZyd4dZ1jvhTVqvbTLvyTJ
+```
+### Example 4
 piped commands
 ```sh
 $ bx seed | bx ec-new | bx ec-to-wif
