@@ -4,7 +4,7 @@ $ bx input-set --help
 ```
 ```
 Usage: bx input-set [-h] [--config VALUE] [--index VALUE]                
-SIGNATURE_SCRIPT TRANSACTION                                             
+SIGNATURE_SCRIPT [TRANSACTION]                                           
 
 Info: Assign a script to an existing transaction input.                  
 
