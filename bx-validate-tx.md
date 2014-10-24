@@ -26,3 +26,10 @@ $ bx validate-tx 0100000001b3807042c92f449bbf79b33ca59d7dfec7f4cc71096704a9c526d
 ```
 Validation of inputs failed
 ```
+There are several possible error messages. Success is indicated by either of the following two messages.
+```
+The transaction is valid.
+```
+```
+The transaction is valid with unconfirmed inputs at index: 0, 2.
+```
