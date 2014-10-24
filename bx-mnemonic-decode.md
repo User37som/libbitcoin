@@ -22,7 +22,7 @@ Arguments (positional):
 WORD                 The set of words from the Electrum word list. If not
                      specified the words are read from STDIN.
 ```
-See also [mnemonic-encode](mnemonic-encode).
+See also [mnemonic-encode](bx-mnemonic-encode).
 ### Example 1
 128 bit value
 ```sh
