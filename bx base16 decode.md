@@ -20,6 +20,8 @@ BASE16               The Base16 value to decode as binary data. If not
 This command is a simple [hexadecimal](http://en.wikipedia.org/wiki/Hexadecimal) decoder.
 
 Hexadecimal is not case sensitive. In other words the letter F and the f are the same value.
+
+See also [base16-encode](bx-base16-encode).
 ### Example 1
 ```sh
 $ bx base16-decode 5361746f736869204e616b616d6f746f
