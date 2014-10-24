@@ -18,6 +18,7 @@ SEED                 The Base16 randomness seed for the new key. Must be
                      at least 128 bits in length. If not specified the   
                      seed is read from STDIN.  
 ```
+This command supports the `testnet` [configuration setting](Configuration-Settings).
 ### Example 1
 BIP32 [Test Vector 1](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki#test-vector-1) Chain m
 ```sh
