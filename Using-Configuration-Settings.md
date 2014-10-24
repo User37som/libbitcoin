@@ -11,7 +11,7 @@ The BX [metadata file](https://github.com/libbitcoin/libbitcoin-explorer/blob/ma
 
 For convenience, the [example.cfg](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/example.cfg) file is also populated with these values, although the metadata file is authoritative.
 
-The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options.html).
+The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
 ```ini
 # Example Bitcoin Explorer (BX) configuration file.
 
