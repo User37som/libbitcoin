@@ -8,9 +8,9 @@
     * [Macintosh](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#macintosh)
   * [Developer Info](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#bitcoin-explorer)
   * [Download BX](Download)
+  * [Configuration Settings](Configuration-Settings)
 * **Tutorials**
   * [How to Receive and Spend](How-to-Receive-and-Spend)
-  * [Using Configuration Settings](Using-Configuration-Settings)
 * **Meta Commands**
   * [help](bx-help)
 * **[Wallet Commands](Wallet-Commands)**
