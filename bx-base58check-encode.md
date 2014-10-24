@@ -20,6 +20,8 @@ BASE16               The Base16 value to Base58Check encode. If not
                      specified the value is read from STDIN.
 ```
 See [Base58Check encoding](https://en.bitcoin.it/wiki/Base58Check_encoding) for a detailed description of the encoding.
+
+See also [base58check-decode](bx-base58check-decode).
 ### Example 1
 ```sh
 $ bx base58check-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
