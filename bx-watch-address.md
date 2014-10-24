@@ -25,6 +25,8 @@ This command reflects transactions created after the subscription is established
 
 > Type `ctrl-c` to terminate the watcher.
 
+This command supports [configuration settings](Configuration-Settings).
+
 ### Example 1
 monitor donations to Satoshi
 ```sh
