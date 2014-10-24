@@ -9,8 +9,8 @@
   * [Developer Info](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#bitcoin-explorer)
   * [Download BX](Download)
 * **Tutorials**
+  * [How to Do Stealth-Payments](How-to-Do-Stealth-Payments)
   * [How to Receive and Spend](How-to-Receive-and-Spend)
-  * [How to Make Stealth Payments](How-to-Make-Stealth-Payments)
 * **Meta Commands**
   * [help](bx-help)
 * **[Wallet Commands](Wallet-Commands)**
