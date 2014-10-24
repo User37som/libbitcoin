@@ -22,6 +22,8 @@ Arguments (positional):
 PREFIX               The Base2 stealth prefix used to locate             
                      transactions. Defaults to all stealth transactions.
 ```
+This command supports [configuration settings](Configuration-Settings).
+
 The number of transactions matching a given prefix will increase over time.
 ### Example 1
 ```sh
