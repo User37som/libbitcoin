@@ -19,7 +19,8 @@ SCRIPT               The script. If not specified the script is read from
 ```
 ### Example 1
 ```sh
-$ 
+$ bx script-to-address dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig
 ```
 ```
+3F6i6kwkevjR7AsAd4te2YB2zZyASEm1HM
 ```
