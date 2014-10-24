@@ -17,6 +17,7 @@ Arguments (positional):
 BASE16               The Base16 value to encode as Base58. If not        
                      specified the value is read from STDIN.
 ```
+See also [base58-decode](bx-base58-decode).
 ### Example 1
 ```sh
 $ bx base58-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
