@@ -22,6 +22,7 @@ SEED                 The Base16 randomness seed. Must be at least 128
                      bits in length. If not specified the seed is read   
                      from STDIN.
 ```
+See also [mnemonic-decode](bx-mnemonic-decode).
 ### Example 1
 128 bit seed
 ```sh
