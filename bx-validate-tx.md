@@ -18,6 +18,7 @@ Arguments (positional):
 TRANSACTION          The Base16 transaction. If not specified the        
                      transaction is read from STDIN.
 ```
+This command supports [configuration settings](Configuration-Settings).
 ### Example 1
 inputs invalid
 ```sh
