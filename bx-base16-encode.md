@@ -19,6 +19,8 @@ DATA                 The binary data to encode as Base16. This can be
                      read from STDIN.
 ```
 This command is a simple [hexadecimal](http://en.wikipedia.org/wiki/Hexadecimal) encoder. This can be used to feed plain text or raw binary values into other commands as `base16` input.
+
+Hexadecimal is not case sensitive. In other words the letter F and the f are the same value.
 ### Example 1
 ```sh
 $ bx base16-encode "Satoshi Nakamoto"
