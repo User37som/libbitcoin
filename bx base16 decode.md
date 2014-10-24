@@ -28,6 +28,14 @@ $ bx base16-decode 5361746f736869204e616b616d6f746f
 Satoshi Nakamoto
 ```
 ### Example 2
+upper case encoding
+```sh
+$ bx base16-decode 5361746F736869204E616b616d6F746F
+```
+```
+Satoshi Nakamoto
+```
+### Example 3
 [FIPS 180-2 SHA-1 Vector A](http://www.nsrl.nist.gov/testdata)
 ```sh
 $ bx base16-decode 616263
@@ -35,7 +43,7 @@ $ bx base16-decode 616263
 ```
 abc
 ```
-### Example 3
+### Example 4
 [FIPS 180-2 SHA-1 Vector B](http://www.nsrl.nist.gov/testdata)
 ```sh
 $ bx base16-decode 6162636462636465636465666465666765666768666768696768696a68696a6b696a6b6c6a6b6c6d6b6c6d6e6c6d6e6f6d6e6f706e6f7071
@@ -43,7 +51,7 @@ $ bx base16-decode 6162636462636465636465666465666765666768666768696768696a68696
 ```
 abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
 ```
-### Example 4
+### Example 5
 pipe commands, round trip
 ```sh
 $ bx base16-encode "Satoshi Nakamoto" | bx base16-decode
