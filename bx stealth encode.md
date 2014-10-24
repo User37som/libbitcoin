@@ -26,6 +26,7 @@ SPEND_PUBKEY         The set of Base16 EC public keys corresponding to
                      private keys that will be able to spend payments to 
                      the address. Defaults to the value of SCAN_PUBKEY.  
 ```
+See also [stealth-decode](bx-stealth-decode).
 ### Example 1
 scan key only
 ```sh
