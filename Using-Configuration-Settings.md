@@ -1,4 +1,4 @@
-### When is a Configuration File Used?
+### Applying a Configuration File
 Not all BX commands use configuration settings, in fact most do not. However all commands process the configuration file if its path specified.
 
 All commands accept a `--config` option. This allows any command line to specify a configuration file for use in that single execution.
