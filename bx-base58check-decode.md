@@ -20,6 +20,8 @@ Arguments (positional):
 BASE58CHECK          The Base58Check value to decode. If not specified
                      the value is read from STDIN.
 ```
+See [Base58Check encoding](https://en.bitcoin.it/wiki/Base58Check_encoding) for a detailed description of the encoding.
+
 See also [base58check-encode](bx-base58check-encode).
 ### Example 1
 version 0
