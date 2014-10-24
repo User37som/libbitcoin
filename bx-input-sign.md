@@ -111,4 +111,4 @@ $ bx input-sign -n 707e3d717925ba2e98234dd6f3a38eb5 4ce3eb6bd06c224e3c355352a488
 ```
 For the [next step](bx-input-set#example-1) see Example 1 of the `input-set` command.
 
-The **complete scenario** is detailed in [How to Receive and Spend](How-to-Receive-and-Spend).
+The **complete scenario** is detailed in [How to Spend Bitcoin](How-to-Spend-Bitcoin).
