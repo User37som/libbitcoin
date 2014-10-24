@@ -31,5 +31,5 @@ There are several possible error messages. Success is indicated by either of the
 The transaction is valid.
 ```
 ```
-The transaction is valid with unconfirmed inputs at index: 0, 2.
+The transaction is valid, with unconfirmed inputs at index: 0, 2.
 ```
