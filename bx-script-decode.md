@@ -21,7 +21,7 @@ This command is helpful in interpreting scripts as they appear in the wire proto
 
 See also [script-encode](bx-script-encode).
 ### Example 1
-[Bitcoin Wiki script example](https://en.bitcoin.it/wiki/Script#Scripts)
+[Bitcoin Wiki example](https://en.bitcoin.it/wiki/Script#Scripts)
 ```sh
 $ bx script-decode 76A91489ABCDEFABBAABBAABBAABBAABBAABBAABBAABBA88AC
 ```
