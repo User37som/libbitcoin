@@ -18,6 +18,7 @@ Arguments (positional):
 PAYLOAD              The Base16 data to wrap. If not specified the value 
                      is read from STDIN.
 ```
+See also [wrap-decode](bx-wrap-decode).
 ### Example 1
 --version 0
 ```sh
