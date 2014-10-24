@@ -18,6 +18,7 @@ Options (named):
 -s [--hash]          The Base16 block hash.                              
 -t [--height]        The block height.
 ```
+This command supports [configuration settings](Configuration-Settings).
 ### Example 1
 --height 0
 ```sh
