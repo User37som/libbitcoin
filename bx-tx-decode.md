@@ -19,6 +19,7 @@ Arguments (positional):
 TRANSACTION          The Base16 transaction. If not specified the        
                      transaction is read from STDIN.
 ```
+See also [tx-encode](bx-tx-encode).
 ### Example 1
 ```sh
 $ 
