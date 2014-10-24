@@ -298,3 +298,5 @@ $ bx fetch-height
 Using `transfers[0].spent.height`, there are currently `326590 - 326581 = 9` confirmations for the transaction.
 
 View the [spend transaction](https://blockchain.info/tx/37c9c4ee0e84c7c7924f74d92cf0779ec6e8fc4c57ebab2593562d52c61c5eb8) on blockchain.info.
+
+This example is a continued in [How to Spend Bitcoin](How-to-Spend-Bitcoin).
