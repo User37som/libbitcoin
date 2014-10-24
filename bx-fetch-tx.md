@@ -21,6 +21,7 @@ HASH                 The Base16 transaction hash of the transaction to
                      get. If not specified the transaction hash is read  
                      from STDIN.
 ```
+This command supports [configuration settings](Configuration-Settings).
 ### Example 1
 [Satoshi's words](http://www.thetimes.co.uk/tto/business/industries/banking/article2160028.ece)
 ```sh
