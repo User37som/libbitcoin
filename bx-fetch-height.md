@@ -12,6 +12,7 @@ Options (named):
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
 ```
+This command supports [configuration settings](Configuration-Settings).
 ### Example 1
 ```sh
 $ bx fetch-height
