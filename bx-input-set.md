@@ -45,4 +45,4 @@ $ bx input-set "[ 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e90
 ```
 For the [next step](bx-input-validate#example-1) see Example 1 of the `input-validate` command.
 
-The **complete scenario** is detailed in [How to Receive and Spend](How-to-Receive-and-Spend).
+The **complete scenario** is detailed in [How to Spend Bitcoin](How-to-Spend-Bitcoin).
