@@ -21,6 +21,7 @@ Arguments (positional):
 BITCOIN_ADDRESS      The Bitcoin address. If not specified the address is
                      read from STDIN.
 ```
+This command supports [configuration settings](Configuration-Settings).
 ### Example 1
 [134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz](https://blockchain.info/address/134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz)
 ```sh
