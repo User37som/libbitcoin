@@ -17,6 +17,7 @@ Arguments (positional):
 WIF                  The value to convert. If not specified the value is 
                      read from STDIN.
 ```
+See also [ec-to-wif](bx-ec-to-wif).
 ### Example 1
 ```sh
 $ bx wif-to-ec L21LJEeJwK35wby1BeTjwWssrhrgQE2MZrpTm2zbMC677czAHHu3
