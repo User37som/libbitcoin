@@ -22,7 +22,7 @@ This command is helpful in interpreting scripts as they appear in the wire proto
 
 See also [script-decode](bx-script-decode).
 ### Example 1
-[Bitcoin Wiki script example](https://en.bitcoin.it/wiki/Script#Scripts)
+[Bitcoin Wiki example](https://en.bitcoin.it/wiki/Script#Scripts)
 ```sh
 $ bx script-encode dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig
 ```
