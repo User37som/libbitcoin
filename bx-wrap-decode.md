@@ -21,6 +21,7 @@ Arguments (positional):
 WRAPPED              The Base16 data to unwrap. If not specified the     
                      value is read from STDIN.
 ```
+See also [wrap-encode](bx-wrap-encode).
 ### Example 1
 version 0
 ```sh
