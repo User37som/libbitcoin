@@ -20,7 +20,7 @@ Arguments (positional):
 BASE58CHECK          The Base58Check value to decode. If not specified
                      the value is read from STDIN.
 ```
-See also [base58check-decode](bx-base58check-decode).
+See also [base58check-encode](bx-base58check-encode).
 ### Example 1
 version 0
 ```sh
