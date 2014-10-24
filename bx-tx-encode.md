@@ -33,6 +33,7 @@ Arguments (positional):
 TRANSACTION          The encoded transaction file path. If not specified 
                      the transaction is written to STDOUT.
 ```
+See also [tx-decode](bx-tx-decode).
 ### Example 1
 ```
 $ 
