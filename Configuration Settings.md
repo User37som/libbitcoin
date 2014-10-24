@@ -10,8 +10,6 @@ If neither the --config option nor the `BX_CONFIG` environment variable is set t
 The BX [metadata file](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/model/generate.xml) declares all valid configuration settings, their data types and descriptions. These values generated code that is used to build BX.
 
 For convenience, the [example.cfg](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/example.cfg) file is also populated with these values, although the metadata file is authoritative.
-
-The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
 ```ini
 # Example Bitcoin Explorer (BX) configuration file.
 
@@ -36,3 +34,5 @@ address = tcp://obelisk-sol.airbitz.co:90911
 # The base-16 encoded public key of the server.
 # public-key = 
 ```
+
+The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
