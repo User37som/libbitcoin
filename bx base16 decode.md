@@ -18,6 +18,8 @@ BASE16               The Base16 value to decode as binary data. If not
                      specified the value is read from STDIN.
 ```
 This command is a simple [hexadecimal](http://en.wikipedia.org/wiki/Hexadecimal) decoder.
+
+Hexadecimal is not case sensitive. In other words the letter F and the f are the same value.
 ### Example 1
 ```sh
 $ bx base16-decode 5361746f736869204e616b616d6f746f
@@ -27,8 +29,6 @@ Satoshi Nakamoto
 ```
 ### Example 2
 upper case encoding
-
-Base-16 is not case sensitive. In other words the letter F and the f are the same value.
 ```sh
 $ bx base16-decode 5361746F736869204E616b616d6F746F
 ```
