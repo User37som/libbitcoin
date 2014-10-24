@@ -21,11 +21,11 @@ Arguments (positional):
 BITCOIN_ADDRESS      The participating Bitcoin address. If not specified 
                      the address is read from STDIN. 
 ```
+This command supports [configuration settings](Configuration-Settings).
+
 This command reflects transactions created after the subscription is established.
 
 > Type `ctrl-c` to terminate the watcher.
-
-This command supports [configuration settings](Configuration-Settings).
 
 ### Example 1
 monitor donations to Satoshi
