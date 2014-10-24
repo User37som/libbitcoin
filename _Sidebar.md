@@ -10,7 +10,6 @@
   * [Download BX](Download)
 * **Tutorials**
   * [How to Receive and Spend](How-to-Receive-and-Spend)
-  * [How to Send with Stealth](How-to-Send-with-Stealth)
 * **Meta Commands**
   * [help](bx-help)
 * **[Wallet Commands](Wallet-Commands)**
