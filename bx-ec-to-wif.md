@@ -20,6 +20,7 @@ Arguments (positional):
 EC_PRIVATE_KEY       The Base16 EC private key to convert. If not        
                      specified the key is read from STDIN.   
 ```
+See also [wif-to-ec](bx-wif-to-ec).
 ### Example 1
 ```sh
 $ bx ec-to-wif 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9c8
