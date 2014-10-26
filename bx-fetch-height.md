@@ -52,45 +52,43 @@ The `testnet` setting doesn't affect these calls. The `wait` period has been inc
 $ ./servers.sh
 ```
 ```
-$ bx fetch-height tcp://obelisk.unsystem.net:9091 
-327053
-
-$ bx fetch-height tcp://obelisk.unsystem.net:8081 
+Development Servers
+------------------------------------------------------
+tcp://obelisk.unsystem.net:9091
+327055
+tcp://obelisk.unsystem.net:8081
 timed out
 
-$ bx fetch-height tcp://obelisk.coinkite.com:9091 
-327053
+Production Servers
+------------------------------------------------------
+cp://obelisk.coinkite.com:9091
+327055
+tcp://obelisk.bysh.me:9091
+327055
+tcp://obelisk.ottrbutt.com:9091
+timed out
+tcp://obelisk-baltic.airbitz.co:9091
+327055
+tcp://obelisk-crate.airbitz.co:9091
+327055
+tcp://obelisk-sol.airbitz.co:9091
+327055
+tcp://obelisk-virpus.airbitz.co:9091
+327055
 
-$ bx fetch-height tcp://obelisk.bysh.me:9091 
-327053
-
-$ bx fetch-height tcp://obelisk.ottrbutt.com:9091 
+Testing Servers
+------------------------------------------------------
+tcp://37.139.11.99:9091
 timed out
 
-$ bx fetch-height tcp://obelisk-baltic.airbitz.co:9091 
-327053
-
-$ bx fetch-height tcp://obelisk-crate.airbitz.co:9091 
-327053
-
-$ bx fetch-height tcp://obelisk-sol.airbitz.co:9091 
-327053
-
-$ bx fetch-height tcp://obelisk-virpus.airbitz.co:9091 
-327053
-
-$ bx fetch-height tcp://37.139.11.99:9091 
+Testnet Servers
+------------------------------------------------------
+tcp://178.79.185.162:9091
 timed out
-
-$ bx fetch-height tcp://178.79.185.162:9091 
-timed out
-
-$ bx fetch-height tcp://85.25.198.97:10091 
-304457
-
-$ bx fetch-height tcp://obelisk-testnet.airbitz.co:9091 
-304529
-
-$ bx fetch-height tcp://preacher.veox.pw:9091 
-304529
+tcp://85.25.198.97:10091
+304461
+tcp://obelisk-testnet.airbitz.co:9091
+304534
+tcp://preacher.veox.pw:9091
+304534
 ```
