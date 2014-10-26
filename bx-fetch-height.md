@@ -92,7 +92,7 @@ tcp://obelisk-testnet.airbitz.co:9091
 tcp://preacher.veox.pw:9091
 304534
 ```
-This is based on a script of the following form.
+The example script `servers.sh` is based on the following pattern.
 ```sh
 echo Development Servers
 echo ------------------------------------------------------
