@@ -92,3 +92,10 @@ tcp://obelisk-testnet.airbitz.co:9091
 tcp://preacher.veox.pw:9091
 304534
 ```
+This is based on a script of the following form.
+```sh
+echo Development Servers
+echo ------------------------------------------------------
+echo tcp://obelisk.unsystem.net:9091
+bx fetch-height tcp://obelisk.unsystem.net:9091
+```
