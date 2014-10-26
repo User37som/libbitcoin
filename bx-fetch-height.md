@@ -57,7 +57,7 @@ Development Servers
 tcp://obelisk.unsystem.net:9091
 327055
 tcp://obelisk.unsystem.net:8081
-timed out
+Connection timed out
 
 Production Servers
 ------------------------------------------------------
@@ -79,12 +79,12 @@ tcp://obelisk-virpus.airbitz.co:9091
 Testing Servers
 ------------------------------------------------------
 tcp://37.139.11.99:9091
-timed out
+Connection timed out
 
 Testnet Servers
 ------------------------------------------------------
 tcp://178.79.185.162:9091
-timed out
+Connection timed out
 tcp://85.25.198.97:10091
 304461
 tcp://obelisk-testnet.airbitz.co:9091
