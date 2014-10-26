@@ -47,7 +47,7 @@ general.testnet = false
 general.wait = 10000
 server.url = tcp://obelisk.unsystem.net:9091
 ```
-The timeout has been increased to 10 seconds. The `server.url` value will be overridden by each command below. The `testnet` setting doesn't affect these calls.
+The `wait' period has been increased to `10000` milliseconds. The `server.url` value will be overridden by each command below. The `testnet` setting doesn't affect these calls.
 ```sh
 $ servers.bat
 ```
