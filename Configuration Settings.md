@@ -36,5 +36,5 @@ address = tcp://obelisk.unsystem.net:9091
 ```
 
 The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
-### Export Settings
+### Exporting Settings
 The [settings](bx-settings) command outputs all settings and values. When a path is specified on the command line or by environment variable, the values are populated accordingly.
