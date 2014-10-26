@@ -23,3 +23,16 @@ general.testnet = false
 general.wait = 2000
 server.url = tcp://obelisk.unsystem.net:9091
 ```
+### Example 1
+--config bx.ini
+```sh
+bx settings -c bx.ini
+```
+```
+general.retries = 2
+general.testnet = false
+general.wait = 10000
+server.url = tcp://obelisk-sol.airbitz.co:9091
+```
+
+> This presumes a file named `bx.ini,` in the current directory with the above settings.
