@@ -5,6 +5,8 @@ All commands accept a `--config` option. This allows any command line to specify
 
 If the `--config` option is not set the command will use the configuration file specified by the `BX_CONFIG` environment variable.
 
+The `bx settings` command outputs all settings and default values. When a path is specified on the command line or by environment variable, the values are populated accordingly.
+
 If neither the --config option nor the `BX_CONFIG` environment variable is set the command will use embedded default configuration settings. There is no default configuration file location.
 ### Default Configuration Settings
 The BX [metadata file](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/model/generate.xml) declares all valid configuration settings, their data types and descriptions. These values generated code that is used to build BX.
