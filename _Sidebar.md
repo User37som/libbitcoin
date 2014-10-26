@@ -14,6 +14,7 @@
   * [How to Spend Bitcoin](How-to-Spend-Bitcoin)
 * **Meta Commands**
   * [help](bx-help)
+  * [settings](bx-settings)
 * **[Wallet Commands](Wallet-Commands)**
   * [ec-lock](bx-ec-lock)
   * [ec-new](bx-ec-new)
