@@ -20,7 +20,7 @@ server-url           The URL of the Obelisk server to use. If not
 ```
 This command supports [configuration settings](Configuration-Settings).
 
-The height will increase as more blocks are mined and may vary slightly between servers.
+The height reported will increase as more blocks are mined and may vary slightly between servers.
 ### Example 1
 ```sh
 $ bx fetch-height
@@ -28,10 +28,11 @@ $ bx fetch-height
 ```
 325956
 ```
-### Example 1
+### Example 2
+server-url, wrong port number
 ```sh
-$ bx fetch-height
+$ bx fetch-height tcp://obelisk.unsystem.net
 ```
 ```
-325956
+timed out
 ```
