@@ -37,7 +37,7 @@ balance
 }
 ```
 
-The following properties represent the number of satoshis associated with the address in the following manner.
+The above properties represent the number of satoshis associated with the address in the following manner.
 * **Confirmed** - the number with any confirmation, excluding those spent.
 * **Received** - the number confirmed or unconfirmed, including those spent.
 * **Unspent** - the number received that remain unspent.
