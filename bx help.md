@@ -84,6 +84,7 @@ seed
 send-tx
 send-tx-node
 send-tx-p2p
+settings
 sha160
 sha256
 sha512
@@ -172,6 +173,7 @@ seed
 send-tx
 send-tx-node
 send-tx-p2p
+settings
 sha160
 sha256
 sha512
