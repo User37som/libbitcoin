@@ -66,7 +66,7 @@ tcp://obelisk.coinkite.com:9091
 tcp://obelisk.bysh.me:9091
 327055
 tcp://obelisk.ottrbutt.com:9091
-timed out
+Connection timed out
 tcp://obelisk-baltic.airbitz.co:9091
 327055
 tcp://obelisk-crate.airbitz.co:9091
