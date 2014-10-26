@@ -6,8 +6,6 @@ All commands accept a `--config` option. This allows any command line to specify
 If the `--config` option is not set the command will use the configuration file specified by the `BX_CONFIG` environment variable.
 
 If neither the --config option nor the `BX_CONFIG` environment variable is set the command will use embedded default configuration settings. There is no default configuration file location.
-
-The [settings](bx-settings) command outputs all settings and values. When a path is specified on the command line or by environment variable, the values are populated accordingly.
 ### Default Configuration Settings
 The BX [metadata file](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/model/generate.xml) declares all valid configuration settings, their data types and descriptions. These values generated code that is used to build BX.
 
@@ -38,3 +36,5 @@ address = tcp://obelisk.unsystem.net:9091
 ```
 
 The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
+### Export Settings
+The [settings](bx-settings) command outputs all settings and values. When a path is specified on the command line or by environment variable, the values are populated accordingly.
