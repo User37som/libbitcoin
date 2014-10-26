@@ -29,7 +29,7 @@ wait = 2000
 [server]
 
 # The URI of the obelisk server.
-address = tcp://obelisk-sol.airbitz.co:90911
+address = tcp://obelisk.unsystem.net:9091
 
 # The base-16 encoded public key of the server.
 # public-key = 
