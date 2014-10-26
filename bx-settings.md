@@ -35,10 +35,10 @@ general.wait = 10000
 server.url = tcp://obelisk-sol.airbitz.co:9091
 ```
 
-> This presumes a file named `bx.cfg` in the current directory with the above settings.
+> This presumes the existence of `bx.cfg` with the above settings.
 
 ### Example 3
-environment variable `BX_CONFIG=bx.cfg`
+environment variable `BX_CONFIG=MyConfig/bx.cfg`
 ```sh
 $ bx settings
 ```
@@ -49,4 +49,4 @@ general.wait = 10000
 server.url = tcp://obelisk-sol.airbitz.co:9091
 ```
 
-> This presumes a file named `bx.cfg` in the current directory with the above settings.
+> This presumes the existence of `MyConfig/bx.cfg` with the above settings.
