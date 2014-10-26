@@ -61,7 +61,7 @@ timed out
 
 Production Servers
 ------------------------------------------------------
-cp://obelisk.coinkite.com:9091
+tcp://obelisk.coinkite.com:9091
 327055
 tcp://obelisk.bysh.me:9091
 327055
