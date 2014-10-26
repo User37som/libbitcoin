@@ -1,7 +1,8 @@
 Display the loaded configuration settings.  
 ```sh
 $ bx settings --help
-
+```
+```
 Usage: bx settings [-h] [--config VALUE]                                 
 
 Info: Display the loaded configuration settings.                         
