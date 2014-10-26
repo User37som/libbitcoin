@@ -49,7 +49,7 @@ server.url = tcp://obelisk.unsystem.net:9091
 ```
 The `testnet` setting doesn't affect these calls. The `wait` period has been increased to `10000` milliseconds. The `server.url` value will be overridden by each command below.
 ```sh
-$ servers.bat
+$ ./servers.sh
 ```
 ```
 $ bx fetch-height tcp://obelisk.unsystem.net:9091 
