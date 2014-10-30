@@ -15,24 +15,25 @@ For convenience, the [example.cfg](https://github.com/libbitcoin/libbitcoin-expl
 
 [general]
 
-# Only hd-new and stealth-encode currently use the testnet flag.
-# This option is of limited usefulness because most commands cannot honor it.
-# Currently libbitcoin must be recompiled to support testnet for most commands.
-testnet = false
+# Only hd-new and stealth-encode currently use the testnet distinction, apart from swapping servers.
+# The network to use, either 'mainnet' or 'testnet'. Defaults to 'mainnet'.
+network = mainnet
 
 # Number of times to retry contacting the server before giving up.
 retries = 0
 
 # Milliseconds to wait for a response from the server.
-wait = 2000
+wait = 10000
 
-[server]
+[mainnet]
 
-# The URI of the obelisk server.
-address = tcp://obelisk.unsystem.net:9091
+# The URL of the Obelisk mainnet server.
+url = tcp://obelisk.unsystem.net:9091
 
-# The base-16 encoded public key of the server.
-# public-key = 
+[testnet]
+
+# The URL of the Obelisk testnet server.
+url = tcp://obelisk.unsystem.net:10091
 ```
 
 The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
