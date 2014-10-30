@@ -14,6 +14,7 @@ Options (named):
                      'xml', defaults to 'info'.                          
 -h [--help]          Get a description and instructions for this command.
 ```
+If settings are not specified in a configuration file the defaults are populated.
 ### Example 1
 defaults
 ```sh
