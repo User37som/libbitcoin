@@ -3,13 +3,15 @@ Display the loaded configuration settings.
 $ bx settings --help
 ```
 ```
-Usage: bx settings [-h] [--config VALUE]                                 
+Usage: bx settings [-h] [--config VALUE] [--format VALUE]                
 
 Info: Display the loaded configuration settings.                         
 
 Options (named):
 
 -c [--config]        The path to the configuration settings file.        
+-f [--format]        The output format. Options are 'info', 'json' and   
+                     'xml', defaults to 'info'.                          
 -h [--help]          Get a description and instructions for this command.
 ```
 ### Example 1
@@ -17,22 +19,48 @@ defaults
 ```sh
 $ bx settings
 ```
-```
-general.retries = 0
-general.testnet = false
-general.wait = 2000
-server.url = tcp://obelisk.unsystem.net:9091
+```js
+settings
+{
+    general
+    {
+        network mainnet
+        retries 0
+        wait 2000
+    }
+    mainnet
+    {
+        url tcp://obelisk.unsystem.net:9091
+    }
+    testnet
+    {
+        url tcp://obelisk.unsystem.net:10091
+    }
+}
 ```
 ### Example 2
 --config bx.ini
 ```sh
 $ bx settings -c bx.cfg
 ```
-```
-general.retries = 2
-general.testnet = false
-general.wait = 10000
-server.url = tcp://obelisk-sol.airbitz.co:9091
+```js
+settings
+{
+    general
+    {
+        network testnet
+        retries 1
+        wait 10000
+    }
+    mainnet
+    {
+        url tcp://obelisk-sol.airbitz.co:9091
+    }
+    testnet
+    {
+        url tcp://obelisk-testnet.airbitz.co:9091
+    }
+}
 ```
 
 > This presumes the existence of `bx.cfg` with the above settings.
@@ -42,11 +70,24 @@ environment variable `BX_CONFIG=MyConfig/bx.cfg`
 ```sh
 $ bx settings
 ```
-```
-general.retries = 2
-general.testnet = false
-general.wait = 10000
-server.url = tcp://obelisk-sol.airbitz.co:9091
+```js
+settings
+{
+    general
+    {
+        network mainnet
+        retries 0
+        wait 10000
+    }
+    mainnet
+    {
+        url tcp://obelisk-sol.airbitz.co:9091
+    }
+    testnet
+    {
+        url tcp://obelisk.unsystem.net:10091
+    }
+}
 ```
 
 > This presumes the existence of `MyConfig/bx.cfg` with the above settings.
