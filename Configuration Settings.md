@@ -27,13 +27,13 @@ wait = 2000
 
 [mainnet]
 
-# The URL of the Obelisk mainnet server.
-url = tcp://obelisk.unsystem.net:9091
+# The URL of the default mainnet Obelisk server.
+url = tcp://obelisk-sol.airbitz.co:9091
 
 [testnet]
 
-# The URL of the Obelisk testnet server.
-url = tcp://obelisk.unsystem.net:10091
+# The URL of the default testnet Obelisk server.
+url = tcp://obelisk-testnet.airbitz.co:9091
 ```
 
 The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
