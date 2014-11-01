@@ -35,7 +35,7 @@ settings
     }
     testnet
     {
-        url tcp://obelisk.unsystem.net:10091
+        url tcp://obelisk-testnet.airbitz.co:9091
     }
 }
 ```
