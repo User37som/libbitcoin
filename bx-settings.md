@@ -31,7 +31,7 @@ settings
     }
     mainnet
     {
-        url tcp://obelisk-sol.airbitz.co:9091
+        url tcp://obelisk.airbitz.co:9091
     }
     testnet
     {
@@ -55,7 +55,7 @@ settings
     }
     mainnet
     {
-        url tcp://obelisk-sol.airbitz.co:9091
+        url tcp://obelisk.airbitz.co:9091
     }
     testnet
     {
