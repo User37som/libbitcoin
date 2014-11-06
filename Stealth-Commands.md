@@ -1,1 +1,1 @@
-![Stealth Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/master/img/stealth-commands.png)
+![Stealth Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/version2/img/stealth-commands.png)

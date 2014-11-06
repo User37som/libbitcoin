@@ -2,12 +2,12 @@
 * **[Home](Home)**
 * **General Information**
   * [Acronyms](Acronyms)
-  * [Build BX](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#installation)
-    * [Linux](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#debianubuntu)
-    * [Windows](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#windows)
-    * [Macintosh](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#macintosh)
+  * [Build BX](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#installation)
+    * [Linux](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#debianubuntu)
+    * [Windows](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#windows)
+    * [Macintosh](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#macintosh)
   * [Configuration Settings](Configuration-Settings)
-  * [Developer Info](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md#bitcoin-explorer)
+  * [Developer Info](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#bitcoin-explorer)
   * [Download BX](Download)
 * **Tutorials**
   * [How to Receive Bitcoin](How-to-Receive-Bitcoin)

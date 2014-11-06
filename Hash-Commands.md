@@ -1,1 +1,1 @@
-![Hash Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/master/img/hash-commands.png)
+![Hash Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/version2/img/hash-commands.png)

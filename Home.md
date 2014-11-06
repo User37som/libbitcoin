@@ -1,6 +1,6 @@
 *The Bitcoin Command Line Tool*
 
-This wiki contains a list of Bitcoin Explorer (BX) commands with examples (see menu on this page). The examples are drawn directly from BX [test cases](https://github.com/libbitcoin/libbitcoin-explorer/tree/master/test/commands) in the [source code](https://github.com/libbitcoin/libbitcoin-explorer). See the BX [readme](https://github.com/libbitcoin/libbitcoin-explorer/blob/master/README.md) for installation instructions and extensive developer documentation. If you encounter problems or have suggestions please use the BX [issues board](https://github.com/libbitcoin/libbitcoin-explorer/issues).
+This wiki contains a list of Bitcoin Explorer (BX) commands with examples (see menu on this page). The examples are drawn directly from BX [test cases](https://github.com/libbitcoin/libbitcoin-explorer/tree/version2/test/commands) in the [source code](https://github.com/libbitcoin/libbitcoin-explorer). See the BX [readme](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md) for installation instructions and extensive developer documentation. If you encounter problems or have suggestions please use the BX [issues board](https://github.com/libbitcoin/libbitcoin-explorer/issues).
 
 ### About Bitcoin Explorer
 
