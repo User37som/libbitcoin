@@ -1,6 +1,6 @@
 Validate and decompose a Bitcoin URI into its parts. 
 ```sh
-bx uri-decode -h
+$ bx uri-decode -h
 ```
 ```
 Usage: bx uri-decode [-h] [--config VALUE] [--format VALUE] [URI]        
@@ -20,3 +20,8 @@ URI                  The Bitcoin URI to decode. If not specified the URI
                      is read from STDIN.   
 ```
 ### Example 1
+```sh
+$ bx
+```
+```
+```
