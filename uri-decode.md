@@ -27,6 +27,8 @@ $ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L
 ```js
 uri
 {
+    address 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L
+    scheme bitcoin
 }
 ```
 ### Example 2
