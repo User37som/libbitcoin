@@ -20,8 +20,10 @@ URI                  The Bitcoin URI to decode. If not specified the URI
                      is read from STDIN.   
 ```
 ### Example 1
+[BIP-21](https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki) address
 ```sh
-$ bx uri-decode
+$ bx uri-decode bitcoin:175tWpb8K1S7NmH4Zx6rewF9WQrcZv245W
 ```
 ```
+
 ```
