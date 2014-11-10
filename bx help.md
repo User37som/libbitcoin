@@ -96,6 +96,8 @@ stealth-shared
 tx-decode
 tx-encode
 tx-sign
+uri-decode
+uri-encode
 validate-tx
 watch-address
 watch-tx
@@ -185,6 +187,8 @@ stealth-shared
 tx-decode
 tx-encode
 tx-sign
+uri-decode
+uri-encode
 validate-tx
 watch-address
 watch-tx
