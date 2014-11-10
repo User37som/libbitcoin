@@ -24,7 +24,7 @@ URI                  The Bitcoin URI to decode. If not specified the URI
 ```sh
 $ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L
 ```
-```
+```js
 uri
 {
 }
@@ -34,9 +34,12 @@ uri
 ```sh
 $ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?label=Luke-Jr
 ```
-```
+```js
 uri
 {
+    address 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L
+    label Luke-Jr
+    scheme bitcoin
 }
 ```
 ### Example 3
@@ -44,9 +47,12 @@ uri
 ```sh
 $ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?amount=20.3&label=Luke-Jr
 ```
-```
+```js
 uri
 {
+    address 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L
+    amount 2030000000
+    scheme bitcoin
 }
 ```
 ### Example 4
@@ -54,9 +60,13 @@ uri
 ```sh
 $ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?amount=50&label=Luke-Jr&message=Donation%20for%20project%20xyz
 ```
-```
+```js
 uri
 {
+    address 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L
+    amount 5000000000
+    message ??????
+    scheme bitcoin
 }
 ```
 ### Example 5
@@ -65,17 +75,17 @@ uri
 $ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?req-somethingyoudontunderstand=50&req-somethingelseyoudontget=999
 ```
 ```
-uri
-{
-}
+Error: the argument ('bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?req-somethingyoudontunderstand=50') for option URI is invalid
 ```
 ### Example 6
 [BIP-21](https://github.com/evoskuil/bips/blob/master/bip-0021.mediawiki#Examples) optional unknown parameters
 ```sh
 $ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?somethingyoudontunderstand=50&somethingelseyoudontget=999
 ```
-```
+```js
 uri
 {
+    address 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L
+    scheme bitcoin
 }
 ```
