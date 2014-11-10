@@ -33,6 +33,8 @@
   * [mnemonic-encode](bx-mnemonic-encode)
   * [qrcode](bx-qrcode)
   * [seed](bx-seed)
+  * [uri-decode](uri-decode)
+  * [uri-encode](uri-encode)
   * [wif-to-ec](bx-wif-to-ec)
   * [wif-to-public](bx-wif-to-public)
 * **[Stealth Commands](Stealth-Commands)**
