@@ -1,6 +1,6 @@
 Compose a Bitcoin URI from specified parts. 
 ```sh
-$ bx uri-encode -h
+$ bx uri-encode --help
 ```
 ```
 Usage: bx uri-encode [-h] [--amount VALUE] [--config VALUE] [--label     
