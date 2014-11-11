@@ -94,7 +94,7 @@ uri
 }
 ```
 ### Example 7
-Stealth address
+stealth address
 ```sh
 $ bx uri-decode "bitcoin:hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i"
 ```
@@ -102,6 +102,20 @@ $ bx uri-decode "bitcoin:hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira
 uri
 {
     address hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
+    scheme bitcoin
+}
+```
+### Example 8
+piped command
+```sh
+$ echo bitcoin:hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i?amount=99999999.99999999 | bx uri-decode
+```
+> Notice that the echo'd value is not quoted.
+```js
+uri
+{
+    address hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
+    amount=9999999999999999
     scheme bitcoin
 }
 ```
