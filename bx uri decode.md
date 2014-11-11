@@ -56,6 +56,7 @@ uri
 {
     address 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L
     amount 2030000000
+    label Luke-Jr
     scheme bitcoin
 }
 ```
