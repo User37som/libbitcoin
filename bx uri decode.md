@@ -107,7 +107,7 @@ uri
 }
 ```
 ### Example 8
-piped command
+piped uri
 ```sh
 $ echo bitcoin:hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i?amount=99999999.99999999 | bx uri-decode
 ```
@@ -118,6 +118,21 @@ uri
 {
     address hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
     amount 9999999999999999
+    scheme bitcoin
+}
+```
+### Example 9
+piped commands
+```sh
+$ bx uri-encode -a 20.3 -l Luke-Jr -m "Donation for project xyz" 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L | bx uri-decode
+```
+```js
+uri
+{
+    address 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L
+    amount 2030000000
+    label Luke-Jr
+    message "Donation for project xyz"
     scheme bitcoin
 }
 ```
