@@ -116,7 +116,7 @@ $ echo bitcoin:hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i?amount=
 uri
 {
     address hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
-    amount=9999999999999999
+    amount 9999999999999999
     scheme bitcoin
 }
 ```
