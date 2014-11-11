@@ -68,7 +68,8 @@ uri
 {
     address 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L
     amount 5000000000
-    message ??????
+    label Luke-Jr
+    message "Donation for project xyz"
     scheme bitcoin
 }
 ```
