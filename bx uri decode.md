@@ -22,7 +22,7 @@ URI                  The Bitcoin URI to decode. The URI should be quoted
 ```
 See also [uri-encode](bx-uri-encode).
 ### Example 1
-[BIP-21 Examples](https://github.com/evoskuil/bips/blob/master/bip-0021.mediawiki#Examples) Bitcoin address
+[BIP-21 Examples](https://github.com/evoskuil/bips/blob/master/bip-0021.mediawiki#Examples) address
 ```sh
 $ bx uri-decode "bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L"
 ```
