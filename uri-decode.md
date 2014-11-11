@@ -111,6 +111,7 @@ piped command
 $ echo bitcoin:hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i?amount=99999999.99999999 | bx uri-decode
 ```
 > Notice that the echo'd value is not quoted.
+
 ```js
 uri
 {
