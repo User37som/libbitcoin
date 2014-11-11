@@ -81,7 +81,7 @@ uri
 $ bx uri-decode "bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?req-somethingyoudontunderstand=50&req-somethingelseyoudontget=999"
 ```
 ```
-Error: the argument ('bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?req-somethingyoudontunderstand=50') for option URI is invalid
+Error: the argument ('bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?req-somethingyoudontunderstand=50&req-somethingelseyoudontget=999') for option URI is invalid
 ```
 ### Example 6
 [BIP-21 Examples](https://github.com/evoskuil/bips/blob/master/bip-0021.mediawiki#Examples) optional unknown parameters
