@@ -93,3 +93,15 @@ uri
     scheme bitcoin
 }
 ```
+### Example 7
+Stealth address
+```sh
+$ bx uri-decode "bitcoin:hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i"
+```
+```js
+uri
+{
+    address hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
+    scheme bitcoin
+}
+```
