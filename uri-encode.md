@@ -21,8 +21,9 @@ Options (named):
 
 Arguments (positional):
 
-BITCOIN_ADDRESS      The Bitcoin address for the address part. 
+BITCOIN_ADDRESS      The Bitcoin address for the address part.
 ```
+See also [uri-decode](bx-uri-decode).
 ### Example 1
 ```sh
 $ bx uri-encode
