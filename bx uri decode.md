@@ -20,6 +20,7 @@ URI                  The Bitcoin URI to decode. The URI should be quoted
                      when entered on the command line. If not specified  
                      the URI is read from STDIN.   
 ```
+See also [uri-decode](bx-uri-encode).
 ### Example 1
 [BIP-21 Examples](https://github.com/evoskuil/bips/blob/master/bip-0021.mediawiki#Examples) Bitcoin address
 ```sh
