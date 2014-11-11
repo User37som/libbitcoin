@@ -21,9 +21,9 @@ URI                  The Bitcoin URI to decode. The URI should be quoted
                      the URI is read from STDIN.   
 ```
 ### Example 1
-[BIP-21 Examples](https://github.com/evoskuil/bips/blob/master/bip-0021.mediawiki#Examples) address
+[BIP-21 Examples](https://github.com/evoskuil/bips/blob/master/bip-0021.mediawiki#Examples) Bitcoin address
 ```sh
-$ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L
+$ bx uri-decode "bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L"
 ```
 ```js
 uri
@@ -35,7 +35,7 @@ uri
 ### Example 2
 [BIP-21 Examples](https://github.com/evoskuil/bips/blob/master/bip-0021.mediawiki#Examples) address and label
 ```sh
-$ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?label=Luke-Jr
+$ bx uri-decode "bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?label=Luke-Jr"
 ```
 ```js
 uri
@@ -48,7 +48,7 @@ uri
 ### Example 3
 [BIP-21 Examples](https://github.com/evoskuil/bips/blob/master/bip-0021.mediawiki#Examples) address, amount and label
 ```sh
-$ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?amount=20.3&label=Luke-Jr
+$ bx uri-decode "bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?amount=20.3&label=Luke-Jr"
 ```
 ```js
 uri
@@ -61,7 +61,7 @@ uri
 ### Example 4
 [BIP-21 Examples](https://github.com/evoskuil/bips/blob/master/bip-0021.mediawiki#Examples) address, amount, label and message
 ```sh
-$ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?amount=50&label=Luke-Jr&message=Donation%20for%20project%20xyz
+$ bx uri-decode "bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?amount=50&label=Luke-Jr&message=Donation%20for%20project%20xyz"
 ```
 ```js
 uri
@@ -76,7 +76,7 @@ uri
 ### Example 5
 [BIP-21 Examples](https://github.com/evoskuil/bips/blob/master/bip-0021.mediawiki#Examples) required but unknown parameters
 ```sh
-$ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?req-somethingyoudontunderstand=50&req-somethingelseyoudontget=999
+$ bx uri-decode "bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?req-somethingyoudontunderstand=50&req-somethingelseyoudontget=999"
 ```
 ```
 Error: the argument ('bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?req-somethingyoudontunderstand=50') for option URI is invalid
@@ -84,7 +84,7 @@ Error: the argument ('bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?req-somethingyo
 ### Example 6
 [BIP-21 Examples](https://github.com/evoskuil/bips/blob/master/bip-0021.mediawiki#Examples) optional unknown parameters
 ```sh
-$ bx uri-decode bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?somethingyoudontunderstand=50&somethingelseyoudontget=999
+$ bx uri-decode "bitcoin:1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L?somethingyoudontunderstand=50&somethingelseyoudontget=999"
 ```
 ```js
 uri
