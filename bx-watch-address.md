@@ -160,4 +160,4 @@ watch_address
 }
 ```
 
-> Notice that the last transaction is unconfirmed and therefore shows up in block `0000000000000000000000000000000000000000000000000000000000000000`. The other transactions are both show in block `0000000000000000013aeff116df0b35ce5b98a3ef1880289323050858fe838e`, which was the most recent block at the time.
+> Notice that the last transaction is unconfirmed and therefore shows up in block `0000000000000000000000000000000000000000000000000000000000000000`. The other transactions are both shown in block `0000000000000000013aeff116df0b35ce5b98a3ef1880289323050858fe838e`, which was the most recent block at the time.
