@@ -90,7 +90,7 @@ The number of signatures is greater than the number of SPEND_PUBKEYs.
 ### Example 6
 --prefix 11111111110000000000111111111100
 ```sh
-$ bx stealth-address-encode -p 11111111110000000000111111111100 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+$ bx stealth-encode -p 11111111110000000000111111111100 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
 ```
 5b4Xkx9DVQj5nznykpKLeoNWHes1ZHJh3aCvxNNXUTuErKTyYq8NKX3xNb3Q7xg
