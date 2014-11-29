@@ -25,6 +25,8 @@ PREFIX               The Base2 stealth prefix used to locate
 This command supports [configuration settings](Configuration-Settings).
 
 The number of transactions matching a given prefix will increase over time.
+
+Changes to the stealth protocol are ongoing, and may invalidate the results below.
 ### Example 1
 ```sh
 $ bx fetch-stealth 101010
@@ -96,7 +98,7 @@ $ bx fetch-stealth -f json -t 325500 01
 }
 ```
 
-> Notice each transaction, for example [4e36b6ff...](https://blockchain.info/tx/4e36b6ff5630631489ff40a18fe764051898ad032eb2e0a3af4c12c1e03475cc), is identified with "Stealth Address Data".
+> Notice each transaction, for example [4e36b6ff...](https://blockchain.info/tx/4e36b6ff5630631489ff40a18fe764051898ad032eb2e0a3af4c12c1e03475cc), is identified with "Stealth Address Data". However this information may not be accurate due to changes in the stealth protocol.
 
 ### Example 3
 redirect to file, all stealth transactions 
