@@ -14,9 +14,9 @@ Options (named):
 -h [--help]          Get a description and instructions for this command.
 -p [--prefix]        The Base2 stealth prefix that will be used to locate
                      payments.                                           
--s [--signatures]    Specify the number of signatures required to spend a
-                     payment to the stealth address. Defaults to the     
-                     number of SPEND_PUBKEYs.                            
+-s [--signatures]    The number of signatures required to spend a payment
+                     to the stealth address. Defaults to the number of   
+                     SPEND_PUBKEYs.                                      
 
 Arguments (positional):
 
