@@ -1,6 +1,6 @@
 ### WARNING
 
-> These binaries are provided for your convenience. We cannot and do not guarantee that they will not steal your money or invade your privacy. If you desire such guarantees you are free to inspect the source code and build it yourself. **By downloading a binary copy of BX you accept all responsibility for its use and behavior.**
+These binaries are provided for your convenience. We cannot and do not guarantee that they will not steal your money or invade your privacy. If you desire such guarantees you are free to inspect the source code and build it yourself. **By downloading a binary copy of BX you accept all responsibility for its use and behavior.**
 
 ### Download
 
@@ -16,7 +16,7 @@ You should verify that the binary you receive is the one that we published. The 
 ### Self Verification
 Trusted versions of BX can also be used to verify other versions. The following command pipes `bx.exe` from the `new/` subdirectory into the `BASE16` argument of the [sha160 command](bx-sha160).
 
-> In the interest of consistency BX refers to SHA-1 by its less common name of SHA-160, since the algorithm produces a 160 bit value. BX is not optimized for large hashing operations so this script can take a few seconds to complete.
+In the interest of consistency BX refers to SHA-1 by its less common name of SHA-160, since the algorithm produces a 160 bit value. BX is not optimized for large hashing operations so this script can take a few seconds to complete.
 
 ```sh
 $ bx base16-encode < new/bx.exe | bx sha160
