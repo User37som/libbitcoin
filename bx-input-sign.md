@@ -31,7 +31,7 @@ TRANSACTION          The Base16 transaction. If not specified the
 ```
 This command generates an endorsement for a transaction but does not apply it to the transaction. An endorsement is a digital signature of a input (the output of a previous transaction) which authorizes transfer of value as specified by the current transaction.
 ### Example 1
-one input, one output, standard prevout script, --sign_type all
+*one input, one output, standard prevout script, --sign_type all*
 
 Start with one **input** point and one **output** point as follows.
 ```
