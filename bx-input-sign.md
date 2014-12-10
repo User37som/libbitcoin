@@ -1,12 +1,12 @@
-Create a signature for a transaction input.
+Create an endorsement for a transaction input.
 ```sh
 $ bx input-sign --help
 ```
 ```
-Usage: bx input-sign [-h] --nonce VALUE [--config VALUE] [--index VALUE] 
-[--sign_type VALUE] EC_PRIVATE_KEY PREVOUT_SCRIPT [TRANSACTION]          
+Usage: bx input-sign [-h] [--config VALUE] [--index VALUE] [--nonce      
+VALUE] [--sign_type VALUE] EC_PRIVATE_KEY PREVOUT_SCRIPT [TRANSACTION]   
 
-Info: Create a Bitcoin signature for a transaction input.                
+Info: Create an endorsement for a transaction input.                     
 
 Options (named):
 
@@ -15,7 +15,9 @@ Options (named):
 -i [--index]         The ordinal position of the input within the        
                      transaction, defaults to zero.                      
 -n [--nonce]         The Base16 random value used to seed a signing      
-                     nonce. Must be at least 128 bits in length.         
+                     nonce. Must be at least 128 bits in length. If not  
+                     specified the deterministic signature algorithm is  
+                     used.                                               
 -s [--sign_type]     A token that indicates how the transaction should be
                      hashed for signing. Options are 'all', 'none',      
                      'single', and 'anyone_can_pay', defaults to 'all'.  
@@ -27,7 +29,7 @@ PREVOUT_SCRIPT       The previous output script to use in signing.
 TRANSACTION          The Base16 transaction. If not specified the        
                      transaction is read from STDIN.
 ```
-This command generates a signature for a transaction but does not apply it to the transaction.
+This command generates an endorsement for a transaction but does not apply it to the transaction. An endorsement is a digital signature of a input (the output of a previous transaction) which authorizes transfer of value as specified by the current transaction.
 ### Example 1
 one input, one output, standard prevout script, --sign_type all
 
@@ -102,7 +104,7 @@ $ bx tx-encode -i 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c9401
 ```
 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
-Create a **signature** for the transaction, nonce, private key, previous output script and the transaction.
+Create an **endorsement** for the transaction, nonce, private key, previous output script and the transaction.
 ```sh
 $ bx input-sign -n 707e3d717925ba2e98234dd6f3a38eb5 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 "dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig" 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
