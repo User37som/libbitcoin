@@ -46,7 +46,7 @@ $ bx seed
 707e3d717925ba2e98234dd6f3a38eb5 
 ```
 
-> The above step is now optional as a nonce is no longer required. From a security standpoint it is preferrable to *not* specify a nonce.
+> The above step is now optional as a nonce is no longer required. From a security standpoint it is preferable to *not* specify a nonce.
 
 Obtain the previous output **script** from the input point.
 ```sh
