@@ -101,6 +101,9 @@ $ bx seed
 ```
 707e3d717925ba2e98234dd6f3a38eb5
 ```
+
+> The above step is now optional as a nonce is no longer required. From a security standpoint it is preferable to not specify a nonce.
+
 Create a **signature** for the first input `7c3e880e...:0` of the new transaction, using the private key, nonce, previous output script and the new transaction. The script is obtained from `transaction.outputs[0].script` in the input's transaction.
 ```sh
 $ bx input-sign -n 707e3d717925ba2e98234dd6f3a38eb5 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 "dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig" 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
