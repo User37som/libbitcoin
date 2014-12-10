@@ -1,5 +1,6 @@
 ### BX Menu
 * **[Home](Home)**
+* **[DOWNLOADS](Downloads)
 * **General Information**
   * [Acronyms](Acronyms)
   * [Build BX](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#installation)
@@ -8,7 +9,6 @@
     * [Macintosh](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#macintosh)
   * [Configuration Settings](Configuration-Settings)
   * [Developer Info](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#bitcoin-explorer)
-  * [DOWNLOAD BX](Download)
 * **Tutorials**
   * [How to Receive Bitcoin](How-to-Receive-Bitcoin)
   * [How to Spend Bitcoin](How-to-Spend-Bitcoin)
