@@ -46,7 +46,7 @@ $ bx seed
 707e3d717925ba2e98234dd6f3a38eb5 
 ```
 
-> In future versions the above step will be unnecessary and the `--nonce` parameter will be made optional.
+> The above step is optional as a nonce is no longer required.
 
 Obtain the previous output **script** from the input point.
 ```sh
