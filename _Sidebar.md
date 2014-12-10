@@ -1,6 +1,6 @@
 ### BX Menu
 * **[Home](Home)**
-* **[DOWNLOADS](Downloads)
+* **[DOWNLOADS](Downloads)**
 * **General Information**
   * [Acronyms](Acronyms)
   * [Build BX](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#installation)
