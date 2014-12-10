@@ -92,7 +92,7 @@ transaction
     version 1
 }
 ```
-Notice that `transactions.inputs[0].script` is empty. This means that the input has not been signed.
+Notice that `transactions.inputs[0].script` is empty. This means that the input has not been endorsed.
 
 Generate a random **nonce**.
 ```sh
@@ -104,14 +104,14 @@ $ bx seed
 
 > The above step is now optional as a nonce is no longer required. From a security standpoint it is preferable to *not* specify a nonce.
 
-Create a **signature** for the first input `7c3e880e...:0` of the new transaction, using the private key, nonce, previous output script and the new transaction. The script is obtained from `transaction.outputs[0].script` in the input's transaction.
+Create an **endorsement** for the first input `7c3e880e...:0` of the new transaction, using the private key, nonce, previous output script and the new transaction. The script is obtained from `transaction.outputs[0].script` in the input's transaction.
 ```sh
 $ bx input-sign -n 707e3d717925ba2e98234dd6f3a38eb5 4ce3eb6bd06c224e3c355352a488720efc5ac9fe527a219ad35178c3cf762350 "dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig" 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
 ```
 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022037109f0d06e6068b7447966f751de8474641ad2b15ec37f4a9d159b02af6817401
 ```
-Create a **signature script** using the signature and public key, and assign it to the first input of the transaction.
+Create an **endorsement script** using the endorsement and public key, and assign it to the first input of the transaction.
 ```js
 $ bx input-set "[ 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022037109f0d06e6068b7447966f751de8474641ad2b15ec37f4a9d159b02af6817401 ] [ 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 ]" 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
@@ -153,14 +153,14 @@ transaction
     version 1
 }
 ```
-Notice that the signature script has been applied to `transaction.inputs[0].script` and that `transaction.hash` has been updated.
+Notice that the endorsement script has been applied to `transaction.inputs[0].script` and that `transaction.hash` has been updated.
 
-**Validate** the signature of the transaction's first input, using the public key, previous output script, signature and transaction (optional).
+**Validate** the endorsement of the transaction's first input, using the public key, previous output script, endorsement and transaction (optional).
 ```sh
 $ bx input-validate 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 "dup hash160 [ c564c740c6900b93afc9f1bdaef0a9d466adf6ee ] equalverify checksig" 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022037109f0d06e6068b7447966f751de8474641ad2b15ec37f4a9d159b02af6817401 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c000000006b4830450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022037109f0d06e6068b7447966f751de8474641ad2b15ec37f4a9d159b02af68174012103e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
 ```
-The signature is valid.
+The endorsement is valid.
 ```
 **Validate** the transaction against the blockchain (optional).
 ```sh
