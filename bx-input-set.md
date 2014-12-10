@@ -4,7 +4,7 @@ $ bx input-set --help
 ```
 ```
 Usage: bx input-set [-h] [--config VALUE] [--index VALUE]                
-SIGNATURE_SCRIPT [TRANSACTION]                                           
+ENDORSEMENT_SCRIPT [TRANSACTION]                                         
 
 Info: Assign a script to an existing transaction input.                  
 
@@ -17,7 +17,7 @@ Options (named):
 
 Arguments (positional):
 
-SIGNATURE_SCRIPT     The signature script to assign to the input.        
+ENDORSEMENT_SCRIPT   The endorsement script to assign to the input.      
 TRANSACTION          The Base16 transaction. If not specified the        
                      transaction is read from STDIN.
 ```
