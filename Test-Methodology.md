@@ -1,3 +1,24 @@
+Testing is no substitute for good design. However desigining for testability is a forcing function for good design. For example a rigorous approach to unit testing leads directly to smaller and less conditional units and to a significant reduction in testable surface area through [elimination of repitition](http://en.wikipedia.org/wiki/Don't_repeat_yourself). These side effects of rigorous test methodology produce measurable benefits in the reduction of code complexity.
+
+We break test scope into three distinct categories:
+
+#### Unit Test
+In order for unit testing to be meaningful a unit must have defined boundaries. The term unit refers to the scope of source code under test. The smallest independently testable unit of source code is a function or method. Therefore we consider a unit test as that which isolates test failures to a single function or method under test. External libraries are considered tested and are therefore not required to be isolated.
+
+Faking is the process of isolating a unit and is accomplished through overriding [virtual methods](http://en.wikipedia.org/wiki/Virtual_function), [dependency injection](http://en.wikipedia.org/wiki/Dependency_injection) and [mocking](http://en.wikipedia.org/wiki/Mock_object). To achieve unit isolation the code under test much achieve complete [inversion of control](http://en.wikipedia.org/wiki/Inversion_of_control) (IoC).
+
+> BX exposes most public functionality via classes with full virtual interfaces, allowing depending libraries to utilize these techniques in the development of testable code. Some utility functions have yet to be virtualized (TODO). BX itself does not yet achieve full IoC due primarily to the lack of an [IoC container](http://www.martinfowler.com/articles/injection.html).
+
+#### Component Test
+Component testing verifies the interaction between a set of units. Ideally this is a supplement to unit testing, not a substitute. If discrete functionality is called for by design then testing it in isolation is the only way to ensure the design objective has been met. Just as a unit test must isolate failures to the unit under test, a component test must isolate failures to the set of units under test.
+
+> Component testing can be a useful iterative design tool, but is not essential to regression detection or completeness verification. These are the respective roles of unit and functional tests. As BX itself does not yet achieve full inversion of control most test coverage is achieved through component testing.
+
+### Functional Test
+Functional testing might also be called "acceptance testing". It consists of testing the application as a single unit, which precludes any isolation of units behind the public interface. In other words faking is not an aspect of functional testing. The application is tested using a harness that is applied to the interface that the end user is expected to utilize. The execution environment may be controlled to any extent, but the application may not be modified. Because of this it can be hard if not impossible to reach various code paths.
+
+Functional testing is easier to implement than testing in isolation. There are no design constraints on the application. However functional testing is an unreliable indicator of regression. The application environment is not faked and therefore environmental changes can lead to spurious failures. For example, functional tests of network commands can and do fail due to situations beyond the control of the code under test.
+
 #### No Test Hooks
 We define a test hook as an interface to the production application that exists for the purpose of testing. Test hooks are also known as "back doors" and we avoid them as bad test and production practice. Functional testing is applied to the only/public interface. Code that is hard to reach in a functional environment (e.g. handling a network failure) should be covered in unit and, if desired, component testing.
 
