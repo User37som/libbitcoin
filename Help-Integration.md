@@ -15,6 +15,8 @@ $ bx help address-decode
 The help command also supports the `--help` option:
 ```sh
 $ bx help --help
+```
+```
 Get a description and instructions for this command.
 ```
 An invalid command will result in a message to STDERR indicating that the command is not valid and to invoke `bx help` to see a list of commands.
