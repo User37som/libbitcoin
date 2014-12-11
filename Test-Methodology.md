@@ -1,4 +1,4 @@
-Testing is no substitute for good design. However desigining for testability is a forcing function for good design. For example a rigorous approach to unit testing leads directly to smaller and less conditional units and to a significant reduction in testable surface area through [elimination of repitition](http://en.wikipedia.org/wiki/Don't_repeat_yourself). These side effects of rigorous test methodology produce measurable benefits in the reduction of code complexity.
+Testing is no substitute for good design. However designing for testability is a forcing function for good design. For example a rigorous approach to unit testing leads directly to smaller and less conditional units and to a significant reduction in testable surface area through [elimination of repetition](http://en.wikipedia.org/wiki/Don't_repeat_yourself). These side effects of rigorous test methodology produce measurable benefits in the reduction of code complexity.
 
 We break test scope into three distinct categories:
 
