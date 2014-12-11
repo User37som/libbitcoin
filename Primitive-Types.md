@@ -2,10 +2,10 @@ BX defines the following set of primitive types in the `bx::primitives` namespac
 ```
 address
 base2
-base10
 base16
 base58
 base64
+btc
 btc160
 btc256
 ec_private
