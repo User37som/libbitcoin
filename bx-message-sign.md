@@ -18,6 +18,7 @@ WIF                  The WIF private key to use for signing.
 MESSAGE              The binary message data to sign. If not specified   
                      the message is read from STDIN.
 ```
+See also [message-validate](bx-message-validate).
 ### Example 1
 ```sh
 $ bx 
