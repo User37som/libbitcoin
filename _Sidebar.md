@@ -46,7 +46,7 @@
   * [wif-to-public](bx-wif-to-public)
 * **[Messaging Commands](Messaging-Commands)**
   * [message-sign](bx-message-sign)
-  * [message-verify](bx-message-verify)
+  * [message-validate](bx-message-validate)
 * **[Stealth Commands](Stealth-Commands)**
   * [stealth-decode](bx-stealth-decode)
   * [stealth-encode](bx-stealth-encode)
