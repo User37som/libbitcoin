@@ -15,7 +15,7 @@ Each download is a single executable file.
 | [Windows]()   | testnet | 2.0.0 | This build is not yet available. |
 
 ### Verification
-You should verify that the binary you receive is the one that we published. The binary is a single file. Its authenticity can be determined by [performing a SHA-1 hash](http://onlinemd5.com) on the file and comparing the resulting value to the that in the table above. The encoding is base-16 and therefore is case insensitive.
+You should verify that the binary you receive is the one that we published. Its authenticity can be determined by [performing a SHA-1 hash](http://onlinemd5.com) on the file and comparing the resulting value to the that in the table above. The encoding is base-16 and therefore is case insensitive.
 
 ### Self Verification
 Trusted versions of BX can also be used to verify other versions. The following command pipes `bx.exe` from the `new/` subdirectory into the `BASE16` argument of the [sha160 command](bx-sha160). BX refers to SHA-1 by its less common name of SHA-160, since the algorithm produces a 160 bit value.
