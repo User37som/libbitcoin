@@ -1,4 +1,3 @@
-### Primitive Types
 BX defines the following set of primitive types in the `bx::primitives` namespace.
 ```
 address
