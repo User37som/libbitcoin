@@ -18,3 +18,10 @@ WIF                  The WIF private key to use for signing.
 MESSAGE              The binary message data to sign. If not specified   
                      the message is read from STDIN.
 ```
+### Example 1
+```sh
+$ bx 
+```
+```
+
+```
