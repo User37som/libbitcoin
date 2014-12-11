@@ -1,7 +1,7 @@
 Create a new HD (BIP32) private key from entropy.   
 ```sh
-```
 $ bx hd-new --help
+```
 ```
 Usage: bx hd-new [-h] [--config VALUE] [SEED]                            
 
