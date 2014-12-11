@@ -97,4 +97,6 @@
   * [ec-add-secrets](bx-ec-add-secrets)
   * [ec-multiply](bx-ec-multiply)
   * [ec-multiply-secrets](bx-ec-multiply-secrets)
+  * [message-sign](bx-message-sign)
+  * [message-verify](bx-message-verify)
   * [satoshi-to-btc](bx-satoshi-to-btc)
