@@ -21,7 +21,7 @@ RIPEMD160            The Base16 hash to convert. If not specified the
 ```
 See the [list of Bitcoin address prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes) for a detailed description of `version`.
 
-See also [address-decode](address-decode).
+See also [address-decode](bx-address-decode).
 ### Example 1
 ```sh
 $ bx address-encode b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
