@@ -3,7 +3,7 @@ Create a message signature.
 $ bx message-sign --help
 ```
 ```
-Usage: bx message-sign [-h] [--config VALUE] [WIF] [MESSAGE]             
+Usage: bx message-sign [-h] [--config VALUE] WIF [MESSAGE]               
 
 Info: Create a message signature.                                        
 
