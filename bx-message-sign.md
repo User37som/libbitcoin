@@ -15,5 +15,6 @@ Options (named):
 Arguments (positional):
 
 WIF                  The WIF private key to use for signing.             
-MESSAGE              The binary message data to sign.
+MESSAGE              The binary message data to sign. If not specified   
+                     the message is read from STDIN.
 ```
