@@ -69,7 +69,7 @@
   * [validate-tx](bx-validate-tx)
   * [watch-address](bx-watch-address)
   * [watch-tx](bx-watch-tx)
-* **[Format Commands](Format-Commands)**
+* **[Encoding Commands](Format-Commands)**
   * [address-decode](bx-address-decode)
   * [address-embed](bx-address-embed)
   * [address-encode](bx-address-encode)
