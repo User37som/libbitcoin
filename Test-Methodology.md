@@ -7,12 +7,12 @@ In order for unit testing to be meaningful a unit must have defined boundaries. 
 
 Faking is the process of isolating a unit and is accomplished through overriding [virtual methods](http://en.wikipedia.org/wiki/Virtual_function), [dependency injection](http://en.wikipedia.org/wiki/Dependency_injection) and [mocking](http://en.wikipedia.org/wiki/Mock_object). To achieve unit isolation the code under test much achieve complete [inversion of control](http://en.wikipedia.org/wiki/Inversion_of_control) (IoC).
 
-> BX exposes most public functionality via classes with full virtual interfaces, allowing depending libraries to utilize these techniques in the development of testable code. Some utility functions have yet to be virtualized (TODO). BX itself does not yet achieve full IoC due primarily to the lack of an [IoC container](http://www.martinfowler.com/articles/injection.html).
+BX exposes most public functionality via classes with full virtual interfaces, allowing depending libraries to utilize these techniques in the development of testable code. Some utility functions have yet to be virtualized. BX itself does not yet achieve full IoC due primarily to the lack of an [IoC container](http://www.martinfowler.com/articles/injection.html).
 
 #### Component Test
 Component testing verifies the interaction between a set of units. Ideally this is a supplement to unit testing, not a substitute. If discrete functionality is called for by design then testing it in isolation is the only way to ensure the design objective has been met. Just as a unit test must isolate failures to the unit under test, a component test must isolate failures to the set of units under test.
 
-> Component testing can be a useful iterative design tool, but is not essential to regression detection or completeness verification. These are the respective roles of unit and functional tests. As BX itself does not yet achieve full inversion of control most test coverage is achieved through component testing.
+Component testing can be a useful iterative design tool, but is not essential to regression detection or completeness verification. These are the respective roles of unit and functional tests. As BX itself does not yet achieve full inversion of control most test coverage is achieved through component testing.
 
 ### Functional Test
 Functional testing might also be called "acceptance testing". It consists of testing the application as a single unit, which precludes any isolation of units behind the public interface. In other words faking is not an aspect of functional testing. The application is tested using a harness that is applied to the interface that the end user is expected to utilize. The execution environment may be controlled to any extent, but the application may not be modified. Because of this it can be hard if not impossible to reach various code paths.
