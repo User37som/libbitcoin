@@ -21,3 +21,11 @@ MESSAGE              The binary message data for which the signature
                      applies. If not specified the message is read from  
                      STDIN.
 ```
+See also [message-sign](bx-message-sign).
+### Example 1
+```sh
+$ bx 
+```
+```
+
+```
