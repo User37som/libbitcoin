@@ -1,14 +1,21 @@
 ### BX Menu
 * **[Home](Home)**
 * **[Download](Download)**
+* **[Build](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md)**
 * **General Information**
   * [Acronyms](Acronyms)
-  * [Build BX](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#installation)
-    * [Linux](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#debianubuntu)
-    * [Windows](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#windows)
-    * [Macintosh](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#macintosh)
+  * [Background](Background)
   * [Configuration Settings](Configuration-Settings)
-  * [Developer Info](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/README.md#bitcoin-explorer)
+* **Developer Information**
+  * [Design Overview](Design-Overview)
+  * [Explorer Library](Explorer-Library)
+  * [Commands](Commands)
+  * [Primitive Types](Primitive-Types)
+  * [Input Processing](Input-Processing)
+  * [Output Processing](Output-Processing)
+  * [Help Integration](Help-Integration)
+  * [Test Methodology](Test-Methodology)
+  * [Random Numbers](Random-Numbers)
 * **Tutorials**
   * [How to Receive Bitcoin](How-to-Receive-Bitcoin)
   * [How to Spend Bitcoin](How-to-Spend-Bitcoin)
