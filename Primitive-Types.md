@@ -1,5 +1,5 @@
 ### Primitive Types
-BX defines the following set of Bitcoin primitive types in the `bx::primitives` namespace.
+BX defines the following set of primitive types in the `bx::primitives` namespace.
 ```
 address
 base2
