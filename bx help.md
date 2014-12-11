@@ -75,7 +75,7 @@ input-set
 input-sign
 input-validate
 message-sign
-message-verify
+message-validate
 mnemonic-decode
 mnemonic-encode
 qrcode
@@ -170,7 +170,7 @@ input-set
 input-sign
 input-validate
 message-sign
-message-verify
+message-validate
 mnemonic-decode
 mnemonic-encode
 qrcode
