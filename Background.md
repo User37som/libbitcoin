@@ -1,6 +1,6 @@
 Bitcoin Explorer is a fork of the popular [SX](https://sx.dyne.org/index.html) command line tool. Many of the commands and their parameters are identical to SX although many have changed, some have been obsoleted and others have been added. Where command names differ BX redirects the user.
 
-**Old command:**
+**Old command**
 
 ```sh
 $ bx addr 03649860a9787e92db4b5371017e38ae36503f3007dc98498ef5f6cd7cfc4bfa4e
@@ -8,7 +8,7 @@ $ bx addr 03649860a9787e92db4b5371017e38ae36503f3007dc98498ef5f6cd7cfc4bfa4e
 ```
 The 'addr' command has been replaced by 'ec-to-address'.
 ```
-**New command:**
+**New command**
 ```sh
 $ bx ec-to-address 03649860a9787e92db4b5371017e38ae36503f3007dc98498ef5f6cd7cfc4bfa4e
 ```
