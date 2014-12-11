@@ -6,6 +6,7 @@
   * [Acronyms](Acronyms)
   * [Background](Background)
   * [Configuration Settings](Configuration-Settings)
+  * [Random Numbers](Random-Numbers)
 * **Developer Information**
   * [Design Overview](Design-Overview)
   * [Explorer Library](Explorer-Library)
@@ -15,7 +16,6 @@
   * [Output Processing](Output-Processing)
   * [Help Integration](Help-Integration)
   * [Test Methodology](Test-Methodology)
-  * [Random Numbers](Random-Numbers)
 * **Tutorials**
   * [How to Receive Bitcoin](How-to-Receive-Bitcoin)
   * [How to Spend Bitcoin](How-to-Spend-Bitcoin)
