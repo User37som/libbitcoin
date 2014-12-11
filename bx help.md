@@ -39,6 +39,8 @@ base58-decode
 base58-encode
 base58check-decode
 base58check-encode
+base64-decode
+base64-encode
 bitcoin160
 bitcoin256
 btc-to-satoshi
@@ -72,6 +74,8 @@ help
 input-set
 input-sign
 input-validate
+message-sign
+message-verify
 mnemonic-decode
 mnemonic-encode
 qrcode
@@ -130,6 +134,8 @@ base58-decode
 base58-encode
 base58check-decode
 base58check-encode
+base64-decode
+base64-encode
 bitcoin160
 bitcoin256
 btc-to-satoshi
@@ -163,6 +169,8 @@ help
 input-set
 input-sign
 input-validate
+message-sign
+message-verify
 mnemonic-decode
 mnemonic-encode
 qrcode
