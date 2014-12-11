@@ -3,8 +3,8 @@ Validate a message signature.
 $bx message-validate --help
 ```
 ```
-Usage: bx message-validate [-h] [--config VALUE] [BITCOIN_ADDRESS]       
-[SIGNATURE] [MESSAGE]                                                    
+Usage: bx message-validate [-h] [--config VALUE] BITCOIN_ADDRESS         
+SIGNATURE [MESSAGE]                                                      
 
 Info: Validate a message signature.                                      
 
