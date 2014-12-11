@@ -14,7 +14,7 @@ Component testing verifies the interaction between a set of units. Ideally this 
 
 Component testing can be a useful iterative design tool, but is not essential to regression detection or completeness verification. These are the respective roles of unit and functional tests. As BX itself does not yet achieve full inversion of control most test coverage is achieved through component testing.
 
-### Functional Test
+#### Functional Test
 Functional testing might also be called "acceptance testing". It consists of testing the application as a single unit, which precludes any isolation of units behind the public interface. In other words faking is not an aspect of functional testing. The application is tested using a harness that is applied to the interface that the end user is expected to utilize. The execution environment may be controlled to any extent, but the application may not be modified. Because of this it can be hard if not impossible to reach various code paths.
 
 Functional testing is easier to implement than testing in isolation. There are no design constraints on the application. However functional testing is an unreliable indicator of regression. The application environment is not faked and therefore environmental changes can lead to spurious failures. For example, functional tests of network commands can and do fail due to situations beyond the control of the code under test.
