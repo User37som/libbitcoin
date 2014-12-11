@@ -21,8 +21,8 @@ MESSAGE              The binary message data to sign. If not specified
 See also [message-validate](bx-message-validate).
 ### Example 1
 ```sh
-$ bx 
+$ bx message-sign L13gvvM3TtL2EmfBdye8tp4tQhcbCG3xz3VPrBjSZL8MeJavLL8K "Let us speak no more of faith in man, but bind him down from mischief by the chains of cryptography."
 ```
 ```
-
+INjouW95WM+sbzZ5z2rN/DBDpDwNuEWJ2xQqA+G3zm3MRDFUNPwImCSSX3dHQscxic0id+cxxiQjxEoRTDAuaPU=
 ```
