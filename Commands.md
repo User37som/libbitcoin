@@ -25,7 +25,7 @@ The following diagrams show the full set of commands, input/output data types an
 ```
 Commands pertaining to bitcoin keys and payment addresses.
 ```
-<img src="/img/wallet-commands.png" width="30%" height="30%"></img>
+<img src="https://github.com/libbitcoin/libbitcoin-explorer/tree/img/wallet-commands.png" width="30%" height="30%"></img>
 
 ##### Stealth Commands
 ```
