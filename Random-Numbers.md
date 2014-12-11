@@ -7,4 +7,4 @@ $ bx seed 256
 ```
 e4d28a5972ce0785477f39f58e424c5ef643b26894c50f8e024601f87736b8fe 
 ```
-BX utilizes libbitcoin's deterministic ECDSA signing by default and as such requires no random seed, although the option to use a seed is supported by the `input-sign` command.
+BX utilizes libbitcoin's deterministic ECDSA signing by default and as such requires no random seed, although the `input-sign` command gives the option to import a seed.
