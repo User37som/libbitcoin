@@ -23,7 +23,7 @@ TRANSACTION          The Base16 transaction. If not specified the
 ```
 This command is used to endorse a transaction input, modifying the transaction. The resulting transaction can then be validated against the blockchain using the [validate-tx](bx-validate-tx) command, or broadcast to the blockchain using the [send-tx](bx-send-tx), [send-tx-node](bx-send-tx-node) or [send-tx-p2p](bx-send-tx-p2p) command.
 ### Example 1
-*assign an endorsement script to the first transaction input, --index 0*
+Assign an endorsement script to the first transaction input, --index 0
 
 For the [previous step](bx-input-sign#example-1) see Example 1 of the `input-sign` command.
 
