@@ -69,7 +69,7 @@
   * [validate-tx](bx-validate-tx)
   * [watch-address](bx-watch-address)
   * [watch-tx](bx-watch-tx)
-* **[Hash Commands](Hash-Commands)**
+* **[Format Commands](Format-Commands)**
   * [address-decode](bx-address-decode)
   * [address-embed](bx-address-embed)
   * [address-encode](bx-address-encode)
@@ -78,16 +78,19 @@
   * [base16-encode](bx-base16-encode)
   * [base58-decode](bx-base58-decode)
   * [base58-encode](bx-base58-encode)
+  * [base64-decode](bx-base64-decode)
+  * [base64-encode](bx-base64-encode)
   * [base58check-decode](bx-base58check-decode)
   * [base58check-encode](bx-base58check-encode)
+  * [wrap-decode](bx-wrap-decode)
+  * [wrap-encode](bx-wrap-encode)
+* **[Hash Commands](Hash-Commands)**
   * [bitcoin160](bx-bitcoin160)
   * [bitcoin256](bx-bitcoin256)
   * [ripemd160](bx-ripemd160)
   * [sha160](bx-sha160)
   * [sha256](bx-sha256)
   * [sha512](bx-sha512)
-  * [wrap-decode](bx-wrap-decode)
-  * [wrap-encode](bx-wrap-encode)
 * **[Math Commands](Math-Commands)**
   * [btc-to-satoshi](bx-btc-to-satoshi)
   * [ec-add](bx-ec-add)
