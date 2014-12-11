@@ -21,6 +21,8 @@ BITCOIN_ADDRESS      The Bitcoin address to convert. If not specified the
                      address is read from STDIN.
 ```
 These examples demonstrate the use of the `--format` option, which is available on a number of commands. The default format for any command is `info`. The `info` format is similar to `json` but optimized for human readability.
+
+See also [address-encode](bx-address-encode).
 ### Example 1
 ```sh
 $ bx address-decode 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
