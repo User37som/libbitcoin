@@ -16,7 +16,7 @@ BX achieves this objective in all tests with the exception that return code and 
 #### Independent Tests
 All tests should be able to run concurrently and in any order. Global and static state precludes this objective and is avoided. 
 
-> BX achieves this objective as a matter of design. Typical test runs are configured with concurrency and order randomization.
+BX achieves this objective as a matter of design. Typical test runs are configured with concurrency and order randomization.
 
 #### Code Coverage
 All code paths within a library under test should be covered. In other words the library should provide 100% non-functional test coverage by line. Coverage metrics should be published from regular test execution. External libraries are presumed to be tested independently.
