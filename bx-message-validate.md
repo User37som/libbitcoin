@@ -1,6 +1,6 @@
 Validate a message signature.
 ```sh
-$bx message-validate --help
+$ bx message-validate --help
 ```
 ```
 Usage: bx message-validate [-h] [--config VALUE] BITCOIN_ADDRESS         
