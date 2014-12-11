@@ -37,6 +37,9 @@
   * [uri-encode](bx-uri-encode)
   * [wif-to-ec](bx-wif-to-ec)
   * [wif-to-public](bx-wif-to-public)
+* **[Messaging Commands](Messaging-Commands)**
+  * [message-sign](bx-message-sign)
+  * [message-verify](bx-message-verify)
 * **[Stealth Commands](Stealth-Commands)**
   * [stealth-decode](bx-stealth-decode)
   * [stealth-encode](bx-stealth-encode)
@@ -97,6 +100,4 @@
   * [ec-add-secrets](bx-ec-add-secrets)
   * [ec-multiply](bx-ec-multiply)
   * [ec-multiply-secrets](bx-ec-multiply-secrets)
-  * [message-sign](bx-message-sign)
-  * [message-verify](bx-message-verify)
   * [satoshi-to-btc](bx-satoshi-to-btc)
