@@ -21,9 +21,6 @@ With a previously-verified version of BX you can verify the integrity and origin
 ```sh
 $ bx message-validate 1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7 HyTjsXlSGktaG2W9wbnhzdvRohZSs4kH5DP4lUqDmy2DXoLMo9P5kAVAdf54sPGmycHwVo0kevxM0pdkk6AU2XA= < bx-osx-x64-mainnet-2.0.0
 ```
-```
-The signature is valid.
-```
 
 ### File Validation
 You can verify the integrity of the download by [performing a SHA-1 hash](http://onlinemd5.com) on the file and comparing the resulting value to the that in the table above. The encoding is base-16 and therefore not case sensitive. This does not validate the origin of the file.
