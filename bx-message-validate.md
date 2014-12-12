@@ -21,6 +21,8 @@ MESSAGE              The binary message data for which the signature
                      applies. If not specified the message is read from  
                      STDIN.
 ```
+A valid signature proves ownership of the Bitcoin address used in validation. However it is important that the message used in verification be unpredictable to the signer and provided by the party requiring the validation. Otherwise the process becomes subject to a [replay attack](http://en.wikipedia.org/wiki/Replay_attack).
+
 See also [message-sign](bx-message-sign).
 ### Example 1
 ```sh
