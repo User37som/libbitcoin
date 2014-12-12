@@ -30,3 +30,11 @@ $ bx message-sign L13gvvM3TtL2EmfBdye8tp4tQhcbCG3xz3VPrBjSZL8MeJavLL8K "Let us s
 ```
 INjouW95WM+sbzZ5z2rN/DBDpDwNuEWJ2xQqA+G3zm3MRDFUNPwImCSSX3dHQscxic0id+cxxiQjxEoRTDAuaPU=
 ```
+### Example 2
+routed input, sign self
+```sh
+$ bx message-sign L13gvvM3TtL2EmfBdye8tp4tQhcbCG3xz3VPrBjSZL8MeJavLL8K < bx.exe
+```
+```
+II/InhNcMd4PlrEkpp7sJTeR42okpc4b/JgojxnMib7lSNvTicnSahDxuOjZbO3WJWRdocUa3UtyrW1YEIh3wDY=
+```
