@@ -7,10 +7,10 @@ Each download is a single executable file.
 
 | Platform | Network | Version |  SHA-1  |
 |----------|---------|---------|---------|
-| [Ubuntu-x64]()  | mainnet | 2.0.0 | This build is not yet available. |
-| [Ubuntu-x64]()  | testnet | 2.0.0 | This build is not yet available. |
 | [OSX-x64]()     | mainnet | 2.0.0 | This build is not yet available. |
 | [OSX-x64]()     | testnet | 2.0.0 | This build is not yet available. |
+| [Ubuntu-x64]()  | mainnet | 2.0.0 | This build is not yet available. |
+| [Ubuntu-x64]()  | testnet | 2.0.0 | This build is not yet available. |
 | [Windows-x86]() | mainnet | 2.0.0 | This build is not yet available. |
 | [Windows-x86]() | testnet | 2.0.0 | This build is not yet available. |
 | [Windows-x64]() | mainnet | 2.0.0 | This build is not yet available. |
