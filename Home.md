@@ -2,7 +2,7 @@
 
 ### About Bitcoin Explorer
 
-BX is a major upgrade of the popular [SX command line tool](https://sx.dyne.org/index.html). Many of the commands and their parameters are identical to SX although many have changed, some have been obsoleted and others have been added.
+BX is a major upgrade of the popular [SX command line tool](https://sx.dyne.org/index.html).
 
 **Example**
 ```sh
