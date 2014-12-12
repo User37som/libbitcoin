@@ -7,12 +7,14 @@ Each download is a single executable file.
 
 | Platform | Network | Version |  SHA-1  |
 |----------|---------|---------|---------|
-| [Linux]()     | mainnet | 2.0.0 | This build is not yet available. |
-| [Linux]()     | testnet | 2.0.0 | This build is not yet available. |
-| [Macintosh]() | mainnet | 2.0.0 | This build is not yet available. |
-| [Macintosh]() | testnet | 2.0.0 | This build is not yet available. |
-| [Windows]()   | mainnet | 2.0.0 | This build is not yet available. |
-| [Windows]()   | testnet | 2.0.0 | This build is not yet available. |
+| [Ubuntu-x64]()  | mainnet | 2.0.0 | This build is not yet available. |
+| [Ubuntu-x64]()  | testnet | 2.0.0 | This build is not yet available. |
+| [OSX-x64]()     | mainnet | 2.0.0 | This build is not yet available. |
+| [OSX-x64]()     | testnet | 2.0.0 | This build is not yet available. |
+| [Windows-x86]() | mainnet | 2.0.0 | This build is not yet available. |
+| [Windows-x86]() | testnet | 2.0.0 | This build is not yet available. |
+| [Windows-x64]() | mainnet | 2.0.0 | This build is not yet available. |
+| [Windows-x64]() | testnet | 2.0.0 | This build is not yet available. |
 
 ### Verification
 You should verify that the binary you receive is the one that we published. Its authenticity can be determined by [performing a SHA-1 hash](http://onlinemd5.com) on the file and comparing the resulting value to the that in the table above. The encoding is base-16 and therefore is case insensitive.
