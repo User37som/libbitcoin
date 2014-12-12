@@ -7,14 +7,14 @@ Each download is a single executable file.
 
 | Platform | Size | SHA-1 |
 |----------|------|-------|
-| [osx-x64-mainnet-2.0.0]()     | TBD | TBD |
-| [osx-x64-testnet-2.0.0]()     | TBD | TBD |
-| [ubuntu-x64-mainnet-2.0.0]()  | TBD | TBD |
-| [ubuntu-x64-testnet-2.0.0]()  | TBD | TBD |
-| [windows-x64-mainnet-2.0.0.exe]() | TBD | TBD |
-| [windows-x64-testnet-2.0.0.exe]() | TBD | TBD |
-| [windows-x86-mainnet-2.0.0.exe]() | TBD | TBD |
-| [windows-x86-testnet-2.0.0.exe]() | TBD | TBD |
+| [bx-osx-x64-mainnet-2.0.0]()     | TBD | TBD |
+| [bx-osx-x64-testnet-2.0.0]()     | TBD | TBD |
+| [bx-ubuntu-x64-mainnet-2.0.0]()  | TBD | TBD |
+| [bx-ubuntu-x64-testnet-2.0.0]()  | TBD | TBD |
+| [bx-windows-x64-mainnet-2.0.0.exe]() | TBD | TBD |
+| [bx-windows-x64-testnet-2.0.0.exe]() | TBD | TBD |
+| [bx-windows-x86-mainnet-2.0.0.exe]() | TBD | TBD |
+| [bx-windows-x86-testnet-2.0.0.exe]() | TBD | TBD |
 
 ### Verification
 You should verify that the binary you receive is the one that we published. Its authenticity can be determined by [performing a SHA-1 hash](http://onlinemd5.com) on the file and comparing the resulting value to the that in the table above. The encoding is base-16 and therefore is case insensitive.
