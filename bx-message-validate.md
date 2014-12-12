@@ -31,3 +31,11 @@ $ bx message-validate 1BCyH5qVL5EkfhQnw4WmqfDDekJefKYEYj INjouW95WM+sbzZ5z2rN/DB
 ```
 The signature is valid.
 ```
+### Example 2
+routed input, validate self
+```sh
+$ bx message-validate 1BCyH5qVL5EkfhQnw4WmqfDDekJefKYEYj II/InhNcMd4PlrEkpp7sJTeR42okpc4b/JgojxnMib7lSNvTicnSahDxuOjZbO3WJWRdocUa3UtyrW1YEIh3wDY= < bx.exe
+```
+```
+The signature is valid.
+```
