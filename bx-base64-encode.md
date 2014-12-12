@@ -18,6 +18,7 @@ DATA                 The binary data to encode as Base64. This can be
                      text or any other data. If not specified the data is
                      read from STDIN.
 ```
+See also [base64-decode](bx-base64-decode).
 ### Example 1
 ```sh
 $ bx base64-encode "Let us speak no more of faith in man, but bind him down from mischief by the chains of cryptography."
