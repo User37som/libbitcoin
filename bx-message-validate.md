@@ -26,7 +26,7 @@ A valid signature proves ownership of the Bitcoin address used in validation. Ho
 See also [message-sign](bx-message-sign).
 ### Example 1
 ```sh
-$ bx message-validate 1BCyH5qVL5EkfhQnw4WmqfDDekJefKYEYj INjouW95WM+sbzZ5z2rN/DBDpDwNuEWJ2xQqA+G3zm3MRDFUNPwImCSSX3dHQscxic0id+cxxiQjxEoRTDAuaPU= "Let us speak no more of faith in man, but bind him down from mischief by the chains of cryptography."
+$ bx message-validate 1BCyH5qVL5EkfhQnw4WmqfDDekJefKYEYj H5+jQAbiQpbLa8n5QTcHJ5fyBUDs9oqLylQEV/dsWY8ket/RbrYqDXhCZvoKUQENgNTb79U8SQUUuYhzsTM+ZHc= "Satoshi Nakamoto"
 ```
 ```
 The signature is valid.
