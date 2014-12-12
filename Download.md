@@ -16,7 +16,7 @@ Each download is a single executable file.
 |![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x86-testnet-2.0.0`]() | `2,944,512` | [`e1..80`](#e1a7a9560b089b83cdd151726436b5857798d080) | [`Hw..g=`](#HwEKQUje+F5zZuWEOZ1ylsO5xWEg5bXwjUQb/hRdVQ1KW3QPvhgyplKq/C2Ra8uSd2o/py07u1GlybNhLVAY9fg=) |
 
 ### Origin Verification
-With a previously-verified version of BX you can verify the integrity and origin of a subsequent version using the [message-validate](bx-message-validate) command as follows. The address for verification is `1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7` (which should be independently verified).
+With a previously-verified version of BX you can verify the integrity and origin of a subsequent version using the [`message-validate`](bx-message-validate) command as follows. The address for verification is `1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7` (which should be independently verified).
 
 ```sh
 $ bx message-validate 1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7 HyTjsXlSGktaG2W9wbnhzdvRohZSs4kH5DP4lUqDmy2DXoLMo9P5kAVAdf54sPGmycHwVo0kevxM0pdkk6AU2XA= < bx-osx-x64-mainnet-2.0.0
@@ -26,7 +26,7 @@ $ bx message-validate 1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7 HyTjsXlSGktaG2W9wbnhzdv
 You can verify the integrity of the download by [performing a SHA-1 hash](http://onlinemd5.com) on the file and comparing the resulting value to the that in the table above. The encoding is base-16 and therefore not case sensitive. This does not validate the origin of the file.
 
 ### Testnet vs. Mainnet
-BX depends on the [libbitcoin](https://github.com/libbitcoin/libbitcoin) toolkit, which currently requires recompilation for use with [testnet](https://en.bitcoin.it/wiki/Testnet). BX also provides [configuration settings](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) for testnet. Each build can self-identify as testnet vs. mainnet using the [settings](bx-settings) command.
+BX depends on the [libbitcoin](https://github.com/libbitcoin/libbitcoin) toolkit, which currently requires recompilation for use with [testnet](https://en.bitcoin.it/wiki/Testnet). BX also provides [configuration settings](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) for testnet. Each build can self-identify as testnet vs. mainnet using the [`settings`](bx-settings) command.
 ```sh
 $ bx settings
 ```
