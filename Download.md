@@ -28,7 +28,7 @@ f7df1ca6519bf234651c0566cf5428a1b562b7da
 ```
 
 ### Testnet vs. Mainnet
-BX depends on the [libbitcoin](https://github.com/libbitcoin/libbitcoin) toolkit, which currently requires recompilation for use with [testnet](https://en.bitcoin.it/wiki/Testnet). BX also provides [configuration settings](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) for testnet. Although because of the build requirement the effectiveness of these settings is limited. The testnet builds above are configured with testnet settings. The build can self-identify as testnet vs. mainnet using the `settings` command.
+BX depends on the [libbitcoin](https://github.com/libbitcoin/libbitcoin) toolkit, which currently requires recompilation for use with [testnet](https://en.bitcoin.it/wiki/Testnet). BX also provides [configuration settings](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) for testnet. Each build can self-identify as testnet vs. mainnet using the `settings` command.
 ```sh
 $ bx settings
 ```
