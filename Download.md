@@ -1,5 +1,4 @@
 ### WARNING
-
 These binaries are provided for your convenience. We cannot and do not guarantee that they will not lose your money or compromise your privacy. You are free to inspect the source code and build it yourself. **By downloading a binary copy of BX you accept all responsibility for its use and behavior.**
 
 ### Download
@@ -21,7 +20,6 @@ You should verify that the binary you receive is the one that we published. Its 
 
 ### Self Verification
 Trusted versions of BX can also be used to verify other versions. The following command pipes `bx-windows-x64-mainnet-2.0.0.exe` into the `BASE16` argument of the [sha160 command](bx-sha160). BX refers to SHA-1 by its less common name of SHA-160, since the algorithm produces a 160 bit value.
-
 ```sh
 $ bx base16-encode < bx-windows-x64-mainnet-2.0.0.exe | bx sha160
 ```
@@ -30,8 +28,7 @@ f7df1ca6519bf234651c0566cf5428a1b562b7da
 ```
 
 ### Testnet vs. Mainnet
-BX depends on the [libbitcoin](https://github.com/libbitcoin/libbitcoin) toolkit, which currently requires recompilation for use with [testnet](https://en.bitcoin.it/wiki/Testnet). BX also provides [configuration settings](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) for testnet. Although because of the build requirement the effectiveness of these settings is limited. The testnet builds above are configured with testnet settings. The build can self-identify as testnet vs. mainnet using the `settings` command. See the value of the `settings.general.network` property below.
-
+BX depends on the [libbitcoin](https://github.com/libbitcoin/libbitcoin) toolkit, which currently requires recompilation for use with [testnet](https://en.bitcoin.it/wiki/Testnet). BX also provides [configuration settings](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) for testnet. Although because of the build requirement the effectiveness of these settings is limited. The testnet builds above are configured with testnet settings. The build can self-identify as testnet vs. mainnet using the `settings` command.
 ```sh
 $ bx settings
 ```
@@ -54,3 +51,4 @@ settings
     }
 }
 ```
+See the value of the `settings.general.network` property above.
