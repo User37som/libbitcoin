@@ -15,8 +15,8 @@ Each download is a single executable file.
 | ![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png) | [`bx-windows-x86-mainnet-2.0.0.exe`]() | `2,945,024` | [`cf..00`](#cf43ca91dabd123048c8c1275a8f1e15443b0100) | [`H0BK..AB4=`](#H0BKoE4vkd65FPgatb5mOdO54i5VlnM8d4rbH+sjaku7KN8Rlc1Ie2zVzijt2TtcTGvYQUeK91LAHlMnS5YEAB4=) |
 | ![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png) | [`bx-windows-x86-testnet-2.0.0.exe`]() | `2,944,512` | [`e1..80`](#e1a7a9560b089b83cdd151726436b5857798d080) | [`HwEK..9fg=`](#HwEKQUje+F5zZuWEOZ1ylsO5xWEg5bXwjUQb/hRdVQ1KW3QPvhgyplKq/C2Ra8uSd2o/py07u1GlybNhLVAY9fg=) |
 
-### Verification
-You should verify that the binary you receive is the one that we published. Its authenticity can be determined by [performing a SHA-1 hash](http://onlinemd5.com) on the file and comparing the resulting value to the that in the table above. The encoding is base-16 and therefore not case sensitive.
+### File Verification
+You can verify the integrity of the download by [performing a SHA-1 hash](http://onlinemd5.com) on the file and comparing the resulting value to the that in the table above. The encoding is base-16 and therefore not case sensitive.
 
 ### Self Verification
 Trusted versions of BX can also be used to verify other versions. The following command pipes `bx-windows-x64-mainnet-2.0.0.exe` into the `BASE16` argument of the [sha160 command](bx-sha160). BX refers to SHA-1 by its less common name of SHA-160, since the algorithm produces a 160 bit value.
