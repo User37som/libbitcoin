@@ -26,3 +26,11 @@ $ bx base64-encode "Let us speak no more of faith in man, but bind him down from
 ```
 TGV0IHVzIHNwZWFrIG5vIG1vcmUgb2YgZmFpdGggaW4gbWFuLCBidXQgYmluZCBoaW0gZG93biBmcm9tIG1pc2NoaWVmIGJ5IHRoZSBjaGFpbnMgb2YgY3J5cHRvZ3JhcGh5Lg==
 ```
+### Example 2
+rfc4648
+```sh
+$ bx base64-encode foobar
+```
+```
+Zm9vYmFy
+```
