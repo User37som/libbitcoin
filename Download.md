@@ -16,7 +16,7 @@ Each download is a single executable file.
 |![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x86-testnet-2.0.0`]() | `2,944,512` | [`e1..80`](#e1a7a9560b089b83cdd151726436b5857798d080) | [`Hw..g=`](#HwEKQUje+F5zZuWEOZ1ylsO5xWEg5bXwjUQb/hRdVQ1KW3QPvhgyplKq/C2Ra8uSd2o/py07u1GlybNhLVAY9fg=) |
 
 ### Origin Verification
-With a previously-verified version of BX you can verify the integrity and origin of a subsequent version.
+With a previously-verified version of BX you can verify the integrity and origin of a subsequent version using the [message-validate](bx-message-validate) command as follows. The address for verification is `1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7`.
 
 ```sh
 $ bx message-validate 1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7 HyTjsXlSGktaG2W9wbnhzdvRohZSs4kH5DP4lUqDmy2DXoLMo9P5kAVAdf54sPGmycHwVo0kevxM0pdkk6AU2XA= < bx-osx-x64-mainnet-2.0.0
