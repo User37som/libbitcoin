@@ -20,6 +20,8 @@ DATA                 The binary data to encode as Base64. This can be
 ```
 ### Example 1
 ```sh
+$ bx base64-encode "Let us speak no more of faith in man, but bind him down from mischief by the chains of cryptography."
 ```
 ```
+TGV0IHVzIHNwZWFrIG5vIG1vcmUgb2YgZmFpdGggaW4gbWFuLCBidXQgYmluZCBoaW0gZG93biBmcm9tIG1pc2NoaWVmIGJ5IHRoZSBjaGFpbnMgb2YgY3J5cHRvZ3JhcGh5Lg==
 ```
