@@ -25,10 +25,10 @@ The WIF key used in signing must correspond to the Bitcoin address for which val
 See also [message-validate](bx-message-validate).
 ### Example 1
 ```sh
-$ bx message-sign L13gvvM3TtL2EmfBdye8tp4tQhcbCG3xz3VPrBjSZL8MeJavLL8K "Let us speak no more of faith in man, but bind him down from mischief by the chains of cryptography."
+$ bx message-sign L13gvvM3TtL2EmfBdye8tp4tQhcbCG3xz3VPrBjSZL8MeJavLL8K Nakamoto
 ```
 ```
-INjouW95WM+sbzZ5z2rN/DBDpDwNuEWJ2xQqA+G3zm3MRDFUNPwImCSSX3dHQscxic0id+cxxiQjxEoRTDAuaPU=
+IKPchzjTwhlECt241j8XmUfBwOv+L8SvtqK4h4h8R6T+c5hZnjcoKWam/FJyMxLydZF0kcEAZCFt32D8t4ubyX0=
 ```
 ### Example 2
 routed input, sign self
