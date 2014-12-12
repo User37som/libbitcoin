@@ -7,7 +7,7 @@ Each download is a single executable file.
 
 | File | Bytes | SHA-1 | Signature |
 |------|-------|-------|-----------|
-| [bx-osx-x64-mainnet-2.0.0]()         | 5,357,188 | [a592..0c60](#a59227ab8b7b63a14f5faffcfd30ed30e47f0c60) | [HyTj..2XA=](#HyTjsXlSGktaG2W9wbnhzdvRohZSs4kH5DP4lUqDmy2DXoLMo9P5kAVAdf54sPGmycHwVo0kevxM0pdkk6AU2XA=) |
+| [bx-osx-x64-mainnet-2.0.0]()         | 5,357,188 | `[a592..0c60](#a59227ab8b7b63a14f5faffcfd30ed30e47f0c60)` | [HyTj..2XA=](#HyTjsXlSGktaG2W9wbnhzdvRohZSs4kH5DP4lUqDmy2DXoLMo9P5kAVAdf54sPGmycHwVo0kevxM0pdkk6AU2XA=) |
 | [bx-osx-x64-testnet-2.0.0]()         | 5,357,188 | [d6e1..1029](#d6e1dd461cbae487642bfd610a60024b8fd01029) | [IJ3k..tI=](#IJ3kpajlbWmplyxkCAXOw4iQvN9GEENMOoncA1zp/j5+dcFOW72TmcLDixEWGqovAoUXqUuB81t4ujAeZnmc4tI=) |
 | [bx-ubuntu-x64-mainnet-2.0.0]()      | 3,664,376 | [6ae4..c1f6](#6ae4d2a9ce8f99a5f957bf37c6f341446bd6c1f6) | [Hw3U..9IU=](#Hw3UvUZChHdZNcP/NHriePf+xHUAzuApvOla6qS9LI5/I1PEGkdi/fz2NJGC5k29D0G2JPq07E8Tic1QM2Fe9IU=) |
 | [bx-ubuntu-x64-testnet-2.0.0]()      | 3,664,376 | [61a6..6e53](#61a621e74a439fa52da7ae7db80dbf73f95d6e53) | [H6Xp..paI=](#H6XpodRpfWGVVGPf+If6q7Mx1VfG42abgfMOnHnnM8fcKiDXPoncmP9C1IKOBsfpXEoQo6s+lahJggQRRWdtpaI=) |
