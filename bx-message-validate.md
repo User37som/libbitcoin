@@ -32,6 +32,14 @@ $ bx message-validate 1BCyH5qVL5EkfhQnw4WmqfDDekJefKYEYj IPEb09fvqo/QMFq2kf8PC3c
 The signature is valid.
 ```
 ### Example 2
+invalid signature
+```sh
+$ bx message-validate 1BCyH5qVL5EkfhQnw4WmqfDDekJefKYEYj IPEb09fvqo/QMFq2kf8PC3cEcWs0C+7Kv8ImKNkUv3I3CvVwDzHkjgJHGYWnFhpbQRQJKQFd+Bww/1qUpNjh0J0= "Who is John Galt"
+```
+```
+The signature is not valid.
+```
+### Example 3
 routed input, validate self
 ```sh
 $ bx message-validate 1BCyH5qVL5EkfhQnw4WmqfDDekJefKYEYj II/InhNcMd4PlrEkpp7sJTeR42okpc4b/JgojxnMib7lSNvTicnSahDxuOjZbO3WJWRdocUa3UtyrW1YEIh3wDY= < bx.exe
