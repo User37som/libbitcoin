@@ -18,7 +18,7 @@ WIF                  The WIF private key to use for signing.
 MESSAGE              The binary message data to sign. If not specified   
                      the message is read from STDIN.
 ```
-By signing data provided by another party the signer can prove ownership of a Bitcoin address. This can be carried out over a public network and does not risk compromise of the private key of the address.
+By signing data provided by another party the signer can prove to that party ownership of a Bitcoin address. This can be carried out over a public network and does not risk compromise of the private key of the address.
 
 See also [message-validate](bx-message-validate).
 ### Example 1
