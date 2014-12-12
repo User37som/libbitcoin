@@ -24,8 +24,8 @@ MESSAGE              The binary message data for which the signature
 See also [message-sign](bx-message-sign).
 ### Example 1
 ```sh
-$ bx 
+$ bx message-validate 1BCyH5qVL5EkfhQnw4WmqfDDekJefKYEYj INjouW95WM+sbzZ5z2rN/DBDpDwNuEWJ2xQqA+G3zm3MRDFUNPwImCSSX3dHQscxic0id+cxxiQjxEoRTDAuaPU= "Let us speak no more of faith in man, but bind him down from mischief by the chains of cryptography."
 ```
 ```
-
+The signature is valid.
 ```
