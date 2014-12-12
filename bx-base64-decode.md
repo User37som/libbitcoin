@@ -25,3 +25,11 @@ $ bx base64-decode TGV0IHVzIHNwZWFrIG5vIG1vcmUgb2YgZmFpdGggaW4gbWFuLCBidXQgYmluZ
 ```
 Let us speak no more of faith in man, but bind him down from mischief by the chains of cryptography.
 ```
+### Example 2
+[RFC4648 Test Vector](https://tools.ietf.org/html/rfc4648#section-10)
+```sh
+$ bx base64-decode Zm9vYmFy
+```
+```
+foobar
+```
