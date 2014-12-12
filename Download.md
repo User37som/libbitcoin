@@ -24,6 +24,9 @@ Trusted versions of BX can also be used to verify other versions. The following 
 ```sh
 $ bx base16-encode < bx-windows-x64-mainnet-2.0.0.exe | bx sha160
 ```
+```
+f7df1ca6519bf234651c0566cf5428a1b562b7da
+```
 
 ### Testnet vs. Mainnet
 BX depends on the [libbitcoin](https://github.com/libbitcoin/libbitcoin) toolkit, which currently requires recompilation for use with [testnet](https://en.bitcoin.it/wiki/Testnet). BX also provides [configuration settings](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) for testnet. Although because of the build requirement the effectiveness of these settings is limited.
