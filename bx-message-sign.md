@@ -20,6 +20,8 @@ MESSAGE              The binary message data to sign. If not specified
 ```
 By signing data provided by another party the signer can prove to that party ownership of a Bitcoin address. This can be carried out over a public network and does not risk compromise of the private key of the address.
 
+The WIF key used in signing must correspond to the Bitcoin address for which validation is required. Otherwise validation against that address will fail. WIF keys contain a flag indicating whether the corresponding Bitcoin address is derived from the corresponding EC public key in the compressed or the uncompressed format.
+
 See also [message-validate](bx-message-validate).
 ### Example 1
 ```sh
