@@ -26,7 +26,7 @@ With a previously-verified version of BX you can validate both the integrity and
 
 Calculate the SHA-256 hash
 ```sh
-$ bx base16-encode < bx-osx-x64-mainnet-2.0.0 | bx sha256
+$ bx base16-encode < bx-osx-x64-mainnet | bx sha256
 ```
 ```
 926093855058fd9f42c627d1dd2e52313e65ca6084ffd4b2dbbe02725554c122
