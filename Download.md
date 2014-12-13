@@ -6,29 +6,39 @@ Each download is a single executable file.
 
 | OS | File | Bytes | SHA-256 | Signed |
 |----|------|-------|---------|--------|
-|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png)        | [`bx-osx-x64-mainnet-2.0.0`]()     | `5,357,188` | [`a5..60`](#) | [`Hy..A=`](#) |
-|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png)        | [`bx-osx-x64-testnet-2.0.0`]()     | `5,357,188` | [`d6..29`](#) | [`IJ..I=`](#) |
-|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png)    | [`bx-ubuntu-x64-mainnet-2.0.0`]()  | `3,664,376` | [`6a..f6`](#) | [`Hw..U=`](#) |
-|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png)    | [`bx-ubuntu-x64-testnet-2.0.0`]()  | `3,664,376` | [`61..53`](#) | [`H6..I=`](#) |
-|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x64-mainnet-2.0.0`]() | `4,063,232` | [`f7..da`](#) | [`IG..Y=`](#) |
-|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x64-testnet-2.0.0`]() | `4,062,720` | [`bf..4b`](#) | [`II..I=`](#) |
-|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x86-mainnet-2.0.0`]() | `2,945,024` | [`cf..00`](#) | [`H0..4=`](#) |
-|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x86-testnet-2.0.0`]() | `2,944,512` | [`e1..80`](#) | [`Hw..g=`](#) |
+|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png)        | [`bx-osx-x64-mainnet-2.0.0`]()     | `xxx` | [`a5..60`](#) | [`Hy..Ax`](#) |
+|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png)        | [`bx-osx-x64-testnet-2.0.0`]()     | `xxx` | [`d6..29`](#) | [`IJ..Ix`](#) |
+|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png)    | [`bx-linux-x64-mainnet-2.0.0`]()   | `xxx` | [`6a..f6`](#) | [`Hw..Ux`](#) |
+|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png)    | [`bx-linux-x64-testnet-2.0.0`]()   | `xxx` | [`61..53`](#) | [`H6..Ix`](#) |
+|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x64-mainnet-2.0.0`]() | `xxx` | [`f7..da`](#) | [`IG..Yx`](#) |
+|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x64-testnet-2.0.0`]() | `xxx` | [`bf..4b`](#) | [`II..Ix`](#) |
+|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x86-mainnet-2.0.0`]() | `xxx` | [`cf..00`](#) | [`H0..4x`](#) |
+|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x86-testnet-2.0.0`]() | `xxx` | [`e1..80`](#) | [`Hw..gx`](#) |
 
-### Origin Verification
-With a previously-verified version of BX you can verify the integrity and origin of a subsequent version using the [`message-validate`](bx-message-validate) command as follows. The address for validation is `1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7` (which should be independently verified).
+### Integrity Validation
+Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the table above. If you do not have a previously verified version of `bx` you can use any local or online [hash computer](http://onlinemd5.com). The hash encoding is not case sensitive.
 
+### Origin Validation
+Validate the origin of the download by verifying the signature in the table above against the address `1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7` and the SHA-256 hash. If you do not have a previously verified version of `bx` you can do this using the [Electrum](https://bsidebtc.com/sign-verify-message-electrum) wallet (and potentially others). The "message" to verify is the SHA-256 hash.
+
+### Self Validation
+With a previously-verified version of BX you can validate both the integrity and origin of the download using the following commands.
+
+**Calculate the SHA-256 Hash**
 ```sh
-$ bx message-validate 1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7 HyTjsXlSGktaG2W9wbnhzdvRohZSs4kH5DP4lUqDmy2DXoLMo9P5kAVAdf54sPGmycHwVo0kevxM0pdkk6AU2XA= < bx-osx-x64-mainnet-2.0.0
+$ bx base16-encode < bx-osx-x64-mainnet-2.0.0 | bx sha256
+```
+```
+ssssssss
 ```
 
-### Initial Origin Verification
-
-**File Validation**
-First verify the integrity of the download by [performing a SHA-1 hash](http://onlinemd5.com) on the file and comparing the resulting value to the that in the table above. The encoding is base-16 and therefore not case sensitive.
-
-**Signature Validation**
-Next verify the signature of the 
+**Validate the Bitcoin Signature**
+```sh
+$ bx message-validate 1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7 ssssssss hhhhhh
+```
+```
+The signature is valid.
+```
 
 ### Testnet vs. Mainnet
 BX depends on the [libbitcoin](https://github.com/libbitcoin/libbitcoin) toolkit, which currently requires recompilation for use with [testnet](https://en.bitcoin.it/wiki/Testnet). BX also provides [configuration settings](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) for testnet. Each build can self-identify as testnet vs. mainnet using the [`settings`](bx-settings) command.
