@@ -4,8 +4,8 @@ These binaries are provided for your convenience. We cannot and do not guarantee
 ### Download
 Each download is a single executable file.
 
-| OS | File | Bytes | SHA-256 | Signed |
-|----|------|-------|---------|--------|
+| OS | File | Bytes | SHA-256 | Signature |
+|----|------|-------|---------|-----------|
 |![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png)        | [`bx-osx-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.0.0/bx-osx-x64-mainnet)             | `5,638,156` | [`92..22`](#926093855058fd9f42c627d1dd2e52313e65ca6084ffd4b2dbbe02725554c122) | [`H+..o=`](#H+arIVyD02wt8nDp6EEy5oG6oLG7nWYBbow1vEvIBAfYbF3fYdGuwqSp/hkpB+15GcTkIOQHpjVJcLttGl2Naxo=) |
 |![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png)        | [`bx-osx-x64-testnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.0.0/bx-osx-x64-testnet)             | `5,638,236` | [`c2..33`](#c2b24db00bdbdfbed3288606c9e3c7c8c69a2989fc341f7a5b2bdc4fc4d9f633) | [`IG..w=`](#IGqIxQUo57lunhlLJGB8hnwYLWpf/6XRzprMCRFoDrW6XQMwyojtQ7edWa8K9WNmw2sv5s2ztPI/OonZKJn32Tw=) |
 |![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png)    | [`bx-linux-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.0.0/bx-linux-x64-mainnet)         | `3,000,632` | [`a5..3f`](#a5e1136b95f30b35c6077b48ce7b60e27e7b68cb778416a2569b891fea20cf3f) | [`IH..M=`](#IHKUMal99sCX3DQtyolNLyckNo7R1rAcQdYnb4kWpqd0K9f5GK5zc3xBB3YiffIiAbRDWTS69kBA8yn9GotZqEM=) |
