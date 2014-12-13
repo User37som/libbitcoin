@@ -6,14 +6,14 @@ Each download is a single executable file.
 
 | OS | File | Bytes | SHA-256 | Signed |
 |----|------|-------|---------|--------|
-|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png)        | [`bx-osx-x64-mainnet-2.0.0`]()     | `xxx` | [`a5..60`](#) | [`Hy..Ax`](#) |
-|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png)        | [`bx-osx-x64-testnet-2.0.0`]()     | `xxx` | [`d6..29`](#) | [`IJ..Ix`](#) |
-|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png)    | [`bx-linux-x64-mainnet-2.0.0`]()   | `xxx` | [`6a..f6`](#) | [`Hw..Ux`](#) |
-|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png)    | [`bx-linux-x64-testnet-2.0.0`]()   | `xxx` | [`61..53`](#) | [`H6..Ix`](#) |
-|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x64-mainnet-2.0.0`]() | `xxx` | [`f7..da`](#) | [`IG..Yx`](#) |
-|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x64-testnet-2.0.0`]() | `xxx` | [`bf..4b`](#) | [`II..Ix`](#) |
-|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x86-mainnet-2.0.0`]() | `xxx` | [`cf..00`](#) | [`H0..4x`](#) |
-|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x86-testnet-2.0.0`]() | `xxx` | [`e1..80`](#) | [`Hw..gx`](#) |
+|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png)        | [`bx-osx-x64-mainnet-2.0.0`]()     | `bbb` | [`hh..hh`](#hhhh) | [`ss..ss`](#ssss) |
+|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png)        | [`bx-osx-x64-testnet-2.0.0`]()     | `bbb` | [`hh..hh`](#hhhh) | [`ss..ss`](#ssss) |
+|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png)    | [`bx-linux-x64-mainnet-2.0.0`]()   | `bbb` | [`hh..hh`](#hhhh) | [`ss..ss`](#ssss) |
+|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png)    | [`bx-linux-x64-testnet-2.0.0`]()   | `bbb` | [`hh..hh`](#hhhh) | [`ss..ss`](#ssss) |
+|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x64-mainnet-2.0.0`]() | `bbb` | [`hh..hh`](#hhhh) | [`ss..ss`](#ssss) |
+|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x64-testnet-2.0.0`]() | `bbb` | [`hh..hh`](#hhhh) | [`ss..ss`](#ssss) |
+|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x86-mainnet-2.0.0`]() | `bbb` | [`hh..hh`](#hhhh) | [`ss..ss`](#ssss) |
+|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x86-testnet-2.0.0`]() | `bbb` | [`hh..hh`](#hhhh) | [`ss..ss`](#ssss) |
 
 ### Integrity Validation
 Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the table above. If you do not have a previously verified version of `bx` you can use any local or online [hash computer](http://onlinemd5.com). The hash encoding is not case sensitive.
@@ -34,7 +34,7 @@ ssssssss
 
 Validate the Bitcoin signature
 ```sh
-$ bx message-validate 1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7 ssssssss hhhhhh
+$ bx message-validate 1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7 ssssssss hhhhhhhh
 ```
 ```
 The signature is valid.
