@@ -21,7 +21,7 @@ Validate the integrity of the download by calculating a SHA-256 hash of the file
 ### Origin Validation
 Validate the origin of the download by verifying the Bitcoin signature in the table above against the address `1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7` and the SHA-256 hash. If you do not have a previously verified version of `bx` you can do this using the [Electrum](https://bsidebtc.com/sign-verify-message-electrum) wallet (and potentially others). The "message" to verify is the SHA-256 hash.
 
-### Self Validation
+### Using BX to Validate Itself
 With a previously-verified version of BX you can validate both the integrity and origin of the download using the following commands.
 
 Calculate the SHA-256 Hash
