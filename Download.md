@@ -24,7 +24,7 @@ Validate the origin of the download by verifying the Bitcoin signature in the ta
 ### Using BX to Validate Itself
 With a previously-verified version of BX you can validate both the integrity and origin of the download using the following commands.
 
-Calculate the SHA-256 Hash
+Calculate the SHA-256 hash
 ```sh
 $ bx base16-encode < bx-osx-x64-mainnet-2.0.0 | bx sha256
 ```
@@ -32,7 +32,7 @@ $ bx base16-encode < bx-osx-x64-mainnet-2.0.0 | bx sha256
 ssssssss
 ```
 
-Validate the Bitcoin Signature
+Validate the Bitcoin signature
 ```sh
 $ bx message-validate 1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7 ssssssss hhhhhh
 ```
