@@ -16,7 +16,7 @@ Each download is a single executable file.
 |![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png)| [`bx-windows-x86-testnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.0.0/bx-windows-x86-testnet.exe) | `2,467,328` | [`c4..27`](#c467144319ea1e975cd3fbd214feed2b901b07ec4cb129e34c162bfb23b2bc27) | [`H7..k=`](#H7E8KG5+QjFzSeHl3LSmqcz4ieSwi5GNWg4D+joJj3DkWyihlnGKGlkH97ggHYzhr/UaVHbOWBy7BWMXR8yQ9lk=) |
 
 ### Integrity Validation
-Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the table above. If you do not have a previously verified version of `bx` you can use any local or online [hash computer](http://onlinemd5.com). The hash encoding is not case sensitive.
+Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the table above. If you do not have a previously verified version of BX you can use any local or online [hash computer](http://onlinemd5.com). The hash encoding is not case sensitive.
 
 ### Origin Validation
 Validate the origin of the download by verifying the Bitcoin signature in the table above against the address `1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7` and the SHA-256 hash. If you do not have a previously verified version of `bx` you can do this using the [Electrum](https://bsidebtc.com/sign-verify-message-electrum) wallet (and potentially others). The "message" to verify is the SHA-256 hash.
