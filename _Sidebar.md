@@ -7,6 +7,7 @@
   * [Background](Background)
   * [Configuration Settings](Configuration-Settings)
   * [Random Numbers](Random-Numbers)
+  * [Version History](Version-History)
 * **Developer Information**
   * [Design Overview](Design-Overview)
   * [Explorer Library](Explorer-Library)
