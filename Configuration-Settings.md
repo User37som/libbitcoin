@@ -31,16 +31,18 @@ error = error.log
 [mainnet]
 # The URL of the default mainnet Obelisk server.
 url = tcp://obelisk.airbitz.co:9091
+# The server's base64-encoded public certificate.
+#certificate = 
+# The client's base64-encoded private certificate.
+#client = 
 
 [testnet]
 # The URL of the default testnet Obelisk server.
 url = tcp://obelisk-testnet.airbitz.co:9091
-
-[identity]
+# The server's base64-encoded public certificate.
+#certificate = 
 # The client's base64-encoded private certificate.
 #client = 
-# The server's base64-encoded public certificate.
-#server = 
 ```
 
 The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
