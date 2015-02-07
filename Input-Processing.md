@@ -93,4 +93,4 @@ The BX `settings` command shows the current value of all configuration settings.
 
 BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/program_options/overview.html) library to bind environment variables. All BX environment variables are prefixed with `BX_`. Currently environment variables are bound explicitly (i.e. bindings are not generated from metadata).
 
-`BX_CONFIG` is the only bound environment variable. BX uses a Boost feature to tie the environment variable and the command line option of the same identity (i.e. `--config`). Command line options have precedence if both set.
+`BX_CONFIG` is the only bound environment variable. BX uses a Boost feature to tie the environment variable and the command line option of the same identity (i.e. `--config`). Command line options have precedence if both are set.
