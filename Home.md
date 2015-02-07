@@ -1,14 +1,9 @@
-*The Bitcoin Command Line Tool*
+*Bitcoin Full Node and Query Server*
 
-### About Bitcoin Explorer
+### About Libbitcoin Server
 
-BX is a major upgrade of the popular [SX command line tool](https://sx.dyne.org/index.html).
+Libbitcoin Server is a major upgrade of [Obelisk](https://wiki.unsystem.net/en/index.php/Obelisk).
 
-**Example**
-```sh
-$ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address
-13ua8RRSxLpL5WL5cKUDepUCvJZgGWuKh7
-```
-If you encounter problems or have suggestions please use the [BX issues board](https://github.com/libbitcoin/libbitcoin-explorer/issues).
+If you encounter problems or have suggestions please use the [Libbitcoin Server issues board](https://github.com/libbitcoin/libbitcoin-server/issues).
 
-**[Download Here](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Download)**
+**[Download Here](https://github.com/libbitcoin/libbitcoin-server/wiki/Download)**
