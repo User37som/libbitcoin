@@ -67,7 +67,7 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_50_0/doc/html/
 ```
 The implementation supports a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file:
 ```ini
-# Example Bitcoin Explorer (BX) configuration file.
+# Bitcoin Explorer (BX) configuration file.
 
 [general]
 
@@ -80,6 +80,14 @@ retries = 0
 
 # Milliseconds to wait for a response from the server.
 wait = 2000
+
+[logging]
+
+# The path to the debug log file, used by send-tx-p2p.
+debug = debug.log
+
+# The path to the error log file, used by send-tx-p2p.
+error = error.log
 
 [mainnet]
 
