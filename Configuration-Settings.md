@@ -11,29 +11,36 @@ The BX [metadata file](https://github.com/libbitcoin/libbitcoin-explorer/blob/ve
 
 For convenience, the [example.cfg](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/example.cfg) file is also populated with these values, although the metadata file is authoritative.
 ```ini
-# Example Bitcoin Explorer (BX) configuration file.
+# Bitcoin Explorer (BX) configuration file.
 
 [general]
-
 # Only hd-new and stealth-encode currently use the testnet distinction, apart from swapping servers.
 # The network to use, either 'mainnet' or 'testnet'. Defaults to 'mainnet'.
 network = mainnet
-
 # Number of times to retry contacting the server before giving up.
 retries = 0
-
 # Milliseconds to wait for a response from the server.
 wait = 2000
 
-[mainnet]
+[logging]
+# The path to the debug log file, used by send-tx-p2p.
+debug = debug.log
+# The path to the error log file, used by send-tx-p2p.
+error = error.log
 
+[mainnet]
 # The URL of the default mainnet Obelisk server.
 url = tcp://obelisk.airbitz.co:9091
 
 [testnet]
-
 # The URL of the default testnet Obelisk server.
 url = tcp://obelisk-testnet.airbitz.co:9091
+
+[identity]
+# The client's base64-encoded private certificate.
+#client = 
+# The server's base64-encoded public certificate.
+#server = 
 ```
 
 The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
