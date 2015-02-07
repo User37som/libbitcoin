@@ -50,59 +50,42 @@ In most commands the option is available to load the primary input parameter via
 
 BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/program_options/overview.html) library to bind configuration settings to strongly-typed application level properties. Settings values are read into base command properties generated from the following metadata.
 ```xml
-<configuration section="general">
-    <!-- Only hd-new and stealth-encode currently use the testnet distinction, apart from swapping servers. -->
-    <setting name="network" default="mainnet" description="The network to use, either 'mainnet' or 'testnet'. Defaults to 'mainnet'." />
-    <setting name="retries" type="byte" description="Number of times to retry contacting the server before giving up." />
-    <setting name="wait" default="2000" type="uint32_t" description="Milliseconds to wait for a response from the server." />
-</configuration>
 
-<configuration section="logging">
-    <setting name="debug" type="path"  default="debug.log" description="The path to the debug log file, used by send-tx-p2p." />
-    <setting name="error" type="path"  default="error.log" description="The path to the error log file, used by send-tx-p2p." />
-</configuration>
-
-<configuration section="mainnet">
-    <setting name="url" type="uri" default="tcp://obelisk.airbitz.co:9091" description="The URL of the Obelisk mainnet server." />
-</configuration>
-
-<configuration section="testnet">
-    <setting name="url" type="uri"  default="tcp://obelisk-testnet.airbitz.co:9091" description="The URL of the Obelisk testnet server." />
-</configuration>
 ```
 The implementation supports a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file:
 ```ini
 # Bitcoin Explorer (BX) configuration file.
 
 [general]
-
 # Only hd-new and stealth-encode currently use the testnet distinction, apart from swapping servers.
 # The network to use, either 'mainnet' or 'testnet'. Defaults to 'mainnet'.
 network = mainnet
-
 # Number of times to retry contacting the server before giving up.
 retries = 0
-
 # Milliseconds to wait for a response from the server.
 wait = 2000
 
 [logging]
-
 # The path to the debug log file, used by send-tx-p2p.
 debug = debug.log
-
 # The path to the error log file, used by send-tx-p2p.
 error = error.log
 
 [mainnet]
-
 # The URL of the default mainnet Obelisk server.
 url = tcp://obelisk.airbitz.co:9091
+# The server's base64-encoded public certificate.
+#public = 
+# The client's base64-encoded private certificate.
+#private = 
 
 [testnet]
-
 # The URL of the default testnet Obelisk server.
 url = tcp://obelisk-testnet.airbitz.co:9091
+# The server's base64-encoded public certificate.
+#public = 
+# The client's base64-encoded private certificate.
+#private = 
 ```
 The path to the configuration settings file is specified by the `--config` command line option, the `BX_CONFIG` environment variable, or by default as follows:
 
