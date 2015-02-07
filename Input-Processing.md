@@ -60,7 +60,7 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_50_0/doc/html/
 <configuration section="logging">
     <setting name="debug" type="path"  default="debug.log" description="The path to the debug log file, used by send-tx-p2p." />
     <setting name="error" type="path"  default="error.log" description="The path to the error log file, used by send-tx-p2p." />
-  </configuration>
+</configuration>
 
 <configuration section="mainnet">
     <setting name="url" type="uri" default="tcp://obelisk.airbitz.co:9091" description="The URL of the Obelisk mainnet server." />
