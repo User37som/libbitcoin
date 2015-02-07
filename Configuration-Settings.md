@@ -10,9 +10,8 @@ The path to the configuration settings file is specified by the `--config` comma
 The Windows directory is hidden by default. If the file is not found default values are loaded. If the file is contains invalid settings an error is returned via STDERR. If any setting is not specified its default is loaded.
 
 ### Default Configuration Settings
-The BX [metadata file](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/model/generate.xml) declares all valid configuration settings, their data types and descriptions. These values generated code that is used to build BX.
 
-For convenience, the [example.cfg](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/example.cfg) file is also populated with these values, although the metadata file is authoritative.
+For convenience, the [bx.cfg](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/data/bx.cfg) file is populated with all default settings values.
 ```ini
 # Bitcoin Explorer (BX) configuration file.
 
@@ -49,5 +48,6 @@ url = tcp://obelisk-testnet.airbitz.co:9091
 ```
 
 The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
+
 ### Exporting Settings
-The [settings](bx-settings) command outputs all settings and values. When a path is specified on the command line or by environment variable, the values are populated accordingly.
+The [settings](bx-settings) command outputs all settings and values for the configuration file in use.
