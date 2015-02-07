@@ -6,6 +6,7 @@
   * [Acronyms](Acronyms)
   * [Background](Background)
   * [Configuration Settings](Configuration-Settings)
+  * [Log Files](Log-Files)
   * [Random Numbers](Random-Numbers)
   * [Version History](Version-History)
 * **Developer Information**
