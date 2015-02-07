@@ -1,11 +1,14 @@
 ### Specifying a Configuration File
 Not all BX commands use configuration settings, in fact most do not. However all commands process the configuration file if its path is specified.
 
-All commands accept a `--config` option. This allows any command line to specify a configuration file for use in that single execution.
+The path to the configuration settings file is specified by the `--config` command line option, the `BX_CONFIG` environment variable, or by default as follows:
 
-If the `--config` option is not set the command will use the configuration file specified by the `BX_CONFIG` environment variable.
+* Linux/OSX (prefix): `<prefix>/etc/libbitcoin/bx.cfg`
+* Linux/OSX (default): `/usr/local/etc/libbitcoin/bx.cfg`
+* Windows: `%ProgramData%\libbitcoin\bx.cfg`
 
-If neither the --config option nor the `BX_CONFIG` environment variable is set the command will use embedded default configuration settings. There is no default configuration file location.
+The Windows directory is hidden by default. If the file is not found default values are loaded. If the file is contains invalid settings an error is returned via STDERR. If any setting is not specified its default is loaded.
+
 ### Default Configuration Settings
 The BX [metadata file](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/model/generate.xml) declares all valid configuration settings, their data types and descriptions. These values generated code that is used to build BX.
 
