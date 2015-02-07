@@ -53,7 +53,7 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_50_0/doc/html/
   <configuration section="general">
     <!-- Only hd-new and stealth-encode currently use the testnet distinction, apart from swapping servers. -->
     <setting name="network" default="mainnet" description="The network to use, either 'mainnet' or 'testnet'. Defaults to 'mainnet'." />
-    <setting name="retries" type="base10" description="Number of times to retry contacting the server before giving up." />
+    <setting name="retries" type="byte" description="Number of times to retry contacting the server before giving up." />
     <setting name="wait" default="2000" type="uint32_t" description="Milliseconds to wait for a response from the server." />
   </configuration>
     
@@ -63,6 +63,11 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_50_0/doc/html/
   
   <configuration section="testnet">
     <setting name="url" type="uri"  default="tcp://obelisk-testnet.airbitz.co:9091" description="The URL of the Obelisk testnet server." />
+  </configuration>
+  
+  <configuration section="logging">
+    <setting name="debug" type="path"  default="debug.log" description="The path to the debug log file, used by send-tx-p2p." />
+    <setting name="error" type="path"  default="error.log" description="The path to the error log file, used by send-tx-p2p." />
   </configuration>
 ```
 The implementation supports a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file:
