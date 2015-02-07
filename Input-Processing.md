@@ -58,8 +58,8 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/
 </configuration>
 
 <configuration section="logging">
-    <setting name="debug" type="path"  default="debug.log" description="The path to the debug log file, used by send-tx-p2p." />
-    <setting name="error" type="path"  default="error.log" description="The path to the error log file, used by send-tx-p2p." />
+    <setting name="debug" type="path" default="debug.log" description="The path to the debug log file, used by send-tx-p2p." />
+    <setting name="error" type="path" default="error.log" description="The path to the error log file, used by send-tx-p2p." />
 </configuration>
 
 <configuration section="mainnet">
@@ -69,7 +69,7 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/
 </configuration>
 
 <configuration section="testnet">
-    <setting name="url" type="uri"  default="tcp://obelisk-testnet.airbitz.co:9091" description="The URL of the Obelisk testnet server." />
+    <setting name="url" type="uri" default="tcp://obelisk-testnet.airbitz.co:9091" description="The URL of the Obelisk testnet server." />
     <setting name="public" type="base64" description="The server's base64-encoded public certificate." />
     <setting name="private" type="base64" description="The client's base64-encoded private certificate." />
 </configuration>
