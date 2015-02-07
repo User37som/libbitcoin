@@ -21,6 +21,7 @@
 * **Tutorials**
   * [How to Receive Bitcoin](How-to-Receive-Bitcoin)
   * [How to Spend Bitcoin](How-to-Spend-Bitcoin)
+  * [How to Use Certificates](How-to-Use-Certificates)
 * **Meta Commands**
   * [help](bx-help)
   * [settings](bx-settings)
