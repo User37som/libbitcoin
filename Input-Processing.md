@@ -87,14 +87,6 @@ url = tcp://obelisk-testnet.airbitz.co:9091
 # The client's base64-encoded private certificate.
 #private = 
 ```
-The path to the configuration settings file is specified by the `--config` command line option, the `BX_CONFIG` environment variable, or by default as follows:
-
-* Linux/OSX (prefix): `<prefix>/etc/libbitcoin/bx.cfg`
-* Linux/OSX (default): `/usr/local/etc/libbitcoin/bx.cfg`
-* Windows: `%ProgramData%\libbitcoin\bx.cfg`
-
-The Windows directory is hidden by default. If the file is not found default values are loaded. If the file is contains invalid settings an error is returned via STDERR. If any setting is not specified its default is loaded.
-
 The BX `settings` command shows the current value of all configuration settings.
 
 #### Environment Variables
