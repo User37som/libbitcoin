@@ -56,18 +56,18 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_50_0/doc/html/
     <setting name="retries" type="byte" description="Number of times to retry contacting the server before giving up." />
     <setting name="wait" default="2000" type="uint32_t" description="Milliseconds to wait for a response from the server." />
   </configuration>
-    
-  <configuration section="mainnet">
-    <setting name="url" type="uri" default="tcp://obelisk.airbitz.co:9091" description="The URL of the Obelisk mainnet server." />
-  </configuration>
-  
-  <configuration section="testnet">
-    <setting name="url" type="uri"  default="tcp://obelisk-testnet.airbitz.co:9091" description="The URL of the Obelisk testnet server." />
-  </configuration>
-  
+
   <configuration section="logging">
     <setting name="debug" type="path"  default="debug.log" description="The path to the debug log file, used by send-tx-p2p." />
     <setting name="error" type="path"  default="error.log" description="The path to the error log file, used by send-tx-p2p." />
+  </configuration>
+
+  <configuration section="mainnet">
+    <setting name="url" type="uri" default="tcp://obelisk.airbitz.co:9091" description="The URL of the Obelisk mainnet server." />
+  </configuration>
+
+  <configuration section="testnet">
+    <setting name="url" type="uri"  default="tcp://obelisk-testnet.airbitz.co:9091" description="The URL of the Obelisk testnet server." />
   </configuration>
 ```
 The implementation supports a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file:
