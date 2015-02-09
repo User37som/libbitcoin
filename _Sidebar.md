@@ -1,6 +1,6 @@
 ### BX Menu
 * **[Home](Home)**
-* **[Build BX](Build)**
+* **[Build BX](Build-BX)**
 * **[Download BX](Download)**
 * **General Information**
   * [Acronyms](Acronyms)
