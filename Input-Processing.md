@@ -58,20 +58,20 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/
 </configuration>
 
 <configuration section="logging">
-    <setting name="debug" type="path" default="debug.log" description="The path to the debug log file, used by send-tx-p2p." />
-    <setting name="error" type="path" default="error.log" description="The path to the error log file, used by send-tx-p2p." />
+    <setting name="debug_file" type="path" default="debug.log" description="The path to the debug log file, used by send-tx-p2p." />
+    <setting name="error_file" type="path" default="error.log" description="The path to the error log file, used by send-tx-p2p." />
 </configuration>
 
 <configuration section="mainnet">
     <setting name="url" type="uri" default="tcp://obelisk.airbitz.co:9091" description="The URL of the Obelisk mainnet server." />
-    <setting name="public" type="base64" description="The server's base64-encoded public certificate." />
-    <setting name="private" type="base64" description="The client's base64-encoded private certificate." />
+    <setting name="server_cert" type="base64" description="The server's base64-encoded public certificate." />
+    <setting name="client_cert" type="base64" description="The client's base64-encoded private certificate." />
 </configuration>
 
 <configuration section="testnet">
     <setting name="url" type="uri" default="tcp://obelisk-testnet.airbitz.co:9091" description="The URL of the Obelisk testnet server." />
-    <setting name="public" type="base64" description="The server's base64-encoded public certificate." />
-    <setting name="private" type="base64" description="The client's base64-encoded private certificate." />
+    <setting name="server_cert" type="base64" description="The server's base64-encoded public certificate." />
+    <setting name="client_cert" type="base64" description="The client's base64-encoded private certificate." />
 </configuration>
 ```
 The implementation supports a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file:
@@ -89,25 +89,25 @@ wait = 2000
 
 [logging]
 # The path to the debug log file, used by send-tx-p2p.
-debug = debug.log
+debug_file = debug.log
 # The path to the error log file, used by send-tx-p2p.
-error = error.log
+error_file = error.log
 
 [mainnet]
 # The URL of the default mainnet Obelisk server.
 url = tcp://obelisk.airbitz.co:9091
 # The server's base64-encoded public certificate.
-#public = 
+#server_cert = 
 # The client's base64-encoded private certificate.
-#private = 
+#client_cert = 
 
 [testnet]
 # The URL of the default testnet Obelisk server.
 url = tcp://obelisk-testnet.airbitz.co:9091
 # The server's base64-encoded public certificate.
-#public = 
+#server_cert = 
 # The client's base64-encoded private certificate.
-#private = 
+#client_cert = 
 ```
 The BX `settings` command shows the current value of all configuration settings.
 
