@@ -1,7 +1,7 @@
 ### BX Menu
 * **[Home](Home)**
 * **[Build BX](Build-BX)**
-* **[Download BX](Download)**
+* **[Download BX](Download-BX)**
 * **General Information**
   * [Acronyms](Acronyms)
   * [Background](Background)
