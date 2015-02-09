@@ -26,25 +26,25 @@ wait = 2000
 
 [logging]
 # The path to the debug log file, used by send-tx-p2p.
-debug = debug.log
+debug_file = debug.log
 # The path to the error log file, used by send-tx-p2p.
-error = error.log
+error_file = error.log
 
 [mainnet]
 # The URL of the default mainnet Obelisk server.
 url = tcp://obelisk.airbitz.co:9091
 # The server's base64-encoded public certificate.
-#public = 
+#server_cert = 
 # The client's base64-encoded private certificate.
-#private = 
+#client_cert = 
 
 [testnet]
 # The URL of the default testnet Obelisk server.
 url = tcp://obelisk-testnet.airbitz.co:9091
 # The server's base64-encoded public certificate.
-#public = 
+#server_cert = 
 # The client's base64-encoded private certificate.
-#private = 
+#client_cert = 
 ```
 
 The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
