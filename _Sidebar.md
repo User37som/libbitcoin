@@ -106,7 +106,7 @@
   * [sha512](bx-sha512)
 * **[Math Commands](Math-Commands)**
   * [btc-to-satoshi](bx-btc-to-satoshi)
-  * [cert-new](certificate-new)
+  * [cert-new](cert-new)
   * [ec-add](bx-ec-add)
   * [ec-add-secrets](bx-ec-add-secrets)
   * [ec-multiply](bx-ec-multiply)
