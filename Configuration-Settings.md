@@ -33,18 +33,18 @@ error_file = error.log
 [mainnet]
 # The URL of the default mainnet Obelisk server.
 url = tcp://obelisk.airbitz.co:9091
-# The server's base64-encoded public certificate.
-#server_cert = 
-# The client's base64-encoded private certificate.
-#client_cert = 
+# The Z85-encoded public key of the server certificate.
+# server_cert_key = 
+# The path to the ZPL-encoded client private certificate file.
+# cert_file = 
 
 [testnet]
 # The URL of the default testnet Obelisk server.
 url = tcp://obelisk-testnet.airbitz.co:9091
-# The server's base64-encoded public certificate.
-#server_cert = 
-# The client's base64-encoded private certificate.
-#client_cert = 
+# The Z85-encoded public key of the server certificate.
+# server_cert_key = 
+# The path to the ZPL-encoded client private certificate file.
+# cert_file = 
 ```
 
 The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
