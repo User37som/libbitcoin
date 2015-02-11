@@ -63,15 +63,15 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/
 </configuration>
 
 <configuration section="mainnet">
-    <setting name="url" type="uri" default="tcp://obelisk.airbitz.co:9091" description="The URL of the Obelisk mainnet server." />
-    <setting name="server_cert" type="base64" description="The server's base64-encoded public certificate." />
-    <setting name="client_cert" type="base64" description="The client's base64-encoded private certificate." />
+    <setting name="url" type="uri" default="tcp://obelisk.airbitz.co:9091" description="The URL of the Libbitcoin/Obelisk mainnet server." />
+    <setting name="server_cert_key" type="cert_key" description="The Z85-encoded public key of the server certificate." />
+    <setting name="cert_file" type="path" description="The path to the ZPL-encoded client private certificate file." />
 </configuration>
 
 <configuration section="testnet">
-    <setting name="url" type="uri" default="tcp://obelisk-testnet.airbitz.co:9091" description="The URL of the Obelisk testnet server." />
-    <setting name="server_cert" type="base64" description="The server's base64-encoded public certificate." />
-    <setting name="client_cert" type="base64" description="The client's base64-encoded private certificate." />
+    <setting name="url" type="uri" default="tcp://obelisk-testnet.airbitz.co:9091" description="The URL of the Libbitcoin/Obelisk testnet server." />
+    <setting name="server_cert_key" type="cert_key" description="The Z85-encoded public key of the server certificate." />
+    <setting name="cert_file" type="path" description="The path to the ZPL-encoded client private certificate file." />
 </configuration>
 ```
 The implementation supports a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file:
