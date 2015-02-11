@@ -44,6 +44,7 @@ base64-encode
 bitcoin160
 bitcoin256
 btc-to-satoshi
+cert-new
 ec-add
 ec-add-secrets
 ec-lock
@@ -139,6 +140,7 @@ base64-encode
 bitcoin160
 bitcoin256
 btc-to-satoshi
+cert-new
 ec-add
 ec-add-secrets
 ec-lock
