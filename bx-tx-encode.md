@@ -4,7 +4,7 @@ $ bx tx-encode --help
 ```
 ```
 Usage: bx tx-encode [-h] [--config VALUE] [--input VALUE] [--lock_time   
-VALUE] [--output VALUE] [--version VALUE] [TRANSACTION]                  
+VALUE] [--output VALUE] [--version VALUE]               
 
 Info: Encode an unsigned transaction as Base16.                          
 
@@ -27,11 +27,6 @@ Options (named):
                      otherwise. The same seed should NOT be used for     
                      multiple outputs.                                   
 -v [--version]       The transaction version.                            
-
-Arguments (positional):
-
-TRANSACTION          The encoded transaction file path. If not specified 
-                     the transaction is written to STDOUT.
 ```
 See also [tx-decode](bx-tx-decode).
 ### Example 1
