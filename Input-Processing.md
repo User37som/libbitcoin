@@ -74,41 +74,8 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/
     <setting name="cert_file" type="path" description="The path to the ZPL-encoded client private certificate file." />
 </configuration>
 ```
-The implementation supports a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file:
-```ini
-# Bitcoin Explorer (BX) configuration file.
+The implementation uses a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file. A default [settings file](configuration-settings) is included with the build.
 
-[general]
-# Only hd-new and stealth-encode currently use the testnet distinction, apart from swapping servers.
-# The network to use, either 'mainnet' or 'testnet'. Defaults to 'mainnet'.
-network = mainnet
-# Number of times to retry contacting the server before giving up.
-retries = 0
-# Milliseconds to wait for a response from the server.
-wait = 2000
-
-[logging]
-# The path to the debug log file, used by send-tx-p2p.
-debug_file = debug.log
-# The path to the error log file, used by send-tx-p2p.
-error_file = error.log
-
-[mainnet]
-# The URL of the default mainnet Obelisk server.
-url = tcp://obelisk.airbitz.co:9091
-# The server's base64-encoded public certificate.
-#server_cert = 
-# The client's base64-encoded private certificate.
-#client_cert = 
-
-[testnet]
-# The URL of the default testnet Obelisk server.
-url = tcp://obelisk-testnet.airbitz.co:9091
-# The server's base64-encoded public certificate.
-#server_cert = 
-# The client's base64-encoded private certificate.
-#client_cert = 
-```
 The BX `settings` command shows the current value of all configuration settings.
 
 #### Environment Variables
