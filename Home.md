@@ -11,4 +11,4 @@ $ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address
 ```
 If you encounter problems or have suggestions please use the [issues board](https://github.com/libbitcoin/libbitcoin-explorer/issues).
 
-**[Download Here](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Download-BX)**
+**[Download Here](Download-BX)**
