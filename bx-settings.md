@@ -49,7 +49,7 @@ settings
 }
 ```
 ### Example 2
---config bx.ini
+--config bx.cfg
 ```sh
 $ bx settings -c bx.cfg
 ```
