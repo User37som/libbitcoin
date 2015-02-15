@@ -29,12 +29,21 @@ settings
         retries 0
         wait 2000
     }
+    logging
+    {
+        debug_file debug.log
+        error_file error.log
+    }
     mainnet
     {
+        cert_file ""
+        server_cert_key ""
         url tcp://obelisk.airbitz.co:9091
     }
     testnet
     {
+        cert_file ""
+        server_cert_key ""
         url tcp://obelisk-testnet.airbitz.co:9091
     }
 }
@@ -53,12 +62,21 @@ settings
         retries 1
         wait 10000
     }
+    logging
+    {
+        debug_file debug.log
+        error_file error.log
+    }
     mainnet
     {
+        cert_file ""
+        server_cert_key ""
         url tcp://obelisk.airbitz.co:9091
     }
     testnet
     {
+        cert_file ""
+        server_cert_key ""
         url tcp://obelisk-testnet.airbitz.co:9091
     }
 }
@@ -80,12 +98,21 @@ settings
         retries 0
         wait 10000
     }
+    logging
+    {
+        debug_file debug.log
+        error_file error.log
+    }
     mainnet
     {
+        cert_file ""
+        server_cert_key ""
         url tcp://obelisk.unsystem.net:9091
     }
     testnet
     {
+        cert_file ""
+        server_cert_key ""
         url tcp://obelisk.unsystem.net:10091
     }
 }
