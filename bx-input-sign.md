@@ -3,8 +3,8 @@ Create an endorsement for a transaction input.
 $ bx input-sign --help
 ```
 ```
-Usage: bx input-sign [-h] [--config VALUE] [--index VALUE] [--nonce      
-VALUE] [--sign_type VALUE] EC_PRIVATE_KEY PREVOUT_SCRIPT [TRANSACTION]   
+Usage: bx input-sign [-h] [--config VALUE] [--index VALUE] [--sign_type  
+VALUE] EC_PRIVATE_KEY PREVOUT_SCRIPT [TRANSACTION]                       
 
 Info: Create an endorsement for a transaction input.                     
 
@@ -46,7 +46,7 @@ $ bx seed
 707e3d717925ba2e98234dd6f3a38eb5 
 ```
 
-> The above step is now optional as a nonce is no longer required. From a security standpoint it is preferable to *not* specify a nonce.
+> The above step is now **invalid** as a nonce is no longer allowed. This example will be updated to reflect the change.
 
 Obtain the previous output **script** from the input point.
 ```sh
