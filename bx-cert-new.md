@@ -23,7 +23,7 @@ PRIVATE_CERT         The path to write the certificate file.
 ```
 Certificates are only written to a file path. If a file already exists in the path an error will result. The format of the certificate file is [ZeroMQ Property Language (ZPL)](http://rfc.zeromq.org/spec:4).
 
-Private certificates are consumed directly by [Libbitcoin Server](https://github.com/evoskuil/libbitcoin-server) for server identity and by BX for client identity.
+Private certificates are consumed directly by [Libbitcoin Server](https://github.com/libbitcoin/libbitcoin-server) for server identity and by BX for client identity.
 
 BX does not use a full certificate for server identity, instead using the unquoted value of the server certificate's `public-key` property.
 
