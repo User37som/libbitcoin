@@ -48,7 +48,7 @@ curve
 ### Example 2
 --metadata email:foo@bar.org --metadata "street:tobaco road"
 ```sh
-$ bx cert-public my_private_cert2 my_public_cert2 --metadata info@bar.org --metadata "street:tobaco road"
+$ bx cert-public my_private_cert2 my_public_cert2 --metadata info@bar.org --metadata "street:tobacco road"
 ```
 ```sh
 $ cat my_public_cert2
@@ -60,7 +60,7 @@ $ cat my_public_cert2
 
 metadata
     phone = "+1-603-555-1212"
-    street = "tobaco road"
+    street = "tobacco road"
     email = "foo@bar.org"
 curve
     public-key = "@)<n=8J0}=6j(-yjVcp*RfdVTT[0>Qkvq>hheMXK"
