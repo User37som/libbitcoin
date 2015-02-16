@@ -6,7 +6,7 @@ $ bx validate-tx --help
 Usage: bx validate-tx [-h] [--config VALUE] [TRANSACTION]                
 
 Info: Determine if a transaction is valid for submission to the          
-blockchain. Requires an Obelisk server connection.                       
+blockchain. Requires a Libbitcoin/Obelisk server connection.             
 
 Options (named):
 
