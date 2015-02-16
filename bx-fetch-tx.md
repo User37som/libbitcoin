@@ -5,7 +5,7 @@ $ bx fetch-tx --help
 ```
 Usage: bx fetch-tx [-h] [--config VALUE] [--format VALUE] [HASH]         
 
-Info: Get a transaction by its hash. Requires an Obelisk server          
+Info: Get a transaction by its hash. Requires a Libbitcoin/Obelisk server
 connection.                                                              
 
 Options (named):
