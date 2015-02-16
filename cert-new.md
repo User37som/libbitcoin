@@ -19,12 +19,13 @@ Arguments (positional):
 
 PRIVATE_CERT         The path to write the certificate file.             
 ```
+See also [cert-public](bx-cert-public).
 ### Example 1
 ```sh
 $ bx cert-new mycert
-$ cat mycert
 ```
 ```sh
+$ cat mycert
 #   ****  Generated on 2015-02-16 01:23:56 by CZMQ  ****
 #   ZeroMQ CURVE **Secret** Certificate
 #   DO NOT PROVIDE THIS FILE TO OTHER USERS nor change its permissions.
@@ -38,9 +39,9 @@ curve
 --metadata email:foo@bar.org --metadata phone:+1-603-555-1212
 ```sh
 $ bx cert-new mycert --metadata email:foo@bar.org --metadata phone:+1-603-555-1212
-$ cat mycert
 ```
 ```sh
+$ cat mycert
 #   ****  Generated on 2015-02-16 01:31:21 by CZMQ  ****
 #   ZeroMQ CURVE **Secret** Certificate
 #   DO NOT PROVIDE THIS FILE TO OTHER USERS nor change its permissions.
