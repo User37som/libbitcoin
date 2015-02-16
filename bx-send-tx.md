@@ -1,12 +1,13 @@
-Broadcast a transaction to the Bitcoin network via an Obelisk server.
+Broadcast a transaction to the Bitcoin network via a Libbitcoin/Obelisk  
+server.
 ```sh
 $ bx send-tx --help
 ```
 ```
 Usage: bx send-tx [-h] [--config VALUE] [TRANSACTION]                    
 
-Info: Broadcast a transaction to the Bitcoin network via an Obelisk      
-server.                                                                  
+Info: Broadcast a transaction to the Bitcoin network via a               
+Libbitcoin/Obelisk server.                                               
 
 Options (named):
 
