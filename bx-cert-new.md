@@ -30,10 +30,10 @@ BX does not use a full certificate for server identity, instead using the unquot
 See also [cert-public](bx-cert-public).
 ### Example 1
 ```sh
-$ bx cert-new mycert
+$ bx cert-new my_private_cert1
 ```
 ```sh
-$ cat mycert
+$ cat my_private_cert1
 #   ****  Generated on 2015-02-16 01:23:56 by CZMQ  ****
 #   ZeroMQ CURVE **Secret** Certificate
 #   DO NOT PROVIDE THIS FILE TO OTHER USERS nor change its permissions.
@@ -46,10 +46,10 @@ curve
 ### Example 2
 --metadata email:foo@bar.org --metadata phone:+1-603-555-1212
 ```sh
-$ bx cert-new mycert --metadata email:foo@bar.org --metadata phone:+1-603-555-1212
+$ bx cert-new my_private_cert2 --metadata email:foo@bar.org --metadata phone:+1-603-555-1212
 ```
 ```sh
-$ cat mycert
+$ cat my_private_cert2
 #   ****  Generated on 2015-02-16 01:31:21 by CZMQ  ****
 #   ZeroMQ CURVE **Secret** Certificate
 #   DO NOT PROVIDE THIS FILE TO OTHER USERS nor change its permissions.
