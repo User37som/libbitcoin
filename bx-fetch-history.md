@@ -7,7 +7,7 @@ Usage: bx fetch-history [-h] [--config VALUE] [--format VALUE]
 [BITCOIN_ADDRESS]                                                        
 
 Info: Get list of output points, values, and spends for a Bitcoin        
-address. Requires an Obelisk server connection.                          
+address. Requires a Libbitcoin/Obelisk server connection.                
 
 Options (named):
 
