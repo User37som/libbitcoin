@@ -7,7 +7,7 @@ Usage: bx watch-address [-h] [--config VALUE] [--format VALUE]
 [BITCOIN_ADDRESS]                                                        
 
 Info: Watch the network for transactions in which an address             
-participates. Requires a Libbitcoin/Obelisk server connection.           
+participates. Requires a Libbitcoin server connection.                   
 
 Options (named):
 
