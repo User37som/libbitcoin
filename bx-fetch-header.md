@@ -7,7 +7,8 @@ Usage: bx fetch-header [-h] [--config VALUE] [--format VALUE] [--hash
 VALUE] [--height VALUE]                                                  
 
 Info: Get the block header from the specified hash or height. Height is  
-ignored if both are specified. Requires an Obelisk server connection.    
+ignored if both are specified. Requires a Libbitcoin/Obelisk server      
+connection.                                                              
 
 Options (named):
 
