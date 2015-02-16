@@ -65,4 +65,4 @@ metadata
 curve
     public-key = "@)<n=8J0}=6j(-yjVcp*RfdVTT[0>Qkvq>hheMXK"
 ```
-If a metadata element already exists in the private certificate the new value is ignored.
+Metadata is copied from the private certificate. If a new metadata property already exists in the private certificate the new value is ignored, otherwise the properties are merged.
