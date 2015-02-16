@@ -48,7 +48,7 @@ curve
 ### Example 2
 --metadata email:foo@bar.org --metadata "street:tobaco road"
 ```sh
-$ bx cert-public my_private_cert2 my_public_cert2 --metadata email:foo@bar.org --metadata "street:tobaco road"
+$ bx cert-public my_private_cert2 my_public_cert2 --metadata email:foo@bar.com --metadata "street:tobaco road"
 ```
 ```sh
 $ cat my_public_cert2
