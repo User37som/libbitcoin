@@ -7,7 +7,7 @@ Usage: bx fetch-stealth [-h] [--config VALUE] [--format VALUE] [--height
 VALUE] [PREFIX]                                                          
 
 Info: Get metadata on potential payment transactions by stealth prefix.  
-Requires an Obelisk server connection.                                   
+Requires a Libbitcoin server connection.                                 
 
 Options (named):
 
