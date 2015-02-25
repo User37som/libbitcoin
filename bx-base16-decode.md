@@ -21,7 +21,7 @@ This command is a simple [hexadecimal](http://en.wikipedia.org/wiki/Hexadecimal)
 
 Hexadecimal is not case sensitive. In other words the letter F and the f are the same value.
 
-The output of this command is not "printable" and can therefore produce unexpected results when piped into another command that accepts raw input.
+The output of this command is not "printable" and can therefore produce unexpected results when piped into another command.
 
 See also [base16-encode](bx-base16-encode).
 ### Example 1
