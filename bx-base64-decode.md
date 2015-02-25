@@ -17,6 +17,8 @@ Arguments (positional):
 BASE64               The Base64 value to decode as binary data. If not   
                      specified the value is read from STDIN.
 ```
+The output of this command is not "printable" and can therefore produce unexpected results when piped into another command that accepts raw input.
+
 See also [base64-encode](bx-base64-encode).
 ### Example 1
 ```sh
