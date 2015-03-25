@@ -24,7 +24,7 @@ PREFIX               The Base2 stealth prefix used to locate
 ```
 This command supports [configuration settings](Configuration-Settings).
 
-In bx version 2.1 and later this command requires a [libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server) (as opposed to an Obelisk server).
+In bx version 2.1 and later this command requires a [libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server), as opposed to an [Obelisk server](https://github.com/spesmilo/obelisk).
 
 The number of transactions matching a given prefix will increase over time.
 
