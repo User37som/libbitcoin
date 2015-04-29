@@ -22,7 +22,7 @@
   * [How to Receive Bitcoin](How-to-Receive-Bitcoin)
   * [How to Spend Bitcoin](How-to-Spend-Bitcoin)
   * [How to Use Certificates](How-to-Use-Certificates)
-  * [How to Use Multisig](How-to-Use-Multisig)
+  * [How to Do Multisignature](How-to-Do-Multisignature)
 * **Meta Commands**
   * [help](bx-help)
   * [settings](bx-settings)
