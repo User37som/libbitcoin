@@ -1,6 +1,6 @@
 Generate three **private keys** from three random **seed** values.
 ```sh
-$ bx seed | bx ec-new | ec-to-public | ec-to-address
+$ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address
 ```
 ```
 6b3f9712911f3262fe72de340f0cbb8d (seed #1)
@@ -9,7 +9,7 @@ $ bx seed | bx ec-new | ec-to-public | ec-to-address
 18Rt94Db3uTDKzkAZeT4XzvCXCE7tP6LK4 (address #1)
 ```
 ```sh
-$ bx seed | bx ec-new | ec-to-public | ec-to-address
+$ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address
 ```
 ```
 ca5167e564d813d6011ce02679a2c252 (seed #2)
@@ -18,7 +18,7 @@ ca5167e564d813d6011ce02679a2c252 (seed #2)
 1PxskR67mk1tTvBBThZHa6zWvA58BZsmsX (address #2)
 ```
 ```sh
-$ bx seed | bx ec-new | ec-to-public | ec-to-address
+$ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address
 ```
 ```
 d4ec97842cf63764ed261ea80f221a69 (seed #3)
