@@ -1,6 +1,6 @@
 To receive payment you must first create a multisig payment address. This example shows a "2 of 3" address, however it can be generalized to any "m of n" scenario.
 
-From three random **seeds**, generate three **private keys**, **public keys** and corresponding **addresses**.
+From three random **seeds**, generate three **private keys**, **public keys** and corresponding public key hash **addresses**.
 ```sh
 $ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address
 ```
@@ -28,7 +28,7 @@ d1a7069b6057195545d4d9048887dd22be97f16bf463c201b76f8bb05ed423ee (private key #3
 021098babedb3408e9ac2984adcf2a8e4c48e56a785065893f76d0fa0ff507f010 (public key #3)
 1E3qAq6hmoVu82bpUVyEeurdWvDAkofYJq (address #3)
 ```
-Use the public keys to create a **script** and the corresponding Pay-to-Script-Hash address.
+Use the public keys to create the redeem **script** and the corresponding script hash address.
 ```sh
 $ bx script-to-address "2 [02b66fcb1064d827094685264aaa90d0126861688932eafbd1d1a4ba149de3308b] [025cab5e31095551582630f168280a38eb3a62b0b3e230b20f8807fc5463ccca3c] [021098babedb3408e9ac2984adcf2a8e4c48e56a785065893f76d0fa0ff507f010] 3 checkmultisig"
 ```
