@@ -25,13 +25,11 @@ d4ec97842cf63764ed261ea80f221a69 (seed #3)
 d1a7069b6057195545d4d9048887dd22be97f16bf463c201b76f8bb05ed423ee (private key #3)
 021098babedb3408e9ac2984adcf2a8e4c48e56a785065893f76d0fa0ff507f010 (public key #3)
 ```
-Use the public keys to create the redeem **script** and the corresponding script hash address. The "2" represents the number signatures required to spend money received at the address and the "3" represents the number of possible signatures.
+Use the public keys to create the redeem **script** and the corresponding script hash address using a multisig script. The "2" represents the number signatures required to spend money received at the address and the "3" represents the number of possible signatures.
 ```sh
 $ bx script-to-address "2 [ 02b66fcb1064d827094685264aaa90d0126861688932eafbd1d1a4ba149de3308b ] [ 025cab5e31095551582630f168280a38eb3a62b0b3e230b20f8807fc5463ccca3c ] [ 021098babedb3408e9ac2984adcf2a8e4c48e56a785065893f76d0fa0ff507f010 ] 3 checkmultisig"
 ```
 ```
 3A6oGpJ5MzABAj9PofXKjcpTJCgYrdGBNJ
 ```
-Now you can spend to the address.
-
 This example is a continued in [How to Spend From a Multisig Address](How-to-Spend-From-a-Multisig-Address).
