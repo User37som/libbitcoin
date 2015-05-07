@@ -32,3 +32,4 @@ $ bx script-to-address "2 [02b66fcb1064d827094685264aaa90d0126861688932eafbd1d1a
 ```
 3KEWVii3tkRrJVR3SLHyTMSQdcCBQHpiQq
 ```
+Now spend some amount to the address. This is my [spend transaction](https://blockchain.info/tx/4e2060102284d51958cf1642cfffc0a6c86c1742903710ab9e7a5dcd41a95274).
