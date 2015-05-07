@@ -1,4 +1,4 @@
-To receive payment you must first create a multisig payment address.
+To receive payment you must first create a multisig payment address. This example shows a "2 of 3" address, however it can be generalized to any "m of n" scenario.
 
 From three random **seeds**, generate three **private keys**, **public keys** and corresponding **addresses**.
 ```sh
