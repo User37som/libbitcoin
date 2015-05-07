@@ -2,7 +2,7 @@ This example is a continuation of [How to Create a Multisig Address](How-to-Crea
 
 Send 0.001 bitcoins (100000 satoshis) to the multisig address using any Bitcoin wallet.
 
-View the [transaction](https://blockchain.info/tx/f759759bc998ec96879e4ae8c1639e8a186e0d507401eb32e4479de64d340605) on blockchain.info.
+View the [example transaction](https://blockchain.info/tx/f759759bc998ec96879e4ae8c1639e8a186e0d507401eb32e4479de64d340605) on blockchain.info.
 
 ### Confirm Receipt of Bitcoin
 Look up the **balance** of the address.
