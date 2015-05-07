@@ -114,14 +114,14 @@ transaction
 ```
 Notice that `transactions.inputs[0].script` is empty. This means that the input has not been endorsed.
 
-Create an **endorsement** for the first input `028678bd...:0` of the new transaction, using the **first** private key, the multisig script and the new transaction.
+Create an **endorsement** for the first input `028678bd...:0` of the new transaction, using the first private key, the multisig script and the new transaction.
 ```sh
 $ bx input-sign 9d695afea1c3ab99e11248e4b74e698332b11f5c5c051e6e80da61aa19ae7c89 "2 [ 02b66fcb1064d827094685264aaa90d0126861688932eafbd1d1a4ba149de3308b ] [ 025cab5e31095551582630f168280a38eb3a62b0b3e230b20f8807fc5463ccca3c ] [ 021098babedb3408e9ac2984adcf2a8e4c48e56a785065893f76d0fa0ff507f010 ] 3 checkmultisig" 01000000010506344de69d47e432eb0174500d6e188a9e63c1e84a9e8796ec98c99b7559f70100000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
 ```
 30440220695a28c42daa23c13e192e36a20d03a2a79994e0fe1c3c6b612d0ae23743064602200ca19003e7c1ce0cecb0bbfba9a825fc3b83cf54e4c3261cd15f080d24a8a5b901
 ```
-Create an **endorsement** for the first input `028678bd...:0` of the new transaction, using the **second** private key, the multisig script and the new transaction.
+Create an **endorsement** for the first input `028678bd...:0` of the new transaction, using the second private key, the multisig script and the new transaction.
 ```sh
 $ bx input-sign 68ebab45a918444d7e088c49bda76d7df89b9ea6ba5ddeb1aab5945391828b83 "2 [ 02b66fcb1064d827094685264aaa90d0126861688932eafbd1d1a4ba149de3308b ] [ 025cab5e31095551582630f168280a38eb3a62b0b3e230b20f8807fc5463ccca3c ] [ 021098babedb3408e9ac2984adcf2a8e4c48e56a785065893f76d0fa0ff507f010 ] 3 checkmultisig" 01000000010506344de69d47e432eb0174500d6e188a9e63c1e84a9e8796ec98c99b7559f70100000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
