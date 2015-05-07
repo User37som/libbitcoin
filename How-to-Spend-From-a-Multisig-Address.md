@@ -61,7 +61,7 @@ transaction
     version 1
 }
 ```
-The **input** for the new transaction will be `transaction.outputs[1]`. This input is formatted as `transaction hash:index`, where the index is the zero-based position of this previous output in its transaction.
+The **input** for the new transaction will be `transaction.outputs[1]` (because it is the output of the multisig address). This input is formatted as `transaction hash:index`, where the index is the zero-based position of this previous output in its transaction.
 ```
 f759759bc998ec96879e4ae8c1639e8a186e0d507401eb32e4479de64d340605:1
 ```
