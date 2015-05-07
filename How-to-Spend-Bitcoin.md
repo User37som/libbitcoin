@@ -102,7 +102,7 @@ $ bx seed
 707e3d717925ba2e98234dd6f3a38eb5
 ```
 
-> The above step is now **invalid** as a nonce is no longer allowed. This example will be updated to reflect the change.
+> The above step is now **invalid** as a nonce is no longer allowed.
 
 Create an **endorsement** for the first input `7c3e880e...:0` of the new transaction, using the private key, nonce, previous output script and the new transaction. The script is obtained from `transaction.outputs[0].script` in the input's transaction.
 ```sh
