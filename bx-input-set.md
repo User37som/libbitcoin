@@ -18,6 +18,7 @@ Options (named):
 Arguments (positional):
 
 ENDORSEMENT_SCRIPT   The endorsement script to assign to the input.      
+                     Multiple tokens must be quoted.                     
 TRANSACTION          The Base16 transaction. If not specified the        
                      transaction is read from STDIN.
 ```
