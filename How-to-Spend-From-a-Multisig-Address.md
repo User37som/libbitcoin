@@ -19,4 +19,4 @@ balance
 }
 ```
 Notice that `balance.confirmed` shows that the transaction has at least one confirmation.
-# Create a Transaction to Spend from the Multisig Address
+### Create a Transaction to Spend from the Multisig Address
