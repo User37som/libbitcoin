@@ -1,3 +1,5 @@
+To receive payment you must first create a multisig payment address.
+
 From three random **seeds**, generate three **private keys**, **public keys** and corresponding **addresses**.
 ```sh
 $ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address
