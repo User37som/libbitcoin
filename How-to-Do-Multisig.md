@@ -1,4 +1,4 @@
-Generate three **private keys** from three random **seed** value.
+Generate three **private keys** from three random **seed** values.
 ```sh
 $ bx seed | bx ec-new
 ```
