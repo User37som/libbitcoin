@@ -10,7 +10,7 @@ $ bx seed | bx ec-new | bx ec-to-public
 02b66fcb1064d827094685264aaa90d0126861688932eafbd1d1a4ba149de3308b (public key #1)
 ```
 ```sh
-$ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address
+$ bx seed | bx ec-new | bx ec-to-public
 ```
 ```
 ca5167e564d813d6011ce02679a2c252 (seed #2)
@@ -18,7 +18,7 @@ ca5167e564d813d6011ce02679a2c252 (seed #2)
 025cab5e31095551582630f168280a38eb3a62b0b3e230b20f8807fc5463ccca3c (public key #2)
 ```
 ```sh
-$ bx seed | bx ec-new | bx ec-to-public | bx ec-to-address
+$ bx seed | bx ec-new | bx ec-to-public
 ```
 ```
 d4ec97842cf63764ed261ea80f221a69 (seed #3)
