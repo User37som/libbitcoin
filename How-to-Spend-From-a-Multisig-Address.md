@@ -128,7 +128,7 @@ $ bx input-sign 68ebab45a918444d7e088c49bda76d7df89b9ea6ba5ddeb1aab5945391828b83
 ```
 3045022100aa9096ce71995c24545694f20ab0482099a98c99b799c706c333c521e51db66002206578f023fa46f4a863a6fa7f18b95eebd1a91fcdf6ce714e8795d902bd6b682b01
 ```
-Encode the multisig script.
+Encode the multisig script, for embedding in the endorsement script.
 ```sh
 $ bx script-encode "2 [ 02b66fcb1064d827094685264aaa90d0126861688932eafbd1d1a4ba149de3308b ] [ 025cab5e31095551582630f168280a38eb3a62b0b3e230b20f8807fc5463ccca3c ] [ 021098babedb3408e9ac2984adcf2a8e4c48e56a785065893f76d0fa0ff507f010 ] 3 checkmultisig"
 ```
