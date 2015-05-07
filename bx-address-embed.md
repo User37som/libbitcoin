@@ -1,11 +1,11 @@
-Generate a Bitcoin address with an embedded record of binary data.
+Create a Bitcoin address with an embedded record of binary data.
 ```sh
 $ bx address-embed --help
 ```
 ```
 Usage: bx address-embed [-h] [--config VALUE] [--version VALUE] [DATA]
 
-Info: Generate a Bitcoin address with an embedded record of binary
+Info: Create a Bitcoin address with an embedded record of binary
 data.
 
 Options (named):
