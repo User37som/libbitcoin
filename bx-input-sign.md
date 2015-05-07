@@ -43,7 +43,7 @@ $ bx seed
 707e3d717925ba2e98234dd6f3a38eb5 
 ```
 
-> The above step is now **invalid** as a nonce is no longer allowed. This example will be updated to reflect the change.
+> The above step is now **invalid** as a nonce is no longer allowed.
 
 Obtain the previous output **script** from the input point.
 ```sh
