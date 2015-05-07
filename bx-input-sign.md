@@ -4,7 +4,7 @@ $ bx input-sign --help
 ```
 ```
 Usage: bx input-sign [-h] [--config VALUE] [--index VALUE] [--sign_type  
-VALUE] EC_PRIVATE_KEY PREVOUT_SCRIPT [TRANSACTION]                       
+VALUE] EC_PRIVATE_KEY CONTRACT [TRANSACTION]                             
 
 Info: Create an endorsement for a transaction input.                     
 
@@ -14,10 +14,6 @@ Options (named):
 -h [--help]          Get a description and instructions for this command.
 -i [--index]         The ordinal position of the input within the        
                      transaction, defaults to zero.                      
--n [--nonce]         The Base16 random value used to seed a signing      
-                     nonce. Must be at least 128 bits in length. If not  
-                     specified the deterministic signature algorithm is  
-                     used.                                               
 -s [--sign_type]     A token that indicates how the transaction should be
                      hashed for signing. Options are 'all', 'none',      
                      'single', and 'anyone_can_pay', defaults to 'all'.  
@@ -25,7 +21,8 @@ Options (named):
 Arguments (positional):
 
 EC_PRIVATE_KEY       The Base16 EC private key to sign with.             
-PREVOUT_SCRIPT       The previous output script to use in signing.       
+CONTRACT             The previous output script to use in signing.       
+                     Multiple tokens must be quoted.                     
 TRANSACTION          The Base16 transaction. If not specified the        
                      transaction is read from STDIN.
 ```
