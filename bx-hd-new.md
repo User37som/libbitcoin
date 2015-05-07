@@ -14,9 +14,9 @@ Options (named):
 
 Arguments (positional):
 
-SEED                 The Base16 randomness seed for the new key. Must be 
-                     at least 128 bits in length. If not specified the   
-                     seed is read from STDIN.  
+SEED                 The Base16 entropy for the new key. Must be at least
+                     128 bits in length. If not specified the seed is    
+                     read from STDIN.
 ```
 This command supports the `testnet` [configuration setting](Configuration-Settings).
 ### Example 1
