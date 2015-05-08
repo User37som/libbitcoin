@@ -1,13 +1,16 @@
 BX defines the following set of primitive types in the `bx::primitives` namespace.
 ```
 address
-base2
 base16
+base2
 base58
 base64
+base85
 btc
 btc160
 btc256
+byte
+cert_key
 ec_private
 ec_public
 encoding
@@ -18,6 +21,7 @@ hd_priv
 hd_pub
 header
 input
+language
 output
 point
 raw
