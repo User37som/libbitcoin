@@ -23,6 +23,7 @@ Arguments (positional):
 WORD                 The set of words that that make up the mnemonic. If 
                      not specified the words are read from STDIN.
 ```
+See also [mnemonic-new](bx-mnemonic-new).
 ### Example 1
 ```sh
 $ 
