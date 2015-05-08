@@ -100,10 +100,11 @@ WARNING: The specified words are not a valid mnemonic in any supported dictionar
 ### Example 10
 piped commands
 ```sh
-$ bx seed | bx mnemonic-new | bx mnemonic-to-seed
+$ bx seed | bx mnemonic-new | bx mnemonic-to-seed | bx hd-new
 ```
 ```
-450847557324d3335da3f56c33191ee4
-eagle drama stem town essay often isolate leaf history occur element silk
-c60e81ee306c5470ab50e27a9d8fa71935d9762aa397117c8950b6fb74906a2beb0390cc6227de26410eb8985d74fbb6884e17073dccddac058dbcd78cd97e03
+655a1ed2d4fef69bb314198c7327f23c
+grab special regret prepare urge evidence slush lobster midnight odor wish ketchup
+57bae342ae8e69eb63f17ef993a90a59159e0f78114b602bf0ebabfec0e5d086e883c31975bf03f8a47a32853452623094d1303fd0549745db457145e5756582
+xprv9s21ZrQH143K43CUCgNp5SmXzg2axQx2P4WupA2zEnKpFM19QfqfdqfpJR3yfzAXZnsHeUaQhWQMwyuqL8DbdeLeCbdMoKNn6pCY4RUn2pK
 ```
