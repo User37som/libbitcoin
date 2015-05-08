@@ -28,6 +28,14 @@ This command supports [configuration settings](Configuration-Settings).
 > Type `ctrl-c` to terminate the watcher.
 
 ### Example 1
+connecting to an Obelisk server (unsupported)
+```sh
+$ bx watch-address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+```
+```
+Bad stream
+```
+### Example 2
 monitor donations to Satoshi
 ```sh
 $ bx watch-address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
