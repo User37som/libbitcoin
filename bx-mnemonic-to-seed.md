@@ -80,3 +80,11 @@ $ bx mnemonic-to-seed 值 所 畢 沒 流 妨 性 守 解 芯 威 隔
 ```
 73c4cc1c492ba13285093e774a2785078d4545e3c4d519ddb46efbf991f7a89c7aa65739eb5b91df8f92838530f544ed0eede0fda06f6f1876ce5be403bed3b1
 ```
+### Example 8
+--passphrase
+```sh
+bx mnemonic-to-seed 值 所 畢 沒 流 妨 性 守 解 芯 威 隔 --passphrase "one point twenty-one gigawats"
+```
+```
+aef417acfb9457f60b797575ce76540c944e489294b7acb4125f1244ecdf9c00d2f5b160a5c26e786739cd35ec1448eb5d870640d36feb63d3570793b627472d
+```
