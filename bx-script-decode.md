@@ -17,7 +17,7 @@ Arguments (positional):
 SCRIPT               The Base16 script. If not specified the script is   
                      read from STDIN.
 ```
-This command is helpful in interpreting scripts as they appear in the wire protocol. It is not used in conjunction with other commands apart from `script-encode`.
+This command is helpful in interpreting scripts as they appear in the wire protocol.
 
 See also [script-encode](bx-script-encode).
 ### Example 1
