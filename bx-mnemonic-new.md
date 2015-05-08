@@ -45,6 +45,29 @@ dad alter pear begin brand you art girl behind soul injury napkin
 $ bx mnemonic-new baadf00dbaadf00dbaadf00dbaadf00d --language es
 ```
 ```
-baadf00dbaadf00dbaadf00dbaadf00d
 previo humilde actuar jarabe tabique ahorro tope pulpo anís señal lavar bahía
+```
+### Example 4
+--language ja
+```sh
+$ bx mnemonic-new baadf00dbaadf00dbaadf00dbaadf00d --language ja
+```
+```
+ねんかん すずしい あひる せたけ ほとんど あんまり めいあん のべる いなか ふとる ぜんりゃく えいせい
+```
+### Example 5
+--language zh_Hans
+```sh
+$ bx mnemonic-new baadf00dbaadf00dbaadf00dbaadf00d --language zh_Hans
+```
+```
+博 肉 地 危 惜 多 陪 荒 因 患 伊 基
+```
+### Example 6
+--language zh_Hant
+```sh
+$ bx mnemonic-new baadf00dbaadf00dbaadf00dbaadf00d --language zh_Hant
+```
+```
+博 肉 地 危 惜 多 陪 荒 因 患 伊 基
 ```
