@@ -27,7 +27,7 @@ See also [mnemonic-new](bx-mnemonic-new).
 ### Example 1
 invalid mnemonic
 ```sh
-$ bx bx mnemonic-to-seed two words
+$ bx mnemonic-to-seed two words
 ```
 ```
 The number of words must be divisible by 3.
