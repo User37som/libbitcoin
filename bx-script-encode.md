@@ -24,7 +24,7 @@ See also [script-decode](bx-script-decode).
 ### Example 1
 [Bitcoin Wiki example](https://en.bitcoin.it/wiki/Script#Scripts)
 ```sh
-$ bx script-encode dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig
+$ bx script-encode "dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig"
 ```
 ```
 76a91489abcdefabbaabbaabbaabbaabbaabbaabbaabba88ac
