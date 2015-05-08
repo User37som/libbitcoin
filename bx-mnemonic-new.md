@@ -39,3 +39,12 @@ $ bx seed | bx mnemonic-new
 36e0ee880a21b1fe4333121499f5d0c9
 dad alter pear begin brand you art girl behind soul injury napkin
 ```
+### Example 3
+--language es
+```sh
+$ bx mnemonic-new baadf00dbaadf00dbaadf00dbaadf00d --language es
+```
+```
+baadf00dbaadf00dbaadf00dbaadf00d
+previo humilde actuar jarabe tabique ahorro tope pulpo anís señal lavar bahía
+```
