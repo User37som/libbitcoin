@@ -23,6 +23,7 @@ SEED                 The Base16 entropy from which the mnemonic is
                      evenly divisible by 32 bits. If not specified the   
                      entropy is read from STDIN.
 ```
+See also [mnemonic-to-seed](bx-mnemonic-to-seed).
 ### Example 1
 ```sh
 $ bx mnemonic-new baadf00dbaadf00dbaadf00dbaadf00d
