@@ -3,7 +3,7 @@ Decode a script to plain text tokens.
 $ bx script-decode --help
 ```
 ```
-Usage: bx script-decode [-h] [--config VALUE] [SCRIPT]                   
+Usage: bx script-decode [-h] [--config VALUE] [BASE16]                   
 
 Info: Decode a script to plain text tokens.                              
 
@@ -14,7 +14,7 @@ Options (named):
 
 Arguments (positional):
 
-SCRIPT               The Base16 script. If not specified the script is   
+BASE16               The Base16 script. If not specified the script is   
                      read from STDIN.
 ```
 This command is helpful in interpreting scripts as they appear in the wire protocol.
