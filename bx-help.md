@@ -27,6 +27,8 @@ $ bx help
 ```
 Usage: bx COMMAND [--help]
 
+Version: 2.1.0 [mainnet]
+
 Info: The bx commands are:
 
 address-decode
@@ -45,6 +47,7 @@ bitcoin160
 bitcoin256
 btc-to-satoshi
 cert-new
+cert-public
 ec-add
 ec-add-secrets
 ec-lock
@@ -77,8 +80,8 @@ input-sign
 input-validate
 message-sign
 message-validate
-mnemonic-decode
-mnemonic-encode
+mnemonic-new
+mnemonic-to-seed
 qrcode
 ripemd160
 satoshi-to-btc
@@ -123,6 +126,8 @@ $ bx
 ```
 Usage: bx COMMAND [--help]
 
+Version: 2.1.0 [mainnet]
+
 Info: The bx commands are:
 
 address-decode
@@ -141,6 +146,7 @@ bitcoin160
 bitcoin256
 btc-to-satoshi
 cert-new
+cert-public
 ec-add
 ec-add-secrets
 ec-lock
@@ -173,8 +179,8 @@ input-sign
 input-validate
 message-sign
 message-validate
-mnemonic-decode
-mnemonic-encode
+mnemonic-new
+mnemonic-to-seed
 qrcode
 ripemd160
 satoshi-to-btc
@@ -210,5 +216,4 @@ wrap-encode
 Bitcoin Explorer home page:
 
 https://github.com/libbitcoin/libbitcoin-explorer
-
 ```
