@@ -7,7 +7,7 @@ The path to the configuration settings file is specified by the `--config` comma
 * Linux/OSX (default): `/usr/local/etc/libbitcoin/bx.cfg`
 * Windows: `%ProgramData%\libbitcoin\bx.cfg`
 
-The Windows directory is hidden by default. If the file is not found default values are loaded. If the file is contains invalid settings an error is returned via STDERR. If any setting is not specified its default is loaded.
+The Windows directory is hidden by default. If the file is not found default values are loaded. If the file contains invalid settings an error is returned via STDERR. If any setting is not specified its default is loaded.
 
 ### Default Configuration Settings
 
