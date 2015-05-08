@@ -25,6 +25,14 @@ SEED                 The Base16 entropy from which the mnemonic is
 ```
 ### Example 1
 ```sh
+$ bx mnemonic-new baadf00dbaadf00dbaadf00dbaadf00d
+```
+```
+rival hurdle address inspire tenant almost turkey safe asset step lab boy
+```
+### Example 2
+piped commands
+```sh
 $ bx seed | bx mnemonic-new
 ```
 ```
