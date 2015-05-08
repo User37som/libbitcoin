@@ -34,7 +34,7 @@ $ bx mnemonic-to-seed rival hurdle address inspire tenant almost turkey safe ass
 ### Example 2
 invalid dictionary
 ```sh
-$ bx mnemonic-to-seed rival hurdle address inspire tenant almost turkey safe asset step lab boy -l ja
+$ bx mnemonic-to-seed --language ja rival hurdle address inspire tenant almost turkey safe asset step lab boy
 ```
 ```
 The specified words are not a valid mnemonic in the specified dictionary.
