@@ -52,7 +52,7 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/
 ```xml
 <configuration section="general">
     <!-- Only hd-new and stealth-encode currently use the testnet distinction, apart from swapping servers. -->
-    <setting name="network" default="mainnet" description="The network to use, either 'mainnet' or 'testnet'. Defaults to 'mainnet'." />
+    <setting name="network" description="The network to use, either 'mainnet' or 'testnet'. Defaults to match the build." />
     <setting name="retries" type="byte" description="Number of times to retry contacting the server before giving up." />
     <setting name="wait" default="2000" type="uint32_t" description="Milliseconds to wait for a response from the server." />
 </configuration>
