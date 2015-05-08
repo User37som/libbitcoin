@@ -59,16 +59,16 @@ $ bx mnemonic-new baadf00dbaadf00dbaadf00dbaadf00d --language ja
 ### Example 5
 --language zh_Hans
 ```sh
-$ bx mnemonic-new baadf00dbaadf00dbaadf00dbaadf00d --language zh_Hans
+$ bx mnemonic-new 36e0ee880a21b1fe4333121499f5d0c9 -l zh_Hans
 ```
 ```
-博 肉 地 危 惜 多 陪 荒 因 患 伊 基
+值 所 毕 没 流 妨 性 守 解 芯 威 隔
 ```
 ### Example 6
 --language zh_Hant
 ```sh
-$ bx mnemonic-new baadf00dbaadf00dbaadf00dbaadf00d --language zh_Hant
+$ bx mnemonic-new 36e0ee880a21b1fe4333121499f5d0c9 -l zh_Hant
 ```
 ```
-博 肉 地 危 惜 多 陪 荒 因 患 伊 基
+值 所 畢 沒 流 妨 性 守 解 芯 威 隔
 ```
