@@ -21,6 +21,7 @@ Arguments (positional):
 TRANSACTION          The Base16 transaction to send. If not specified the
                      transaction is read from STDIN.
 ```
+This command writes to the configured [log files](Log-Files).
 ### Example 1
 bitcoind on localhost
 ```sh
