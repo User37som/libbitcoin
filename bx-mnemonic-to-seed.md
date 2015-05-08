@@ -26,7 +26,8 @@ WORD                 The set of words that that make up the mnemonic. If
 See also [mnemonic-new](bx-mnemonic-new).
 ### Example 1
 ```sh
-$ 
+$ bx mnemonic-to-seed rival hurdle address inspire tenant almost turkey safe asset step lab boy
 ```
 ```
+020b67fd929e0eb9f963443138057ceec0d62601d69b4b2327c00d74f0fd1862d164c53d49227d9dadedbbec305236bc2149d9a5267aa7c5aa004235c3c66c29
 ```
