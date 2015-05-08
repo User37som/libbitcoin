@@ -19,9 +19,9 @@ Options (named):
 Arguments (positional):
 
 SEED                 The Base16 entropy from which the mnemonic is       
-                     created. The length must be at least 128 bits and   
-                     evenly divisible by 32 bits. If not specified the   
-                     entropy is read from STDIN.
+                     created. The length must be evenly divisible by 32  
+                     bits. If not specified the entropy is read from     
+                     STDIN.
 ```
 See also [mnemonic-to-seed](bx-mnemonic-to-seed).
 ### Example 1
