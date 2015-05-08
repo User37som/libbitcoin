@@ -3,7 +3,7 @@ Base16 encode a plain text script.
 $ bx script-encode --help
 ```
 ```
-Usage: bx script-encode [-h] [--config VALUE] [TOKEN]...                 
+Usage: bx script-encode [-h] [--config VALUE] [SCRIPT]                   
 
 Info: Base16 encode a plain text script.                                 
 
@@ -14,9 +14,9 @@ Options (named):
 
 Arguments (positional):
 
-TOKEN                The plain text script tokens that make up the       
-                     script. If not specified the tokens are read from   
-                     STDIN.
+SCRIPT               The plain text script tokens that make up the       
+                     script. Multiple tokens must be quoted. If not      
+                     specified the tokens are read from STDIN.
 ```
 This command is helpful in interpreting scripts as they appear in the wire protocol, and for nesting scripts within scripts.
 
