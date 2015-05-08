@@ -2,6 +2,7 @@ Convert a mnemonic seed (BIP39) to its numeric representation.
 ```sh
 $ bx mnemonic-to-seed --help
 ```
+```
 Usage: bx mnemonic-to-seed [-h] [--config VALUE] [--language VALUE]      
 [--passphrase VALUE] [WORD]...                                           
 
