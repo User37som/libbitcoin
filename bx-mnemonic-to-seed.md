@@ -97,3 +97,13 @@ $ bx mnemonic-to-seed 值 所 畢 hurdle address inspire tenant ねんかん す
 WARNING: The specified words are not a valid mnemonic in any supported dictionary.
 8a377e0eee9b64371ca3554d787fe3d2045869dd4e31012beeafeb69ed11a866214cf776213f06b8398bc1567ce3294fb8eac7942da21c1f84eae8729a20ef23
 ```
+### Example 10
+piped commands
+```sh
+$ bx seed | bx mnemonic-new | bx mnemonic-to-seed
+```
+```
+450847557324d3335da3f56c33191ee4
+eagle drama stem town essay often isolate leaf history occur element silk
+c60e81ee306c5470ab50e27a9d8fa71935d9762aa397117c8950b6fb74906a2beb0390cc6227de26410eb8985d74fbb6884e17073dccddac058dbcd78cd97e03
+```
