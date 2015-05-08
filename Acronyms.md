@@ -2,8 +2,10 @@ BX command names, help and parameterization utilize the following set of acronym
 ```
 BTC     Bitcoin Denomination
 BX      Bitcoin Explorer
+CERT    Curve ZMQ Certificate
 EC      Elliptic Curve
 HD      Hierarchical Deterministic
+ICU     International Components for Unicode
 PREVOUT Previous Output
 PUBKEY  EC Public Key
 QRCODE  Quick Response Code
@@ -15,4 +17,5 @@ SX      Spesmilo Exchanger (the original version of Bitcoin Explorer)
 TX      Transaction
 UTXO    Unspent Transaction Output
 WIF     Wallet Import Format
+ZMQ     Zero Message Queue
 ```
