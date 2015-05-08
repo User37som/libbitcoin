@@ -20,8 +20,17 @@ SCRIPT               The script to use in the address. Multiple tokens
 ```
 ### Example 1
 ```sh
-$ bx script-to-address dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig
+$ bx script-to-address "dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig"
 ```
 ```
+3F6i6kwkevjR7AsAd4te2YB2zZyASEm1HM
+```
+### Example 2
+piped commands
+```sh
+$ bx script-decode 76a91489abcdefabbaabbaabbaabbaabbaabbaabbaabba88ac | bx script-to-address
+```
+```
+dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig
 3F6i6kwkevjR7AsAd4te2YB2zZyASEm1HM
 ```
