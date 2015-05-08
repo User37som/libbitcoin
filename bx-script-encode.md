@@ -29,3 +29,12 @@ $ bx script-encode "dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equ
 ```
 76a91489abcdefabbaabbaabbaabbaabbaabbaabbaabba88ac
 ```
+### Example 2
+piped commands
+```sh
+$ bx script-decode 76a91489abcdefabbaabbaabbaabbaabbaabbaabbaabba88ac | bx script-encode
+```
+```
+dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig
+76a91489abcdefabbaabbaabbaabbaabbaabbaabbaabba88ac
+```
