@@ -25,14 +25,6 @@ WORD                 The set of words that that make up the mnemonic. If
 ```
 See also [mnemonic-new](bx-mnemonic-new).
 ### Example 1
-any dictionary
-```sh
-$ bx mnemonic-to-seed rival hurdle address inspire tenant almost turkey safe asset step lab boy
-```
-```
-020b67fd929e0eb9f963443138057ceec0d62601d69b4b2327c00d74f0fd1862d164c53d49227d9dadedbbec305236bc2149d9a5267aa7c5aa004235c3c66c29
-```
-### Example 2
 incorrect specified dictionary
 ```sh
 $ bx mnemonic-to-seed --language ja rival hurdle address inspire tenant almost turkey safe asset step lab boy
@@ -40,10 +32,18 @@ $ bx mnemonic-to-seed --language ja rival hurdle address inspire tenant almost t
 ```
 The specified words are not a valid mnemonic in the specified dictionary.
 `````
-### Example 3
+### Example 2
 correct specified dictionary
 ```sh
 $ bx mnemonic-to-seed --language en rival hurdle address inspire tenant almost turkey safe asset step lab boy
+```
+```
+020b67fd929e0eb9f963443138057ceec0d62601d69b4b2327c00d74f0fd1862d164c53d49227d9dadedbbec305236bc2149d9a5267aa7c5aa004235c3c66c29
+```
+### Example 3
+English
+```sh
+$ bx mnemonic-to-seed rival hurdle address inspire tenant almost turkey safe asset step lab boy
 ```
 ```
 020b67fd929e0eb9f963443138057ceec0d62601d69b4b2327c00d74f0fd1862d164c53d49227d9dadedbbec305236bc2149d9a5267aa7c5aa004235c3c66c29
