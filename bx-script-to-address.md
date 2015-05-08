@@ -1,11 +1,11 @@
-Create a BIP16 pay-to-script-hash address from an encoded script.
+Create a BIP16 pay-to-script-hash address from a script.
 ```sh
 $ bx script-to-address --help
 ```
 ```
 Usage: bx script-to-address [-h] [--config VALUE] [SCRIPT]               
 
-Info: Create a BIP16 pay-to-script-hash address from an encoded script.  
+Info: Create a BIP16 pay-to-script-hash address from a script.           
 
 Options (named):
 
@@ -14,8 +14,9 @@ Options (named):
 
 Arguments (positional):
 
-SCRIPT               The script. If not specified the script is read from
-                     STDIN.
+SCRIPT               The script to use in the address. Multiple tokens   
+                     must be quoted. If not specified the script is read 
+                     from STDIN.
 ```
 ### Example 1
 ```sh
