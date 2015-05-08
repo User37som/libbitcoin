@@ -67,16 +67,16 @@ $ bx mnemonic-to-seed ねんかん すずしい あひる せたけ ほとんど
 ### Example 6
 Simplified Chinese
 ```sh
-$ bx mnemonic-to-seed 博 肉 地 危 惜 多 陪 荒 因 患 伊 基
+$ bx mnemonic-to-seed 值 所 毕 没 流 妨 性 守 解 芯 威 隔
 ```
 ```
-a7d6aa4f8e23bb666ad8d5ee58df85824a93d69a306547433bd047173d45ddaf7595d98b00386af5b8ddfce2666792961cfa70bbe71b97cb211811a7512b8d2b
+46d1593a3b78c9c557aa956e767836f97552486ac233dd6cd8d874d95a127890b7d560509bdba0468227f41e42c730b36c38fd3428cdecf841b64ecd17dc48d6
 ```
 ### Example 7
 Traditional Chinese
 ```sh
-$ bx mnemonic-to-seed 博 肉 地 危 惜 多 陪 荒 因 患 伊 基
+$ bx mnemonic-to-seed 值 所 畢 沒 流 妨 性 守 解 芯 威 隔
 ```
 ```
-a7d6aa4f8e23bb666ad8d5ee58df85824a93d69a306547433bd047173d45ddaf7595d98b00386af5b8ddfce2666792961cfa70bbe71b97cb211811a7512b8d2b
+73c4cc1c492ba13285093e774a2785078d4545e3c4d519ddb46efbf991f7a89c7aa65739eb5b91df8f92838530f544ed0eede0fda06f6f1876ce5be403bed3b1
 ```
