@@ -25,7 +25,7 @@ SEED                 The Base16 entropy from which the mnemonic is
 ```
 See also [mnemonic-to-seed](bx-mnemonic-to-seed).
 ### Example 1
-indivisible seed
+invalid seed
 ```sh
 $ bx mnemonic-new baad
 ```
