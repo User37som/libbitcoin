@@ -2,7 +2,7 @@ CurveZMQ is used for client/server authentication.
 
 ## Authenticating a server
 
-Edit the [configuration file](Configuration-Settings):
+Edit the [configuration file](Configuration-Settings) to include the server's public key:
 
 ``` ini
 [mainnet]
