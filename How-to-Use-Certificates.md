@@ -2,7 +2,7 @@ CurveZMQ is used for client/server authentication.
 
 ## Authenticating a server
 
-Edit the configuration file (default is `/usr/local/etc/libbitcoin/bx.cfg`):
+Edit the [configuration file](Configuration-Settings):
 
 ``` ini
 [mainnet]
