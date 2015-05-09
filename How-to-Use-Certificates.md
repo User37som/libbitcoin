@@ -19,10 +19,10 @@ Some servers only allow authorised clients to communicate.
 First, create a keypair:
 
 ``` sh
-mkdir -p /path/to/cert
-cd /path/to/cert
-bx cert-new client.private
-bx cert-public client.private client.public
+$ mkdir -p /path/to/cert
+$ cd /path/to/cert
+$ bx cert-new client.private
+$ bx cert-public client.private client.public
 ```
 
 Specify the private part in your config:
