@@ -1,4 +1,4 @@
-CurveZMQ is used for client/server authentication.
+[CurveZMQ](http://curvezmq.org/) is used for client/server authentication.
 
 ### Authenticating a server
 
