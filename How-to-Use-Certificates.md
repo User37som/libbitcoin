@@ -1,4 +1,4 @@
-[CurveZMQ](http://curvezmq.org/) is used for client/server authentication.
+[CurveZMQ](http://curvezmq.org/) is used for client/server authentication. [bx cert-new](bx-cert-new) can be used to generate certificates.
 
 ### Authenticating a server
 
