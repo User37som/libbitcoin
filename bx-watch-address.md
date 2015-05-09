@@ -21,9 +21,11 @@ Arguments (positional):
 BITCOIN_ADDRESS      The participating Bitcoin address. If not specified 
                      the address is read from STDIN. 
 ```
-This command reflects transactions created after the subscription is established.
-
 This command supports [configuration settings](Configuration-Settings).
+
+In bx version 2.1 and later this command requires a [libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server), in contrast to version 2.0 which requires an [obelisk server](https://github.com/spesmilo/obelisk).
+
+This command reflects transactions created after the subscription is established.
 
 > Type `ctrl-c` to terminate the watcher.
 
