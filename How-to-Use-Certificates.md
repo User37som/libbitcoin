@@ -1,6 +1,6 @@
 CurveZMQ is used for client/server authentication.
 
-## Authenticating a server
+### Authenticating a server
 
 Edit the [configuration file](Configuration-Settings) to include the server's public key:
 
@@ -12,7 +12,7 @@ url =  tcp://obelisk-sol2.airbitz.co
 server_cert_key = CrWu}il)+MbqD60BV)v/xt&Xtwj*$[Q}Q{$9}hom
 ```
 
-## Authenticating with a server
+### Authenticating with a server
 
 Some servers only allow authorised clients to communicate.
 
