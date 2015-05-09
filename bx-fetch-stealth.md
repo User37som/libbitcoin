@@ -30,6 +30,14 @@ The number of transactions matching a given prefix will increase over time.
 
 Changes to the stealth protocol are ongoing, and may invalidate the results below.
 ### Example 1
+connecting to an Obelisk server (unsupported)
+```sh
+$ bx fetch-stealth 101010
+```
+```
+timed out
+```
+### Example 2
 ```sh
 $ bx fetch-stealth 101010
 ```
@@ -68,7 +76,7 @@ stealth
     }
 }
 ```
-### Example 2
+### Example 3
 --format json, --height 325500, prefix 01
 ```sh
 $ bx fetch-stealth -f json -t 325500 01
