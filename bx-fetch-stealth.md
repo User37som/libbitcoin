@@ -27,8 +27,6 @@ This command supports [configuration settings](Configuration-Settings).
 In bx version 2.1 and later this command requires a [libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server), in contrast to version 2.0 which requires an [obelisk server](https://github.com/spesmilo/obelisk).
 
 The number of transactions matching a given prefix will increase over time.
-
-Changes to the stealth protocol are ongoing, and may invalidate the results below.
 ### Example 1
 connecting to an Obelisk server (unsupported)
 ```sh
