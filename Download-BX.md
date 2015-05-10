@@ -16,6 +16,9 @@ Each download is a single executable file.
 Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the signed message below. If you do not have a previously verified version of BX you can use any local or online [hash computer](http://onlinemd5.com) to calculate the hash values.
 
 ```
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 bx-linux-x64-mainnet v2.1.0
 6bb2d47c8d10badbca8468fd6f51101c2b98ecd4103d19bfc72ea3abe66ab0d1
 
@@ -24,6 +27,17 @@ bx-osx-x64-mainnet v2.1.0
 
 bx-windows-x64-icu-mainnet.exe v2.1.0
 e7ad781c48c7d2404008e20190bf414e5396927f546a4d9ba0ca76541009ac9c
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJVT+bPAAoJEDzYwH8LXOFOflAIAIbfKwfoDoT2jvXRRf2EOdQK
+bEb9XQF7a3FSo5c96gTmbHO7E4KZ7cqtF26Prt15OH+Z5oLl+yQ6Gpg8eoo0QOvX
+1u2Z2W4vXDZT4LlgltnMy0Tfq602EydShowqqTjGLXFKwglUWB5AQfQcoiJntDLK
+mGTPUCS6pj3OzVJNI24FSFytAJz0SVDJFx0SsXcBkFUH6PnF6/chCSjbEK6s2xvp
+uOHUV6hmxhcEj53fWjCr50ZRA1w5orIBhaBkEFY74dVdLrSgcB29jDtbzIWqExRX
+vRIlavKR94Wnrmmel2BOQkPDz9vSISI0rfIDX2CB6sUY0zGVCiN2SMByVM7ZGM8=
+=KPIi
+-----END PGP SIGNATURE-----
 ```
 
 ### Using BX to Calculate Hashes
