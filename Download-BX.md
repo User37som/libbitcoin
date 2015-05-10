@@ -16,13 +16,13 @@ Each download is a single executable file.
 Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the signed message below. If you do not have a previously verified version of BX you can use any local or online [hash computer](http://onlinemd5.com) to calculate the hash values.
 
 ```
-bx-linux-x64-mainnet
+bx-linux-x64-mainnet v2.1.0
 6bb2d47c8d10badbca8468fd6f51101c2b98ecd4103d19bfc72ea3abe66ab0d1
 
-bx-osx-x64-mainnet
+bx-osx-x64-mainnet v2.1.0
 9e578ab79de7100e3e607860998adaa641c39ab69d672f9ad5b6fa77998f30f8
 
-bx-windows-x64-icu-mainnet.exe
+bx-windows-x64-icu-mainnet.exe v2.1.0
 e7ad781c48c7d2404008e20190bf414e5396927f546a4d9ba0ca76541009ac9c
 ```
 
