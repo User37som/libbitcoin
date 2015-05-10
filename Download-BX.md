@@ -46,6 +46,15 @@ BX depends on the [libbitcoin](https://github.com/libbitcoin/libbitcoin) toolkit
 $ bx help
 ```
 ```
+Usage: bx COMMAND [--help]
 
+Version: 2.1.0 [mainnet]
+
+Info: The bx commands are:
+
+address-decode
+address-embed
+address-encode
+...
 ```
 See the value of the `settings.general.network` property above.
