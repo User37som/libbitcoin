@@ -26,8 +26,6 @@ e7ad781c48c7d2404008e20190bf414e5396927f546a4d9ba0ca76541009ac9c
 
 ### Using BX to Calculate Hashes
 With a previously-verified version of BX you can validate both the integrity of the download using the following commands.
-
-Calculate the SHA-256 hash
 ```sh
 $ bx base16-encode < bx-linux-x64-mainnet | bx sha256
 6bb2d47c8d10badbca8468fd6f51101c2b98ecd4103d19bfc72ea3abe66ab0d1
