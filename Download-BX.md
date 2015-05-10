@@ -6,7 +6,7 @@ Each download is a single executable file.
 
 | OS | File | Bytes |
 |----|------|-------|
-|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png)        | [`bx-osx-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.1.0/bx-osx-x64-mainnet)             | `4,168,852` |
+|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png) | [`bx-osx-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.1.0/bx-osx-x64-mainnet) | `4,168,852` |
 
 ### Integrity Validation
 Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the table above. If you do not have a previously verified version of BX you can use any local or online [hash computer](http://onlinemd5.com). The hash encoding is not case sensitive.
