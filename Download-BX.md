@@ -1,3 +1,5 @@
+# Version 2.1.0
+
 ### WARNING
 These binaries are provided for your convenience. We cannot and do not guarantee that they will not lose your money or compromise your privacy. You are free to inspect the source code and build it yourself. **By downloading a binary copy of BX you accept all responsibility for its use and behavior.**
 
