@@ -41,27 +41,11 @@ The signature is valid.
 ```
 
 ### Testnet vs. Mainnet
-BX depends on the [libbitcoin](https://github.com/libbitcoin/libbitcoin) toolkit, which currently requires recompilation for use with [testnet](https://en.bitcoin.it/wiki/Testnet). BX also provides [configuration settings](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) for testnet. Each build can self-identify as testnet vs. mainnet using the [`settings`](bx-settings) command.
+BX depends on the [libbitcoin](https://github.com/libbitcoin/libbitcoin) toolkit, which currently requires recompilation for use with [testnet](https://en.bitcoin.it/wiki/Testnet). BX also provides [configuration settings](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) for testnet. Each build can self-identify as testnet vs. mainnet using the [`help`](bx-help#example-1) command.
 ```sh
-$ bx settings
+$ bx help
 ```
-```js
-settings
-{
-    general
-    {
-        network testnet
-        retries 0
-        wait 2000
-    }
-    mainnet
-    {
-        url tcp://obelisk.airbitz.co:9091
-    }
-    testnet
-    {
-        url tcp://obelisk-testnet.airbitz.co:9091
-    }
-}
+```
+
 ```
 See the value of the `settings.general.network` property above.
