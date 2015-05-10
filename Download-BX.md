@@ -57,4 +57,3 @@ address-embed
 address-encode
 ...
 ```
-See the value of the `settings.general.network` property above.
