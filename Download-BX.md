@@ -3,6 +3,7 @@ These binaries are provided for your convenience. We cannot and do not guarantee
 
 ### Download
 Each download is a single executable file.
+
 | OS | File | Bytes |
 |----|------|-------|
 |![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png) | [`bx-linux-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.1.0/bx-linux-x64-mainnet) | `3,001,128` |
