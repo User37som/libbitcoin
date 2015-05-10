@@ -11,28 +11,49 @@ Each download is a single executable file.
 |![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png) | [`bx-windows-x64-icu-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.1.0/bx-windows-x64-icu-mainnet) | `3,796,480` |
 
 ### Integrity Validation
-Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the table above. If you do not have a previously verified version of BX you can use any local or online [hash computer](http://onlinemd5.com). The hash encoding is not case sensitive.
+Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the signed table below. If you do not have a previously verified version of BX you can use any local or online [hash computer](http://onlinemd5.com) to calculate the hash values.
+```
+TODO: PGP sign message with hashes.
+```
 
-### Origin Validation
-Validate the origin of the download by verifying the Bitcoin signature in the table above against the address `1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7` and the SHA-256 hash. If you do not have a previously verified version of BX you can do this using the [Electrum](https://bsidebtc.com/sign-verify-message-electrum) wallet (and potentially others). The "message" to verify is the SHA-256 hash.
-
-### Using BX to Validate Itself
-With a previously-verified version of BX you can validate both the integrity and origin of the download using the following commands.
+### Using BX to Calculate Hashes
+With a previously-verified version of BX you can validate both the integrity of the download using the following commands.
 
 Calculate the SHA-256 hash
 ```sh
+$ bx base16-encode < bx-linux-x64-mainnet | bx sha256
+6bb2d47c8d10badbca8468fd6f51101c2b98ecd4103d19bfc72ea3abe66ab0d1
+
 $ bx base16-encode < bx-osx-x64-mainnet | bx sha256
-```
-```
-93b781caf300d71e28b7be1748cb54d529da19a456cfa35e1c0f680300dfd3d1
+9e578ab79de7100e3e607860998adaa641c39ab69d672f9ad5b6fa77998f30f8
+
+$ bx base16-encode < bx-windows-x64-icu-mainnet.exe | bx sha256
+e7ad781c48c7d2404008e20190bf414e5396927f546a4d9ba0ca76541009ac9c
 ```
 
-Validate the Bitcoin signature
-```sh
-$ bx message-validate 1GpL7EH3QFeG89mZf7dKKssYf4gjrH4mu7 HxVAo5ldF4aPcbnKxcsvPuuyOh1Sb2LPPfEJwRQc2UzKa1/9rSIes0B0YM87jHQjsCCUmpm5/EeFkCh26tWKQiI= 93b781caf300d71e28b7be1748cb54d529da19a456cfa35e1c0f680300dfd3d1
+### Origin Validation
+Validate the origin of the download by verifying the [PGP signature](http://en.wikipedia.org/wiki/Pretty_Good_Privacy) on the message containing the hashes (above). The message was signed by [evoskuil](https://github.com/evoskuil), which can be verified using the following public key. See also the [MIT Public Key Server](https://pgp.mit.edu/pks/lookup?op=get&search=0x3CD8C07F0B5CE14E):
+
 ```
-```
-The signature is valid.
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1.4.14 (GNU/Linux)
+
+mQENBFLWPEoBCACfsNbsREA7RMRZmMD/a4eG2GYUlfjSjqI8d49tBhUTzM29hJ7F
+gKbhNa62MFxUV3BA7Gg7t3JJj3zTXDzTg9FQVCZVlw1BlLPGTA6yYf5tQEY8h/z9
+1wsoHDV9DQUl1ElpqaAYdMzdk6x1fuKQyP6kxKevtSO3BOkIrypJ7REeRlvOeHXb
+WxeL+Ih07mvBCXG86SmEFYAGPmq5/0yIICc4cMNvh/Cf2BRI+9s40n2lCX9YIecF
+rVxdtBZ3QWiOF2oRFBKplfuTPOUFker+owQgFFsFiRmgjLOtMOZkeGH8ctLT0zWn
+CRVWvXwNkU3lueEp/uMPQdtVpBZFGL7DAgPvABEBAAG0H0VyaWMgVm9za3VpbCA8
+ZXJpY0B2b3NrdWlsLm9yZz6JAT8EEwECACkFAlLWPEoCGw8FCQs2vfYHCwkIBwMC
+AQYVCAIJCgsEFgIDAQIeAQIXgAAKCRA82MB/C1zhTjXqB/9K1EPQ/wt+Yd0bEjfd
+YjO8Wb5cHAU14Lo7ElDV3JY/wGtZV9lELEJZyIIKTJ/FWJMt0fpPsnzkHh4XTbC9
+cM6U0ujMVb2u+MbdaEpEvlsMomJtBzFehwLu+RcQlftPYKpPwMLT8NNJcBQbUJKP
+/Ko5F5SlOGa/cEkWbKStiI6BDH9d2oOGMnULvSll4RryqQON2VVU5+gB+ebBUZPS
+32HBPxGNrAbiBm5qPFEO6CHqFld7QHhRc3uO/33rzGZBxcuq7BdNr/3p6TfVK59d
+tJ/XzF/74qCF2pEDedGGEr6dwYGMgeZNLapclCbfTnHJhYWzDuwMfR/1X4nwRCCM
+0Ud0
+=xE34
+-----END PGP PUBLIC KEY BLOCK-----
 ```
 
 ### Testnet vs. Mainnet
