@@ -18,7 +18,7 @@ For convenience, the [bx.cfg](https://github.com/libbitcoin/libbitcoin-explorer/
 [general]
 # Only hd-new and stealth-encode currently use the testnet distinction, apart from swapping servers.
 # The network to use, either 'mainnet' or 'testnet'. Defaults to match the build.
-network = 
+network =
 # Number of times to retry contacting the server before giving up.
 retries = 0
 # Milliseconds to wait for a response from the server.
@@ -31,7 +31,7 @@ debug_file = debug.log
 error_file = error.log
 
 [mainnet]
-# The URL of the default mainnet Obelisk server.
+# The URL of the mainnet Libbitcoin/Obelisk server.
 url = tcp://obelisk.airbitz.co:9091
 # The Z85-encoded public key of the server certificate.
 # server_cert_key = 
@@ -39,7 +39,7 @@ url = tcp://obelisk.airbitz.co:9091
 # cert_file = 
 
 [testnet]
-# The URL of the default testnet Obelisk server.
+# The URL of the Libbitcoin/Obelisk testnet server.
 url = tcp://obelisk-testnet.airbitz.co:9091
 # The Z85-encoded public key of the server certificate.
 # server_cert_key = 
