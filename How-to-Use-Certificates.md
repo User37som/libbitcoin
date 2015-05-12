@@ -4,10 +4,10 @@
 
 Edit the [configuration file](Configuration-Settings) to include the server's public key:
 
-``` ini
+```ini
 [mainnet]
-# The URL of the Libbitcoin/Obelisk testnet server.
-url =  tcp://obelisk.airbitz.co
+# The URL of the mainnet Libbitcoin/Obelisk server.
+url = tcp://obelisk.airbitz.co:9091
 # The Z85-encoded public key of the server certificate.
 server_cert_key = CrWu}il)+MbqD60BV)v/xt&Xtwj*$[Q}Q{$9}hom
 ```
@@ -27,9 +27,9 @@ $ bx cert-public client.private client.public
 
 Specify the private part in your config:
 
-``` ini
+```ini
 [mainnet]
-# The URL of the Libbitcoin/Obelisk testnet server.
+# The URL of the mainnet Libbitcoin/Obelisk server.
 url = tcp://strict-server-address:9091
 # The path to the ZPL-encoded client private certificate file.
 cert_file = /path/to/cert/client.private
