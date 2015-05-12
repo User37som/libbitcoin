@@ -7,7 +7,7 @@ Edit the [configuration file](Configuration-Settings) to include the server's pu
 ``` ini
 [mainnet]
 # The URL of the Libbitcoin/Obelisk testnet server.
-url =  tcp://obelisk-sol2.airbitz.co
+url =  tcp://obelisk.airbitz.co
 # The Z85-encoded public key of the server certificate.
 server_cert_key = CrWu}il)+MbqD60BV)v/xt&Xtwj*$[Q}Q{$9}hom
 ```
