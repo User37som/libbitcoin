@@ -5,4 +5,4 @@
 | 0.1.0   | v1.0   | first major release of sx               |
 | 0.1.0   | v0.2   | initial public release.                 |
 
-See also [help](bx-help).
+The [help](bx-help) command displays the current version number.
