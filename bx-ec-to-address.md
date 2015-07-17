@@ -12,7 +12,7 @@ Options (named):
 
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
--v [--version]       The desired Bitcoin address version.                
+-v [--version]       The desired Bitcoin address version.  (For testnet, apply 111 to obtain a Base58Check encoded address starting with the letters "m" or "n". See [Mastering Bitcoin](https://github.com/aantonop/bitcoinbook/blob/develop/ch04.asciidoc#base58check_versions).)              
 
 Arguments (positional):
 
