@@ -11,6 +11,7 @@ Options (named):
 
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
+-v [--version]       The desired Bitcoin address version.                
 
 Arguments (positional):
 
@@ -26,6 +27,14 @@ $ bx script-to-address "dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ]
 3F6i6kwkevjR7AsAd4te2YB2zZyASEm1HM
 ```
 ### Example 2
+--version 42
+```sh
+$ bx script-to-address -v 42 "dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig"
+```
+```
+J8c2XmyQvbsqND2NXbDRyBF9HEW4oJ1AY8
+```
+### Example 3
 piped commands
 ```sh
 $ bx script-decode 76a91489abcdefabbaabbaabbaabbaabbaabbaabbaabba88ac | bx script-to-address
