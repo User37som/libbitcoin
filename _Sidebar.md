@@ -50,6 +50,11 @@
 * **[Key Encryption Commands](Key-Encryption-Commands)**
   * [private-lock](bx-private-lock)
   * [private-unlock](bx-private-unlock)
+  * [public-unlock](bx-public-unlock)
+  * [public-to-address](bx-public-to-address)
+  * [token-new](bx-token-new)
+  * [token-private](bx-token-private)
+  * [token-public](bx-token-public)
 * **[Stealth Commands](Stealth-Commands)**
   * [stealth-decode](bx-stealth-decode)
   * [stealth-encode](bx-stealth-encode)
