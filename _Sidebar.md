@@ -41,14 +41,15 @@
   * [hd-to-wif](bx-hd-to-wif)
   * [mnemonic-new](bx-mnemonic-new)
   * [mnemonic-to-seed](bx-mnemonic-to-seed)
-  * [private-lock](bx-private-lock)
-  * [private-unlock](bx-private-unlock)
   * [qrcode](bx-qrcode)
   * [seed](bx-seed)
   * [uri-decode](bx-uri-decode)
   * [uri-encode](bx-uri-encode)
   * [wif-to-ec](bx-wif-to-ec)
   * [wif-to-public](bx-wif-to-public)
+* **[Key Encryption Commands](Key-Encryption-Commands)**
+  * [private-lock](bx-private-lock)
+  * [private-unlock](bx-private-unlock)
 * **[Stealth Commands](Stealth-Commands)**
   * [stealth-decode](bx-stealth-decode)
   * [stealth-encode](bx-stealth-encode)
