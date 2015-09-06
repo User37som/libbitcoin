@@ -51,6 +51,7 @@
   * [private-lock](bx-private-lock)
   * [private-unlock](bx-private-unlock)
   * [public-unlock](bx-public-unlock)
+  * [private-to-address](bx-private-to-address)
   * [public-to-address](bx-public-to-address)
   * [token-new](bx-token-new)
   * [token-private](bx-token-private)
