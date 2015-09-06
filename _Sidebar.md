@@ -49,15 +49,15 @@
   * [uri-encode](bx-uri-encode)
   * [wif-to-ec](bx-wif-to-ec)
   * [wif-to-public](bx-wif-to-public)
-* **[Messaging Commands](Messaging-Commands)**
-  * [message-sign](bx-message-sign)
-  * [message-validate](bx-message-validate)
 * **[Stealth Commands](Stealth-Commands)**
   * [stealth-decode](bx-stealth-decode)
   * [stealth-encode](bx-stealth-encode)
   * [stealth-public](bx-stealth-public)
   * [stealth-secret](bx-stealth-secret)
   * [stealth-shared](bx-stealth-shared)
+* **[Messaging Commands](Messaging-Commands)**
+  * [message-sign](bx-message-sign)
+  * [message-validate](bx-message-validate)
 * **[Transaction Commands](Transaction-Commands)**
   * [input-set](bx-input-set)
   * [input-sign](bx-input-sign)
