@@ -1,3 +1,3 @@
-![Key Encryption Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/network/img/key-encryption-commands.png)
+#### Key Encryption functionality is new in **version3**
 
-> TODO: promote image reference from network branch to master|version3 as applicable.
+![Key Encryption Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/network/img/key-encryption-commands.png)
