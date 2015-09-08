@@ -18,7 +18,7 @@ Options (named):
 
 Arguments (positional):
 
-PASSPHRASE           The passphrase for locking the token.               
+PASSPHRASE           The passphrase for encrypting the token.            
 SALT                 The Base16 entropy for the new token. Must be at    
                      least 32 bits in length (only the first 32 bits are 
                      used).
