@@ -21,7 +21,7 @@ PASSPHRASE           The passphrase that was used to generate the
 EK_PRIVATE_KEY       The encrypted private key from which to extract the 
                      payment address.
 ```
-See also [uri-decode](bx-uri-decode).
+See also [ek-to-ec](bx-ek-to-ec).
 ### Example 1
 ```sh
 TODO
