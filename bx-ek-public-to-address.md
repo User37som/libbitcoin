@@ -2,6 +2,7 @@ Extract the payment address of an encrypted public key (BIP38).
 ```sh
 $ bx ek-public-to-address --help
 ```
+```
 Usage: bx ek-public-to-address [-h] [--config VALUE] [PASSPHRASE]        
 [EK_PUBLIC_KEY]                                                          
 
