@@ -1,4 +1,4 @@
-Create a payment address derived from an intermediate passphrase   
+Create a payment address derived from an intermediate passphrase token (BIP38).
 ```sh
 $ bx ek-address --help
 ```
@@ -6,7 +6,7 @@ $ bx ek-address --help
 Usage: bx ek-address [-hu] [--config VALUE] [--version VALUE] [TOKEN]    
 [SEED]                                                                   
 
-Info: 
+Info: Create a payment address derived from an intermediate passphrase   
 token (BIP38).                                                           
 
 Options (named):
