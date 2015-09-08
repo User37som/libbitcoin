@@ -16,7 +16,7 @@ Arguments (positional):
 
 PASSPHRASE           The passphrase that was used to encrypt the         
                      encrypted private key.                              
-EK_PRIVATE_KEY       The encrypted private key to unlock.
+EK_PRIVATE_KEY       The encrypted private key to decrypt.
 ```
 See also [ec-to-ek](bx-ec-to-ek) and [ek-to-address](bx-ek-to-address).
 ### Example 1
