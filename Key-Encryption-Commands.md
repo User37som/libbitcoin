@@ -2,6 +2,6 @@
 
 ![Key Encryption Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/network/img/key-encryption-commands.png)
 
-The commands prefixed with `ek-public-` are deprecated for the reasons described in [BIP38-Security-Considerations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations).
+The three commands prefixed with `ek-public` are deprecated for reasons described in [BIP38-Security-Considerations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations).
 
 See also related information pertaining to [altchains](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys).
