@@ -50,11 +50,11 @@
 * **[Key Encryption Commands](Key-Encryption-Commands)**
   * [ec-to-ek](bx-ec-to-ek)
   * [ek-to-ec](bx-ek-to-ec)
-  * [token-new](bx-token-new)
+  * [ek-token-new](bx-ek-token-new)
   * [ek-new](ek-new)
   * [ek-address](bx-ek-address)
   * [ek-to-address](bx-ek-to-address)
-  * - deprecated -
+  *
   * [ek-public](bx-ek-public)
   * [ek-public-to-ec](bx-ek-public-to-ec)
   * [ek-public-to-address](bx-ek-public-to-address)
