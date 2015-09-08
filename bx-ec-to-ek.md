@@ -17,7 +17,7 @@ Options (named):
 
 Arguments (positional):
 
-PASSPHRASE           The passphrase for locking the private key.         
+PASSPHRASE           The passphrase for encryptingthe private key.       
 EC_PRIVATE_KEY       The EC private key to encrypt. If not specified the 
                      key is read from STDIN.
 ```
