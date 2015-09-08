@@ -17,7 +17,7 @@ Arguments (positional):
 
 PASSPHRASE           The passphrase that was used to generate the        
                      encrypted private key.                              
-EK_PUBLIC_KEY        The encrypted public key to unlock.
+EK_PUBLIC_KEY        The encrypted public key to decrypt.
 ```
 See also [ek-public-to-address](bx-ek-public-to-address).
 ### Example 1
