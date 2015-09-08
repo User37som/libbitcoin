@@ -1,5 +1,4 @@
-Create an encrypted public key from an intermediate passphrase token 
-(BIP38).
+Create an encrypted public key from an intermediate passphrase token (BIP38).
 ```sh
 $ bx ek-public --help
 ```
