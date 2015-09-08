@@ -3,7 +3,7 @@ Create an encrypted public key from an intermediate passphrase token (BIP38).
 $ bx ek-public --help
 ```
 ```
-Usage: bx ek-public [-h] [--config VALUE] [--version VALUE] [TOKEN]      
+Usage: bx ek-public [-hu] [--config VALUE] [--version VALUE] [TOKEN]     
 [SEED]                                                                   
 
 Info: Create an encrypted public key from an intermediate passphrase     
@@ -13,6 +13,8 @@ Options (named):
 
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.  
+-u [--uncompressed]  Use the uncompressed public key format, as used to  
+                     create the corresponding encrypted private key.     
 -v [--version]       The desired payment address version used to create  
                      the corresponding encrypted private key.            
 
