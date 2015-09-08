@@ -12,9 +12,7 @@ token (BIP38).
 Options (named):
 
 -c [--config]        The path to the configuration settings file.        
--h [--help]          Get a description and instructions for this command.
--u [--uncompressed]  Use the uncompressed public key format, as used to  
-                     create the corresponding encrypted private key.     
+-h [--help]          Get a description and instructions for this command. 
 -v [--version]       The desired payment address version used to create  
                      the corresponding encrypted private key.            
 
