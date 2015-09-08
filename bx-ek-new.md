@@ -1,4 +1,5 @@
-Create an encrypted private key from an intermediate passphrase   
+Info: Create an encrypted private key from an intermediate passphrase    
+token (BIP38).
 ```sh
 $ bx ek-new --help
 ```
