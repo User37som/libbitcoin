@@ -1,4 +1,4 @@
-Verify the passphrase for an encrypted private key (BIP38).  
+Extract the EC public key of an encrypted public key (BIP38).  
 ```sh
 $ bx ek-public-to-ec --help
 ```
@@ -6,7 +6,7 @@ $ bx ek-public-to-ec --help
 Usage: bx ek-public-to-ec [-h] [--config VALUE] [PASSPHRASE]             
 [EK_PUBLIC_KEY]                                                          
 
-Info: Verify the passphrase for an encrypted private key (BIP38).        
+Info: Extract the EC public key of an encrypted public key (BIP38).      
 
 Options (named):
 
