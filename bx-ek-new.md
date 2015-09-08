@@ -12,7 +12,6 @@ Options (named):
 
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
--u [--uncompressed]  Use the uncompressed public key format.             
 -v [--version]       The desired payment address version.                
 
 Arguments (positional):
