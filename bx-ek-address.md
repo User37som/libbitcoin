@@ -3,7 +3,7 @@ Create a payment address derived from an intermediate passphrase token (BIP38).
 $ bx ek-address --help
 ```
 ```
-Usage: bx ek-address [-h] [--config VALUE] [--version VALUE] [TOKEN]     
+Usage: bx ek-address [-hu] [--config VALUE] [--version VALUE] [TOKEN]    
 [SEED]                                                                   
 
 Info: Create a payment address derived from an intermediate passphrase   
@@ -12,7 +12,9 @@ token (BIP38).
 Options (named):
 
 -c [--config]        The path to the configuration settings file.        
--h [--help]          Get a description and instructions for this command. 
+-h [--help]          Get a description and instructions for this command.
+-u [--uncompressed]  Use the uncompressed public key format, as used to  
+                     create the corresponding encrypted private key.     
 -v [--version]       The desired payment address version used to create  
                      the corresponding encrypted private key.            
 
