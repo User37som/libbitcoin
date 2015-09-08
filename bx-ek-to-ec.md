@@ -1,4 +1,4 @@
-Recover the EC private key from an encrypted private key (BIP38).
+Recover the EC private key from an encrypted private key (BIP38). 
 ```sh
 $ bx ek-to-ec --help
 ```
