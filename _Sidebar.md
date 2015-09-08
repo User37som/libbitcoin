@@ -50,14 +50,13 @@
 * **[Key Encryption Commands](Key-Encryption-Commands)**
   * [ek-address](bx-ek-address)
   * [ek-new](ek-new)
+  * [ek-public](bx-ek-public)
+  * [ek-public-to-address](bx-ek-public-to-address)
+  * [ek-public-to-ec](bx-ek-public-to-ec)
   * [ek-to-address](bx-ek-to-address)
   * [ek-to-ec](bx-ek-to-ec)
   * [ec-to-ek](bx-ec-to-ek)
   * [token-new](bx-token-new)
-* **[Key Encryption (deprecated)](Key-Encryption-Commands)**
-  * [ek-public](bx-ek-public)
-  * [ek-public-to-ec](bx-ek-public-to-ec)
-  * [ek-public-to-address](bx-ek-public-to-address)
 * **[Stealth Commands](Stealth-Commands)**
   * [stealth-decode](bx-stealth-decode)
   * [stealth-encode](bx-stealth-encode)
