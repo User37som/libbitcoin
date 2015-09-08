@@ -54,9 +54,10 @@
   * [ek-new](ek-new)
   * [ek-address](bx-ek-address)
   * [ek-to-address](bx-ek-to-address)
-  * [ek-public](bx-ek-public) (deprecated)
-  * [ek-public-to-ec](bx-ek-public-to-ec) (deprecated)
-  * [ek-public-to-address](bx-ek-public-to-address) (deprecated)
+  * - deprecated -
+  * [ek-public](bx-ek-public)
+  * [ek-public-to-ec](bx-ek-public-to-ec)
+  * [ek-public-to-address](bx-ek-public-to-address)
 * **[Stealth Commands](Stealth-Commands)**
   * [stealth-decode](bx-stealth-decode)
   * [stealth-encode](bx-stealth-encode)
