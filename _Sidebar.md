@@ -48,6 +48,7 @@
   * [wif-to-ec](bx-wif-to-ec)
   * [wif-to-public](bx-wif-to-public)
 * **[Key Encryption Commands](Key-Encryption-Commands)**
+  * [ec-to-ek](bx-ec-to-ek)
   * [ek-address](bx-ek-address)
   * [ek-new](ek-new)
   * [ek-public](bx-ek-public)
@@ -55,7 +56,6 @@
   * [ek-public-to-ec](bx-ek-public-to-ec)
   * [ek-to-address](bx-ek-to-address)
   * [ek-to-ec](bx-ek-to-ec)
-  * [ec-to-ek](bx-ec-to-ek)
   * [token-new](bx-token-new)
 * **[Stealth Commands](Stealth-Commands)**
   * [stealth-decode](bx-stealth-decode)
