@@ -54,7 +54,7 @@
   * [ek-new](ek-new)
   * [ek-address](bx-ek-address)
   * [ek-to-address](bx-ek-to-address)
-  *
+* **[Key Encryption (deprecated)](Key-Encryption-Commands)**
   * [ek-public](bx-ek-public)
   * [ek-public-to-ec](bx-ek-public-to-ec)
   * [ek-public-to-address](bx-ek-public-to-address)
