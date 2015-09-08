@@ -26,6 +26,7 @@ SEED                 The Base16 entropy used to create the corresponding
                      encrypted private key. Must be at least 192 bits in 
                      length (only the first 192 bits are used).
 ```
+See also [ek-new](bx-ek-new) and [ek-public](bx-ek-public).
 ### Example 1
 ```sh
 TODO
