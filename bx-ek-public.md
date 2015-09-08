@@ -3,7 +3,7 @@ Create an encrypted public key from an intermediate passphrase token (BIP38).
 $ bx ek-public --help
 ```
 ```
-Usage: bx ek-public [-hu] [--config VALUE] [--version VALUE] [TOKEN]     
+Usage: bx ek-public [-h] [--config VALUE] [--version VALUE] [TOKEN]      
 [SEED]                                                                   
 
 Info: Create an encrypted public key from an intermediate passphrase     
