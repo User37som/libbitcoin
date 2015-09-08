@@ -4,6 +4,7 @@ BTC     Bitcoin Denomination
 BX      Bitcoin Explorer
 CERT    Curve ZMQ Certificate
 EC      Elliptic Curve
+EK      Encrypted Key
 HD      Hierarchical Deterministic
 ICU     International Components for Unicode
 PREVOUT Previous Output
