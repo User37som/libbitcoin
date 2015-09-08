@@ -3,7 +3,7 @@ Create an encrypted private key from an intermediate passphrase token (BIP38).
 $ bx ek-new --help
 ```
 ```
-Usage: bx ek-new [-h] [--config VALUE] [--version VALUE] [TOKEN] [SEED]  
+Usage: bx ek-new [-hu] [--config VALUE] [--version VALUE] [TOKEN] [SEED] 
 
 Info: Create an encrypted private key from an intermediate passphrase    
 token (BIP38).                                                           
@@ -12,6 +12,7 @@ Options (named):
 
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
+-u [--uncompressed]  Use the uncompressed public key format.             
 -v [--version]       The desired payment address version.                
 
 Arguments (positional):
