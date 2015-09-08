@@ -18,7 +18,7 @@ PASSPHRASE           The passphrase that was used to encrypt the
                      encrypted private key.                              
 EK_PRIVATE_KEY       The encrypted private key to unlock.
 ```
-See also [ec-to-ek](bx-ec-to-ek).
+See also [ec-to-ek](bx-ec-to-ek) and [ek-to-address](ek-ec-to-address).
 ### Example 1
 ```sh
 TODO
