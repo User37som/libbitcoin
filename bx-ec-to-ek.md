@@ -23,6 +23,6 @@ EC_PRIVATE_KEY       The EC private key to encrypt. If not specified the
 ```
 See also [ek-to-ec](bx-ek-to-ec).
 ### Example 1
-```
+```sh
 TODO
 ```
