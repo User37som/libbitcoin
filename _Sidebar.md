@@ -50,7 +50,7 @@
 * **[Key Encryption Commands](Key-Encryption-Commands)**
   * [ec-to-ek](bx-ec-to-ek)
   * [ek-to-ec](bx-ek-to-ec)
-  * [ek-token-new](bx-ek-token-new)
+  * [token-new](bx-token-new)
   * [ek-new](ek-new)
   * [ek-address](bx-ek-address)
   * [ek-to-address](bx-ek-to-address)
