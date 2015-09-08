@@ -3,7 +3,7 @@ Create an encrypted private key from an intermediate passphrase token (BIP38).
 $ bx ek-new --help
 ```
 ```
-Usage: bx ek-new [-h] [--config VALUE] [--version VALUE] [TOKEN] [SEED] 
+Usage: bx ek-new [-h] [--config VALUE] [--version VALUE] [TOKEN] [SEED]  
 
 Info: Create an encrypted private key from an intermediate passphrase    
 token (BIP38).                                                           
