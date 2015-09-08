@@ -20,6 +20,7 @@ PASSPHRASE           The passphrase that was used to generate the
 EK_PUBLIC_KEY        The encrypted public key from which to extract the  
                      payment address.
 ```
+See also [ek-public-to-ec](bx-ek-public-to-ec).
 ### Example 1
 ```sh
 TODO
