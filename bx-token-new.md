@@ -20,8 +20,10 @@ Arguments (positional):
 
 PASSPHRASE           The passphrase for encrypting the token.            
 SALT                 The Base16 entropy for the new token. Must be at    
-                     least 32 bits in length (only the first 32 bits are 
-                     used).
+                     least 32 bits in length. Only the first 32 bits are 
+                     used unless lot and sequence are zero or unspecified
+                     and the salt is at least 64 bits, in which case 64  
+                     bits are used and lot and sequence are not used.    
 ```
 ### Example 1
 ```sh
