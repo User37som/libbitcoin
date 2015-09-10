@@ -47,3 +47,12 @@ $ bx seed | bx ec-new | bx ec-to-ek "my passphrase"
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
 ```
+### Example 4
+testnet: --version 111
+```sh
+$ bx ec-to-ek -v 111 "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
+```
+```
+9CN9KKcQFYmiMJZys527kMUk1djmR2vhtocCf6whHkxGXbu5pybpX32VxkP
+```
+> Altchain encrypted keys are experimental.
