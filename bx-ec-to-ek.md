@@ -24,5 +24,8 @@ EC_PRIVATE_KEY       The EC private key to encrypt. If not specified the
 See also [ek-to-ec](bx-ek-to-ec).
 ### Example 1
 ```sh
-TODO
+$ bx ec-to-ek "my passphrase" c94e9cc74bb32e0bff1138ba6d7f0f986e025a81fc600a3723e7e6faa25d3dd1
+```
+```
+6PYNAp4ckhJBFiRSvimDCT12MpuM4ZsqPV4Cj3cSiUQUhMMKTSe97jqFPr
 ```
