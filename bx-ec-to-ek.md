@@ -29,7 +29,7 @@ $ bx ec-to-ek "my passphrase" c94e9cc74bb32e0bff1138ba6d7f0f986e025a81fc600a3723
 ```
 6PYNAp4ckhJBFiRSvimDCT12MpuM4ZsqPV4Cj3cSiUQUhMMKTSe97jqFPr
 ```
-### Example 1
+### Example 2
 piped commands
 ```sh
 $ bx seed | bx ec-new | bx ec-to-ek "my passphrase"
