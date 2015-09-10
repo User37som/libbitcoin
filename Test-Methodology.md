@@ -42,9 +42,9 @@ BX achieves this objective as a matter of design. Typical test runs are configur
 #### Code Coverage
 All code paths within a library under test should be covered. In other words the library should provide 100% non-functional test coverage by line. Coverage metrics should be published from regular test execution. External libraries are presumed to be tested independently.
 
-Libbitcoin repositories each integrate automated code coverage metrics via Coveralls. The coverage objective is not yet achieved as coverage is less than complete. A The bar has been established that new code must be covered and no merge may reduce net coverage.
+Libbitcoin repositories each integrate automated code coverage metrics via [Coveralls](https://coveralls.io/). The coverage objective is not yet achieved as coverage is less than complete. A The bar has been established that new code must be covered and no merge may reduce net coverage.
 
 #### Quality Gate
 All code should pass through a quality gate before being committed to the repository.
 
-BX achieves this objective using [Travis](https://travis-ci.org) automated build tooling integrated with GitHub. A full build with 100% successful execution of non-functional tests is required for merging code. The quality gate test doubles as the end-user installation script, which ensures that the script is verified with any published change.  The quality gate covers all supported build targets and configurations with the exception of Windows builds which are not currently supported by Travis. Code coverage minimums are also incorporated into the gate.
+BX achieves this objective using [Travis CI](https://travis-ci.org) automated build tooling integrated with GitHub. A full build with 100% successful execution of non-functional tests is required for merging code. The quality gate test doubles as the end-user installation script, which ensures that the script is verified with any published change.  The quality gate covers all supported build targets and configurations with the exception of Windows builds which are not currently supported by Travis. Code coverage minimums are also incorporated into the gate.
