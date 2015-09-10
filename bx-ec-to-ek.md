@@ -29,7 +29,6 @@ $ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab81
 ```
 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
 ```
-```
 ### Example 2
 piped commands
 ```sh
@@ -47,6 +46,7 @@ $ bx ec-to-ek -u "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffa
 ```
 ```
 6PRPDbKfv3A45QPPfEtvcxM4oA6ShVL7t72VP74P1W3JEUHPrZXNy39FKe
+```
 ### Example 4
 --version 111 (testnet)
 ```sh
