@@ -23,6 +23,21 @@ EC_PRIVATE_KEY       The EC private key to encrypt. If not specified the
 ```
 See also [ek-to-ec](bx-ek-to-ec).
 ### Example 1
+```sh
+$ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
+```
+```
+6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
+```
+### Example 2
+--uncompressed
+```sh
+$ bx ec-to-ek -u "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
+```
+```
+6PRPDbKfv3A45QPPfEtvcxM4oA6ShVL7t72VP74P1W3JEUHPrZXNy39FKe
+```
+### Example 3
 piped commands
 ```sh
 $ bx seed | bx ec-new | bx ec-to-ek "my passphrase"
@@ -30,12 +45,5 @@ $ bx seed | bx ec-new | bx ec-to-ek "my passphrase"
 ```
 349e9b1e16620f3af0c8cdd313540c8c4174fc9aa7100f7e
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
-6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
-```
-### Example 2
-```sh
-$ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
-```
-```
 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
 ```
