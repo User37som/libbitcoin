@@ -55,4 +55,4 @@ $ bx ec-to-ek -v 111 "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff
 ```
 9CN9KKcQFYmiMJZys527kMUk1djmR2vhtocCf6whHkxGXbu5pybpX32VxkP
 ```
-> Altchain encrypted keys are experimental.
+> The `--version` option is experimental.
