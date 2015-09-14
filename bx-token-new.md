@@ -25,6 +25,7 @@ SALT                 The Base16 entropy for the new token. Must be at
                      and the salt is at least 64 bits, in which case 64  
                      bits are used and lot and sequence are not used.    
 ```
+Token-generated encrypted private keys are referred to as [multiplied](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki#Encryption_when_EC_multiply_mode_is_used) by BIP-38.
 See also [ek-new](bx-ek-new).
 ### Example 1
 lot 0, sequence 0 (i.e. defaults when salt is less than 64 bits)
@@ -67,16 +68,7 @@ $ bx token-new -s 4096 "my passphrase" baadf00d
 The sequence exceeds the maximum value of 4095.
 ```
 ### Example 6
-piped commands, no lot/sequence (default when salt at least 64 bits)
-```sh
-$ bx seed | bx token-new "my passphrase"
-```
-```
-f6af40a01b79c95fef5e397eca05e27d7a3d1c35b01108db
-passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq
-```
-### Example 7
---lot 7 --sequence 42, piped input
+piped input, --lot 7 --sequence 42
 ```sh
 $ echo f6af40a01b79c95f | bx token-new -l 7 -s 42 "my passphrase"
 ```
@@ -84,7 +76,7 @@ $ echo f6af40a01b79c95f | bx token-new -l 7 -s 42 "my passphrase"
 f6af40a01b79c95fef5e397eca05e27d7a3d1c35b01108db 
 passphraseeJe8PsbqqTpXKHHL5CupNg3hf396MFAHUeFf1k74zFs2pqxM9ARwjKLh4Px1sB
 ```
-### Example 8
+### Example 7
 demo unused salt bits (same token as previous example)
 ```sh
 $ bx token-new -l 7 -s 42 "my passphrase" f6af40a01b79c95fef5e397eca05e27d7a3d1c35b01108db 
@@ -92,4 +84,13 @@ $ bx token-new -l 7 -s 42 "my passphrase" f6af40a01b79c95fef5e397eca05e27d7a3d1c
 ```
 f6af40a01b79c95fef5e397eca05e27d7a3d1c35b01108db 
 passphraseeJe8PsbqqTpXKHHL5CupNg3hf396MFAHUeFf1k74zFs2pqxM9ARwjKLh4Px1sB
+```
+### Example 8
+piped commands, no lot/sequence (default when salt at least 64 bits)
+```sh
+$ bx seed | bx token-new "my passphrase"
+```
+```
+f6af40a01b79c95fef5e397eca05e27d7a3d1c35b01108db
+passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq
 ```
