@@ -21,7 +21,7 @@ PASSPHRASE           The passphrase for encrypting the private key.
 EC_PRIVATE_KEY       The EC private key to encrypt. If not specified the 
                      key is read from STDIN.
 ```
-The `--version` option is a [libbitcoin enhancement](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) not yet specified in BIP-38.
+The `--version` option is a [libbitcoin enhancement](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) not yet specified in [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki).
 
 See also [ek-to-ec](bx-ek-to-ec).
 ### Example 1
