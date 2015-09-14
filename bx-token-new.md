@@ -29,8 +29,24 @@ SALT                 The Base16 entropy for the new token. Must be at
 ```sh
 $ bx token-new "my passphrase" baadf00d
 ```
+### Example 2
+invalid salt
+```sh
+$ bx token-new "my passphrase" baadf0
+```
+```
+The salt is less than 32 bits long.
+```
 ```
 passphrasecpXbDpHuo8FGWjkFCxTEYSaekfi45D88ad5DVReNLhCTbnETGLfYfcrV4vwx3Q
+```
+### Example 3
+--lot 7 --sequence 42
+```sh
+$ bx token-new -l 7 -s 42 "my passphrase" baadf00d
+```
+```
+passphrasecpXbDpHuo8FGWy2zdpFXvmsu31YuLU5peBAqzJifHjeaHfePVW45ptrh3NqD3Z
 ```
 ### Example 2
 --lot 1048576 (invalid)
@@ -47,14 +63,6 @@ $ bx token-new -s 4096 "my passphrase" baadf00d
 ```
 ```
 The sequence exceeds the maximum value of 4095.
-```
-### Example 4
-invalid salt
-```sh
-$ bx token-new "my passphrase" baadf0
-```
-```
-The salt is less than 32 bits long.
 ```
 ### Example 5
 piped commands
