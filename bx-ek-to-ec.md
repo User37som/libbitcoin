@@ -39,7 +39,15 @@ $ bx ek-to-ec "my passphrase" 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQ
 ```
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
-### Example 2
+### Example 3
+piped input
+```sh
+$ echo 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5 | bx ek-to-ec "my passphrase"
+```
+```
+261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
+```
+### Example 4
 round trip
 ```sh
 $ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f | bx ek-to-ec "my passphrase"
@@ -48,7 +56,7 @@ $ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab81
 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
-### Example 4
+### Example 5
 testnet, compressed
 ```sh
 $ bx ek-to-ec "my passphrase" 8EzHSxX3sfZp6NjYUdt7fZAPCKByrFDS12PHfdexFLSaSAfM7wM7tw3Hof
@@ -56,7 +64,7 @@ $ bx ek-to-ec "my passphrase" 8EzHSxX3sfZp6NjYUdt7fZAPCKByrFDS12PHfdexFLSaSAfM7w
 ```
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
-### Example 5
+### Example 6
 litecoin, uncompressed
 ```sh
 $ bx ek-to-ec "my passphrase" 7BtJaSMBHZJMgKtDp4rNLDjkoCZu2e5av1FYxMwwvdq5AN124paeds82tP
@@ -64,7 +72,7 @@ $ bx ek-to-ec "my passphrase" 7BtJaSMBHZJMgKtDp4rNLDjkoCZu2e5av1FYxMwwvdq5AN124p
 ```
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
-### Example 5
+### Example 7
 multiplied
 ```sh
 $ bx ek-to-ec "my passphrase" [TODO]
