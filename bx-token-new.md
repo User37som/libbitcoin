@@ -25,6 +25,7 @@ SALT                 The Base16 entropy for the new token. Must be at
                      and the salt is at least 64 bits, in which case 64  
                      bits are used and lot and sequence are not used.    
 ```
+See also [ek-new](bx-ek-new).
 ### Example 1
 piped commands
 ```sh
