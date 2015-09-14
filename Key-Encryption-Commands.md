@@ -1,4 +1,4 @@
-![Key Encryption Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/network/img/key-encryption-commands.png)
+![Key Encryption Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/master/img/key-encryption-commands.png)
 
 ### Notice
 * Key Encryption functionality is new in **version3**.
