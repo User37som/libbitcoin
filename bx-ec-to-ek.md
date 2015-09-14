@@ -55,4 +55,4 @@ $ bx ec-to-ek -v 111 "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff
 ```
 9CN9KKcQFYmiMJZys527kMUk1djmR2vhtocCf6whHkxGXbu5pybpX32VxkP
 ```
-> The `--version` option is a feature not specified in BIP-38.
+> The `--version` option is a [libbitcoin enhancement](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) not yet specified in BIP-38.
