@@ -25,45 +25,7 @@ SALT                 The Base16 entropy for the new token. Must be at
                      and the salt is at least 64 bits, in which case 64  
                      bits are used and lot and sequence are not used.    
 ```
-### Example 1
-```sh
-$ bx token-new "my passphrase" baadf00d
-```
-```
-passphrasecpXbDpHuo8F7yuZqR49koDA9uQojPijjjZaxsar7Woo9pfHJbeWF3VMU9EPBqJ
-```
-### Example 2
-invalid salt
-```sh
-$ bx token-new "my passphrase" baadf0
-```
-```
-The salt is less than 32 bits long.
-```
-### Example 3
---lot 7 --sequence 42
-```sh
-$ bx token-new -l 7 -s 42 "my passphrase" baadf00d
-```
-```
-passphrasecpXbDpHuo8FGWy2zdpFXvmsu31YuLU5peBAqzJifHjeaHfePVW45ptrh3NqD3Z
-```
-### Example 4
---lot 1048576 (invalid)
-```sh
-$ bx token-new -l 1048575 "my passphrase" baadf00d
-```
-```
-The lot exceeds the maximum value of 1048575.
-```
-### Example 5
---sequence 4096 (invalid)
-```sh
-$ bx token-new -s 4096 "my passphrase" baadf00d
-```
-```
-The sequence exceeds the maximum value of 4095.
-```
+
 ### Example 6
 piped commands
 ```sh
@@ -72,4 +34,44 @@ $ bx seed | bx token-new "my passphrase"
 ```
 f6af40a01b79c95fef5e397eca05e27d7a3d1c35b01108db
 passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq
+```
+```
+The salt is less than 32 bits long.
+```
+### Example 2
+--lot 7 --sequence 42
+```sh
+$ bx token-new -l 7 -s 42 "my passphrase" baadf00d
+```
+```
+passphrasecpXbDpHuo8FGWy2zdpFXvmsu31YuLU5peBAqzJifHjeaHfePVW45ptrh3NqD3Z
+```
+### Example 3
+--lot 1048576 (invalid)
+```sh
+$ bx token-new -l 1048575 "my passphrase" baadf00d
+```
+```
+The lot exceeds the maximum value of 1048575.
+```
+### Example 4
+--sequence 4096 (invalid)
+```sh
+$ bx token-new -s 4096 "my passphrase" baadf00d
+```
+```
+The sequence exceeds the maximum value of 4095.
+```
+### Example 5
+lot 0, sequence 0 (defaults with short salt)
+```sh
+$ bx token-new "my passphrase" baadf00d
+```
+```
+passphrasecpXbDpHuo8F7yuZqR49koDA9uQojPijjjZaxsar7Woo9pfHJbeWF3VMU9EPBqJ
+```
+### Example 6
+invalid salt
+```sh
+$ bx token-new "my passphrase" baadf0
 ```
