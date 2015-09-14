@@ -18,6 +18,8 @@ PASSPHRASE           The passphrase that was used to encrypt the
                      encrypted private key.                              
 EK_PRIVATE_KEY       The encrypted private key to decrypt.
 ```
+Altchain support is a [libbitcoin enhancement](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) not yet specified in [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki).
+
 See also [ec-to-ek](bx-ec-to-ek) and [ek-to-address](bx-ek-to-address).
 ### Example 1
 incorrect passphrase
