@@ -26,6 +26,7 @@ SALT                 The Base16 entropy for the new token. Must be at
                      bits are used and lot and sequence are not used.    
 ```
 Token-generated encrypted private keys are referred to as [multiplied](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki#Encryption_when_EC_multiply_mode_is_used) by BIP-38.
+
 See also [ek-new](bx-ek-new).
 ### Example 1
 lot 0, sequence 0 (i.e. defaults when salt is less than 64 bits)
