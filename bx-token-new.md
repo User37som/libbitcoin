@@ -33,6 +33,22 @@ $ bx token-new "my passphrase" baadf00d
 passphrasecpXbDpHuo8FGWjkFCxTEYSaekfi45D88ad5DVReNLhCTbnETGLfYfcrV4vwx3Q
 ```
 ### Example 2
+--lot 1048576 (invalid)
+```sh
+$ bx token-new -l 1048575 "my passphrase" baadf00d
+```
+```
+The lot exceeds the maximum value of 1048575.
+```
+### Example 3
+--sequence 4096 (invalid)
+```sh
+$ bx token-new -s 4096 "my passphrase" baadf00d
+```
+```
+The sequence exceeds the maximum value of 4095.
+```
+### Example 4
 invalid salt
 ```sh
 $ bx token-new "my passphrase" baadf0
@@ -40,7 +56,7 @@ $ bx token-new "my passphrase" baadf0
 ```
 The salt is less than 32 bits long.
 ```
-### Example 3
+### Example 5
 piped commands
 ```sh
 $ bx seed | bx token-new "my passphrase"
