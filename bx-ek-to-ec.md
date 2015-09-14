@@ -20,6 +20,15 @@ EK_PRIVATE_KEY       The encrypted private key to decrypt.
 ```
 See also [ec-to-ek](bx-ec-to-ek) and [ek-to-address](bx-ek-to-address).
 ### Example 1
+incorrect passphrase
+```sh
+$ bx ek-to-ec "i forgot" 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
+```
+```
+The passphrase is incorrect.
+```
+### Example 2
+mainnet
 ```sh
 $ bx ek-to-ec "my passphrase" 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
 ```
@@ -35,11 +44,19 @@ $ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab81
 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
-### Example 3
-incorrect passphrase
+### Example 4
+testnet, compressed
 ```sh
-$ bx ek-to-ec "i forgot" 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
+$ bx ek-to-ec "my passphrase" 8EzHSxX3sfZp6NjYUdt7fZAPCKByrFDS12PHfdexFLSaSAfM7wM7tw3Hof
 ```
 ```
-The passphrase is incorrect.
+261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
+```
+### Example 5
+litecoin, uncompressed
+```sh
+$ bx ek-to-ec "my passphrase" 7BtJaSMBHZJMgKtDp4rNLDjkoCZu2e5av1FYxMwwvdq5AN124paeds82tP
+```
+```
+261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
