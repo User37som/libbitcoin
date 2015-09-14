@@ -78,16 +78,16 @@ passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq
 ### Example 7
 --lot 7 --sequence 42, piped input
 ```sh
-$ bx token-new -l 7 -s 42 "my passphrase" f6af40a01b79c95f 
+$ echo f6af40a01b79c95f | bx token-new -l 7 -s 42 "my passphrase"
 ```
 ```
 f6af40a01b79c95fef5e397eca05e27d7a3d1c35b01108db 
 passphraseeJe8PsbqqTpXKHHL5CupNg3hf396MFAHUeFf1k74zFs2pqxM9ARwjKLh4Px1sB
 ```
 ### Example 8
-demo unused salt bits, piped input
+demo unused salt bits
 ```sh
-$ echo f6af40a01b79c95fef5e397eca05e27d7a3d1c35b01108db | bx token-new -l 7 -s 42 "my passphrase"
+$ bx token-new -l 7 -s 42 "my passphrase" f6af40a01b79c95fef5e397eca05e27d7a3d1c35b01108db 
 ```
 ```
 f6af40a01b79c95fef5e397eca05e27d7a3d1c35b01108db 
