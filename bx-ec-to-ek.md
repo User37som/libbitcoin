@@ -57,8 +57,7 @@ $ bx ec-to-ek -v 111 "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff
 ```
 9CN9KKcQFYmiMJZys527kMUk1djmR2vhtocCf6whHkxGXbu5pybpX32VxkP
 ```
-```
-### Example 4
+### Example 5
 --version 48 (litecoin) --uncompressed
 ```sh
 $ bx ec-to-ek -u -v 48 "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
