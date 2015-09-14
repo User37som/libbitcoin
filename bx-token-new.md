@@ -29,6 +29,9 @@ SALT                 The Base16 entropy for the new token. Must be at
 ```sh
 $ bx token-new "my passphrase" baadf00d
 ```
+```
+passphrasecpXbDpHuo8FGWjkFCxTEYSaekfi45D88ad5DVReNLhCTbnETGLfYfcrV4vwx3Q
+```
 ### Example 2
 invalid salt
 ```sh
@@ -36,9 +39,6 @@ $ bx token-new "my passphrase" baadf0
 ```
 ```
 The salt is less than 32 bits long.
-```
-```
-passphrasecpXbDpHuo8FGWjkFCxTEYSaekfi45D88ad5DVReNLhCTbnETGLfYfcrV4vwx3Q
 ```
 ### Example 3
 --lot 7 --sequence 42
