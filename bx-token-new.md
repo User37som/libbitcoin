@@ -35,9 +35,6 @@ $ bx seed | bx token-new "my passphrase"
 f6af40a01b79c95fef5e397eca05e27d7a3d1c35b01108db
 passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq
 ```
-```
-The salt is less than 32 bits long.
-```
 ### Example 2
 --lot 7 --sequence 42
 ```sh
@@ -63,7 +60,7 @@ $ bx token-new -s 4096 "my passphrase" baadf00d
 The sequence exceeds the maximum value of 4095.
 ```
 ### Example 5
-lot 0, sequence 0 (defaults with short salt)
+lot 0, sequence 0 (i.e. defaults when salt is less than 64 bits)
 ```sh
 $ bx token-new "my passphrase" baadf00d
 ```
@@ -74,4 +71,7 @@ passphrasecpXbDpHuo8F7yuZqR49koDA9uQojPijjjZaxsar7Woo9pfHJbeWF3VMU9EPBqJ
 invalid salt
 ```sh
 $ bx token-new "my passphrase" baadf0
+```
+```
+The salt is less than 32 bits long.
 ```
