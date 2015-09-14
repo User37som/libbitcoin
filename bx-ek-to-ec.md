@@ -21,5 +21,17 @@ EK_PRIVATE_KEY       The encrypted private key to decrypt.
 See also [ec-to-ek](bx-ec-to-ek) and [ek-to-address](bx-ek-to-address).
 ### Example 1
 ```sh
-TODO
+$ bx ek-to-ec "my passphrase" 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
+```
+```
+261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
+```
+### Example 2
+piped commands
+```sh
+$ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f | bx ek-to-ec "my passphrase"
+```
+```
+6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
+261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
