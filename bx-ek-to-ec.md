@@ -64,3 +64,11 @@ $ bx ek-to-ec "my passphrase" 7BtJaSMBHZJMgKtDp4rNLDjkoCZu2e5av1FYxMwwvdq5AN124p
 ```
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
+### Example 5
+multiplied
+```sh
+$ bx ek-to-ec "my passphrase" [TODO]
+```
+```
+[TODO]
+```
