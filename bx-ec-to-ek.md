@@ -21,6 +21,8 @@ PASSPHRASE           The passphrase for encrypting the private key.
 EC_PRIVATE_KEY       The EC private key to encrypt. If not specified the 
                      key is read from STDIN.
 ```
+Token-generated encrypted private keys are referred to as [multiplied](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki#Encryption_when_EC_multiply_mode_is_used) by BIP-38. To create multiplied encrypted public keys use [ec-token](bx-ec-token) and [ec-new](bx-ec-new).
+
 The `--version` option is a [libbitcoin enhancement](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) not yet specified in [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki).
 
 See also [ek-to-ec](bx-ek-to-ec).
