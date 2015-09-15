@@ -58,7 +58,7 @@ $ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab81
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
 ### Example 5
-testnet, compressed (same result as previous example)
+testnet (same result as previous example)
 ```sh
 $ bx ek-to-ec "my passphrase" 8EzHSxX3sfZp6NjYUdt7fZAPCKByrFDS12PHfdexFLSaSAfM7wM7tw3Hof
 ```
