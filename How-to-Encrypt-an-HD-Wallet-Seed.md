@@ -15,13 +15,11 @@ $ bx ec-to-ek "my passphrase" dd8df8fbdefb4921383a3906d62bceb28f9630456318fd924a
 6PYVj8maQYA95fREvtpgBMFtbi7U2T1B85zyjmEPqC7MknXowoV7yKzHXL
 ```
 
-Verify the seed encryption.
+Verify your ability to recover the HD key.
 
 ```sh
-$ bx ek-to-ec "my passphrase" 6PYVj8maQYA95fREvtpgBMFtbi7U2T1B85zyjmEPqC7MknXowoV7yKzHXL
+$ bx ek-to-ec "my passphrase" 6PYVj8maQYA95fREvtpgBMFtbi7U2T1B85zyjmEPqC7MknXowoV7yKzHXL | bx hd-new
 ```
 ```
-dd8df8fbdefb4921383a3906d62bceb28f9630456318fd924aa1ee195ce8397e
+xprv9s21ZrQH143K2uNeWu3crjqwic1ocvMMwRSypQyMDTk4yQedZv8zkBVUeq2gztk2HQCAvqNLhUfcHhbD1RGFQ1TTqDSWfTLW4qkxsPMdjNG
 ```
-
-Discard the original seed and HD private key.
