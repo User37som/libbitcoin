@@ -25,6 +25,7 @@ The `--version` option is a [libbitcoin enhancement](https://github.com/libbitco
 
 See also [ek-to-ec](bx-ek-to-ec).
 ### Example 1
+mainnet
 ```sh
 $ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
