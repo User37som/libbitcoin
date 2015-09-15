@@ -27,4 +27,4 @@ $ bx ek-to-ec "my passphrase" 6PYVj8maQYA95fREvtpgBMFtbi7U2T1B85zyjmEPqC7MknXowo
 xprv9s21ZrQH143K2uNeWu3crjqwic1ocvMMwRSypQyMDTk4yQedZv8zkBVUeq2gztk2HQCAvqNLhUfcHhbD1RGFQ1TTqDSWfTLW4qkxsPMdjNG
 ```
 ### Using Mnemonics
-The passphrase is optional but if not used the mnemonic must be kept secret. See also [Remembering a Seed](How-to-Remember-a-Wallet-Seed).
+The passphrase is optional but if not used the mnemonic is not encrypted and therefore must be kept secret. See also [Remembering a Seed](How-to-Remember-a-Wallet-Seed).
