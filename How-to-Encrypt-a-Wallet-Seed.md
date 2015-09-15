@@ -1,3 +1,4 @@
+### Using Key Encryption
 Create a new HD key.
 ```sh
 $ bx seed -b 256 | bx hd-new
@@ -23,3 +24,5 @@ $ bx ek-to-ec "my passphrase" 6PYVj8maQYA95fREvtpgBMFtbi7U2T1B85zyjmEPqC7MknXowo
 ```
 xprv9s21ZrQH143K2uNeWu3crjqwic1ocvMMwRSypQyMDTk4yQedZv8zkBVUeq2gztk2HQCAvqNLhUfcHhbD1RGFQ1TTqDSWfTLW4qkxsPMdjNG
 ```
+### Using Mnemonics
+TODO
