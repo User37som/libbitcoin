@@ -21,6 +21,8 @@ EK_PUBLIC_KEY        The encrypted public key from which to extract the
                      payment address. If not specified the key is read   
                      from STDIN.    
 ```
+**WARNING:** despite the term "confirmation code" this value should never be used for confirmation. It is included as a command for completeness only. Instead confirm using [ek-to-ec](bx-ek-to-ec) or [ek-to-address](bx-ek-to-address).
+
 See also [ek-public-to-ec](bx-ek-public-to-ec).
 ### Example 1
 lot/sequence
