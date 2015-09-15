@@ -58,7 +58,7 @@ $ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab81
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
 ### Example 5
-testnet, compressed (notice same result as previous examples)
+testnet, compressed (same result as previous examples)
 ```sh
 $ bx ek-to-ec "my passphrase" 8EzHSxX3sfZp6NjYUdt7fZAPCKByrFDS12PHfdexFLSaSAfM7wM7tw3Hof
 ```
@@ -66,7 +66,7 @@ $ bx ek-to-ec "my passphrase" 8EzHSxX3sfZp6NjYUdt7fZAPCKByrFDS12PHfdexFLSaSAfM7w
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
 ### Example 6
-litecoin, uncompressed (notice same result as previous example)
+litecoin, uncompressed (same result as previous example)
 ```sh
 $ bx ek-to-ec "my passphrase" 7BtJaSMBHZJMgKtDp4rNLDjkoCZu2e5av1FYxMwwvdq5AN124paeds82tP
 ```
@@ -90,7 +90,7 @@ $ bx ek-to-ec "my passphrase" 6PnUht3dP5Jdcp1B7NGqkEoBw5Ja2wWEeQMDRHqLNrBG4Rqo59
 b1c23d8bf9a957349eafd851808ce5555279cc103924ebd96ddaa3b03666ac74
 ```
 ### Example 9
-multiplied, uncompressed (notice same result as previous example)
+multiplied, uncompressed (same result as previous example)
 ```sh
 $ bx ek-to-ec "my passphrase" 6PfM4jsmgX1veYaiBXqqDe3J8hFtAriohdNGjPfrbt7aQ8H53nijYN6svW
 ```
@@ -106,7 +106,7 @@ $ bx ek-to-ec "my passphrase" 8FEMBzS4QWPwxyzrYJxHwzSrdNzroFiQjkAnpf51xcPPXkTvqG
 b1c23d8bf9a957349eafd851808ce5555279cc103924ebd96ddaa3b03666ac74
 ```
 ### Example 11
-multiplied, litecoin, uncompressed (notice same result as previous example)
+multiplied, litecoin, uncompressed (same result as previous example)
 ```sh
 $ bx ek-to-ec "my passphrase" 7C8LFBdEAqptMNYUNr2cgcP7bppVgsqtz1fXVeSzAPf8VkB29XMKDtF71p
 ```
