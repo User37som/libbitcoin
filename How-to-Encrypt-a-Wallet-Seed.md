@@ -1,4 +1,4 @@
-There are two standard ways of encrypting a wallet seed. The [Key Encryption](#using-key-encryption) method allows you to encrypt an existing wallet seed. The [Mnemonic](#using-mnemonics) method requires you to accept a seed derived...
+There are two standard ways of encrypting a wallet seed. The [Key Encryption](#using-key-encryption) method allows you to encrypt an existing wallet seed. The [Mnemonic](#using-mnemonics) method requires you to accept a seed derived from an initial seed (which is not recoverable).
 
 ### Using Key Encryption
 Create a new HD key.
@@ -27,4 +27,4 @@ $ bx ek-to-ec "my passphrase" 6PYVj8maQYA95fREvtpgBMFtbi7U2T1B85zyjmEPqC7MknXowo
 xprv9s21ZrQH143K2uNeWu3crjqwic1ocvMMwRSypQyMDTk4yQedZv8zkBVUeq2gztk2HQCAvqNLhUfcHhbD1RGFQ1TTqDSWfTLW4qkxsPMdjNG
 ```
 ### Using Mnemonics
-The passphrase is optional, see also [Remembering a Seed](How-to-Remember-a-Wallet-Seed).
+The passphrase is optional but if not used the mnemonic must be kept secret. See also [Remembering a Seed](How-to-Remember-a-Wallet-Seed).
