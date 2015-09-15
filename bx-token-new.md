@@ -25,7 +25,7 @@ SALT                 The Base16 entropy for the new token. Must be at
                      and the salt is at least 64 bits, in which case 64  
                      bits are used and lot and sequence are not used.    
 ```
-Token-generated encrypted private keys are referred to as [multiplied](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki#Encryption_when_EC_multiply_mode_is_used) by BIP-38. To create non-multiplied encrypted public keys use [ec-to-ek](bx-ec-to-ek).
+Third party-generated encrypted private keys are referred to as [multiplied](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki#Encryption_when_EC_multiply_mode_is_used) by BIP-38. Use this command to generate tokens for use by a third party. To create non-multiplied encrypted public keys use [ec-to-ek](bx-ec-to-ek).
 
 See also [ek-new](bx-ek-new), [ek-address](bx-ek-address) and [ek-public](bx-ek-public).
 ### Example 1
