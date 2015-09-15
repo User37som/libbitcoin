@@ -3,7 +3,7 @@ Create a payment address derived from an intermediate passphrase token (BIP38).
 $ bx ek-address --help
 ```
 ```
-Usage: bx ek-address [-hu] [--config VALUE] [--version VALUE] [TOKEN]    
+Usage: bx ek-address [-hu] [--config VALUE] [--version VALUE] TOKEN      
 [SEED]                                                                   
 
 Info: Create a payment address derived from an intermediate passphrase   
@@ -24,7 +24,8 @@ TOKEN                The intermediate passphrase token used to create the
                      corresponding encrypted private key.                
 SEED                 The Base16 entropy used to create the corresponding 
                      encrypted private key. Must be at least 192 bits in 
-                     length (only the first 192 bits are used).
+                     length (only the first 192 bits are used). If not   
+                     specified the seed is read from STDIN.
 ```
 See also [token-new](bx-token-new), [ek-new](bx-ek-new) and [ek-public](bx-ek-public).
 ### Example 1
