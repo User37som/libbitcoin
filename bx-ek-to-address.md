@@ -3,8 +3,7 @@ Extract the payment address of an encrypted private key (BIP38).
 $ bx ek-to-address --help
 ```
 ```
-Usage: bx ek-to-address [-h] [--config VALUE] [PASSPHRASE]               
-[EK_PRIVATE_KEY]                                                         
+Usage: bx ek-to-address [-h] [--config VALUE] PASSPHRASE [EK_PRIVATE_KEY]
 
 Info: Extract the payment address of an encrypted private key (BIP38).   
 
@@ -16,10 +15,11 @@ Options (named):
 Arguments (positional):
 
 PASSPHRASE           The passphrase that was used to generate the        
-                     intermediate passphrase token or to lock the        
+                     intermediate passphrase token or to encrypt the     
                      encrypted private key.                              
 EK_PRIVATE_KEY       The encrypted private key from which to extract the 
-                     payment address.
+                     payment address. If not specified the key is read   
+                     from STDIN. 
 ```
 See also [ek-to-ec](bx-ek-to-ec).
 ### Example 1
