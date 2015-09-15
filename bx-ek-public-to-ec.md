@@ -3,7 +3,7 @@ Extract the EC public key of an encrypted public key (BIP38).
 $ bx ek-public-to-ec --help
 ```
 ```
-Usage: bx ek-public-to-ec [-h] [--config VALUE] [PASSPHRASE]             
+Usage: bx ek-public-to-ec [-h] [--config VALUE] PASSPHRASE               
 [EK_PUBLIC_KEY]                                                          
 
 Info: Extract the EC public key of an encrypted public key (BIP38).      
@@ -17,7 +17,8 @@ Arguments (positional):
 
 PASSPHRASE           The passphrase that was used to generate the        
                      encrypted private key.                              
-EK_PUBLIC_KEY        The encrypted public key to decrypt.
+EK_PUBLIC_KEY        The encrypted public key to decrypt. If not         
+                     specified the key is read from STDIN.
 ```
 See also [ek-public-to-address](bx-ek-public-to-address).
 ### Example 1
