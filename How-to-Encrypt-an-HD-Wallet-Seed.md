@@ -1,4 +1,4 @@
-Create a new HD wallet using a 256 bit seed.
+Create a new HD key using a 256 bit seed.
 ```sh
 $ bx seed -b 256 | bx hd-new
 ```
