@@ -1,4 +1,4 @@
-Create a new mnemonic.
+Create a new mnemonic. Longer seeds produces longer mnemonics.
 ```sh
 $ bx seed -b 128 | bx mnemonic-new
 ```
@@ -22,3 +22,5 @@ $ bx mnemonic-to-seed radar wreck account advance race sweet struggle advice bas
 ```
 xprv9s21ZrQH143K2wbqNakRdoaatpMCevqHG5KKo1PBnk2jmuT1TDW272hcTdmsuBSQWv5PFnqh5CE6LrJac9gbZYcGpSG7sH3VynrWt3s9FDE
 ```
+
+Without a passphrase the mnemonic must be kept secret. Memorize the mnemonic (including word order) `radar wreck account advance race sweet struggle advice basic spare deliver situate`.
