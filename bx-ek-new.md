@@ -23,15 +23,16 @@ SEED                 The Base16 entropy for the new encrypted private
                      first 192 bits are used).
 ```
 See also [token-new](bx-token-new), [ek-address](bx-ek-address) and [ek-public](bx-ek-public).
-### Example 1
+### Example 7
+no lot/sequence
 ```sh
 $ bx ek-new passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq baadf00dbaadf00dbaadf00dbaadf00dbaadf00dbaadf00d
 ```
 ```
 6PnUht3dP5Jdcp1B7NGqkEoBw5Ja2wWEeQMDRHqLNrBG4Rqo59eVfMd98B
 ```
-### Example 2
-piped commands
+### Example 8
+piped commands, no lot/sequence
 ```sh
 $ bx seed | bx ek-new passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq
 ```
@@ -39,7 +40,7 @@ $ bx seed | bx ek-new passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSm
 7113f4c2e8f67b61225c9a619cd984b63f28df434bf18217
 6PnTXoTt48rHNWvuMBRyW2ttL4zfz31J8TMcsJQVNxmxAgqVMN2mmNezsC
 ```
-### Example 2
+### Example 9
 invalid seed
 ```sh
 $ bx ek-new passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq baadf00dbaadf00dbaadf00dbaadf00d
