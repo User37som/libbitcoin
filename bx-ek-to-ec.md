@@ -97,3 +97,19 @@ $ bx ek-to-ec "my passphrase" 6PfM4jsmgX1veYaiBXqqDe3J8hFtAriohdNGjPfrbt7aQ8H53n
 ```
 b1c23d8bf9a957349eafd851808ce5555279cc103924ebd96ddaa3b03666ac74
 ```
+### Example 10
+multiplied, testnet (notice same result as previous example)
+```sh
+$ bx ek-to-ec "my passphrase" 8FEMBzS4QWPwxyzrYJxHwzSrdNzroFiQjkAnpf51xcPPXkTvqGrD8bVq68
+```
+```
+b1c23d8bf9a957349eafd851808ce5555279cc103924ebd96ddaa3b03666ac74
+```
+### Example 11
+multiplied, litecoin, uncompressed (notice same result as previous example)
+```sh
+$ bx ek-to-ec "my passphrase" 7C8LFBdEAqptMNYUNr2cgcP7bppVgsqtz1fXVeSzAPf8VkB29XMKDtF71p
+```
+```
+b1c23d8bf9a957349eafd851808ce5555279cc103924ebd96ddaa3b03666ac74
+```
