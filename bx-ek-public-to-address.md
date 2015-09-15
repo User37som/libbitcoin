@@ -21,7 +21,7 @@ EK_PUBLIC_KEY        The encrypted public key from which to extract the
                      payment address. If not specified the key is read   
                      from STDIN.    
 ```
-**WARNING:** despite the term "confirmation code" the encrypted public key should never be used for confirmation. It is included as a command for completeness only. Instead confirm using [ek-to-ec](bx-ek-to-ec) or [ek-to-address](bx-ek-to-address). For more information see [BIP38 Security Considerations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations).
+**WARNING:** despite the term "confirmation code" the encrypted public key should never be used for confirmation. It is included as a command for completeness only. Instead confirm the encrypted private key using [ek-to-ec](bx-ek-to-ec) or [ek-to-address](bx-ek-to-address). For more information see [BIP38 Security Considerations](https://github.com/libbitcoin/libbitcoin/wiki/BIP38-Security-Considerations).
 
 See also [ek-public-to-ec](bx-ek-public-to-ec).
 ### Example 1
