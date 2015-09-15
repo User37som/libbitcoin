@@ -30,7 +30,7 @@ xprv9s21ZrQH143K2uNeWu3crjqwic1ocvMMwRSypQyMDTk4yQedZv8zkBVUeq2gztk2HQCAvqNLhUfc
 Save the encrypted private key `6PYVupXn6GTGVxpdVgamwbnTzh8hNAswxDeAhUc5ufTCRu8KZgjoSQEqSN` and memorize the passphrase `my passphrase`.
 
 ### Using Mnemonics
-Create a new mnemonic.
+Create a new mnemonic from a temporary seed. Longer seeds produces longer mnemonics.
 ```sh
 $ bx seed -b 128 | bx mnemonic-new
 ```
