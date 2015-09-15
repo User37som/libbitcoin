@@ -103,7 +103,7 @@ multiplied: uncompressed
 $ bx ek-to-ec "my passphrase" 6PfM4jsmgX1veYaiBXqqDe3J8hFtAriohdNGjPfrbt7aQ8H53nijYN6svW
 ```
 ```
-b1c23d8bf9a957349eafd851808ce5555279cc103924ebd96ddaa3b03666ac74
+1MydksvfdWNXM1KnVTS8A78M4b78aJcL1W
 ```
 ### Example 11
 multiplied: testnet
