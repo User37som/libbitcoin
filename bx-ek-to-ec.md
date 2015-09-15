@@ -74,10 +74,18 @@ $ bx ek-to-ec "my passphrase" 7BtJaSMBHZJMgKtDp4rNLDjkoCZu2e5av1FYxMwwvdq5AN124p
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
 ### Example 7
+multiplied, lot/sequence
+```sh
+$ bx ek-to-ec "my passphrase" 6PoJB3hjqER7KJDeo69pfX3ttV5DPaQPEf4pZEwhNYjTjqMdvif5qfE34S
+```
+```
+056115405c7161e62216fcbbf48832c8ed5ef66819a361ec8f6583f12bb2a924
+```
+### Example 8
 multiplied
 ```sh
-$ bx ek-to-ec "my passphrase" [TODO]
+$ bx ek-to-ec "my passphrase" 6PnUht3dP5Jdcp1B7NGqkEoBw5Ja2wWEeQMDRHqLNrBG4Rqo59eVfMd98B
 ```
 ```
-[TODO]
+b1c23d8bf9a957349eafd851808ce5555279cc103924ebd96ddaa3b03666ac74
 ```
