@@ -1,4 +1,4 @@
-There are two standard ways of encrypting a wallet seed. The [Key Encryption](#using-key-encryption) method ([BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki)) allows you to encrypt an existing wallet seed. The [Mnemonic](#using-mnemonics) method ([BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)) requires you to accept a wallet seed derived from a temporary seed (which is not recoverable).
+There are two standard ways of encrypting a wallet seed. The [Key Encryption](#using-key-encryption) method allows you to encrypt an existing wallet seed. The [Mnemonic](#using-mnemonics) method requires you to accept a wallet seed derived from a temporary seed (which is not recoverable).
 
 ### Using Key Encryption
 Create a new HD key from a 256 bit seed.
