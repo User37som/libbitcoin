@@ -26,7 +26,7 @@ The `--version` option is a [libbitcoin enhancement](https://github.com/libbitco
 
 See also [token-new](bx-token-new), [ek-address](bx-ek-address) and [ek-public](bx-ek-public).
 ### Example 1
-lot/sequence token
+lot/sequence
 ```sh
 $ bx ek-new passphrasecpXbDpHuo8F7yuZqR49koDA9uQojPijjjZaxsar7Woo9pfHJbeWF3VMU9EPBqJ baadf00dbaadf00dbaadf00dbaadf00dbaadf00dbaadf00d
 ```
