@@ -24,6 +24,7 @@
   * [How to Use Certificates](How-to-Use-Certificates)
   * [How to Create a Multisig Address](How-to-Create-a-Multisig-Address)
   * [How to Spend From a Multisig Address](How-to-Spend-From-a-Multisig-Address)
+  * [How to Encrypt an HD Wallet Seed](How-to-Encrypt-an-HD-Wallet-Seed)
 * **Meta Commands**
   * [help](bx-help)
   * [settings](bx-settings)
