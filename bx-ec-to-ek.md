@@ -35,6 +35,14 @@ $ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab81
 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
 ```
 ### Example 2
+incorrect passphrase
+```sh
+$ bx ec-to-ek "i forgot" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
+```
+```
+The passphrase is incorrect.
+```
+### Example 3
 piped commands
 ```sh
 $ bx seed | bx ec-new | bx ec-to-ek "my passphrase"
@@ -44,7 +52,7 @@ $ bx seed | bx ec-new | bx ec-to-ek "my passphrase"
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
 ```
-### Example 3
+### Example 4
 round trip
 ```sh
 $ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f | bx ek-to-ec "my passphrase"
@@ -53,7 +61,7 @@ $ bx ec-to-ek "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab81
 6PYXCdvtrs4NN1TjUYbGS5Sd2gjsVsDm7GttqERRWvRjWDsrhQfJeEHrg5
 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
-### Example 4
+### Example 5
 --uncompressed
 ```sh
 $ bx ec-to-ek -u "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
@@ -61,7 +69,7 @@ $ bx ec-to-ek -u "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffa
 ```
 6PRPDbKfv3A45QPPfEtvcxM4oA6ShVL7t72VP74P1W3JEUHPrZXNy39FKe
 ```
-### Example 5
+### Example 6
 --version 111 (testnet)
 ```sh
 $ bx ec-to-ek -v 111 "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
@@ -69,7 +77,7 @@ $ bx ec-to-ek -v 111 "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff
 ```
 8EzHSxX3sfZp6NjYUdt7fZAPCKByrFDS12PHfdexFLSaSAfM7wM7tw3Hof
 ```
-### Example 6
+### Example 7
 --version 48 (litecoin), --uncompressed
 ```sh
 $ bx ec-to-ek -u -v 48 "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
