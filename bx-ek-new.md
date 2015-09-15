@@ -23,6 +23,14 @@ SEED                 The Base16 entropy for the new encrypted private
                      first 192 bits are used).
 ```
 See also [token-new](bx-token-new), [ek-address](bx-ek-address) and [ek-public](bx-ek-public).
+### Example 1
+lot/sequence token
+```sh
+$ bx ek-new passphrasecpXbDpHuo8F7yuZqR49koDA9uQojPijjjZaxsar7Woo9pfHJbeWF3VMU9EPBqJ baadf00dbaadf00dbaadf00dbaadf00dbaadf00dbaadf00d
+```
+```
+6PoJB3hjqER7KJDeo69pfX3ttV5DPaQPEf4pZEwhNYjTjqMdvif5qfE34S
+```
 ### Example 7
 no lot/sequence
 ```sh
