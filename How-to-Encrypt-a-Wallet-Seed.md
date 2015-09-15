@@ -38,7 +38,7 @@ $ bx seed -b 128 | bx mnemonic-new
 betray senior exhibit slot apart affair welcome dog hockey razor cart side
 ```
 
-Generate a new HD wallet from the seed (using a stronger passphrase).
+Generate a new HD key from the seed (using a stronger passphrase).
 ```sh
 $ bx mnemonic-to-seed -p "my passphrase" betray senior exhibit slot apart affair welcome dog hockey razor cart side | bx hd-new
 ```
