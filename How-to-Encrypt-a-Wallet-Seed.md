@@ -28,3 +28,28 @@ xprv9s21ZrQH143K2uNeWu3crjqwic1ocvMMwRSypQyMDTk4yQedZv8zkBVUeq2gztk2HQCAvqNLhUfc
 ```
 ### Using Mnemonics
 The passphrase is optional but if not used the mnemonic is not encrypted and therefore must be kept secret. See also [Remembering a Seed](How-to-Remember-a-Wallet-Seed).
+
+Create a new mnemonic.
+```sh
+$ bx seed -b 128 | bx mnemonic-new
+```
+```
+betray senior exhibit slot apart affair welcome dog hockey razor cart side
+```
+
+Generate a new HD wallet from the seed (using a stronger passphrase).
+```sh
+$ bx mnemonic-to-seed -p "my passphrase" betray senior exhibit slot apart affair welcome dog hockey razor cart side | bx hd-new
+```
+```
+xprv9s21ZrQH143K38Jah6HduU5yGFkyDqtVDn24E1vjSMZ9vqdtCnUYn1v7pPedGoNvDFzjUG77VuYjWptQLsbCzqMy3AYXaWWFo7cbAvBxPqa
+```
+
+Verify your ability to recover the HD key.
+
+```sh
+$ bx mnemonic-to-seed -p "my passphrase" betray senior exhibit slot apart affair welcome dog hockey razor cart side | bx hd-new
+```
+```
+xprv9s21ZrQH143K38Jah6HduU5yGFkyDqtVDn24E1vjSMZ9vqdtCnUYn1v7pPedGoNvDFzjUG77VuYjWptQLsbCzqMy3AYXaWWFo7cbAvBxPqa
+```
