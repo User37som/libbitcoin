@@ -1,18 +1,18 @@
-Create a new HD key using a 256 bit seed.
+Create a new HD key.
 ```sh
 $ bx seed -b 256 | bx hd-new
 ```
 ```
-dd8df8fbdefb4921383a3906d62bceb28f9630456318fd924aa1ee195ce8397e
-xprv9s21ZrQH143K2uNeWu3crjqwic1ocvMMwRSypQyMDTk4yQedZv8zkBVUeq2gztk2HQCAvqNLhUfcHhbD1RGFQ1TTqDSWfTLW4qkxsPMdjNG
+c82425d18a88ea6c5a92d06bc4ee26bfaf1b8782e7c0537544ae6dd40bb5083b
+xprv9s21ZrQH143K4EdfsuwWHdxaGgcwGkTB1f71fbzJNfJma1Xga5XE3LqYxXKkwJJLevsp16iDRyk35MwvmKEEyyqLkHQVziTNs6VtPr1xGM8
 ```
 
 Encrypt the seed (using a stronger passphrase).
 ```sh
-$ bx ec-to-ek "my passphrase" dd8df8fbdefb4921383a3906d62bceb28f9630456318fd924aa1ee195ce8397e
+$ bx ec-to-ek "my passphrase" c82425d18a88ea6c5a92d06bc4ee26bfaf1b8782e7c0537544ae6dd40bb5083b
 ```
 ```
-6PYVj8maQYA95fREvtpgBMFtbi7U2T1B85zyjmEPqC7MknXowoV7yKzHXL
+6PYVupXn6GTGVxpdVgamwbnTzh8hNAswxDeAhUc5ufTCRu8KZgjoSQEqSN
 ```
 
 Verify your ability to recover the HD key.
