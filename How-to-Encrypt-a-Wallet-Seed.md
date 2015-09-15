@@ -1,3 +1,5 @@
+There are two standard ways of encrypting a wallet seed. The [Key Encryption](#Key-Encryption) method allows you to encrypt an existing wallet seed. The [Mnemonic](#Mnemonic) method requires you to accept a seed derived...
+
 ### Using Key Encryption
 Create a new HD key.
 ```sh
