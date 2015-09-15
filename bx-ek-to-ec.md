@@ -89,3 +89,11 @@ $ bx ek-to-ec "my passphrase" 6PnUht3dP5Jdcp1B7NGqkEoBw5Ja2wWEeQMDRHqLNrBG4Rqo59
 ```
 b1c23d8bf9a957349eafd851808ce5555279cc103924ebd96ddaa3b03666ac74
 ```
+### Example 9
+multiplied, uncompressed (notice same result as previous example)
+```sh
+$ bx ek-to-ec "my passphrase" 6PfM4jsmgX1veYaiBXqqDe3J8hFtAriohdNGjPfrbt7aQ8H53nijYN6svW
+```
+```
+b1c23d8bf9a957349eafd851808ce5555279cc103924ebd96ddaa3b03666ac74
+```
