@@ -3,7 +3,7 @@ Recover the EC private key from an encrypted private key (BIP38).
 $ bx ek-to-ec --help
 ```
 ```
-Usage: bx ek-to-ec [-h] [--config VALUE] [PASSPHRASE] [EK_PRIVATE_KEY]   
+Usage: bx ek-to-ec [-h] [--config VALUE] PASSPHRASE [EK_PRIVATE_KEY]     
 
 Info: Recover the EC private key from an encrypted private key (BIP38).  
 
@@ -16,7 +16,8 @@ Arguments (positional):
 
 PASSPHRASE           The passphrase that was used to encrypt the         
                      encrypted private key.                              
-EK_PRIVATE_KEY       The encrypted private key to decrypt.
+EK_PRIVATE_KEY       The encrypted private key to decrypt. If not        
+                     specified the key is read from STDIN.           
 ```
 Altchain support is a [libbitcoin enhancement](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) not yet specified in [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki).
 
