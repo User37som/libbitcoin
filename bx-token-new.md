@@ -4,7 +4,7 @@ $ bx token-new --help
 ```
 ```
 Usage: bx token-new [-h] [--config VALUE] [--lot VALUE] [--sequence      
-VALUE] [PASSPHRASE] [SALT]                                               
+VALUE] PASSPHRASE [SALT]                                                 
 
 Info: Create an intermediate passphrase token for deferred encrypted key 
 generation (BIP38).                                                      
@@ -23,7 +23,7 @@ SALT                 The Base16 entropy for the new token. Must be at
                      least 32 bits in length. Only the first 32 bits are 
                      used unless lot and sequence are zero or unspecified
                      and the salt is at least 64 bits, in which case 64  
-                     bits are used and lot and sequence are not used.    
+                     bits are used and lot and sequence are not used. 
 ```
 Third party-generated encrypted private keys are referred to as [multiplied](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki#Encryption_when_EC_multiply_mode_is_used) by BIP-38. Use this command to generate tokens for use by a third party. To create non-multiplied encrypted public keys use [ec-to-ek](bx-ec-to-ek).
 
