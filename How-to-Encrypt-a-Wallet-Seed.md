@@ -30,8 +30,6 @@ xprv9s21ZrQH143K2uNeWu3crjqwic1ocvMMwRSypQyMDTk4yQedZv8zkBVUeq2gztk2HQCAvqNLhUfc
 Save the encrypted private key `6PYVupXn6GTGVxpdVgamwbnTzh8hNAswxDeAhUc5ufTCRu8KZgjoSQEqSN` and memorize the passphrase `my passphrase`.
 
 ### Using Mnemonics
-The passphrase is optional but if not used the mnemonic is not encrypted and therefore must be kept secret. See also [Remembering a Seed](How-to-Remember-a-Wallet-Seed).
-
 Create a new mnemonic.
 ```sh
 $ bx seed -b 128 | bx mnemonic-new
@@ -58,3 +56,5 @@ xprv9s21ZrQH143K38Jah6HduU5yGFkyDqtVDn24E1vjSMZ9vqdtCnUYn1v7pPedGoNvDFzjUG77VuYj
 ```
 
 Save the encrypted mnemonic (including word order) `betray senior exhibit slot apart affair welcome dog hockey razor cart side` and memorize the passphrase `my passphrase`.
+
+The passphrase is optional but if not used the mnemonic is not encrypted and therefore must be kept secret. See also [Remembering a Seed](How-to-Remember-a-Wallet-Seed).
