@@ -27,6 +27,8 @@ SEED                 The Base16 entropy used to create the corresponding
                      length (only the first 192 bits are used). If not   
                      specified the seed is read from STDIN.
 ```
+The `--version` option is a [libbitcoin enhancement](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) not yet specified in [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki).
+
 See also [token-new](bx-token-new), [ek-new](bx-ek-new) and [ek-public](bx-ek-public).
 ### Example 1
 lot/sequence
