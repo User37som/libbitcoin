@@ -19,13 +19,13 @@
   * [Help Integration](Help-Integration)
   * [Test Methodology](Test-Methodology)
 * **Tutorials**
+  * [Encrypting a Seed](Encrypting-a-Seed)
+  * [Remembering a Seed](Remembering-a-Seed)
   * [How to Receive Bitcoin](How-to-Receive-Bitcoin)
   * [How to Spend Bitcoin](How-to-Spend-Bitcoin)
   * [How to Use Certificates](How-to-Use-Certificates)
   * [How to Create a Multisig Address](How-to-Create-a-Multisig-Address)
   * [How to Spend From a Multisig Address](How-to-Spend-From-a-Multisig-Address)
-  * [Encrypting a Seed](Encrypting-a-Seed)
-  * [Remembering a Seed](Remembering-a-Seed)
 * **Meta Commands**
   * [help](bx-help)
   * [settings](bx-settings)
