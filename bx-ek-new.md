@@ -31,16 +31,15 @@ $ bx ek-new passphrasecpXbDpHuo8F7yuZqR49koDA9uQojPijjjZaxsar7Woo9pfHJbeWF3VMU9E
 ```
 6PoJB3hjqER7KJDeo69pfX3ttV5DPaQPEf4pZEwhNYjTjqMdvif5qfE34S
 ```
-### Example 7
-no lot/sequence
+### Example 2
 ```sh
 $ bx ek-new passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq baadf00dbaadf00dbaadf00dbaadf00dbaadf00dbaadf00d
 ```
 ```
 6PnUht3dP5Jdcp1B7NGqkEoBw5Ja2wWEeQMDRHqLNrBG4Rqo59eVfMd98B
 ```
-### Example 8
-piped commands, no lot/sequence
+### Example 3
+piped commands
 ```sh
 $ bx seed | bx ek-new passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq
 ```
@@ -48,7 +47,7 @@ $ bx seed | bx ek-new passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSm
 7113f4c2e8f67b61225c9a619cd984b63f28df434bf18217
 6PnTXoTt48rHNWvuMBRyW2ttL4zfz31J8TMcsJQVNxmxAgqVMN2mmNezsC
 ```
-### Example 9
+### Example 4
 invalid seed
 ```sh
 $ bx ek-new passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq baadf00dbaadf00dbaadf00dbaadf00d
