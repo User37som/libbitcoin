@@ -3,7 +3,7 @@ Encrypt an EC private key as an encrypted private key (BIP38).
 $ bx ec-to-ek --help
 ```
 ```
-Usage: bx ec-to-ek [-hu] [--config VALUE] [--version VALUE] [PASSPHRASE] 
+Usage: bx ec-to-ek [-hu] [--config VALUE] [--version VALUE] PASSPHRASE   
 [EC_PRIVATE_KEY]                                                         
 
 Info: Encrypt an EC private key as an encrypted private key (BIP38).     
