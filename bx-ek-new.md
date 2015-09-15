@@ -3,7 +3,7 @@ Create an encrypted private key from an intermediate passphrase token (BIP38).
 $ bx ek-new --help
 ```
 ```
-Usage: bx ek-new [-hu] [--config VALUE] [--version VALUE] [TOKEN] [SEED] 
+Usage: bx ek-new [-hu] [--config VALUE] [--version VALUE] TOKEN [SEED]   
 
 Info: Create an encrypted private key from an intermediate passphrase    
 token (BIP38).                                                           
@@ -20,7 +20,8 @@ Arguments (positional):
 TOKEN                The intermediate passphrase token.                  
 SEED                 The Base16 entropy for the new encrypted private    
                      key. Must be at least 192 bits in length (only the  
-                     first 192 bits are used).
+                     first 192 bits are used). If not specified the seed 
+                     is read from STDIN.  
 ```
 The `--version` option is a [libbitcoin enhancement](https://github.com/libbitcoin/libbitcoin/wiki/Altchain-Encrypted-Private-Keys) not yet specified in [BIP-38](https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki).
 
