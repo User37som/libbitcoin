@@ -26,7 +26,7 @@ SEED                 The Base16 entropy for the new encrypted public key.
                      Must be at least 192 bits in length (only the first 
                      192 bits are used).
 ```
-See also [ek-address](bx-ek-address) and [ek-new](bx-ek-new).
+See also [token-new](bx-token-new), [ek-new](bx-ek-new) and [ek-address](bx-ek-address).
 ### Example 1
 ```sh
 TODO
