@@ -25,5 +25,25 @@ SEED                 The Base16 entropy for the new encrypted private
 See also [token-new](bx-token-new), [ek-address](bx-ek-address) and [ek-public](bx-ek-public).
 ### Example 1
 ```sh
-TODO
+$ bx ek-new passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq baadf00dbaadf00dbaadf00dbaadf00dbaadf00dbaadf00d
+```
+```
+6PnUht3dP5Jdcp1B7NGqkEoBw5Ja2wWEeQMDRHqLNrBG4Rqo59eVfMd98B
+```
+### Example 2
+piped commands
+```sh
+$ bx seed | bx ek-new passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq
+```
+```
+7113f4c2e8f67b61225c9a619cd984b63f28df434bf18217
+6PnTXoTt48rHNWvuMBRyW2ttL4zfz31J8TMcsJQVNxmxAgqVMN2mmNezsC
+```
+### Example 2
+invalid seed
+```sh
+$ bx ek-new passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq baadf00dbaadf00dbaadf00dbaadf00d
+```
+```
+The seed is less than 192 bits long.
 ```
