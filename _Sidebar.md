@@ -24,8 +24,8 @@
   * [Receiving Bitcoin](How-to-Receive-Bitcoin)
   * [Spending Bitcoin](How-to-Spend-Bitcoin)
   * [Using Certificates](How-to-Use-Certificates)
-  * [Creating a Multisig Address](How-to-Create-a-Multisig-Address)
-  * [Spending From a Multisig Address](How-to-Spend-From-a-Multisig-Address)
+  * [Receiving Multisig](How-to-Create-a-Multisig-Address)
+  * [Spending Multisig](How-to-Spend-From-a-Multisig-Address)
 * **Meta Commands**
   * [help](bx-help)
   * [settings](bx-settings)
