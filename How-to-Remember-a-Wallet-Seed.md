@@ -1,4 +1,4 @@
-Create a new mnemonic. Longer seeds produces longer mnemonics.
+Create a new mnemonic from a temporary seed. Longer seeds produces longer mnemonics.
 ```sh
 $ bx seed -b 128 | bx mnemonic-new
 ```
