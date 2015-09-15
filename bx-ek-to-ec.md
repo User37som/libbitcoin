@@ -82,7 +82,7 @@ $ bx ek-to-ec "my passphrase" 6PoJB3hjqER7KJDeo69pfX3ttV5DPaQPEf4pZEwhNYjTjqMdvi
 056115405c7161e62216fcbbf48832c8ed5ef66819a361ec8f6583f12bb2a924
 ```
 ### Example 8
-multiplied: defaults
+multiplied
 ```sh
 $ bx ek-to-ec "my passphrase" 6PnUht3dP5Jdcp1B7NGqkEoBw5Ja2wWEeQMDRHqLNrBG4Rqo59eVfMd98B
 ```
