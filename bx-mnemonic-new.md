@@ -40,9 +40,9 @@ $ bx mnemonic-new baadf00dbaadf00dbaadf00dbaadf00d
 rival hurdle address inspire tenant almost turkey safe asset step lab boy
 ```
 ### Example 3
-piped commands
+piped commands, 128 bit seed
 ```sh
-$ bx seed | bx mnemonic-new
+$ bx seed -b 128 | bx mnemonic-new
 ```
 ```
 36e0ee880a21b1fe4333121499f5d0c9
