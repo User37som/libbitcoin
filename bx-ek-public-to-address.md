@@ -66,7 +66,7 @@ $ bx ek-public-to-address "my passphrase" cfrm38V5FtqpFoBNE9wpKjp5Fe97tM7YX6brNP
 1MydksvfdWNXM1KnVTS8A78M4b78aJcL1W
 ```
 ### Example 6
---version 111 (testnet)
+--version 111 (testnet) is encoded within cfrm2zc...(0x6f == 111)
 ```sh
 $ bx ek-public-to-address "my passphrase" cfrm2zc7BCp4KwhEE6HzSSxVhUyj2ky8bzvSLEqmAPcakQXb49uFQ87UEg8EhbuwA33t8db2fYW
 ```
@@ -74,7 +74,7 @@ $ bx ek-public-to-address "my passphrase" cfrm2zc7BCp4KwhEE6HzSSxVhUyj2ky8bzvSLE
 mtABBAtcTLGZhxNupNZcPaVLZetzHVWgAp
 ```
 ### Example 7
---version 48 (litecoin), --uncompressed
+--version 48 (litecoin) is encoded within cfrm3B6... (0x30 == 48), --uncompressed
 ```sh
 $ bx ek-public-to-address "my passphrase" cfrm3B6UzSYXiZ36wznhsBGA2YdMrPq9VdxGetyK1VQ3o4A4bxiCY1h9XmUaK7M7tonUhBVyHBw
 ```
