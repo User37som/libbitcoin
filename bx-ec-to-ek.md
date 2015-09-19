@@ -75,7 +75,7 @@ $ bx ec-to-ek -u "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffa
 $ bx ec-to-ek -v 239 "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
 ```
-8EzHSxX3sfZp6NjYUdt7fZAPCKByrFDS12PHfdexFLSaSAfM7wM7tw3Hof
+675v6gkbEo9sVFM78zaYucgBFs8NRYeRmstr7RLw7DzrGvhJj7cPE22hBk
 ```
 ### Example 7
 --version 176 ([LTC](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table) version/WIF column), --uncompressed
@@ -83,5 +83,5 @@ $ bx ec-to-ek -v 239 "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff
 $ bx ec-to-ek -u -v 48 "my passphrase" 261fc32e9f29c70e3d898aa7db028c81ede0658e8ff8ffab8160073c048ae83f
 ```
 ```
-7BtJaSMBHZJMgKtDp4rNLDjkoCZu2e5av1FYxMwwvdq5AN124paeds82tP
+9KuZDrNHkhZ4FWCLstF426suoni93kzMwAETwya7F5FzmnJkiPr3FtdDUV
 ```
