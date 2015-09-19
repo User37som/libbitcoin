@@ -67,7 +67,7 @@ $ bx ek-new -u passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFK
 6PfM4jsmgX1veYaiBXqqDe3J8hFtAriohdNGjPfrbt7aQ8H53nijYN6svW
 ```
 ### Example 6
---version 239 ([TEST](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table)
+--version 239 ([TEST](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table) version/WIF column)
 ```sh
 $ bx ek-new -v 239 passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq baadf00dbaadf00dbaadf00dbaadf00dbaadf00dbaadf00d
 ```
