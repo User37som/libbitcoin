@@ -73,3 +73,19 @@ $ bx ec-to-public -u 18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a2063
 0450863ad64a87ae8a2fe83c1af1a8403cb53f53e486d8511dad8a04887e5b23522cd470243453a299fa9e77237716103abc11a1df38855ed6f2ee187e9c582ba6
 16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
 ```
+
+### Example 7
+
+--version 48 ([LTC](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table) version/p2pkh column)
+
+```
+$ echo 'Very easy LTC brain wallet to hack' | bx base16-encode | bx sha256 | bx ec-new | bx ec-to-public | bx ec-to-address -v 48
+```
+```
+Very easy LTC brain wallet to hack
+566572792065617379204c544320627261696e2077616c6c657420746f206861636b0a
+e25d3378f4373ee06b158f7df947a6f222e666f80161d44692c4aa9b43eb44ee
+7e75b769fb0465f3bdca6ed58d43d00a7d9456867e858f06d8ce53094b96a413
+032ffb62be9789bbb0e5cc0dac554bf6bc361053b35bb214f90a0a1c3a259eb830
+LTXBL99j6dS5C14W8MZyHbMYFDoa6jnzHt
+```
