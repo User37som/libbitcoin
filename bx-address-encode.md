@@ -30,7 +30,7 @@ $ bx address-encode b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
 ```
 ### Example 2
-compressed key, --version 30 ([DOGE](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table) version/p2pkh column)
+--version 30 ([DOGE](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table) version/p2pkh column) with a compressed EC public key provided as input 
 ```sh
 $ bx sha256 0247140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36 | bx ripemd160 | bx address-encode -v 30
 ```
