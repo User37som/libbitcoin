@@ -28,12 +28,12 @@ $ bx ec-to-address 0247140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af
 1EKJFK8kBmasFRYY3Ay9QjpJLm4vemJtC1
 ```
 ### Example 2
-compressed key, --version 42
+compressed key, --version 30 ([DOGE](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table) version/p2pkh column)
 ```sh
-$ bx ec-to-address -v 42 0247140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36
+$ bx ec-to-address -v 30 0247140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36
 ```
 ```
-J8Wdbser1M3fbdQB4nxXn1FLmwtYXKovfA
+DJTPna5PVBV9nRj8mkxhxVyuDtoDu5sxgb
 ```
 ### Example 3
 uncompressed key
