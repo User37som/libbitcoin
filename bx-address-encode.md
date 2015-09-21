@@ -30,12 +30,13 @@ $ bx address-encode b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
 ```
 ### Example 2
---version 42
+compressed key, --version 30 ([DOGE](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table) version/p2pkh column)
 ```sh
-$ bx address-encode -v 42 b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
+$ bx sha256 0247140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36 | bx ripemd160 | bx address-encode -v 30
 ```
 ```
-JBeTK2YUWEFTTQvcqEyQoS3poXKjjc1oEP
+920f84f611783d6bce850c43ecfa415c47fd44b9
+DJTPna5PVBV9nRj8mkxhxVyuDtoDu5sxgb
 ```
 ### Example 3
 *[Technical background of version 1 Bitcoin addresses]((https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses))* (abbreviated version)
