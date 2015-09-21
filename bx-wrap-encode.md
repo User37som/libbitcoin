@@ -60,7 +60,7 @@ $ bx base16-encode "Satoshi Nakamoto" | bx wrap-encode
 ### Example 5
 --version 30 ([DOGE](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table) version/p2pkh column)
 
-*Computes a DOGE address by using wrap-encode piped to base58-encode. Result below complements example #3. *
+*Computes a DOGE address by using wrap-encode piped to base58-encode. Result below complements example #3.*
 
 ```sh
 $ bx ec-to-public 1f59dd4ea6629da7970ca374513dd0061bab84e687e36514eeaf5a017c30d32c | bx sha256 | bx ripemd160 | bx wrap-encode -v 30 | bx base58-encode
