@@ -40,7 +40,7 @@ dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig
 ```
 
 ### Example 3: Create a Multi-signature Address
-Create a "2 of 4 multisig" payment address for a P2SH transaction to spend on the TEST ([196](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table)) network. *The input script follows a pattern, and requires all 4 public addresses of the signatories that can authorize a P2SH transaction. Smaller compressed public keys are used in the example below.*  
+Create a "2 of 4 multisig" payment address for a P2SH transaction to spend on the TEST ([196](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table)) network. *The input script follows a pattern, and this pattern requires all 4 public addresses of the signatories that can be used to authorize a future P2SH transaction. Smaller compressed public keys are used in the example below.*  
 
 ```
 echo "2 [ 020ae29f86f404e4b302cfa17ff15d93149af6a54c80a4172d47e41f55f6a78d73 ] [ 03664d528eb80096671ef9011c533ceb5df133238e3690d88f2960c786398b86b1 ] [ 029a449ea4a2155ea10002d704604bb3e8606631d35af20889a74b82b2dab572f6 ] [ 0321602d78046d63256b1730b119b1aca3428039f18fdb73ccf45ad3e148dd9b17 ] 4 checkmultisig" | bx script-encode | bx bitcoin160 | bx address-encode -v 196
