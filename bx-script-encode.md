@@ -39,7 +39,7 @@ dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig
 76a91489abcdefabbaabbaabbaabbaabbaabbaabbaabba88ac
 ```
 
-### Example 3: Creating Multi-signature Addresses
+### Example 3: Create a Multi-signature Address
 Create a "2 of 4 multisig" payment address for a P2SH transaction to spend on the TEST ([196](https://github.com/libbitcoin/libbitcoin/wiki/BIP44-Altcoin-Version-Mappings#bip44-altcoin-version-mapping-table)) network. *The input script follows a pattern, and requires all 4 public addresses of the signatories that can authorize a P2SH transaction. Smaller compressed public keys are used in the example below.*  
 
 ```
