@@ -57,3 +57,5 @@ abdc6bdb3646d67f6117047bbea7a419f1bf3578
 ```
 bx script-to-address "2 [ 020ae29f86f404e4b302cfa17ff15d93149af6a54c80a4172d47e41f55f6a78d73 ] [ 03664d528eb80096671ef9011c533ceb5df133238e3690d88f2960c786398b86b1 ] [ 029a449ea4a2155ea10002d704604bb3e8606631d35af20889a74b82b2dab572f6 ] [ 0321602d78046d63256b1730b119b1aca3428039f18fdb73ccf45ad3e148dd9b17 ] 4 checkmultisig"
 ```
+
+A very subtle but important point is that the placement order of the four public keys above will result in a different multisig addresses being created.  **This means that the signature order for P2SH-based multisig transactions is extremely important!**
