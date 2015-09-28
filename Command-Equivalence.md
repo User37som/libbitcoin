@@ -1,4 +1,4 @@
-Often it is possible to achieve the same objective using a different combination of commands.
+It is possible to achieve the same objective using different combinations of commands.
 
 ```sh
 $ bx ec-new 9bb08de6bcc361df764c1edd9cc93059 | bx ec-to-public | bx bitcoin160 | bx address-encode
