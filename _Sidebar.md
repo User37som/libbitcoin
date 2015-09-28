@@ -19,6 +19,7 @@
   * [Help Integration](Help-Integration)
   * [Test Methodology](Test-Methodology)
 * **Tutorials**
+  * [Payment Addresses](Payment-Address-Deconstruction)
   * [Encrypting a Seed](How-to-Encrypt-a-Wallet-Seed)
   * [Remembering a Seed](How-to-Remember-a-Wallet-Seed)
   * [Receiving Bitcoin](How-to-Receive-Bitcoin)
