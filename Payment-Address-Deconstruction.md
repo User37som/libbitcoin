@@ -1,6 +1,6 @@
 This tutorial follows the article: [Technical background of version 1 Bitcoin addresses](https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses)
 
-### Full Example
+#### Full Example
 
 0 - Having a private ECDSA key.
 ```
@@ -61,7 +61,7 @@ $ bx base58-encode 00010966776006953d5567439e5e39f86a0d273beed61967f6
 16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
 ```
 
-### Abbreviated Version
+#### Abbreviated Version
 ```sh
 $ bx ec-to-public -u 18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a206321725 | bx sha256 | bx ripemd160 | bx address-encode
 ```
