@@ -30,10 +30,10 @@ $ bx address-encode b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
 ```
 ### Example 2
---version 42
+--version 111 (testnet)
 ```sh
-$ bx address-encode -v 42 b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
+$ bx address-encode -v 111 b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
 ```
 ```
-JBeTK2YUWEFTTQvcqEyQoS3poXKjjc1oEP
+mwy5FX7MVgDutKYbXBxQG5q7EL6pmhHT58
 ```
