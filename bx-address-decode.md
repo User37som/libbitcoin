@@ -59,7 +59,7 @@ $ bx address-decode -f xml 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
 <wrapper><checksum>2743498322</checksum><payload>b472a266d0bd89c13706a4132ccfb16f7c3b9fcb</payload><version>0</version></wrapper>
 ```
 ### Example 4
-testnet (version 111)
+testnet address (version 111)
 ```sh
 $ bx address-decode mwy5FX7MVgDutKYbXBxQG5q7EL6pmhHT58
 ```
