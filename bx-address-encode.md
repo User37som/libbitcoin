@@ -37,3 +37,15 @@ $ bx address-encode -v 111 b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
 ```
 mwy5FX7MVgDutKYbXBxQG5q7EL6pmhHT58
 ```
+### Example 3
+piped commands
+```sh
+$ bx seed | bx ec-new | bx ec-to-public | bx bitcoin160 | bx address-encode
+```
+```
+3ef002f66a2be8301106e39861433e9740f7e058a738738b
+6162020b12fdefd90ec772f0da856aa10a34d5e19c4fe1fcedd2eedaf9fcf6fc
+03527e99e7e665c95c4354c74ecb59c0e0b6d97568b546eed170789648d13c3dea
+1a928dd68a297e6eff178b17c8faa8afc78b7a4a
+13RW8k2YdMXP7M4Xc4mcZvGgBEksRmkWQW
+```
