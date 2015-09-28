@@ -1,4 +1,6 @@
-This example follows the article: [Technical background of version 1 Bitcoin addresses](https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses)
+This examples follows the article: [Technical background of version 1 Bitcoin addresses](https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses)
+
+### Full Example
 
 0 - Having a private ECDSA key.
 ```
@@ -58,8 +60,19 @@ $ bx base58-encode 00010966776006953d5567439e5e39f86a0d273beed61967f6
 ```
 16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
 ```
-### Example 5
-Demonstrate command equivalence.
+
+### Abbreviated Version
+```sh
+$ bx ec-to-public -u 18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a206321725 | bx sha256 | bx ripemd160 | bx address-encode
+```
+```
+0450863ad64a87ae8a2fe83c1af1a8403cb53f53e486d8511dad8a04887e5b23522cd470243453a299fa9e77237716103abc11a1df38855ed6f2ee187e9c582ba6
+600ffe422b4e00731a59557a5cca46cc183944191006324a447bdb2d98d4b408
+010966776006953d5567439e5e39f86a0d273bee
+16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
+```
+
+### Command Equivalence
 ```sh
 $ bx ec-new 9bb08de6bcc361df764c1edd9cc93059 | bx ec-to-public | bx bitcoin160 | bx address-encode
 ```
@@ -101,14 +114,4 @@ bbd353249bf2360955621268b7db701454a20e7b5b2f42536c10a97712ad4895
 0423c50b6c4d2caa9fb3822eb0bc8e1f116ab43b
 000423c50b6c4d2caa9fb3822eb0bc8e1f116ab43b5728093a
 1NtZ6Dsj6vumHnAmA87aqLy6JhrsbpPKP
-```
-### Abbreviated Version
-```sh
-$ bx ec-to-public -u 18e14a7b6a307f426a94f8114701e7c8e774e7f9a47e2c2035db29a206321725 | bx sha256 | bx ripemd160 | bx address-encode
-```
-```
-0450863ad64a87ae8a2fe83c1af1a8403cb53f53e486d8511dad8a04887e5b23522cd470243453a299fa9e77237716103abc11a1df38855ed6f2ee187e9c582ba6
-600ffe422b4e00731a59557a5cca46cc183944191006324a447bdb2d98d4b408
-010966776006953d5567439e5e39f86a0d273bee
-16UwLL9Risc3QfPqBUvKofHmBQ7wMtjvM
 ```
