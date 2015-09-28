@@ -20,6 +20,7 @@
   * [Test Methodology](Test-Methodology)
 * **Tutorials**
   * [Payment Addresses](Payment-Address-Deconstruction)
+  * [Command Equivalence](Command-Equivalence)
   * [Encrypting a Seed](How-to-Encrypt-a-Wallet-Seed)
   * [Remembering a Seed](How-to-Remember-a-Wallet-Seed)
   * [Receiving Bitcoin](How-to-Receive-Bitcoin)
