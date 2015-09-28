@@ -30,7 +30,7 @@ $ bx address-decode 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
 ```js
 wrapper
 {
-    checksum 1476364070
+    checksum 2743498322
     payload b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
     version 0
 }
@@ -43,7 +43,7 @@ $ bx address-decode -f json 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
 ```js
 {
     "wrapper": {
-        "checksum": "1476364070",
+        "checksum": "2743498322",
         "payload": "b472a266d0bd89c13706a4132ccfb16f7c3b9fcb",
         "version": "0"
     }
@@ -56,7 +56,7 @@ $ bx address-decode -f xml 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
 ```
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<wrapper><checksum>1476364070</checksum><payload>b472a266d0bd89c13706a4132ccfb16f7c3b9fcb</payload><version>0</version></wrapper>
+<wrapper><checksum>2743498322</checksum><payload>b472a266d0bd89c13706a4132ccfb16f7c3b9fcb</payload><version>0</version></wrapper>
 ```
 ### Example 4
 piped commands
@@ -70,7 +70,7 @@ e6d6c2ff0fec07704a57c5f8baaef838ab8254ca29b33f504cec73064548b925
 1PCZAeAsyyeDDFtfdce3p5ppkAfmFBDTsf
 wrapper
 {
-    checksum 2412660015
+    checksum 1659491557
     payload f382319f0335055fd7501c0ad8300aba25fa8c05
     version 0
 }
