@@ -1,4 +1,4 @@
-BX uses the following set of primitive types for command and configuration processing.
+BX uses the following set of types for command and configuration processing.
 ```
 bc::config::authority
 bc::config::btc256
