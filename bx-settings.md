@@ -56,33 +56,38 @@ settings
 ### Example 2
 --config bx.cfg
 ```sh
-$ bx settings -c bx.cfg
+$ bx settings -c bx-testnet.cfg
 ```
 ```js
 settings
 {
-    general
+    network
     {
-        network testnet
-        retries 1
-        wait 10000
-    }
-    logging
-    {
+        channel_handshake_seconds 30
+        connect_retries 0
+        connect_timeout_seconds 5
         debug_file debug.log
         error_file error.log
+        hosts_file hosts.cache
+        identifier 118034699
+        seed testnet-seed.alexykot.me:18333,testnet-seed.bitcoin.petertodd.org:18333,testnet-seed.bluematt.me:18333,testnet-seed.bitcoin.schildbach.de:18333
     }
-    mainnet
+    server
     {
         cert_file ""
-        server_cert_key ""
-        url tcp://obelisk.airbitz.co:9091
-    }
-    testnet
-    {
-        cert_file ""
+        connect_retries 0
+        connect_timeout_seconds 5
         server_cert_key ""
         url tcp://obelisk-testnet.airbitz.co:9091
+    }
+    wallet
+    {
+        hd_private_version 70615956
+        hd_public_version 70617039
+        pay_to_public_key_hash_version 111
+        pay_to_script_hash_version 196
+        transaction_version 1
+        wif_version 239
     }
 }
 ```
