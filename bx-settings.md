@@ -70,7 +70,7 @@ settings
         error_file error.log
         hosts_file hosts.cache
         identifier 118034699
-        seed testnet-seed.alexykot.me:18333,testnet-seed.bitcoin.petertodd.org:18333,testnet-seed.bluematt.me:18333,testnet-seed.bitcoin.schildbach.de:18333
+        seeds testnet-seed.alexykot.me:18333,testnet-seed.bitcoin.petertodd.org:18333,testnet-seed.bluematt.me:18333,testnet-seed.bitcoin.schildbach.de:18333
     }
     server
     {
