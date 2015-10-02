@@ -10,7 +10,7 @@ ICU     International Components for Unicode
 PREVOUT Previous Output
 PUBKEY  EC Public Key
 QRCODE  Quick Response Code
-RACE    Research and development in Advanced Communications Technologies
+RACE    Research in Advanced Communications for Europe
 RIPEMD  RACE Integrity Primitives Evaluation Message Digest
 SHA     Secure Hash Algorithm
 SOCKS   Socket Secure (proxy protocol)
