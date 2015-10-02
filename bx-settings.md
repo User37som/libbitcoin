@@ -54,7 +54,7 @@ settings
 }
 ```
 ### Example 2
---config bx.cfg
+--config bx-testnet.cfg
 ```sh
 $ bx settings -c bx-testnet.cfg
 ```
@@ -92,7 +92,7 @@ settings
 }
 ```
 
-> This presumes the existence of `bx.cfg` with the above settings.
+> This presumes the existence of `bx-testnet.cfg` with the above settings.
 
 ### Example 3
 environment variable `BX_CONFIG=MyConfig/bx.cfg`
