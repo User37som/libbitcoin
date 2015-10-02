@@ -50,29 +50,33 @@ In most commands the option is available to load the primary input parameter via
 
 BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/program_options/overview.html) library to bind configuration settings to strongly-typed application level properties. Settings values are read into base command properties generated from the following metadata.
 ```xml
-<configuration section="general">
-    <!-- Only hd-new and stealth-encode currently use the testnet distinction, apart from swapping servers. -->
-    <setting name="network" description="The network to use, either 'mainnet' or 'testnet'. Defaults to match the build." />
-    <setting name="retries" type="byte" description="Number of times to retry contacting the server before giving up." />
-    <setting name="wait" default="2000" type="uint32_t" description="Milliseconds to wait for a response from the server." />
-</configuration>
+  <configuration section="wallet">
+    <setting name="wif_version" type="byte" default="128" description="The wallet import format (WIF) key version, defaults to 128." />
+    <setting name="hd_public_version" type="uint32_t" default="76067358" description="The hierarchical deterministic (HD) public key version, defaults to 76067358." />
+    <setting name="hd_private_version" type="uint32_t" default="76066276" description="The hierarchical deterministic (HD) private key version, defaults to 76066276." />
+    <setting name="pay_to_public_key_hash_version" type="byte" default="0" description="The pay-to-public-key-hash address version, defaults to zero." />
+    <setting name="pay_to_script_hash_version" type="byte" default="5" description="The pay-to-script-hash address version, defaults to 5." />
+    <setting name="transaction_version" type="byte" default="1" description="The transaction version, defaults to 1." />
+  </configuration>
 
-<configuration section="logging">
-    <setting name="debug_file" type="path" default="debug.log" description="The path to the debug log file, used by send-tx-p2p." />
-    <setting name="error_file" type="path" default="error.log" description="The path to the error log file, used by send-tx-p2p." />
-</configuration>
+  <configuration section="network">
+    <setting name="identifier" type="uint32_t" default="3652501241" description="The magic number for message headers, defaults to 3652501241." />
+    <setting name="connect_retries" type="byte" default="0" description="The number of times to retry contacting a node, defaults to zero." />
+    <setting name="connect_timeout_seconds" type="uint32_t" default="5" description="The time limit for connection establishment, defaults to 5." />
+    <setting name="channel_handshake_seconds" type="uint32_t" default="30" description="The time limit to complete the connection handshake, defaults to 30." />
+    <setting name="hosts_file" type="path" default="hosts.cache" description="The peer hosts cache file path, defaults to 'hosts.cache'." />
+    <setting name="debug_file" type="path" default="debug.log" description="The debug log file path, defaults to 'debug.log'." />
+    <setting name="error_file" type="path" default="error.log" description="The error log file path, defaults to 'error.log'." />
+    <setting name="seed" type="endpoint" multiple="true" description="A seed node for initializing the host pool, multiple entries allowed." />
+  </configuration>
 
-<configuration section="mainnet">
-    <setting name="url" type="uri" default="tcp://obelisk.airbitz.co:9091" description="The URL of the Libbitcoin/Obelisk mainnet server." />
+  <configuration section="server">
+    <setting name="url" type="endpoint" default="tcp://obelisk.airbitz.co:9091" description="The URL of the Libbitcoin/Obelisk server." />
+    <setting name="connect_retries" type="byte" default="0" description="The number of times to retry contacting a server, defaults to zero." />
+    <setting name="connect_timeout_seconds" default="5" type="uint32_t" description="The time limit for connection establishment, defaults to 5." />
     <setting name="server_cert_key" type="cert_key" description="The Z85-encoded public key of the server certificate." />
     <setting name="cert_file" type="path" description="The path to the ZPL-encoded client private certificate file." />
-</configuration>
-
-<configuration section="testnet">
-    <setting name="url" type="uri" default="tcp://obelisk-testnet.airbitz.co:9091" description="The URL of the Libbitcoin/Obelisk testnet server." />
-    <setting name="server_cert_key" type="cert_key" description="The Z85-encoded public key of the server certificate." />
-    <setting name="cert_file" type="path" description="The path to the ZPL-encoded client private certificate file." />
-</configuration>
+  </configuration>
 ```
 The implementation uses a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file. A default [settings file](configuration-settings) is included with the build.
 
