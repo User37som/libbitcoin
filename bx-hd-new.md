@@ -54,3 +54,11 @@ $ bx seed | bx hd-new
 4cd28fdc7efc770749605d59d94fe7b0
 xprv9s21ZrQH143K3KDWPNXDFTyieNdyp1ADhcEwqvL7t9CDvvvBaEuwjNVXovz6WXFQPJwWqKe17wNAq3xArJ3qcBZqhVrH2Sq3EQ4en8ig2Fo
 ```
+### Example 5
+--version 70617039 (testnet)
+```sh
+$ bx hd-new -v 70617039 4cd28fdc7efc770749605d59d94fe7b0
+```
+```
+tpubD6NzVbkrYhZ4XbUpwb3JpXFpXXa8CrP8cTkqzrnsnPV6Z1v3C15HRcUquADA8CMEawvRMMGoKnwg8fza8pPdFUcJH6uxZJJKkDYJJAGT53e
+```
