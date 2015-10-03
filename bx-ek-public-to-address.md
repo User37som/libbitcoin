@@ -74,7 +74,7 @@ $ bx ek-public-to-address "my passphrase" cfrm2zc7BCp4KwhEE6HzSSxVhUyj2ky8bzvSLE
 mtABBAtcTLGZhxNupNZcPaVLZetzHVWgAp
 ```
 ### Example 7
---version 48 (litecoin), --uncompressed
+--version 111 (testnet), --uncompressed
 ```sh
 $ bx ek-public-to-address "my passphrase" cfrm3B6UzSYXiZ36wznhsBGA2YdMrPq9VdxGetyK1VQ3o4A4bxiCY1h9XmUaK7M7tonUhBVyHBw
 ```
