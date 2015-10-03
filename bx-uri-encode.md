@@ -14,7 +14,7 @@ Options (named):
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
 -l [--label]         The value of the label parameter.                   
--m [--message]       The value of the label parameter.                   
+-m [--message]       The value of the message parameter.                 
 -r [--request]       The value of the payment request parameter.         
 
 Arguments (positional):
