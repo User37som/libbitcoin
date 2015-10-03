@@ -13,7 +13,7 @@ Info: Generate a pseudorandom seed.
 Options (named):
 
 -b [--bit_length]    The length of the seed in bits. Must be divisible by
-                     8 and must not be less than 128.                    
+                     8 and must not be less than 128, defaults to 192.   
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
 ```
@@ -23,7 +23,7 @@ Options (named):
 $ bx seed
 ```
 ```
-6ddf4e16db8ca3c0b172a557f029d87a
+d915107990a42dfb2ea5762729002d47a4748e0f24aceb61
 ```
 ### Example 2
 1024 bit seed
