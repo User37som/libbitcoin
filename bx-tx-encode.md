@@ -4,7 +4,7 @@ $ bx tx-encode --help
 ```
 ```
 Usage: bx tx-encode [-h] [--config VALUE] [--input VALUE] [--lock_time   
-VALUE] [--output VALUE] [--version VALUE]               
+VALUE] [--output VALUE] [--script_version VALUE] [--version VALUE]       
 
 Info: Encode an unsigned transaction as Base16.                          
 
@@ -26,7 +26,10 @@ Options (named):
                      is required for stealth outputs and not used        
                      otherwise. The same seed should NOT be used for     
                      multiple outputs.                                   
--v [--version]       The transaction version.                            
+-s [--script_version] The pay-to-script-hash payment address version,     
+                     defaults to 5. This is used to differentiate output 
+                     addresses.                                          
+-v [--version]       The transaction version, defaults to 1.
 ```
 See also [tx-decode](bx-tx-decode).
 ### Example 1
