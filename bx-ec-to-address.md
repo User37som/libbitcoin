@@ -12,7 +12,7 @@ Options (named):
 
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
--v [--version]       The desired Bitcoin address version.                
+-v [--version]       The desired payment address version.                
 
 Arguments (positional):
 
