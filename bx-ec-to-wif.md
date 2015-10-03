@@ -41,7 +41,7 @@ $ bx ec-to-wif -u 8ed1d17dabce1fccbbe5e9bf008b318334e5bcc78eb9e7c1ea850b7eb0ddb9
 ### Example 3
 [Bitcoin Wiki example](https://en.bitcoin.it/wiki/Wallet_import_format)
 ```sh
-$ bx ec-to-wif -u 0C28FCA386C7A227600B2FE50B7CAE11EC86D3BF1FBE471BE89827E19D72AA1D
+$ bx ec-to-wif -u 0c28fca386c7a227600b2fe50b7cae11ec86d3bf1fbe471be89827e19d72aa1d
 ```
 ```
 5HueCGU8rMjxEXxiPuD5BDku4MkFqeZyd4dZ1jvhTVqvbTLvyTJ
@@ -55,4 +55,12 @@ $ bx seed | bx ec-new | bx ec-to-wif
 6e3f120eb1b8c51486775550b7a44d84
 984826b715209c50673499ac5faa0b84a4d61e9ef62a231a79ea67102909a0f3
 L2Kj7UjmWSaJQed5RKLeJk12Ai17CZdmk2svNzi2aUkMTgYC1Tb1
+```
+### Example 5
+--version 239 (testnet)
+```sh
+$ bx ec-to-wif -v 239 1560496d135730f5a1bb39580abba1fe8ea270768a08c49a66732772b0b811e2
+```
+```
+cNJFgo1driFnPcBdBX8BrJrpxchBWXwXCvNH5SoSkdcF6JXXwHMm
 ```
