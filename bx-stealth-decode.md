@@ -60,10 +60,11 @@ stealth_address
     }
     version 0
 }
+```
 ### Example 3
 scan key and additional spend key
 ```sh
-$ bx stealth-decode 1DsiaW2kjjZAT92tAW8rvS1tF9ZSVzpz5WPBLAQFrPrMRMQQz7X6qR8h
+$ bx stealth-decode 1Ht5EmHdUNVvRyMdJCwTZdBowDnbNJu8kaaZbkn4D4p7HTrppupQzETxVMdguNviAyEFj7e7mqKkqTncNeLdAv81Mm8jf9bzn7hBP
 ```
 ```js
 stealth_address
