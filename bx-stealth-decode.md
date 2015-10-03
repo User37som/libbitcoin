@@ -18,7 +18,7 @@ Options (named):
 Arguments (positional):
 
 STEALTH_ADDRESS      The stealth payment address. If not specified the   
-                     address is read from STDIN.                         
+                     address is read from STDIN.
 ```
 See also [stealth-encode](bx-stealth-encode).
 ### Example 1
