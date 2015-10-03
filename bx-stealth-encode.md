@@ -27,13 +27,13 @@ SPEND_PUBKEY         The set of Base16 EC public keys corresponding to
                      private keys that will be able to spend payments to 
                      the address. Defaults to the value of SCAN_PUBKEY.
 ```
-The stealth address standard is not finalized. The most recent revision aligns the `version` byte with that of standard payment addresses. Previously stealth addresses used the prefix `42` for mainnet and `43` for testnet.
+The stealth address standard is not finalized. The most recent revision aligns the `version` byte with that of standard payment addresses. Previously stealth addresses used the prefix `42` for mainnet and `43` for testnet, which is reflected in the configuration of these test cases.
 
 See also [stealth-decode](bx-stealth-decode).
 ### Example 1
-scan key only
+scan key only, --version 42
 ```sh
-$ bx stealth-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+$ bx stealth-encode -v 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
 ```
 hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
@@ -42,9 +42,9 @@ hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
 > This is the simplest address, as the only spend key is the same as the scan key.
 
 ### Example 2
-scan key and redundant spend key
+scan key and redundant spend key, --version 42
 ```sh
-$ bx stealth-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+$ bx stealth-encode -v 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
 ```
 hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
@@ -53,9 +53,9 @@ hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i
 > Notice that the stealth address remains unchanged when the only spend key is explicitly the same as the scan key.
 
 ### Example 3
-scan key and additional spend key
+scan key and additional spend key, --version 42
 ```sh
-$ bx stealth-encode 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+$ bx stealth-encode -v 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
 ```
 WARNING: multiple signature stealth transactions are not yet fully supported.
@@ -69,9 +69,9 @@ vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5
 > By default signature by all spend keys is required to spend payments to the address. The warning message is written to STDERR although the command returns success.
 
 ### Example 4
---signatures 1, one of two signatures required
+one of two signatures required, --signatures 1 --version 42
 ```sh
-$ bx stealth-encode -s 1 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+$ bx stealth-encode -s 1 -v 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
 ```
 WARNING: multiple signature stealth transactions are not yet fully supported.
@@ -81,17 +81,17 @@ vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5
 > Notice the address differs from the previous example because the signature requirement has been altered.
 
 ### Example 5
---signatures 42, signature overflow error
+signature overflow error, --signatures 42 --version 42
 ```sh
-$ bx stealth-encode -s 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+$ bx stealth-encode -s 42 -v 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
 ```
 The number of signatures is greater than the number of SPEND_PUBKEYs.
 ```
 ### Example 6
---prefix 11111111110000000000111111111100
+--prefix 11111111110000000000111111111100 --version 42
 ```sh
-$ bx stealth-encode -p 11111111110000000000111111111100 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+$ bx stealth-encode -p 11111111110000000000111111111100 -v 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
 ```
 5b4Xkx9DVQj5nznykpKLeoNWHes1ZHJh3aCvxNNXUTuErKTyYq8NL8qVKcWGX4L
@@ -100,9 +100,9 @@ $ bx stealth-encode -p 11111111110000000000111111111100 031bab84e687e36514eeaf5a
 > This example shows the maximum length prefix of 32 bits. Generally speaking the privacy afforded by stealth transactions is reduced as the search prefix increases in length. The prefix is a transaction search optimization for the recipient. The most private stealth transactions would not use a prefix.
 
 ### Example 7
---prefix 000000001010, --signatures 1
+--prefix 000000001010 --signatures 1 --version 42
 ```sh
-$ bx stealth-encode -p 000000001010 -s 1 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+$ bx stealth-encode -p 000000001010 -s 1 -v 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
 ```
 WARNING: multiple signature stealth transactions are not yet fully supported.
