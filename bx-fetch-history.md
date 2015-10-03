@@ -1,12 +1,12 @@
-Get list of output points, values, and spends for a Bitcoin address.
+Get list of output points, values, and spends for a payment address.
 ```sh
 $ bx fetch-history --help
 ```
 ```
 Usage: bx fetch-history [-h] [--config VALUE] [--format VALUE]           
-[BITCOIN_ADDRESS]                                                        
+[PAYMENT_ADDRESS]                                                        
 
-Info: Get list of output points, values, and spends for a Bitcoin        
+Info: Get list of output points, values, and spends for a payment        
 address. Requires a Libbitcoin/Obelisk server connection.                
 
 Options (named):
@@ -18,7 +18,7 @@ Options (named):
 
 Arguments (positional):
 
-BITCOIN_ADDRESS      The Bitcoin address. If not specified the address is
+PAYMENT_ADDRESS      The payment address. If not specified the address is
                      read from STDIN.
 ```
 This command supports [configuration settings](Configuration-Settings).
