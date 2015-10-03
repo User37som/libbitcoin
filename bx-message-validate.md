@@ -3,7 +3,7 @@ Validate a message signature.
 $ bx message-validate --help
 ```
 ```
-Usage: bx message-validate [-h] [--config VALUE] BITCOIN_ADDRESS         
+Usage: bx message-validate [-h] [--config VALUE] PAYMENT_ADDRESS         
 SIGNATURE [MESSAGE]                                                      
 
 Info: Validate a message signature.                                      
@@ -15,7 +15,7 @@ Options (named):
 
 Arguments (positional):
 
-BITCOIN_ADDRESS      The Bitcoin address of the message signer.          
+PAYMENT_ADDRESS      The payment address of the message signer.          
 SIGNATURE            The message signature.                              
 MESSAGE              The binary message data for which the signature     
                      applies. If not specified the message is read from  
