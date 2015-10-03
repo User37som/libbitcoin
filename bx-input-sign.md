@@ -3,20 +3,22 @@ Create an endorsement for a transaction input.
 $ bx input-sign --help
 ```
 ```
-Usage: bx input-sign [-h] [--config VALUE] [--index VALUE] [--sign_type  
+Usage: bx input-sign [-ah] [--config VALUE] [--index VALUE] [--sign_type 
 VALUE] EC_PRIVATE_KEY CONTRACT [TRANSACTION]                             
 
 Info: Create an endorsement for a transaction input.                     
 
 Options (named):
 
+-a [--anyone]        Modify signature hashing so that other inputs are   
+                     ignored.                                            
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
 -i [--index]         The ordinal position of the input within the        
                      transaction, defaults to zero.                      
 -s [--sign_type]     A token that indicates how the transaction should be
-                     hashed for signing. Options are 'all', 'none',      
-                     'single', and 'anyone_can_pay', defaults to 'all'.  
+                     hashed for signing. Options are 'all', 'none', and  
+                     'single', defaults to 'all'.                        
 
 Arguments (positional):
 
