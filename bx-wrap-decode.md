@@ -6,13 +6,13 @@ $ bx wrap-decode --help
 ```
 Usage: bx wrap-decode [-h] [--config VALUE] [--format VALUE] [WRAPPED]   
 
-Info: Validate the checksum of a Base16 data and recover its version byte
-and data.                                                                
+Info: Validate the checksum of checked Base16 data and recover its       
+version and payload.                                                     
 
 Options (named):
 
 -c [--config]        The path to the configuration settings file.        
--f [--format]        The output format. Options are 'info', 'json', and  
+-f [--format]        The output format. Options are 'info', 'json' and   
                      'xml', defaults to 'info'.                          
 -h [--help]          Get a description and instructions for this command.
 
