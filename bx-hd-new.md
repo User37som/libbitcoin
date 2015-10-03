@@ -3,7 +3,7 @@ Create a new HD (BIP32) private key from entropy.
 $ bx hd-new --help
 ```
 ```
-Usage: bx hd-new [-h] [--config VALUE] [SEED]                            
+Usage: bx hd-new [-h] [--config VALUE] [--version VALUE] [SEED]          
 
 Info: Create a new HD (BIP32) private key from entropy.                  
 
@@ -11,6 +11,8 @@ Options (named):
 
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
+-v [--version]       The desired HD private key version, defaults to     
+                     76066276.                                           
 
 Arguments (positional):
 
