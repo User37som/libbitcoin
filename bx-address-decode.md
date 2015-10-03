@@ -1,23 +1,23 @@
-Convert a Bitcoin address to its component parts.
+Convert a payment address to its component parts.    
 ```sh
 $ bx address-decode --help
 ```
 ```
-Usage: bx address-decode [-h] [--config VALUE] [--format VALUE]
-[BITCOIN_ADDRESS]
+Usage: bx address-decode [-h] [--config VALUE] [--format VALUE]          
+[PAYMENT_ADDRESS]                                                        
 
-Info: Convert a Bitcoin address to its component parts.
+Info: Convert a payment address to its component parts.                  
 
 Options (named):
 
 -c [--config]        The path to the configuration settings file.        
--f [--format]        The output format. Options are 'info', 'json', and  
+-f [--format]        The output format. Options are 'info', 'json' and   
                      'xml', defaults to 'info'.                          
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
 
-BITCOIN_ADDRESS      The Bitcoin address to convert. If not specified the
+PAYMENT_ADDRESS      The payment address to convert. If not specified the
                      address is read from STDIN.
 ```
 These examples demonstrate the use of the `--format` option, which is available on a number of commands. The default format for any command is `info`. The `info` format is similar to `json` but optimized for human readability.
