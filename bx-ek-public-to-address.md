@@ -58,7 +58,7 @@ $ bx ek-public-to-address "i forgot" cfrm38VURwDvZXxV2AfWnHe6GwDxSG4FkrK4en7Vdax
 The passphrase is incorrect.
 ```
 ### Example 5
---uncompressed
+uncompressed
 ```sh
 $ bx ek-public-to-address "my passphrase" cfrm38V5FtqpFoBNE9wpKjp5Fe97tM7YX6brNPCjpb9uLiqENKfeHHUKLd2VrvQhuHVUwgNVaSt
 ```
@@ -66,7 +66,7 @@ $ bx ek-public-to-address "my passphrase" cfrm38V5FtqpFoBNE9wpKjp5Fe97tM7YX6brNP
 1MydksvfdWNXM1KnVTS8A78M4b78aJcL1W
 ```
 ### Example 6
---version 111 (testnet)
+version 111 (testnet)
 ```sh
 $ bx ek-public-to-address "my passphrase" cfrm2zc7BCp4KwhEE6HzSSxVhUyj2ky8bzvSLEqmAPcakQXb49uFQ87UEg8EhbuwA33t8db2fYW
 ```
@@ -74,7 +74,7 @@ $ bx ek-public-to-address "my passphrase" cfrm2zc7BCp4KwhEE6HzSSxVhUyj2ky8bzvSLE
 mtABBAtcTLGZhxNupNZcPaVLZetzHVWgAp
 ```
 ### Example 7
---version 111 (testnet), --uncompressed
+version 111 (testnet), uncompressed
 ```sh
 $ bx ek-public-to-address "my passphrase" cfrm2zbi4iuQJ7cY69uJZsxhYLk4wLY7UWQiZ1wH5b3pEnzczSH3GHY3hAyV5AiWmU7mpk2Bqqc
 ```
