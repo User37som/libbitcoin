@@ -3,7 +3,7 @@ Encode a stealth payment address.
 $ bx stealth-encode --help
 ```
 ```
-Usage: bx stealth-encode [-h] [--config VALUE] [--prefix VALUE]          
+Usage: bx stealth-encode [-h] [--config VALUE] [--filter VALUE]          
 [--signatures VALUE] [--version VALUE] SCAN_PUBKEY [SPEND_PUBKEY]...     
 
 Info: Encode a stealth payment address.                                  
@@ -12,8 +12,8 @@ Options (named):
 
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
--p [--prefix]        The Base2 stealth prefix that will be used to locate
-                     payments.                                           
+-f [--filter]        The Base2 stealth prefix filter that will be used to
+                     locate payments.                                    
 -s [--signatures]    The number of signatures required to spend a payment
                      to the stealth address. Defaults to the number of   
                      SPEND_PUBKEYs.                                      
@@ -31,7 +31,7 @@ The stealth address standard is not finalized. The most recent revision aligns t
 
 See also [stealth-decode](bx-stealth-decode).
 ### Example 1
-scan key only, --version 42 (previous standard)
+scan key is spend key, --version 42 (previous standard)
 ```sh
 $ bx stealth-encode -v 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
@@ -89,9 +89,9 @@ $ bx stealth-encode -s 42 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970c
 The number of signatures is greater than the number of SPEND_PUBKEYs.
 ```
 ### Example 6
---prefix 11111111110000000000111111111100
+--filter 11111111110000000000111111111100
 ```sh
-$ bx stealth-encode -p 11111111110000000000111111111100 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+$ bx stealth-encode -f 11111111110000000000111111111100 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
 ```
 ```
 12TFFcDyvpZd4Zy1GAS7sp7Xz9sgRabovgf8xfD4EMGxenJw8ivsa3bBj8TzjR
@@ -100,9 +100,9 @@ $ bx stealth-encode -p 11111111110000000000111111111100 031bab84e687e36514eeaf5a
 > This example shows the maximum length prefix of 32 bits. Generally speaking the privacy afforded by stealth transactions is reduced as the search prefix increases in length. The prefix is a transaction search optimization for the recipient. The most private stealth transactions would not use a prefix.
 
 ### Example 7
---prefix 000000001010 --signatures 1
+--filter 000000001010 --signatures 1
 ```sh
-$ bx stealth-encode -p 000000001010 -s 1 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
+$ bx stealth-encode -f 000000001010 -s 1 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006  024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
 ```
 ```
 WARNING: multiple signature stealth transactions are not yet fully supported.
