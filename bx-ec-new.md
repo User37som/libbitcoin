@@ -1,11 +1,11 @@
-Create a new EC private key from entropy.
+Create a new Base16 EC private key from entropy.
 ```sh
 $ bx ec-new --help
 ```
 ```
-Usage: bx ec-new [-h] [--config VALUE] [SEED]
+Usage: bx ec-new [-h] [--config VALUE] [SEED]                            
 
-Info: Create a new EC private key from entropy.                          
+Info: Create a new Base16 EC private key from entropy.                   
 
 Options (named):
 
