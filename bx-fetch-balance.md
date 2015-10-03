@@ -4,7 +4,7 @@ $ bx fetch-balance --help
 ```
 ```
 Usage: bx fetch-balance [-h] [--config VALUE] [--format VALUE]           
-[BITCOIN_ADDRESS]                                                        
+[PAYMENT_ADDRESS]                                                        
 
 Info: Get the balance in satoshi of a payment address. Requires a        
 Libbitcoin/Obelisk server connection.                                    
