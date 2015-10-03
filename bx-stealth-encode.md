@@ -108,3 +108,11 @@ $ bx stealth-encode -p 000000001010 -s 1 031bab84e687e36514eeaf5a017c30d32c1f59d
 WARNING: multiple signature stealth transactions are not yet fully supported.
 16frt2rsvRjxyyqExjiRAkmm6g8NPRnFURWCZosVnPrSYBK9sM8j74PPGDd2MtiZuSPoLzVTgQ1P5k9Xm2ExkMhFqVTQfZ8jFEqkNomZ
 ```
+### Example 8
+--version 111 (testnet)
+```sh
+$ bx stealth-encode -v 111 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+```
+```
+2rT9GaRuU7hM5DiaP6FDbRWX9tLuh5E5QC6mG6jVfMSm7LHmiGFbDhHfHe
+```
