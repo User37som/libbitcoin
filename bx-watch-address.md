@@ -4,7 +4,7 @@ $ bx watch-address --help
 ```
 ```
 Usage: bx watch-address [-h] [--config VALUE] [--format VALUE]           
-[BITCOIN_ADDRESS]                                                        
+[PAYMENT_ADDRESS]                                                        
 
 Info: Watch the network for transactions in which an address             
 participates. Requires a Libbitcoin server connection.                   
@@ -18,8 +18,8 @@ Options (named):
 
 Arguments (positional):
 
-BITCOIN_ADDRESS      The participating Bitcoin address. If not specified 
-                     the address is read from STDIN. 
+PAYMENT_ADDRESS      The participating payment address. If not specified 
+                     the address is read from STDIN.
 ```
 This command supports [configuration settings](Configuration-Settings).
 
