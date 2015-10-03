@@ -28,12 +28,12 @@ $ bx ec-to-address 0247140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af
 1EKJFK8kBmasFRYY3Ay9QjpJLm4vemJtC1
 ```
 ### Example 2
-compressed key, --version 42
+compressed key, --version 111 (testnet)
 ```sh
-$ bx ec-to-address -v 42 0247140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36
+$ bx ec-to-address -v 111 0247140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36
 ```
 ```
-J8Wdbser1M3fbdQB4nxXn1FLmwtYXKovfA
+mtqFYNDizo282Y29kjwXEf2dCkfdZZydbf
 ```
 ### Example 3
 uncompressed key
@@ -44,12 +44,12 @@ $ bx ec-to-address 0447140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af
 197FLrycah42jKDgfmTaok7b8kNHA7R2ih
 ```
 ### Example 4
-uncompressed key, --version 42
+uncompressed key, --version 111 (testnet)
 ```sh
-$ bx ec-to-address -v 42 0447140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36e87bb04f401be3b770a0f3e2267a6c3b14a3074f6b5ce4419f1fcdc1ca4b1cb6
+$ bx ec-to-address -v 111 0447140d2811498679fe9a0467a75ac7aa581476c102d27377bc0232635af8ad36e87bb04f401be3b770a0f3e2267a6c3b14a3074f6b5ce4419f1fcdc1ca4b1cb6
 ```
 ```
-J3JahRViQGWq5X5KhPSyB1YdZwBu2EQzFR
+modCdv4bPiVHWRhJPLRxdfKuzjxz275cah
 ```
 ### Example 5
 piped commands
