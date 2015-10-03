@@ -3,8 +3,8 @@ Derive a child HD (BIP32) public key from another HD public or private key.
 $ bx hd-public --help
 ```
 ```
-Usage: bx hd-public [-dh] [--config VALUE] [--index VALUE]               
-[HD_PUBLIC_KEY]                                                          
+Usage: bx hd-public [-dh] [--config VALUE] [--index VALUE] [--version    
+VALUE] [HD_KEY]                                                          
 
 Info: Derive a child HD (BIP32) public key from another HD public or     
 private key.                                                             
@@ -15,10 +15,12 @@ Options (named):
 -d [--hard]          Signal to create a hardened key.                    
 -h [--help]          Get a description and instructions for this command.
 -i [--index]         The HD index, defaults to zero.                     
+-v [--version]       The desired HD public key version, defaults to      
+                     76067358. This is used when the HD key is private.  
 
 Arguments (positional):
 
-HD_PUBLIC_KEY        The parent HD public or private key. If not         
+HD_KEY               The parent HD public or private key. If not         
                      specified the key is read from STDIN. 
 ```
 ### Example 1
