@@ -21,20 +21,20 @@ TRANSACTION          The Base16 transaction. If not specified the
 ```
 See also [tx-encode](bx-tx-encode).
 ### Example 1
-unsigned transaction
+unsigned, one input, payment address output
 ```sh
-$ bx tx-decode 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
+$ bx tx-decode 0100000001b3807042c92f449bbf79b33ca59d7dfec7f4cc71096704a9c526dddf496ee0970000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```js
 transaction
 {
-    hash e433a95114dc4eb2209f7c329bad265890affb728a60ac1b967d99bbe1f25971
+    hash f9be6abf60342de5606421c7deaaf2d3f7133490db5242e8507e05926b16d090
     inputs
     {
         input
         {
             previous_output
             {
-                hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
+                hash 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3
                 index 0
             }
             script ""
@@ -54,7 +54,75 @@ transaction
     version 1
 }
 ```
-### Example 1
+### Example 2
+unsigned, one input, stealth address output
+```sh
+$ bx tx-decode 0100000001b3807042c92f449bbf79b33ca59d7dfec7f4cc71096704a9c526dddf496ee09701000000000700000001f4010000000000001976a91418c0bd8d1818f1bf99cb1df2269c645318ef7b7388ac00000000
+```js
+transaction
+{
+    hash bfe73280b111a7dae1714b1efe869c0d0c854dd9d1c3ba51fa439e7fb4d0e63c
+    inputs
+    {
+        input
+        {
+            previous_output
+            {
+                hash 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3
+                index 1
+            }
+            script ""
+            sequence 7
+        }
+    }
+    lock_time 0
+    outputs
+    {
+        output
+        {
+            address 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
+            script "dup hash160 [ 18c0bd8d1818f1bf99cb1df2269c645318ef7b73 ] equalverify checksig"
+            value 500
+        }
+    }
+    version 1
+}
+```
+### Example 3
+unsigned, one input with index 1 and sequence 7, script output
+```sh
+$ bx tx-decode 0100000001b3807042c92f449bbf79b33ca59d7dfec7f4cc71096704a9c526dddf496ee09701000000000700000001f4010000000000001976a91418c0bd8d1818f1bf99cb1df2269c645318ef7b7388ac00000000
+```js
+transaction
+{
+    hash bfe73280b111a7dae1714b1efe869c0d0c854dd9d1c3ba51fa439e7fb4d0e63c
+    inputs
+    {
+        input
+        {
+            previous_output
+            {
+                hash 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3
+                index 1
+            }
+            script ""
+            sequence 7
+        }
+    }
+    lock_time 0
+    outputs
+    {
+        output
+        {
+            address 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
+            script "dup hash160 [ 18c0bd8d1818f1bf99cb1df2269c645318ef7b73 ] equalverify checksig"
+            value 500
+        }
+    }
+    version 1
+}
+```
+### Example 4
 signed transaction
 ```sh
 $ bx tx-decode 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c000000006b4830450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022037109f0d06e6068b7447966f751de8474641ad2b15ec37f4a9d159b02af68174012103e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
