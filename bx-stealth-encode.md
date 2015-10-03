@@ -27,7 +27,7 @@ SPEND_PUBKEY         The set of Base16 EC public keys corresponding to
                      private keys that will be able to spend payments to 
                      the address. Defaults to the value of SCAN_PUBKEY.
 ```
-The stealth address standard is not finalized. The most recent revision aligns the `version` byte with that of standard payment addresses.
+The stealth address standard is not finalized. The most recent revision aligns the `version` byte with that of standard payment addresses. Previously stealth addresses used the prefix `42` for mainnet and `43` for testnet.
 
 See also [stealth-decode](bx-stealth-decode).
 ### Example 1
