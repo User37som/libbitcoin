@@ -29,12 +29,12 @@ $ bx script-to-address "dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ]
 3F6i6kwkevjR7AsAd4te2YB2zZyASEm1HM
 ```
 ### Example 2
---version 42
+--version 196 (testnet)
 ```sh
-$ bx script-to-address -v 42 "dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig"
+$ bx script-to-address -v 196 "dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig"
 ```
 ```
-J8c2XmyQvbsqND2NXbDRyBF9HEW4oJ1AY8
+2N6evAVsnGPEmJxViJCWWeVAJCvBLFehT7L
 ```
 ### Example 3
 piped commands
