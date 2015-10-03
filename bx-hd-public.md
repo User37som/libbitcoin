@@ -92,3 +92,11 @@ xprv9s21ZrQH143K3dkWG7DPBN7r6QDrTqvszLBBreXR2PKrG7tPJ21JwJ2rHK5ZSXE3SzoSuzZ5twjJ
 xpub661MyMwAqRbcG7pyN8kPYW4aeS4LsJejMZ6nf2w2airq8vDXqZKZV6ML8a71xfXYNR3ZktB2oF8smPmprPaXuMZ5wStSfcKpUvjorwKugxu
 xpub68W9m7AG6qRBkVgU3bxrk6feqT6efmdba7m2S9s4AYyyK4dypNWReP5rrUkwthCV3xLhhx65xnJ7eg7j4CK7jv4mKtNRGeNuXxZSQQh883V
 ```
+### Example 9
+--index 1, --version 70617039 (testnet)
+```sh
+$ bx hd-public -i 1 -v 70617039 xprv9uHRZZhk6KAJC1avXpDAp4MDc3sQKNxDiPvvkX8Br5ngLNv1TxvUxt4cV1rGL5hj6KCesnDYUhd7oWgT11eZG7XnxHrnYeSvkzY7d2bhkJ7
+```
+```
+tpubDApXh6cD2fZ7WjtgpHd8yrWyYaneiFuRZa7fVjMkgxsmC1QzoXW8cgx9zQFJ81Jx4deRGfRE7yXA9A3STsxXj4CKEZJHYgpMYikkas9DBTP
+```
