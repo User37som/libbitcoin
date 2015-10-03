@@ -46,3 +46,11 @@ $ bx seed | bx hd-new | bx hd-to-public
 xprv9s21ZrQH143K4BXnA5VBs3HYVS9mkTjbXFfDepC5f6yAtU38MYmUUq7www2BjDWqZWR7EXtToXEphCWCxiQ6SwrpwcaUH7uDp2VGD47Hna7
 xpub661MyMwAqRbcGfcFG72CEBEH3TzG9vTStUapTCbhDSW9mGNGu65j2dSRoDg3Uy79LHe9wFqFbhjM7UitQu5gAvkPnHtAWRLFzDRTM2t3C43
 ```
+### Example 4
+--version 70617039 (testnet)
+```sh
+$ bx hd-to-public -v 70617039 xprv9s21ZrQH143K31xYSDQpPDxsXRTUcvj2iNHm5NUtrGiGG5e2DtALGdso3pGz6ssrdK4PFmM8NSpSBHNqPqm55Qn3LqFtT2emdEXVYsCzC2U
+```
+```
+tpubD6NzVbkrYhZ4XJDrzRvuxHEyQaPd1mwwdDofEJwekX18tAdsqeKfxss79AJzg1431FybXg5rfpTrJF4iAhyR7RubberdzEQXiRmXGADH2eA
+```
