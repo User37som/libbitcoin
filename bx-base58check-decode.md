@@ -3,21 +3,21 @@ Convert a Base58Check value to Base16.
 $ bx base58check-decode --help
 ```
 ```
-Usage: bx base58check-decode [-h] [--config VALUE] [--format VALUE]
-[BASE58CHECK]
+Usage: bx base58check-decode [-h] [--config VALUE] [--format VALUE]      
+[BASE58CHECK]                                                            
 
-Info: Convert a Base58Check value to Base16.
+Info: Convert a Base58Check value to its component parts.                
 
 Options (named):
 
--c [--config]        The path to the configuration settings file.
--f [--format]        The output format. Options are 'info', 'json', and  
+-c [--config]        The path to the configuration settings file.        
+-f [--format]        The output format. Options are 'info', 'json' and   
                      'xml', defaults to 'info'.                          
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
 
-BASE58CHECK          The Base58Check value to decode. If not specified
+BASE58CHECK          The Base58Check value to decode. If not specified   
                      the value is read from STDIN.
 ```
 See [Base58Check encoding](https://en.bitcoin.it/wiki/Base58Check_encoding) for a detailed description of the encoding.
