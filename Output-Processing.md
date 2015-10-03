@@ -20,18 +20,17 @@ Many commands that return complex objects support serializations to **xml**, **j
 
 Commands with complex outputs define the `format` option:
 ```xml
-<command symbol="address-decode" category="WALLET">
-    <option name="help" description="Convert a Bitcoin address to RIPEMD160, dropping the version." />
-    <option name="format" type="encoding" description="The output format. Options are 'json', 'xml', 'info' or 'native', defaults to 'info'." />
-    <argument name="BITCOIN_ADDRESS" stdin="true" type="address" description="The Bitcoin address to convert. If not specified the address is read from STDIN."/>
-</command>
+  <command symbol="address-decode" formerly="decode-addr" output="wrapper" category="WALLET" description="Convert a payment address to its component parts.">
+    <option name="format" type="encoding" description="The output format. Options are 'info', 'json' and 'xml', defaults to 'info'." />
+    <argument name="PAYMENT_ADDRESS" stdin="true" type="payment_address" description="The payment address to convert. If not specified the address is read from STDIN."/>
+  </command>
 ```
 To specify a non-default format set the `--format` option on the command line:
 ```sh
 $ bx address-decode --format info 1HT7xU2Ngenf7D4yocz2SAcnNLW7rK8d4E
 wrapper
 {
-    checksum 1476364070
+    checksum 2743498322
     payload b472a266d0bd89c13706a4132ccfb16f7c3b9fcb
     version 0
 }
