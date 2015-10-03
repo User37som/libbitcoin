@@ -64,7 +64,7 @@ WARNING: multiple signature stealth transactions are not yet fully supported.
 
 > In this case the scan key is specified as a spend key along with a second spend key. As in this case, if additional spend keys are specified and the scan key is to be a spend key as well, the scan key must be explicitly specified.
 
-> Obelisk does not yet support discovery of multiple signature stealth transactions.
+> [tx-encode](bx-tx-encode) does not yet support creation of multiple signature stealth transactions.
 
 > By default signature by all spend keys is required to spend payments to the address. The warning message is written to STDERR although the command returns success.
 
