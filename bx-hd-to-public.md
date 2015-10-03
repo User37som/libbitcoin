@@ -3,7 +3,8 @@ Derive the HD (BIP32) public key of a HD private key.
 $ bx hd-to-public --help
 ```
 ```
-Usage: bx hd-to-public [-h] [--config VALUE] [HD_PRIVATE_KEY]            
+Usage: bx hd-to-public [-h] [--config VALUE] [--version VALUE]           
+[HD_PRIVATE_KEY]                                                         
 
 Info: Derive the HD (BIP32) public key of a HD private key.              
 
@@ -11,11 +12,13 @@ Options (named):
 
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
+-v [--version]       The desired HD public key version, defaults to      
+                     76067358.                                           
 
 Arguments (positional):
 
 HD_PRIVATE_KEY       The HD private key. If not specified the key is read
-                     from STDIN.  
+                     from STDIN. 
 ```
 ### Example 1
 BIP32 [Test Vector 1](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki#test-vector-1) Chain m
