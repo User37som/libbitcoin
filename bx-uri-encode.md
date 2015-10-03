@@ -4,8 +4,7 @@ $ bx uri-encode --help
 ```
 ```
 Usage: bx uri-encode [-h] [--amount VALUE] [--config VALUE] [--label     
-VALUE] [--message VALUE] [--request VALUE] [--stealth VALUE]             
-[BITCOIN_ADDRESS]                                                        
+VALUE] [--message VALUE] [--request VALUE] [ADDRESS]                     
 
 Info: Compose a Bitcoin URI from specified parts.                        
 
@@ -17,11 +16,11 @@ Options (named):
 -l [--label]         The value of the label parameter.                   
 -m [--message]       The value of the label parameter.                   
 -r [--request]       The value of the payment request parameter.         
--s [--stealth]       The stealth address for the address part.           
 
 Arguments (positional):
 
-BITCOIN_ADDRESS      The Bitcoin address for the address part.
+ADDRESS              The payment address or stealth address for the      
+                     address part.
 ```
 See also [uri-decode](bx-uri-decode).
 ### Example 1
