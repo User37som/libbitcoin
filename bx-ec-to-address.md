@@ -1,4 +1,4 @@
-Convert an EC public key to a Bitcoin address.
+Convert an EC public key to a payment address.
 ```sh
 $ bx ec-to-address --help
 ```
@@ -6,7 +6,7 @@ $ bx ec-to-address --help
 Usage: bx ec-to-address [-h] [--config VALUE] [--version VALUE]         
 [EC_PUBLIC_KEY]
 
-Info: Convert an EC public key to a Bitcoin address.
+Info: Convert an EC public key to a payment address.
 
 Options (named):
 
