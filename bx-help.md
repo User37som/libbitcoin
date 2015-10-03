@@ -27,14 +27,13 @@ $ bx help
 ```
 Usage: bx COMMAND [--help]
 
-Version: 2.1.0 [mainnet]
+Version: 3.0.0
 
 Info: The bx commands are:
 
 address-decode
 address-embed
 address-encode
-address-validate
 base16-decode
 base16-encode
 base58-decode
@@ -50,14 +49,20 @@ cert-new
 cert-public
 ec-add
 ec-add-secrets
-ec-lock
 ec-multiply
 ec-multiply-secrets
 ec-new
 ec-to-address
+ec-to-ek
 ec-to-public
 ec-to-wif
-ec-unlock
+ek-address
+ek-new
+ek-public
+ek-public-to-address
+ek-public-to-ec
+ek-to-address
+ek-to-ec
 fetch-balance
 fetch-header
 fetch-height
@@ -70,10 +75,8 @@ fetch-utxo
 hd-new
 hd-private
 hd-public
-hd-to-address
 hd-to-ec
 hd-to-public
-hd-to-wif
 help
 input-set
 input-sign
@@ -101,6 +104,7 @@ stealth-encode
 stealth-public
 stealth-secret
 stealth-shared
+token-new
 tx-decode
 tx-encode
 tx-sign
@@ -126,14 +130,13 @@ $ bx
 ```
 Usage: bx COMMAND [--help]
 
-Version: 2.1.0 [mainnet]
+Version: 3.0.0
 
 Info: The bx commands are:
 
 address-decode
 address-embed
 address-encode
-address-validate
 base16-decode
 base16-encode
 base58-decode
@@ -149,14 +152,20 @@ cert-new
 cert-public
 ec-add
 ec-add-secrets
-ec-lock
 ec-multiply
 ec-multiply-secrets
 ec-new
 ec-to-address
+ec-to-ek
 ec-to-public
 ec-to-wif
-ec-unlock
+ek-address
+ek-new
+ek-public
+ek-public-to-address
+ek-public-to-ec
+ek-to-address
+ek-to-ec
 fetch-balance
 fetch-header
 fetch-height
@@ -169,10 +178,8 @@ fetch-utxo
 hd-new
 hd-private
 hd-public
-hd-to-address
 hd-to-ec
 hd-to-public
-hd-to-wif
 help
 input-set
 input-sign
@@ -200,6 +207,7 @@ stealth-encode
 stealth-public
 stealth-secret
 stealth-shared
+token-new
 tx-decode
 tx-encode
 tx-sign
