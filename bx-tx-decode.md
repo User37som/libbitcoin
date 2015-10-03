@@ -61,7 +61,7 @@ $ bx tx-decode 0100000001b3807042c92f449bbf79b33ca59d7dfec7f4cc71096704a9c526ddd
 ```js
 transaction
 {
-    hash bfe73280b111a7dae1714b1efe869c0d0c854dd9d1c3ba51fa439e7fb4d0e63c
+    hash eaa1fa9c373a56ab0bf4697075f2d2fc5cc61351b183173d097e44ead82c60ed
     inputs
     {
         input
@@ -69,10 +69,10 @@ transaction
             previous_output
             {
                 hash 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3
-                index 1
+                index 0
             }
             script ""
-            sequence 7
+            sequence 4294967295
         }
     }
     lock_time 0
@@ -80,9 +80,19 @@ transaction
     {
         output
         {
-            address 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
-            script "dup hash160 [ 18c0bd8d1818f1bf99cb1df2269c645318ef7b73 ] equalverify checksig"
-            value 500
+            script "return [ 14576f496f20b0befe21f39f765e81543ebd1790ec4a03d1b5a1c2e912749d90d0fd7b16322749e301a2b0dbfe2785090115645900000000 ]"
+            stealth
+            {
+                prefix 3146755417
+                ephemeral_public_key 0214576f496f20b0befe21f39f765e81543ebd1790ec4a03d1b5a1c2e912749d90
+            }
+            value 0
+        }
+        output
+        {
+            address 1KbjyvFBRc2p6dKpTfDAFdT5DqmVLGX3B4
+            script "dup hash160 [ cc04492c12d0ddeb4cf88cfccb0d6d78d0fcd39d ] equalverify checksig"
+            value 42
         }
     }
     version 1
