@@ -1,12 +1,12 @@
-Get metadata on potential payment transactions by stealth prefix.
+Get metadata on potential payment transactions by stealth filter.
 ```sh
 $ bx fetch-stealth --help
 ```
 ```
 Usage: bx fetch-stealth [-h] [--config VALUE] [--format VALUE] [--height 
-VALUE] [PREFIX]                                                          
+VALUE] [FILTER]                                                          
 
-Info: Get metadata on potential payment transactions by stealth prefix.  
+Info: Get metadata on potential payment transactions by stealth filter.  
 Requires a Libbitcoin server connection.                                 
 
 Options (named):
@@ -19,7 +19,7 @@ Options (named):
 
 Arguments (positional):
 
-PREFIX               The Base2 stealth prefix used to locate             
+FILTER               The Base2 stealth filter used to locate             
                      transactions. Defaults to all stealth transactions.
 ```
 This command supports [configuration settings](Configuration-Settings).
