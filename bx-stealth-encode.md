@@ -27,7 +27,7 @@ SPEND_PUBKEY         The set of Base16 EC public keys corresponding to
                      private keys that will be able to spend payments to 
                      the address. Defaults to the value of SCAN_PUBKEY.
 ```
-The stealth address standard is not finalized. The most recent revision aligns the `version` byte with that of standard payment addresses. Previously stealth addresses used the prefix `42` for mainnet and `43` for testnet.
+The stealth address standard is not finalized. The most recent revision aligns the `version` byte with that of standard payment addresses. Previously stealth addresses used the version `42` for mainnet and `43` for testnet.
 
 See also [stealth-decode](bx-stealth-decode).
 ### Example 1
@@ -97,7 +97,7 @@ $ bx stealth-encode -f 11111111110000000000111111111100 031bab84e687e36514eeaf5a
 12TFFcDyvpZd4Zy1GAS7sp7Xz9sgRabovgf8xfD4EMGxenJw8ivsa3bBj8TzjR
 ```
 
-> This example shows the maximum length prefix of 32 bits. Generally speaking the privacy afforded by stealth transactions is reduced as the search prefix increases in length. The prefix is a transaction search optimization for the recipient. The most private stealth transactions would not use a prefix.
+> This example shows the maximum length filter of 32 bits. Generally speaking the privacy afforded by stealth transactions is reduced as the search filter increases in length. The filter is a transaction search optimization for the recipient. The most private stealth transactions would not use a filter.
 
 ### Example 7
 --filter 000000001010 --signatures 1
