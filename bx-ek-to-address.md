@@ -113,10 +113,10 @@ $ bx ek-to-address "my passphrase" 8FEMBzS4QWPwxyzrYJxHwzSrdNzroFiQjkAnpf51xcPPX
 mtABBAtcTLGZhxNupNZcPaVLZetzHVWgAp
 ```
 ### Example 12
-multiplied: litecoin, uncompressed
+multiplied: testnet, uncompressed
 ```sh
-$ bx ek-to-address "my passphrase" 7C8LFBdEAqptMNYUNr2cgcP7bppVgsqtz1fXVeSzAPf8VkB29XMKDtF71p
+$ bx ek-to-address "my passphrase" 8F7FpHwGgCmZag3nViwdDJTcRUVSZDiyp362gLWisvHDtMQkyC6JJuFhVX
 ```
 ```
-LgCb26EViAcabp1wfbRRS8C7GoUQffafGp
+n2Vb3w1eSXon87oQD2QVz2LfvahqVhBXKV
 ```
