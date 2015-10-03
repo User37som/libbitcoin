@@ -4,7 +4,7 @@ $ bx stealth-encode --help
 ```
 ```
 Usage: bx stealth-encode [-h] [--config VALUE] [--prefix VALUE]          
-[--signatures VALUE] SCAN_PUBKEY [SPEND_PUBKEY]...                       
+[--signatures VALUE] [--version VALUE] SCAN_PUBKEY [SPEND_PUBKEY]...     
 
 Info: Encode a stealth payment address.                                  
 
@@ -17,6 +17,7 @@ Options (named):
 -s [--signatures]    The number of signatures required to spend a payment
                      to the stealth address. Defaults to the number of   
                      SPEND_PUBKEYs.                                      
+-v [--version]       The desired payment address version, defaults to 0. 
 
 Arguments (positional):
 
@@ -24,7 +25,7 @@ SCAN_PUBKEY          The Base16 EC public key required to create a
                      payment.                                            
 SPEND_PUBKEY         The set of Base16 EC public keys corresponding to   
                      private keys that will be able to spend payments to 
-                     the address. Defaults to the value of SCAN_PUBKEY.  
+                     the address. Defaults to the value of SCAN_PUBKEY.
 ```
 This command supports the `testnet` [configuration setting](Configuration-Settings).
 
