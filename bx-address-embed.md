@@ -1,22 +1,21 @@
-Create a Bitcoin address with an embedded record of binary data.
+Create a payment address with an embedded record of binary data. 
 ```sh
 $ bx address-embed --help
 ```
 ```
-Usage: bx address-embed [-h] [--config VALUE] [--version VALUE] [DATA]
+Usage: bx address-embed [-h] [--config VALUE] [--version VALUE] [DATA]   
 
-Info: Create a Bitcoin address with an embedded record of binary
-data.
+Info: Create a payment address with an embedded record of binary data.   
 
 Options (named):
 
--c [--config]        The path to the configuration settings file.
+-c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
--v [--version]       The desired Bitcoin address version.
+-v [--version]       The desired payment address version.                
 
 Arguments (positional):
 
-DATA                 The binary data to encode as Base16. This can be
+DATA                 The binary data to encode as Base16. This can be    
                      text or any other data. If not specified the data is
                      read from STDIN.
 ```
