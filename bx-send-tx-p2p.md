@@ -13,7 +13,7 @@ Options (named):
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
 -n [--nodes]         The number of network nodes to send the transaction 
-                     to, defaults to two.                                
+                     to, defaults to 2.                                  
 
 Arguments (positional):
 
