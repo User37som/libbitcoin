@@ -84,13 +84,13 @@ stealth_address
 ### Example 3
 one of two signatures required
 ```sh
-$ bx stealth-decode vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5n5Rv6yv6Yht9uWN7nyPnY7
+$ bx stealth-decode 1Ht5EmHdUNVvRyMdJCwTZdBowDnbNJu8kaaZbkn4D4p7HTrppupQzETxVMdguNviAyEFj7e7mqKkqTncNeLdAv81Mm8jf978insV8
 ```
 ```js
 stealth_address
 {
-    encoded vK4cs6xzzf326HyUeoJCQng6FXLVK27PyJoRbYSMyT9TzgKds8JDerKaRQ72q9kEp2tQNE2KRvabvqH5n5Rv6yv6Yht9uWN7nyPnY7
-    prefix ""
+    encoded 1Ht5EmHdUNVvRyMdJCwTZdBowDnbNJu8kaaZbkn4D4p7HTrppupQzETxVMdguNviAyEFj7e7mqKkqTncNeLdAv81Mm8jf978insV8
+    filter ""
     scan_public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     signatures 1
     spend
@@ -98,38 +98,38 @@ stealth_address
         public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
         public_key 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
     }
-    testnet false
+    version 0
 }
 ```
 ### Example 4
 maximum length prefix
 ```sh
-$ bx stealth-decode 5b4Xkx9DVQj5nznykpKLeoNWHes1ZHJh3aCvxNNXUTuErKTyYq8NL8qVKcWGX4L
+$ bx stealth-decode 12TFFcDyvpZd4Zy1GAS7sp7Xz9sgRabovgf8xfD4EMGxenJw8ivsa3bBj8TzjR
 ```
 ```js
 stealth_address
 {
-    encoded 5b4Xkx9DVQj5nznykpKLeoNWHes1ZHJh3aCvxNNXUTuErKTyYq8NL8qVKcWGX4L
-    prefix 11111111110000000000111111111100
+    encoded 12TFFcDyvpZd4Zy1GAS7sp7Xz9sgRabovgf8xfD4EMGxenJw8ivsa3bBj8TzjR
+    filter 11111111110000000000111111111100
     scan_public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     signatures 1
     spend
     {
         public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     }
-    testnet false
+    version 0
 }
 ```
 ### Example 5
 prefix and one of two signatures required
 ```sh
-$ bx stealth-decode JubEFUfmd2J3i83L9qWNr7fDSbb2bE7PY6RvEzH6wsNW8Ls7Mw3hxKZHWr3SvEz4o6NWLguFmyK9yBPrzxtC7ssTXQKJnyMUpFSHGvBua
+$ bx stealth-decode 16frt2rsvRjxyyqExjiRAkmm6g8NPRnFURWCZosVnPrSYBK9sM8j74PPGDd2MtiZuSPoLzVTgQ1P5k9Xm2ExkMhFqVTQfZ8jFEqkNomZ
 ```
 ```js
 stealth_address
 {
-    encoded JubEFUfmd2J3i83L9qWNr7fDSbb2bE7PY6RvEzH6wsNW8Ls7Mw3hxKZHWr3SvEz4o6NWLguFmyK9yBPrzxtC7ssTXQKJnyMUpFSHGvBua
-    prefix 000000001010
+    encoded 16frt2rsvRjxyyqExjiRAkmm6g8NPRnFURWCZosVnPrSYBK9sM8j74PPGDd2MtiZuSPoLzVTgQ1P5k9Xm2ExkMhFqVTQfZ8jFEqkNomZ
+    filter 000000001010
     scan_public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     signatures 1
     spend
@@ -137,10 +137,29 @@ stealth_address
         public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
         public_key 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
     }
-    testnet false
+    version 0
 }
 ```
 ### Example 6
+version 111 (testnet)
+```sh
+$ bx stealth-decode 2rT9GaRuU7hM5DiaP6FDbRWX9tLuh5E5QC6mG6jVfMSm7LHmiGFbDhHfHe
+```
+```js
+stealth_address
+{
+    encoded 2rT9GaRuU7hM5DiaP6FDbRWX9tLuh5E5QC6mG6jVfMSm7LHmiGFbDhHfHe
+    filter ""
+    scan_public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+    signatures 1
+    spend
+    {
+        public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
+    }
+    version 111
+}
+```
+### Example 7
 --format json, piped input
 ```sh
 $ echo hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i | bx stealth-decode -f json
@@ -149,13 +168,13 @@ $ echo hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i | bx stealth-de
 {
     "stealth_address": {
         "encoded": "hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i",
-        "prefix": "",
+        "filter": "",
         "scan_public_key": "031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006",
         "signatures": "1",
         "spend": {
             "public_key": "031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006"
         },
-        "testnet": "false"
+        "version": "42"
     }
 }
 ```
