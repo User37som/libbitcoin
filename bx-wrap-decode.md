@@ -1,5 +1,4 @@
-Validate the checksum of a Base16 data and recover its version byte
-and data.
+Validate the checksum of checked Base16 data and recover its version and payload.
 ```sh
 $ bx wrap-decode --help
 ```
