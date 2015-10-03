@@ -3,7 +3,8 @@ Create a BIP16 pay-to-script-hash address from a script.
 $ bx script-to-address --help
 ```
 ```
-Usage: bx script-to-address [-h] [--config VALUE] [SCRIPT]               
+Usage: bx script-to-address [-h] [--config VALUE] [--version VALUE]      
+[SCRIPT]                                                                 
 
 Info: Create a BIP16 pay-to-script-hash address from a script.           
 
@@ -11,7 +12,8 @@ Options (named):
 
 -c [--config]        The path to the configuration settings file.        
 -h [--help]          Get a description and instructions for this command.
--v [--version]       The desired Bitcoin address version.                
+-v [--version]       The desired pay-to-script-hash address version,     
+                     defaults to 5.                                      
 
 Arguments (positional):
 
