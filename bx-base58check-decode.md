@@ -1,4 +1,4 @@
-Convert a Base58Check value to Base16.
+Convert a Base58Check value to its component parts.
 ```sh
 $ bx base58check-decode --help
 ```
