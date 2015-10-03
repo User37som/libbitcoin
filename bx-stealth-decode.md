@@ -81,7 +81,7 @@ stealth_address
     version 0
 }
 ```
-### Example 3
+### Example 4
 one of two signatures required
 ```sh
 $ bx stealth-decode 1Ht5EmHdUNVvRyMdJCwTZdBowDnbNJu8kaaZbkn4D4p7HTrppupQzETxVMdguNviAyEFj7e7mqKkqTncNeLdAv81Mm8jf978insV8
@@ -101,7 +101,7 @@ stealth_address
     version 0
 }
 ```
-### Example 4
+### Example 5
 maximum length prefix
 ```sh
 $ bx stealth-decode 12TFFcDyvpZd4Zy1GAS7sp7Xz9sgRabovgf8xfD4EMGxenJw8ivsa3bBj8TzjR
@@ -120,7 +120,7 @@ stealth_address
     version 0
 }
 ```
-### Example 5
+### Example 6
 prefix and one of two signatures required
 ```sh
 $ bx stealth-decode 16frt2rsvRjxyyqExjiRAkmm6g8NPRnFURWCZosVnPrSYBK9sM8j74PPGDd2MtiZuSPoLzVTgQ1P5k9Xm2ExkMhFqVTQfZ8jFEqkNomZ
@@ -140,7 +140,7 @@ stealth_address
     version 0
 }
 ```
-### Example 6
+### Example 7
 version 111 (testnet)
 ```sh
 $ bx stealth-decode 2rT9GaRuU7hM5DiaP6FDbRWX9tLuh5E5QC6mG6jVfMSm7LHmiGFbDhHfHe
@@ -159,7 +159,7 @@ stealth_address
     version 111
 }
 ```
-### Example 7
+### Example 8
 --format json, piped input
 ```sh
 $ echo hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i | bx stealth-decode -f json
