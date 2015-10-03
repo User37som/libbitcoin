@@ -3,7 +3,8 @@ Convert an EC private key to a WIF private key.
 $ bx ec-to-wif --help
 ```
 ```
-Usage: bx ec-to-wif [-hu] [--config VALUE] [EC_PRIVATE_KEY]              
+Usage: bx ec-to-wif [-hu] [--config VALUE] [--version VALUE]             
+[EC_PRIVATE_KEY]                                                         
 
 Info: Convert an EC private key to a WIF private key. The result         
 associates with the compressed public key format by default.             
@@ -14,6 +15,7 @@ Options (named):
 -h [--help]          Get a description and instructions for this command.
 -u [--uncompressed]  Associate the result with the uncompressed public   
                      key format.                                         
+-v [--version]       The desired WIF version, defaults to 128.           
 
 Arguments (positional):
 
