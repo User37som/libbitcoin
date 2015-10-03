@@ -1,1 +1,1 @@
-This command is no longer supported. Use [address-decode](bx-address-decode).
+This command is no longer supported. Use [address-decode](bx-address-decode) instead.
