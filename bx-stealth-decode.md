@@ -20,7 +20,7 @@ Arguments (positional):
 STEALTH_ADDRESS      The stealth payment address. If not specified the   
                      address is read from STDIN.
 ```
-The stealth address standard is not finalized. The most recent revision aligns the `version` byte with that of standard payment addresses. Previously stealth addresses used the prefix `42` for mainnet and `43` for testnet.
+The stealth address standard is not finalized. The most recent revision aligns the `version` byte with that of standard payment addresses. Previously stealth addresses used the version `42` for mainnet and `43` for testnet.
 
 See also [stealth-encode](bx-stealth-encode).
 ### Example 1
@@ -102,7 +102,7 @@ stealth_address
 }
 ```
 ### Example 5
-maximum length prefix
+maximum length pfilter
 ```sh
 $ bx stealth-decode 12TFFcDyvpZd4Zy1GAS7sp7Xz9sgRabovgf8xfD4EMGxenJw8ivsa3bBj8TzjR
 ```
@@ -121,7 +121,7 @@ stealth_address
 }
 ```
 ### Example 6
-prefix and one of two signatures required
+filter and one of two signatures required
 ```sh
 $ bx stealth-decode 16frt2rsvRjxyyqExjiRAkmm6g8NPRnFURWCZosVnPrSYBK9sM8j74PPGDd2MtiZuSPoLzVTgQ1P5k9Xm2ExkMhFqVTQfZ8jFEqkNomZ
 ```
