@@ -100,7 +100,6 @@
   * [address-decode](bx-address-decode)
   * [address-embed](bx-address-embed)
   * [address-encode](bx-address-encode)
-  * [address-validate](bx-address-validate)
   * [base16-decode](bx-base16-decode)
   * [base16-encode](bx-base16-encode)
   * [base58-decode](bx-base58-decode)
