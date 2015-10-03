@@ -39,10 +39,10 @@ Satoshi Nakamoto
 168LnUjqoJLie1PW5dTaF2vKUU9Jf6Fe4a
 ```
 ### Example 3
---version 42
+--version 111 (testnet)
 ```sh
-$ bx address-embed -v 42 "Satoshi Nakamoto"
+$ bx address-embed -v 111 "Satoshi Nakamoto"
 ```
 ```
-HzKg93FwcsoWzDF97FSxcJMMuexvUhjGKa
+mkeJ5XppcKmyR7s7oCRx4x8eLTk1Xrso8t
 ```
