@@ -79,10 +79,10 @@ $ bx ek-address -v 111 passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJS
 mtABBAtcTLGZhxNupNZcPaVLZetzHVWgAp
 ```
 ### Example 7
---version 48 (litecoin), --uncompressed
+--version 111 (testnet), --uncompressed
 ```sh
-$ bx ek-address -u -v 48 passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq baadf00dbaadf00dbaadf00dbaadf00dbaadf00dbaadf00d
+$ bx ek-address -u -v 111 passphraseryQXuRZZQ3Jw5rAT7m6MzxkGSSRmysq3Ayj9vuEHEnbVPJSmRQ2xYFKDKjGYrq baadf00dbaadf00dbaadf00dbaadf00dbaadf00dbaadf00d
 ```
 ```
-LgCb26EViAcabp1wfbRRS8C7GoUQffafGp
+n2Vb3w1eSXon87oQD2QVz2LfvahqVhBXKV
 ```
