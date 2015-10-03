@@ -1,1 +1,1 @@
-This command is obsolete. Use combination of [hd-to-ec](hd-to-ec) and [ec-to-address](bx-ec-to-address) instead.
+This command is obsolete. Use combination of [hd-to-ec](bx-hd-to-ec) and [ec-to-address](bx-ec-to-address) instead.
