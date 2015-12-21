@@ -1,16 +1,16 @@
-# Version 2.1.0
+# Version 2.2.0
 
 ### WARNING
-These binaries are provided for your convenience. We cannot and do not guarantee that they will not lose your money or compromise your privacy. You are free to inspect the source code and build it yourself. **By downloading a binary copy of BX you accept all responsibility for its use and behavior.**
+These binaries are provided for your convenience. We cannot and do not guarantee that they will not lose your money or compromise your privacy. You are free to inspect the source code and build it yourself. **By downloading a binary copy of BS you accept all responsibility for its use and behavior.**
 
 ### Download
 Each download is a single executable file.
 
 | OS | File | Bytes |
 |----|------|-------|
-|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png) | [`bx-linux-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.1.0/bx-linux-x64-mainnet) | `3,001,128` |
-|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png) | [`bx-osx-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.1.0/bx-osx-x64-mainnet) | `4,168,852` |
-|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png) | [`bx-windows-x64-icu-mainnet.exe`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.1.0/bx-windows-x64-icu-mainnet.exe) | `3,796,480` |
+|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png) | [`bx-linux-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.2.0/bs-linux-x64-consensus-mainnet) | `3,347,168` |
+|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png) | [`bx-osx-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.2.0/bs-osx-x64-consensus-mainnet) | `4,524,752` |
+|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png) | [`bx-windows-x64-icu-mainnet.exe`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.2.0/bs-windows-x64-consensus-mainnet.exe) | `4,045,312` |
 
 ### Integrity Validation
 Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the signed message below. If you do not have a previously verified version of BX you can use any local or online [hash computer](http://onlinemd5.com) to calculate the hash values.
@@ -19,38 +19,38 @@ Validate the integrity of the download by calculating a SHA-256 hash of the file
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-bx-linux-x64-mainnet v2.1.0
-6bb2d47c8d10badbca8468fd6f51101c2b98ecd4103d19bfc72ea3abe66ab0d1
+bx-linux-x64-mainnet v2.2.0
+410feedd4d614c0deb78b67b075f2b875d55a21f62a1f57c42e35738405e4aba
 
-bx-osx-x64-mainnet v2.1.0
-9e578ab79de7100e3e607860998adaa641c39ab69d672f9ad5b6fa77998f30f8
+bx-osx-x64-mainnet v2.2.0
+a5d36988da4ffce68879de49b063fe0f0c188349e21d99a4c2119c8f37d56534
 
-bx-windows-x64-icu-mainnet.exe v2.1.0
-e7ad781c48c7d2404008e20190bf414e5396927f546a4d9ba0ca76541009ac9c
+bx-windows-x64-icu-mainnet.exe v2.2.0
+66aec4a19dc6bd9669ab1c28be569952218925d790a6de7157ee90978ea71ed7
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJVT+bPAAoJEDzYwH8LXOFOflAIAIbfKwfoDoT2jvXRRf2EOdQK
-bEb9XQF7a3FSo5c96gTmbHO7E4KZ7cqtF26Prt15OH+Z5oLl+yQ6Gpg8eoo0QOvX
-1u2Z2W4vXDZT4LlgltnMy0Tfq602EydShowqqTjGLXFKwglUWB5AQfQcoiJntDLK
-mGTPUCS6pj3OzVJNI24FSFytAJz0SVDJFx0SsXcBkFUH6PnF6/chCSjbEK6s2xvp
-uOHUV6hmxhcEj53fWjCr50ZRA1w5orIBhaBkEFY74dVdLrSgcB29jDtbzIWqExRX
-vRIlavKR94Wnrmmel2BOQkPDz9vSISI0rfIDX2CB6sUY0zGVCiN2SMByVM7ZGM8=
-=KPIi
+iQEcBAEBAgAGBQJWd/OKAAoJEDzYwH8LXOFOna4H/2/yux7thgAX6WOr/fAtKI2s
+FJVZMvb3k7o7cN+6xIyy5cWkK3KUJ72GAdqmPP1aYHaz8U3Tp3DlFJiJAa/IQBfB
+QX+A2eJxReDoq92RdDntCoflIoEEivPn60YLBHlxaZe71qNCzJRvqFvGf1wiLxG6
+UEfdJZWy1tM3EmF+USsz+FR4zi+OWj4bzHEOjf1EKNdj2Zl1TT3RtC3shW60l5eM
+032oIVJ8CVDXiwh1mak5H2FPtZ8sX2zhSkIyDhu+Iz8nny0wHhUgh+z1GNYbwTlu
+CiteAyzcjju8LFDPO5LekirowMPlSidf2pnqg2Ybz/kJXApYd0wpRxWeP4w8Ljk=
+=A443
 -----END PGP SIGNATURE-----
 ```
 
 ### Using BX to Calculate Hashes
-With a previously-verified version of BX you can validate both the integrity of the download using the following commands.
+With a previously-verified version of [BX](https://github.com/libbitcoin/libbitcoin-explorer/wiki) you can validate both the integrity of the download using the following commands.
 ```sh
 $ bx base16-encode < bx-linux-x64-mainnet | bx sha256
-6bb2d47c8d10badbca8468fd6f51101c2b98ecd4103d19bfc72ea3abe66ab0d1
+410feedd4d614c0deb78b67b075f2b875d55a21f62a1f57c42e35738405e4aba
 
 $ bx base16-encode < bx-osx-x64-mainnet | bx sha256
-9e578ab79de7100e3e607860998adaa641c39ab69d672f9ad5b6fa77998f30f8
+a5d36988da4ffce68879de49b063fe0f0c188349e21d99a4c2119c8f37d56534
 
 $ bx base16-encode < bx-windows-x64-icu-mainnet.exe | bx sha256
-e7ad781c48c7d2404008e20190bf414e5396927f546a4d9ba0ca76541009ac9c
+66aec4a19dc6bd9669ab1c28be569952218925d790a6de7157ee90978ea71ed7
 ```
 
 ### Origin Validation
