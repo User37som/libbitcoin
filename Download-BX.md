@@ -8,9 +8,9 @@ Each download is a single executable file.
 
 | OS | File | Bytes |
 |----|------|-------|
-|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png) | [`bx-linux-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.2.0/bs-linux-x64-consensus-mainnet) | `3,347,168` |
-|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png) | [`bx-osx-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.2.0/bs-osx-x64-consensus-mainnet) | `4,524,752` |
-|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png) | [`bx-windows-x64-icu-mainnet.exe`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.2.0/bs-windows-x64-consensus-mainnet.exe) | `4,045,312` |
+|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png) | [`bx-linux-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.2.0/bx-linux-x64-mainnet) | `3,347,168` |
+|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png) | [`bx-osx-x64-mainnet`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.2.0/bx-osx-x64-mainnet) | `4,524,752` |
+|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png) | [`bx-windows-x64-icu-mainnet.exe`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.2.0/bx-windows-x64-icu-mainnet.exe) | `4,045,312` |
 
 ### Integrity Validation
 Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the signed message below. If you do not have a previously verified version of BX you can use any local or online [hash computer](http://onlinemd5.com) to calculate the hash values.
