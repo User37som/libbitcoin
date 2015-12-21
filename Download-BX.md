@@ -86,7 +86,7 @@ $ bx help
 ```
 Usage: bx COMMAND [--help]
 
-Version: 2.1.0 [mainnet]
+Version: 2.2.1 [mainnet]
 
 Info: The bx commands are:
 
