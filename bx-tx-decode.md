@@ -24,6 +24,7 @@ See also [tx-encode](bx-tx-encode).
 unsigned, one input, payment address output
 ```sh
 $ bx tx-decode 0100000001b3807042c92f449bbf79b33ca59d7dfec7f4cc71096704a9c526dddf496ee0970000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
+```
 ```js
 transaction
 {
@@ -58,6 +59,7 @@ transaction
 unsigned, one input, stealth address output
 ```sh
 $ bx tx-decode 0100000001b3807042c92f449bbf79b33ca59d7dfec7f4cc71096704a9c526dddf496ee09701000000000700000001f4010000000000001976a91418c0bd8d1818f1bf99cb1df2269c645318ef7b7388ac00000000
+```
 ```js
 transaction
 {
@@ -102,6 +104,7 @@ transaction
 unsigned, one input with index 1 and sequence 7, script output
 ```sh
 $ bx tx-decode 0100000001b3807042c92f449bbf79b33ca59d7dfec7f4cc71096704a9c526dddf496ee09701000000000700000001f4010000000000001976a91418c0bd8d1818f1bf99cb1df2269c645318ef7b7388ac00000000
+```
 ```js
 transaction
 {
