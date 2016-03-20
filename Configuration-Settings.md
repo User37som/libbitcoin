@@ -36,7 +36,7 @@ pay_to_script_hash_version = 5
 [network]
 # The magic number for message headers, defaults to 3652501241.
 identifier = 3652501241
-# The number of times to attempt contacting a node, defaults to 0.
+# The number of times to attempt contacting a node, defaults to 0 (forever).
 connect_attempts = 0
 # The time limit for connection establishment, defaults to 5.
 connect_timeout_seconds = 5
