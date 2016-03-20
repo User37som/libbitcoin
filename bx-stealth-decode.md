@@ -23,6 +23,9 @@ STEALTH_ADDRESS      The stealth payment address. If not specified the
 The stealth address standard is not finalized. The most recent revision aligns the `version` byte with that of standard payment addresses. Previously stealth addresses used the version `42` for mainnet and `43` for testnet.
 
 See also [stealth-encode](bx-stealth-encode).
+
+NOTICE: THERE IS A SUBTLE SCHEMA CHANGE IN VERSION3 ("spend" -> "spends").
+
 ### Example 1
 scan key is spend key, version 42 (previous standard)
 ```sh
@@ -35,7 +38,7 @@ stealth_address
     filter ""
     scan_public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     signatures 1
-    spend
+    spends
     {
         public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     }
@@ -54,7 +57,7 @@ stealth_address
     filter ""
     scan_public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     signatures 1
-    spend
+    spends
     {
         public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     }
@@ -73,7 +76,7 @@ stealth_address
     filter ""
     scan_public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     signatures 2
-    spend
+    spends
     {
         public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
         public_key 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
@@ -93,7 +96,7 @@ stealth_address
     filter ""
     scan_public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     signatures 1
-    spend
+    spends
     {
         public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
         public_key 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
@@ -113,7 +116,7 @@ stealth_address
     filter 11111111110000000000111111111100
     scan_public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     signatures 1
-    spend
+    spends
     {
         public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     }
@@ -132,7 +135,7 @@ stealth_address
     filter 000000001010
     scan_public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     signatures 1
-    spend
+    spends
     {
         public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
         public_key 024c6988f8e64242a1b8f33513f5f27b9e135ad0a11433fc590816ff92a353a969
@@ -152,7 +155,7 @@ stealth_address
     filter ""
     scan_public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     signatures 1
-    spend
+    spends
     {
         public_key 031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006
     }
@@ -171,9 +174,9 @@ $ echo hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i | bx stealth-de
         "filter": "",
         "scan_public_key": "031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006",
         "signatures": "1",
-        "spend": {
-            "public_key": "031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006"
-        },
+        "spends": [
+            "031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006"
+        ],
         "version": "42"
     }
 }
