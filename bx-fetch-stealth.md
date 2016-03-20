@@ -81,7 +81,8 @@ $ bx fetch-stealth -f json -t 325500 01
 ```
 ```js
 {
-    "stealth": [
+    "stealth":
+    [
         {
             "ephemeral_public_key": "022ec7cd1d0697e746c4044a4582db99ac85e9158ebd2c0fb2a797759ca418dd8d",
             "paid_address": "1GqSZbEXDQ98aDKhja33cAXRdT9Z8RhRuZ",
