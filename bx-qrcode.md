@@ -1,1 +1,1 @@
-This command is [not implemented](https://github.com/libbitcoin/libbitcoin-explorer/issues/13).
+This command is [not implemented](https://github.com/libbitcoin/libbitcoin-explorer/issues/13) in version2.
