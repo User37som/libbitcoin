@@ -1,11 +1,7 @@
 Create a QRCODE image file for a payment address.
-
-NOTE: _This command is [not implemented](https://github.com/libbitcoin/libbitcoin-explorer/issues/13) in version2._
-
 ```
 $ bx help qrcode
 ```
-
 ```
 Usage: bx qrcode [-hip] [--config value] [--density value] [--module_size
 value] [--margin_size value] [--scheme value] [--version value]          
@@ -33,39 +29,27 @@ Arguments (positional):
 PAYMENT_ADDRESS      The payment address. If not specified the address is
                      read from STDIN.         
 ```
-
 ### Example 1
-
 ```
 $ bx qrcode --png 131zKT2n1FN4Z6JdDAWMg3w8ehYjoRByTB > address.png
 ```
-
 ```
-# Optional: verify output file
 $ file address.png 
 address.png: PNG image data, 264 x 264, 1-bit colormap, non-interlaced
 ```
-
 ### Example 2
-
 ```
 $ bx qrcode -r 5 -m 15 --png 131zKT2n1FN4Z6JdDAWMg3w8ehYjoRByTB > address.png
 ```
-
 ```
-# Optional: verify output file
 $ file address.png 
 address.png: PNG image data, 585 x 585, 1-bit colormap, non-interlaced
 ```
-
 ### Example 3
-
 ```
 $ bx qrcode -r 5 -m 15 -s litecoin --png LhAq4Q2NQiCtP71ZWSZvURvniWsuKsyDjE > address.png
 ```
-
 ```
-# Optional: verify output file
 $ file address.png 
 address.png: PNG image data, 585 x 585, 1-bit colormap, non-interlaced
 ```
