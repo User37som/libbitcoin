@@ -34,25 +34,16 @@ PAYMENT_ADDRESS      The payment address. If not specified the address is
 ```
 $ bx qrcode -p 131zKT2n1FN4Z6JdDAWMg3w8ehYjoRByTB > address.png
 ```
-```
-$ file address.png 
-address.png: PNG image data, 264 x 264, 1-bit colormap, non-interlaced
-```
+![qrcode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/qrcode1.png)
 ### Example 2
 --margin_size 5 --module_size 15 --png
 ```
 $ bx qrcode -r 5 -m 15 -p 131zKT2n1FN4Z6JdDAWMg3w8ehYjoRByTB > address.png
 ```
-```
-$ file address.png 
-address.png: PNG image data, 585 x 585, 1-bit colormap, non-interlaced
-```
+![qrcode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/qrcode2.png)
 ### Example 3
 --margin_size 5 --module_size 15 --scheme litecoin --png
 ```
 $ bx qrcode -r 5 -m 15 -s litecoin -p LhAq4Q2NQiCtP71ZWSZvURvniWsuKsyDjE > address.png
 ```
-```
-$ file address.png 
-address.png: PNG image data, 585 x 585, 1-bit colormap, non-interlaced
-```
+![qrcode](https://github.com/libbitcoin/libbitcoin-explorer/wiki/qrcode3.png)
