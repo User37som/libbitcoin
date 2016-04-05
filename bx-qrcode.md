@@ -30,24 +30,27 @@ PAYMENT_ADDRESS      The payment address. If not specified the address is
                      read from STDIN.         
 ```
 ### Example 1
+--png
 ```
-$ bx qrcode --png 131zKT2n1FN4Z6JdDAWMg3w8ehYjoRByTB > address.png
+$ bx qrcode -p 131zKT2n1FN4Z6JdDAWMg3w8ehYjoRByTB > address.png
 ```
 ```
 $ file address.png 
 address.png: PNG image data, 264 x 264, 1-bit colormap, non-interlaced
 ```
 ### Example 2
+--margin_size --module_size --png
 ```
-$ bx qrcode -r 5 -m 15 --png 131zKT2n1FN4Z6JdDAWMg3w8ehYjoRByTB > address.png
+$ bx qrcode -r 5 -m 15 -p 131zKT2n1FN4Z6JdDAWMg3w8ehYjoRByTB > address.png
 ```
 ```
 $ file address.png 
 address.png: PNG image data, 585 x 585, 1-bit colormap, non-interlaced
 ```
 ### Example 3
+--margin_size --module_size --scheme --png
 ```
-$ bx qrcode -r 5 -m 15 -s litecoin --png LhAq4Q2NQiCtP71ZWSZvURvniWsuKsyDjE > address.png
+$ bx qrcode -r 5 -m 15 -s litecoin -p LhAq4Q2NQiCtP71ZWSZvURvniWsuKsyDjE > address.png
 ```
 ```
 $ file address.png 
