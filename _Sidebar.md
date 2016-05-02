@@ -2,7 +2,7 @@
 * **[Home](Home)**
 * **[Build BX](Build-BX)**
 * **[Download BX](Download-BX)**
-* **[Dr. Craig Wright Decoded](wright-decoded)
+* **[Dr. Craig Wright Decoded](wright-decoded)**
 * **General Information**
   * [Acronyms](Acronyms)
   * [Background](Background)
