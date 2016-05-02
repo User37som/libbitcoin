@@ -187,4 +187,4 @@ transfers
     }
 }
 ```
-The only information not publicly available is the public key of the address of the above payments. The public key of an address is not exposed on the blockchain until coin spent to the address is subsequently spent. Furthermore the public key of an address cannot be obtained from the address without reversing the ripemd160 and sha256 hashes, which is infeasible.
+The only information not publicly available is the public key of the address of the above payments. The public key of an address is not exposed on the blockchain until coin spent to the address is subsequently spent. Furthermore the public key of an address cannot be obtained from the address without reversing the `ripemd160` and `sha256` hashes, which is infeasible.
