@@ -76,13 +76,7 @@ openssl ec -in sn-pub.pem -pubin -text -noout
         f656b412a3
 ```
 ```sh
-$ bx sha256 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b1482ecad7b148a6909a5cb2e0eaddfb84ccf9744464f82e160bfa9b8b64f9d4c03f999b8643f656b412a3 | bx ripemd160
-```
-```
-11b366edfc0a8b66feebae5c2e25a7b6a5d1cf31
-```
-```sh
-$ bx address-encode 11b366edfc0a8b66feebae5c2e25a7b6a5d1cf31 --version 0
+$ bx ec-to-address 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b1482ecad7b148a6909a5cb2e0eaddfb84ccf9744464f82e160bfa9b8b64f9d4c03f999b8643f656b412a3
 ```
 ```
 12cbQLTFMXRnSzktFkuoG3eHoMeFtpTu3S
