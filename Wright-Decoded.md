@@ -87,6 +87,7 @@ $ bx address-encode 11b366edfc0a8b66feebae5c2e25a7b6a5d1cf31 --version 0
 ```
 12cbQLTFMXRnSzktFkuoG3eHoMeFtpTu3S
 ```
+The address of the public key has been used in 9 transactions to date.
 ```sh
 $ bx fetch-history 12cbQLTFMXRnSzktFkuoG3eHoMeFtpTu3S
 ```
@@ -186,3 +187,4 @@ transfers
     }
 }
 ```
+The only information not publicly available is the public key of the address of the above payments. The public key of an address is not exposed on the blockchain until coin spent to the address is subsequently spent. Furthermore the public key of an address cannot be obtained from the address without reversing the ripemd160 and sha256 hashes, which is infeasible.
