@@ -11,7 +11,7 @@ $ bx base64-decode IFdyaWdodCwgaXQgaXMgbm90IHRoZSBzYW1lIGFzIGlmIEkgc2lnbiBDcmFpZ
 ```
 Wright, it is not the same as if I sign Craig Wright, Satoshi.
 ```
-### Proof of the ability to base64 encode arbitrary blockchain data.
+### Proof of the ability to base64 encode old blockchain data.
 ```
 ------------------------- Signature File -------------------------
 MEUCIQDBKn1Uly8m0UyzETObUSL4wYdBfd4ejvtoQfVcNCIK4AIgZmMsXNQWHvo6KDd2Tu6euEl1
