@@ -187,4 +187,38 @@ transfers
     }
 }
 ```
-The only information not publicly available is the public key of the address of the above payments. The public key of an address is not exposed on the blockchain until coin spent to the address is subsequently spent. Furthermore the public key of an address cannot be obtained from the address without reversing the `ripemd160` and `sha256` hashes, which is infeasible.
+The only information not publicly available is the public key of the address of the above payments. The public key of an address is not exposed on the blockchain until coin spent to the address is subsequently spent. Furthermore the public key of an address cannot be obtained from the address without reversing the `ripemd160` and `sha256` hashes, which is infeasible. This public key represents the address that received payment from the full award from block 9.
+```sh
+$ bx fetch-tx 0437cd7f8525ceed2324359c2d0ba26006d92d856a9c20fa0241106ee5a597c9
+```
+```ini
+transaction
+{
+    hash 0437cd7f8525ceed2324359c2d0ba26006d92d856a9c20fa0241106ee5a597c9
+    inputs
+    {
+        input
+        {
+            previous_output
+            {
+                hash 0000000000000000000000000000000000000000000000000000000000000000
+                index 4294967295
+            }
+            script "[ 04ffff001d0134 ]"
+            sequence 4294967295
+        }
+    }
+    lock_time 0
+    outputs
+    {
+        output
+        {
+            address 12cbQLTFMXRnSzktFkuoG3eHoMeFtpTu3S
+            script "[ 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b1482ecad7b148a6909a5cb2e0eaddfb84ccf9744464f82e160bfa9b8b64f9d4c03f999b8643f656b412a3 ] checksig"
+            value 5000000000
+        }
+    }
+    version 1
+}
+```
+More compelling would be use of the corresponding private key to sign some current information.
