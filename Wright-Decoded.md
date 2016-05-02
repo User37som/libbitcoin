@@ -1,4 +1,6 @@
-### Source 1
+There is a lengthy offering of [proof of Satoshi](http://www.drcraigwright.net/jean-paul-sartre-signing-significance/) on Dr. Wright's blog. The narrative is mostly tutorial. But also the following.
+
+### Proof of the ability to base64 encode a phrase.
 ```
 IFdyaWdodCwgaXQgaXMgbm90IHRoZSBzYW1lIGFzIGlmIEkgc2lnbiBDcmFpZyBXcmlnaHQsIFNh 
 dG9zaGkuCgo=
@@ -9,13 +11,12 @@ $ bx base64-decode IFdyaWdodCwgaXQgaXMgbm90IHRoZSBzYW1lIGFzIGlmIEkgc2lnbiBDcmFpZ
 ```
 Wright, it is not the same as if I sign Craig Wright, Satoshi.
 ```
-### Source 2
+### Proof of the ability to base64 encode arbitrary blockchain data.
 ```
 ------------------------- Signature File -------------------------
 MEUCIQDBKn1Uly8m0UyzETObUSL4wYdBfd4ejvtoQfVcNCIK4AIgZmMsXNQWHvo6KDd2Tu6euEl1
 3VTC3ihl6XUlhcU+fM4=
 ------------------------- End Signature --------------------------
-```
 ```
 ```sh
 $ bx base64-decode MEUCIQDBKn1Uly8m0UyzETObUSL4wYdBfd4ejvtoQfVcNCIK4AIgZmMsXNQWHvo6KDd2Tu6euEl13VTC3ihl6XUlhcU+fM4= | bx base16-encode
@@ -23,11 +24,11 @@ $ bx base64-decode MEUCIQDBKn1Uly8m0UyzETObUSL4wYdBfd4ejvtoQfVcNCIK4AIgZmMsXNQWH
 ```
 3045022100c12a7d54972f26d14cb311339b5122f8c187417dde1e8efb6841f55c34220ae0022066632c5cd4161efa3a2837764eee9eb84975dd54c2de2865e9752585c53e7cce
 ```
-Transaction
+The data is extracted from the following transaction.
 ```sh
 $ bx fetch-tx 828ef3b079f9c23829c56fe86e85b4a69d9e06e5b54ea597eef5fb3ffef509fe
 ```
-Notice `transaction.inputs.input.script` matches decoding above.
+Notice `transaction.inputs.input.script` matches decoding above (excluding the trailing `01` signature hash type byte).
 ```ini
 transaction
 {
@@ -64,7 +65,7 @@ transaction
     version 1
 }
 ```
-### Source 3
+### Proof of possession of a public key.
 ```
 The command to export our public key is given below.
 openssl ec -in sn-pub.pem -pubin -text -noout
@@ -75,7 +76,13 @@ openssl ec -in sn-pub.pem -pubin -text -noout
         f656b412a3
 ```
 ```sh
-$ bx ec-to-address 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b1482ecad7b148a6909a5cb2e0eaddfb84ccf9744464f82e160bfa9b8b64f9d4c03f999b8643f656b412a3
+$ bx sha256 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b1482ecad7b148a6909a5cb2e0eaddfb84ccf9744464f82e160bfa9b8b64f9d4c03f999b8643f656b412a3 | bx ripemd160
+```
+```
+11b366edfc0a8b66feebae5c2e25a7b6a5d1cf31
+```
+```sh
+$ bx address-encode 11b366edfc0a8b66feebae5c2e25a7b6a5d1cf31 --version 0
 ```
 ```
 12cbQLTFMXRnSzktFkuoG3eHoMeFtpTu3S
@@ -83,6 +90,7 @@ $ bx ec-to-address 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b1482ecad7b148a69
 ```sh
 $ bx fetch-history 12cbQLTFMXRnSzktFkuoG3eHoMeFtpTu3S
 ```
+Notice `transfers.transfer[3].received.hash` is the same as `transaction.hash` above.
 ```ini
 transfers
 {
