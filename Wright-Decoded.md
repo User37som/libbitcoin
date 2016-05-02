@@ -223,8 +223,8 @@ transaction
 ```
 In other words the public key represents the address that received payment of the full award for block 9.
 
-# No Proof
+### No Proof
 
-In newer standard transactions the public key of an address is not exposed on the blockchain until coin spent to the address is subsequently spent. Furthermore the public key of an address cannot be obtained from the address without reversing the `ripemd160` and `sha256` hashes, which is infeasible. However these are old transactions that use pay-to-public-key as opposed to pay-to-public-key-hash. The public key that Dr. Wright offered is actually exposed in `transaction.outputs.output.script` above.
+In newer standard transactions the public key of an address is not exposed on the blockchain until coin spent to the address is subsequently spent. Furthermore the public key of an address cannot be obtained from the address without reversing the `ripemd160` and `sha256` hashes, which is infeasible.
 
-So everything offered is public information.
+However these are old transactions that use pay-to-public-key as opposed to pay-to-public-key-hash. The public key that Dr. Wright offered is actually exposed in `transaction.outputs.output.script` above. So everything offered is public information.
