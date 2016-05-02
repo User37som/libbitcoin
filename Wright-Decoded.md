@@ -28,7 +28,7 @@ The data is extracted from the following transaction.
 ```sh
 $ bx fetch-tx 828ef3b079f9c23829c56fe86e85b4a69d9e06e5b54ea597eef5fb3ffef509fe
 ```
-Notice `transaction.inputs.input.script` matches decoding above (excluding the trailing `01` signature hash type byte).
+Notice `transaction.inputs.input.script` matches decoding above (excluding the trailing `01` signature hash type byte). Credit to jouke in #bitcoin for discovering this link.
 ```ini
 transaction
 {
