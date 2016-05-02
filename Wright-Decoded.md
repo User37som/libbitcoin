@@ -227,4 +227,4 @@ In other words the public key represents the address that received payment of th
 
 In newer standard transactions the public key of an address is not exposed on the blockchain until coin spent to the address is subsequently spent. Furthermore the public key of an address cannot be obtained from the address without reversing the `ripemd160` and `sha256` hashes, which is infeasible.
 
-However these are old transactions that use pay-to-public-key as opposed to pay-to-public-key-hash. The public key that Dr. Wright offered is actually exposed in `transaction.outputs.output.script` above. So everything offered as proof of being Satoshi is public information.
+However these are old transactions that use pay-to-public-key as opposed to pay-to-public-key-hash. The public key that Dr. Wright offered is actually exposed in `transaction.outputs.output.script` above. So everything he offered as proof of being Satoshi is actually public information.
