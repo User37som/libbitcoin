@@ -2,7 +2,6 @@
 * **[Home](Home)**
 * **[Build BX](Build-BX)**
 * **[Download BX](Download-BX)**
-* **[Dr. Craig Wright Decoded](wright-decoded)**
 * **General Information**
   * [Acronyms](Acronyms)
   * [Background](Background)
@@ -20,6 +19,7 @@
   * [Help Integration](Help-Integration)
   * [Test Methodology](Test-Methodology)
 * **Tutorials**
+  * [Craig Wright Decoded](wright-decoded)
   * [Payment Addresses](Payment-Address-Deconstruction)
   * [Command Equivalence](Command-Equivalence)
   * [Encrypting a Seed](How-to-Encrypt-a-Wallet-Seed)
