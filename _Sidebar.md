@@ -19,7 +19,7 @@
   * [Help Integration](Help-Integration)
   * [Test Methodology](Test-Methodology)
 * **Tutorials**
-  * [Craig Wright Decoded](wright-decoded)
+  * [Decoding Craig Wright](wright-decoded)
   * [Payment Addresses](Payment-Address-Deconstruction)
   * [Command Equivalence](Command-Equivalence)
   * [Encrypting a Seed](How-to-Encrypt-a-Wallet-Seed)
