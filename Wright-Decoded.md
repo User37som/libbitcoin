@@ -1,4 +1,4 @@
-There is a lengthy offering of [proof of Satoshi](http://www.drcraigwright.net/jean-paul-sartre-signing-significance/) on Dr. Wright's blog. The narrative is mostly tutorial, but also the following.
+There is a lengthy offering of [proof of Satoshi](http://www.drcraigwright.net/jean-paul-sartre-signing-significance/) ([on archive.org](https://web.archive.org/web/20160502072011/http://www.drcraigwright.net/jean-paul-sartre-signing-significance/)) on Dr. Wright's blog. The narrative is mostly tutorial, but also the following.
 
 ### Proof of the ability to base64 encode a phrase.
 ```
