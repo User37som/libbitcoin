@@ -42,7 +42,7 @@ $ cat my_public_cert1
 
 metadata
 curve
-    public-key = "7]g&M3GX##D.-!L>B.t?=@V6nkC34imk5/65kMNp"
+    public-key = "rq:rM>}U?@Lns47E1%kR.o@n%FcmmsL/@{H8]yf7"
 ```
 ### Example 2
 --metadata email:foo@bar.org --metadata "street:tobaco road"
