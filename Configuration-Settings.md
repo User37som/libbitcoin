@@ -28,16 +28,12 @@ hd_private_version = 76066276
 pay_to_public_key_hash_version = 0
 # The pay-to-script-hash address version, defaults to 5.
 pay_to_script_hash_version = 5
-# The Z85-encoded public key of the server certificate.
-# server_cert_key = 
-# The path to the ZPL-encoded client private certificate file.
-# cert_file = 
 
 [network]
 # The magic number for message headers, defaults to 3652501241.
 identifier = 3652501241
-# The number of times to attempt contacting a node, defaults to 0 (forever).
-connect_attempts = 0
+# The number of times to retry contacting a node, defaults to 0.
+connect_retries = 0
 # The time limit for connection establishment, defaults to 5.
 connect_timeout_seconds = 5
 # The time limit to complete the connection handshake, defaults to 30.
@@ -59,10 +55,14 @@ seed = dnsseed.bitcoin.dashjr.org:8333
 [server]
 # The URL of the mainnet Libbitcoin/Obelisk server.
 url = tcp://obelisk.airbitz.co:9091
-# The number of times to attempt contacting a server, defaults to 0 (forever).
-connect_attempts = 0
+# The number of times to retry contacting a server, defaults to 0.
+connect_retries = 0
 # The time limit for connection establishment, defaults to 5.
 connect_timeout_seconds = 5
+# The Z85-encoded public key of the server certificate.
+# server_certificate_key = 
+# The path to the ZPL-encoded client private certificate file.
+# client_certificate_file = 
 ```
 
 The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
