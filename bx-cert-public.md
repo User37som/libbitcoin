@@ -1,5 +1,4 @@
-Create a derived public Curve ZMQ certificate for use with a       
-Libbitcoin/Obelisk server. 
+Create a derived public Curve ZMQ certificate for use with a Libbitcoin/Obelisk server. 
 ```sh
 $ bx cert-public --help
 ```
