@@ -1,5 +1,4 @@
-Create a private Curve ZMQ certificate for use with a              
-Libbitcoin/Obelisk server.
+Create a private Curve ZMQ certificate for use with a Libbitcoin/Obelisk server.
 ```sh
 $ bx cert-new --help
 ```
