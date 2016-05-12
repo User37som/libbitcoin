@@ -39,8 +39,8 @@ $ cat my_private_cert1
 
 metadata
 curve
-    public-key = "7]g&M3GX##D.-!L>B.t?=@V6nkC34imk5/65kMNp"
-    secret-key = "]k2&)P6O#/m5XE%RTFFsrkX&-gEH5]aPxjwBgE?O"
+    public-key = "rq:rM>}U?@Lns47E1%kR.o@n%FcmmsL/@{H8]yf7"
+    secret-key = "JTKVSB%%)wK0E.X)V>+}o?pNmC{O&4W4b!Ni{Lh6"
 ```
 ### Example 2
 --metadata email:foo@bar.org --metadata phone:+1-603-555-1212
