@@ -1,6 +1,6 @@
 ### Enabling testnet
 
-See the config file under ```data/bx-testnet.cfg```.
+See the config file under ```libbitcoin-explorer/data/bx-testnet.cfg```.
 
 Either use the config file switch:
 ```sh
