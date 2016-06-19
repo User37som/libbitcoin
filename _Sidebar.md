@@ -9,6 +9,7 @@
   * [Log Files](Log-Files)
   * [Random Numbers](Random-Numbers)
   * [Version History](Version-History)
+  * [Testnet Support](Testnet-Support)
 * **Developer Information**
   * [Design Overview](Design-Overview)
   * [Explorer Library](Explorer-Library)
