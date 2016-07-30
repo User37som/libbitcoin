@@ -1,1 +1,1 @@
-This page has been moved.
+This page has been [moved](Build-BX).
