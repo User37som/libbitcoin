@@ -1,1 +1,1 @@
-[redirect](Download-BX)
+This page has been [moved](Download-BX).
