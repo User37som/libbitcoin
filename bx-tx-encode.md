@@ -22,7 +22,7 @@ Options (named):
 -o [--output]        The set of transaction output data encoded as       
                      TARGET:SATOSHI:SEED. TARGET is an address (including
                      stealth or pay-to-script-hash) or a Base16 script.  
-                     SATOSHI is the 32 bit spend amount in satoshi. SEED 
+                     SATOSHI is the 64 bit spend amount in satoshi. SEED 
                      is required for stealth outputs and not used        
                      otherwise. The same seed should NOT be used for     
                      multiple outputs.                                   
