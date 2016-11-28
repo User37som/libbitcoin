@@ -18,7 +18,7 @@ Options (named):
 -h [--help]          Get a description and instructions for this command.
 ```
 ### Example 1
-128 bit seed
+192 bit seed
 ```sh
 $ bx seed
 ```
