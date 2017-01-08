@@ -41,7 +41,7 @@ $ bx tx-encode -i 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080
 0100000001b3807042c92f449bbf79b33ca59d7dfec7f4cc71096704a9c526dddf496ee0970000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
 ### Example 2
-one input, stealth address output
+one input with index 1 and sequence 7, stealth address output
 ```sh
 $ bx tx-encode -i 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3:1:7 -o hfFGUXFPKkQ5M6LC6aEUKMsURdhw93bUdYdacEtBA8XttLv7evZkira2i:42:baadf00dbaadf00dbaadf00dbaadf00d
 ```
