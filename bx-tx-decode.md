@@ -48,7 +48,7 @@ transaction
         output
         {
             address 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb
-            script "dup hash160 [ 58b7a60f11a904feef35a639b6048de8dd4d9f1c ] equalverify checksig"
+            script "dup hash160 [58b7a60f11a904feef35a639b6048de8dd4d9f1c] equalverify checksig"
             value 45000
         }
     }
@@ -82,7 +82,7 @@ transaction
     {
         output
         {
-            script "return [ 14576f496f20b0befe21f39f765e81543ebd1790ec4a03d1b5a1c2e912749d90d0fd7b16322749e301a2b0dbfe278509011564590412b277 ]"
+            script "return [14576f496f20b0befe21f39f765e81543ebd1790ec4a03d1b5a1c2e912749d90d0fd7b16322749e301a2b0dbfe278509011564590412b277]"
             stealth
             {
                 bit_field 10011110101110111000001010101110
@@ -93,7 +93,7 @@ transaction
         output
         {
             address 1KbjyvFBRc2p6dKpTfDAFdT5DqmVLGX3B4
-            script "dup hash160 [ cc04492c12d0ddeb4cf88cfccb0d6d78d0fcd39d ] equalverify checksig"
+            script "dup hash160 [cc04492c12d0ddeb4cf88cfccb0d6d78d0fcd39d] equalverify checksig"
             value 42
         }
     }
@@ -128,7 +128,7 @@ transaction
         output
         {
             address 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
-            script "dup hash160 [ 18c0bd8d1818f1bf99cb1df2269c645318ef7b73 ] equalverify checksig"
+            script "dup hash160 [18c0bd8d1818f1bf99cb1df2269c645318ef7b73] equalverify checksig"
             value 500
         }
     }
@@ -154,7 +154,7 @@ transaction
                 hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
                 index 0
             }
-            script "[ 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022037109f0d06e6068b7447966f751de8474641ad2b15ec37f4a9d159b02af6817401 ] [ 03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31 ]"
+            script "[30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022037109f0d06e6068b7447966f751de8474641ad2b15ec37f4a9d159b02af6817401] [03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31]"
             sequence 4294967295
         }
     }
@@ -164,7 +164,7 @@ transaction
         output
         {
             address 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb
-            script "dup hash160 [ 58b7a60f11a904feef35a639b6048de8dd4d9f1c ] equalverify checksig"
+            script "dup hash160 [58b7a60f11a904feef35a639b6048de8dd4d9f1c] equalverify checksig"
             value 45000
         }
     }
