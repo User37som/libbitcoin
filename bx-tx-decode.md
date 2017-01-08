@@ -58,12 +58,12 @@ transaction
 ### Example 2
 unsigned, one input, stealth address output
 ```sh
-$ bx tx-decode 0100000001b3807042c92f449bbf79b33ca59d7dfec7f4cc71096704a9c526dddf496ee09701000000000700000001f4010000000000001976a91418c0bd8d1818f1bf99cb1df2269c645318ef7b7388ac00000000
+$ bx tx-decode 0100000001b3807042c92f449bbf79b33ca59d7dfec7f4cc71096704a9c526dddf496ee0970100000000070000000200000000000000003a6a3814576f496f20b0befe21f39f765e81543ebd1790ec4a03d1b5a1c2e912749d90d0fd7b16322749e301a2b0dbfe278509011564590412b2772a000000000000001976a914cc04492c12d0ddeb4cf88cfccb0d6d78d0fcd39d88ac00000000
 ```
 ```js
 transaction
 {
-    hash eaa1fa9c373a56ab0bf4697075f2d2fc5cc61351b183173d097e44ead82c60ed
+    hash 4a013715c2ef8ddeae2792eea4751565acd1ad5ed27542d45f2ebe571f4899e9
     inputs
     {
         input
@@ -71,10 +71,10 @@ transaction
             previous_output
             {
                 hash 97e06e49dfdd26c5a904670971ccf4c7fe7d9da53cb379bf9b442fc9427080b3
-                index 0
+                index 1
             }
             script ""
-            sequence 4294967295
+            sequence 7
         }
     }
     lock_time 0
@@ -82,11 +82,11 @@ transaction
     {
         output
         {
-            script "return [ 14576f496f20b0befe21f39f765e81543ebd1790ec4a03d1b5a1c2e912749d90d0fd7b16322749e301a2b0dbfe2785090115645900000000 ]"
+            script "return [ 14576f496f20b0befe21f39f765e81543ebd1790ec4a03d1b5a1c2e912749d90d0fd7b16322749e301a2b0dbfe278509011564590412b277 ]"
             stealth
             {
-                prefix 3146755417
-                ephemeral_public_key 0214576f496f20b0befe21f39f765e81543ebd1790ec4a03d1b5a1c2e912749d90
+                bit_field 10011110101110111000001010101110
+                ephemeral_public_key_hash 909d7412e9c2a1b5d1034aec9017bd3e54815e769ff321febeb0206f496f5714
             }
             value 0
         }
