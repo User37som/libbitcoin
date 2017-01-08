@@ -56,7 +56,7 @@ transaction
 }
 ```
 ### Example 2
-unsigned, one input, stealth address output
+unsigned, one input with index 1 and sequence 7, stealth address output
 ```sh
 $ bx tx-decode 0100000001b3807042c92f449bbf79b33ca59d7dfec7f4cc71096704a9c526dddf496ee0970100000000070000000200000000000000003a6a3814576f496f20b0befe21f39f765e81543ebd1790ec4a03d1b5a1c2e912749d90d0fd7b16322749e301a2b0dbfe278509011564590412b2772a000000000000001976a914cc04492c12d0ddeb4cf88cfccb0d6d78d0fcd39d88ac00000000
 ```
