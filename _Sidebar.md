@@ -8,8 +8,8 @@
   * [Configuration Settings](Configuration-Settings)
   * [Log Files](Log-Files)
   * [Random Numbers](Random-Numbers)
-  * [Version History](Version-History)
   * [Testnet Support](Testnet-Support)
+  * [Version History](Version-History)
 * **Developer Information**
   * [Design Overview](Design-Overview)
   * [Explorer Library](Explorer-Library)
