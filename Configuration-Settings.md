@@ -15,7 +15,7 @@ The Windows directory is hidden by default. If the specified file is not found d
 
 For convenience, the [bx.cfg](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/data/bx.cfg) file is populated with all default settings values.
 ```ini
-# Bitcoin Explorer (BX) configuration file.
+# Bitcoin Explorer (BX) BITCOIN MAINNET configuration file.
 
 [wallet]
 # The wallet import format (WIF) key version, defaults to 128.
@@ -23,11 +23,13 @@ wif_version = 128
 # The hierarchical deterministic (HD) public key version, defaults to 76067358.
 hd_public_version = 76067358
 # The hierarchical deterministic (HD) private key version, defaults to 76066276.
-hd_private_version = 76066276
+hd_secret_version = 76066276
 # The pay-to-public-key-hash address version, defaults to 0.
 pay_to_public_key_hash_version = 0
 # The pay-to-script-hash address version, defaults to 5.
 pay_to_script_hash_version = 5
+# The transaction version, defaults to 1.
+transaction_version = 1
 
 [network]
 # The magic number for message headers, defaults to 3652501241.
@@ -44,7 +46,7 @@ hosts_file = hosts.cache
 debug_file = debug.log
 # The error log file path, defaults to 'error.log'.
 error_file = error.log
-# A seed node for initializing the host pool, multiple allowed, defaults shown.
+# A seed node for initializing the host pool, multiple entries allowed.
 seed = seed.bitnodes.io:8333
 seed = seed.bitcoinstats.com:8333
 seed = seed.bitcoin.sipa.be:8333
@@ -54,15 +56,17 @@ seed = dnsseed.bitcoin.dashjr.org:8333
 
 [server]
 # The URL of the mainnet Libbitcoin/Obelisk server.
-url = tcp://obelisk.airbitz.co:9091
+url = tcp://libbitcoin1.thecodefactory.org:9091
+# The address of a SOCKS5 proxy, defaults to none.
+socks_proxy = 0.0.0.0:0
 # The number of times to retry contacting a server, defaults to 0.
 connect_retries = 0
 # The time limit for connection establishment, defaults to 5.
 connect_timeout_seconds = 5
-# The Z85-encoded public key of the server certificate.
-# server_certificate_key = 
-# The path to the ZPL-encoded client private certificate file.
-# client_certificate_file = 
+# The Z85-encoded public key of the server.
+#server_public_key =
+# The Z85-encoded private key of the client.
+#client_private_key =
 ```
 
 The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
