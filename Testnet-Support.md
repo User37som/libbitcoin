@@ -1,12 +1,11 @@
 ### Enabling testnet
 
-See the config file under ```libbitcoin-explorer/data/bx-testnet.cfg```.
+See the testnet [configuration settings file](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) under `libbitcoin-explorer/data/bx-testnet.cfg`.
 
-Either use the config file switch:
+Either use the `--config` command line option:
 ```sh
 $ bx -c /path/to/bx-testnet.cfg COMMAND
 ```
+or copy the file to `/install/path/etc/bx.cfg`.
 
-Or copy the file to ```/install/path/etc/bx.cfg```.
-
-This file enables lots of configuration options of different numbers that can also be used for other blockchains.
+This file enables configuration options that can also make bx useful for altcoins.
