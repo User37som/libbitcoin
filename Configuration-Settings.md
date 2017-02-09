@@ -1,5 +1,3 @@
-**SETTINGS BELOW APPLY TO VERSION3, WHICH IS NOT RELEASED**
-
 ### Specifying a Configuration File
 Not all BX commands use configuration settings, in fact most do not. However all commands process the configuration file if its path is specified.
 
