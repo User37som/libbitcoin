@@ -3,19 +3,20 @@ Calculate the EC product (POINT * SECRET).
 $ bx ec-multiply --help
 ```
 ```
-Usage: bx ec-multiply [-h] [--config VALUE] POINT SECRET                 
+Usage: bx ec-multiply [-h] [--config value] POINT [SECRET]
 
-Info: Calculate the EC product (POINT * SECRET).                         
+Info: Calculate the EC product (POINT * SECRET).
 
 Options (named):
 
--c [--config]        The path to the configuration settings file.        
+-c [--config]        The path to the configuration settings file.
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
 
-POINT                The Base16 EC point to multiply.                    
-SECRET               The Base16 EC secret to multiply.
+POINT                The Base16 EC point to multiply.
+SECRET               The Base16 EC secret to multiply. If not specified
+                     the secret is read from STDIN.
 ```
 ### Example 1
 ```sh
