@@ -3,19 +3,20 @@ Calculate the EC function POINT + (SECRET * curve-generator-point).
 $ bx ec-add --help
 ```
 ```
-Usage: bx ec-add [-h] [--config VALUE] POINT SECRET                      
+Usage: bx ec-add [-h] [--config value] POINT [SECRET]
 
 Info: Calculate the EC function POINT + (SECRET * curve-generator-point).
 
 Options (named):
 
--c [--config]        The path to the configuration settings file.        
+-c [--config]        The path to the configuration settings file.
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
 
-POINT                The Base16 EC point to add.                         
-SECRET               The Base16 EC secret to add.
+POINT                The Base16 EC point to add.
+SECRET               The Base16 EC secret to add. If not specified the
+                     secret is read from STDIN.
 ```
 ### Example 1
 ```sh
