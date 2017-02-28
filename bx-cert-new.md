@@ -1,62 +1,25 @@
-Create a private Curve ZMQ certificate for use with a Libbitcoin/Obelisk server.
+Create a Curve ZMQ private key for use with a Libbitcoin server.
 ```sh
 $ bx cert-new --help
 ```
 ```
-Usage: bx cert-new [-h] [--config VALUE] [--metadata VALUE] PRIVATE_CERT 
+Usage: bx cert-new [-h] [--config value]
 
-Info: Create a private Curve ZMQ certificate for use with a              
-Libbitcoin/Obelisk server. WARNING: entropy is obtained from the         
-underlying platform.                                                     
+Info: Create a Curve ZMQ private key for use with a Libbitcoin server.
+WARNING: entropy is obtained from the underlying platform.
 
 Options (named):
 
--c [--config]        The path to the configuration settings file.        
--h [--help]          Get a description and instructions for this command.
--m [--metadata]      The set of name-value pairs to add as metadata to   
-                     the certificate, encoded as NAME:VALUE.             
-
-Arguments (positional):
-
-PRIVATE_CERT         The path to write the certificate file.             
+-c [--config]        The path to the configuration settings file.
+-h [--help]          Get a description and instructions for this command.           
 ```
-Certificates are only written to a file path. If a file already exists in the path an error will result. The format of the certificate file is [ZeroMQ Property Language (ZPL)](http://rfc.zeromq.org/spec:4).
-
 Private certificates are consumed directly by [Libbitcoin Server](https://github.com/libbitcoin/libbitcoin-server) for server identity and by BX for client identity.
-
-BX does not use a full certificate for server identity, instead using the unquoted value of the server certificate's `public-key` property.
 
 See also [cert-public](bx-cert-public).
 ### Example 1
 ```sh
-$ bx cert-new my_private_cert1
+$ bx cert-new
 ```
-```sh
-$ cat my_private_cert1
-#   ****  Generated on 2015-02-16 01:23:56 by CZMQ  ****
-#   ZeroMQ CURVE **Secret** Certificate
-#   DO NOT PROVIDE THIS FILE TO OTHER USERS nor change its permissions.
-
-metadata
-curve
-    public-key = "rq:rM>}U?@Lns47E1%kR.o@n%FcmmsL/@{H8]yf7"
-    secret-key = "JTKVSB%%)wK0E.X)V>+}o?pNmC{O&4W4b!Ni{Lh6"
 ```
-### Example 2
---metadata email:foo@bar.org --metadata phone:+1-603-555-1212
-```sh
-$ bx cert-new my_private_cert2 --metadata email:foo@bar.org --metadata phone:+1-603-555-1212
-```
-```sh
-$ cat my_private_cert2
-#   ****  Generated on 2015-02-16 01:31:21 by CZMQ  ****
-#   ZeroMQ CURVE **Secret** Certificate
-#   DO NOT PROVIDE THIS FILE TO OTHER USERS nor change its permissions.
-
-metadata
-    phone = "+1-603-555-1212"
-    email = "foo@bar.org"
-curve
-    public-key = "ke4jTqsF>?-[F>9PE29c2.us&-Hl)89K^wx]kx.a"
-    secret-key = "?$-xHWL]zF7OF1rI-mR-!L%*w+%Ci<Wo8}Adt]F)"
+A6hgo]R8<48/xB3yfd5x]mt-a9u/*P^j$$K)SBR@
 ```
