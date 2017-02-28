@@ -21,7 +21,7 @@ Public certificates are consumed directly by [Libbitcoin Server](https://github.
 See also [cert-new](bx-cert-new).
 ### Example 1
 ```sh
-$ bx.exe cert-public "A6hgo]R8<48/xB3yfd5x]mt-a9u/*P^j$$K)SBR@"
+$ bx cert-public "A6hgo]R8<48/xB3yfd5x]mt-a9u/*P^j$$K)SBR@"
 ```
 ```
 2!{^*kaa:gU]z2/Jy/4N5h2o=F[WE=2V0gi(Btqo
