@@ -2,7 +2,7 @@
 
 ### About Bitcoin Explorer
 
-BX is a major upgrade of the popular [SX command line tool](https://sx.dyne.org/index.html).
+BX is a general purpose Bitcoin command line utility that supports Linux, OSX and Windows. The application can be built an distributed as a single file binary with no run time dependencies apart from the operating system.
 
 **Example**
 ```sh
