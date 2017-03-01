@@ -7,6 +7,7 @@ EC      Elliptic Curve
 EK      Encrypted Key
 HD      Hierarchical Deterministic
 ICU     International Components for Unicode
+PNG     Portable Network Graphics
 PREVOUT Previous Output
 PUBKEY  EC Public Key
 QRCODE  Quick Response Code
