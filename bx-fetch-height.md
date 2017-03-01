@@ -5,8 +5,7 @@ $ bx fetch-height --help
 ```
 Usage: bx fetch-height [-h] [--config VALUE] [server-url]                
 
-Info: Get the last block height. Requires a Libbitcoin/Obelisk server    
-connection.                                                              
+Info: Get the last block height. Requires a Libbitcoin server connection.
 
 Options (named):
 
