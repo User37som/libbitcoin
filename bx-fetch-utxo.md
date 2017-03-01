@@ -1,4 +1,4 @@
-Gets a set of unspent outputs from an address that are suitable for spending some amount of satoshi.
+Get enough unspent transaction outputs from a payment address to pay a number of satoshi.
 
 ```
 $ bx fetch-utxo --help
