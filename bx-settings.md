@@ -118,7 +118,7 @@ settings
         connect_retries 0
         connect_timeout_seconds 5
         server_public_key 0000000000000000000000000000000000000000
-        socks_proxy [::ffff:0:0]
+        socks_proxy 127.0.0.1:1080
         url tcp://rmrai2ifbed2bf55.onion:19091
     }
     wallet
