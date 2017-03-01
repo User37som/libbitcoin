@@ -21,8 +21,6 @@ defaults
 $ bx settings
 ```
 ```js
-settings
-{
     network
     {
         channel_handshake_seconds 30
@@ -36,22 +34,22 @@ settings
     }
     server
     {
-        cert_file ""
+        client_private_key 0000000000000000000000000000000000000000
         connect_retries 0
         connect_timeout_seconds 5
-        server_cert_key ""
-        url tcp://obelisk.airbitz.co:9091
+        server_public_key 0000000000000000000000000000000000000000
+        socks_proxy [::ffff:0:0]
+        url tcp://mainnet1.libbitcoin.net:9091
     }
     wallet
     {
-        hd_private_version 76066276
         hd_public_version 76067358
+        hd_secret_version 76066276
         pay_to_public_key_hash_version 0
         pay_to_script_hash_version 5
         transaction_version 1
         wif_version 128
     }
-}
 ```
 ### Example 2
 --config bx-testnet.cfg
@@ -74,16 +72,17 @@ settings
     }
     server
     {
-        cert_file ""
+        client_private_key 0000000000000000000000000000000000000000
         connect_retries 0
         connect_timeout_seconds 5
-        server_cert_key ""
-        url tcp://obelisk-testnet.airbitz.co:9091
+        server_public_key 0000000000000000000000000000000000000000
+        socks_proxy [::ffff:0:0]
+        url tcp://testnet1.libbitcoin.net:19091
     }
     wallet
     {
-        hd_private_version 70615956
         hd_public_version 70617039
+        hd_secret_version 70615956
         pay_to_public_key_hash_version 111
         pay_to_script_hash_version 196
         transaction_version 1
@@ -115,16 +114,17 @@ settings
     }
     server
     {
-        cert_file ""
+        client_private_key 0000000000000000000000000000000000000000
         connect_retries 0
         connect_timeout_seconds 5
-        server_cert_key ""
-        url tcp://obelisk.airbitz.co:9091
+        server_public_key 0000000000000000000000000000000000000000
+        socks_proxy [::ffff:0:0]
+        url tcp://rmrai2ifbed2bf55.onion:19091
     }
     wallet
     {
-        hd_private_version 76066276
         hd_public_version 76067358
+        hd_secret_version 76066276
         pay_to_public_key_hash_version 0
         pay_to_script_hash_version 5
         transaction_version 1
