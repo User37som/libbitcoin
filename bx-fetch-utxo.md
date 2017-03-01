@@ -31,7 +31,7 @@ This command supports [configuration settings](Configuration-Settings).
 ```
 $ bx fetch-utxo 5500000000 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ```
-```js
+```
 selection
 {
     change 23456000
