@@ -3,22 +3,22 @@ Get transactions by hash.
 $ bx fetch-tx --help
 ```
 ```
-Usage: bx fetch-tx [-h] [--config VALUE] [--format VALUE] [HASH]         
+Usage: bx fetch-tx [-h] [--config value] [--format value] [HASH]
 
-Info: Get a transaction by its hash. Requires a Libbitcoin/Obelisk server
-connection.                                                              
+Info: Get a transaction by its hash. Requires a Libbitcoin server
+connection.
 
 Options (named):
 
--c [--config]        The path to the configuration settings file.        
--f [--format]        The output format. Options are 'info', 'json' and   
-                     'xml', defaults to 'info'.                          
+-c [--config]        The path to the configuration settings file.
+-f [--format]        The output format. Options are 'info', 'json' and
+                     'xml', defaults to 'info'.
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
 
-HASH                 The Base16 transaction hash of the transaction to   
-                     get. If not specified the transaction hash is read  
+HASH                 The Base16 transaction hash of the transaction to
+                     get. If not specified the transaction hash is read
                      from STDIN.
 ```
 This command supports [configuration settings](Configuration-Settings).
