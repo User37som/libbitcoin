@@ -1,9 +1,15 @@
 BX uses the following set of types for command and configuration processing.
 ```
 bc::config::authority
-bc::config::btc256
+bc::config::base2
+bc::config::base16
+bc::config::base58
+bc::config::base64
 bc::config::checkpoint
 bc::config::endpoint
+bc::config::hash160
+bc::config::hash256
+bc::config::sodium
 
 bc::wallet::bicoin_uri
 bc::wallet::ec_private
@@ -16,31 +22,27 @@ bc::wallet::hd_public
 bc::wallet::payment_address
 bc::wallet::stealth_address
 
-bc::explorer::primitives::base16
-bc::explorer::primitives::base2
-bc::explorer::primitives::base58
-bc::explorer::primitives::base64
-bc::explorer::primitives::base85
-bc::explorer::primitives::btc
-bc::explorer::primitives::btc160
-bc::explorer::primitives::byte
-bc::explorer::primitives::cert_key
-bc::explorer::primitives::ec_private
-bc::explorer::primitives::ec_public
-bc::explorer::primitives::encoding
-bc::explorer::primitives::endorsement
-bc::explorer::primitives::hashtype
-bc::explorer::primitives::hd_key
-bc::explorer::primitives::header
-bc::explorer::primitives::input
-bc::explorer::primitives::language
-bc::explorer::primitives::output
-bc::explorer::primitives::point
-bc::explorer::primitives::raw
-bc::explorer::primitives::script
-bc::explorer::primitives::signature
-bc::explorer::primitives::transaction
-bc::explorer::primitives::wrapper
+bc::explorer::config::address
+bc::explorer::config::algorithm
+bc::explorer::config::btc
+bc::explorer::config::byte
+bc::explorer::config::cert_key
+bc::explorer::config::ec_private
+bc::explorer::config::ec_public
+bc::explorer::config::encoding
+bc::explorer::config::endorsement
+bc::explorer::config::hashtype
+bc::explorer::config::hd_key
+bc::explorer::config::header
+bc::explorer::config::input
+bc::explorer::config::language
+bc::explorer::config::output
+bc::explorer::config::point
+bc::explorer::config::raw
+bc::explorer::config::script
+bc::explorer::config::signature
+bc::explorer::config::transaction
+bc::explorer::config::wrapper
 ```
 These are individual classes that are for the most part simple wrappers around types and/or functions exposed by [libbitcoin](https://github.com/libbitcoin/libbitcoin). The classes consistently implement overrides of stream operators by conversion to/from text encodings. As a result they drop seamlessly into [input processing](Input-Processing) and [output processing](Output-Processing) like any other serializable type.
 
