@@ -3,23 +3,24 @@ Derive the secret shared between an ephemeral key pair and a scan key pair.
 $ bx stealth-shared --help
 ```
 ```
-Usage: bx stealth-shared [-h] [--config VALUE] SECRET PUBKEY             
+Usage: bx stealth-shared [-h] [--config value] SECRET [PUBKEY]
 
-Info: Derive the secret shared between an ephemeral key pair and a scan  
-key pair. Provide scan SECRET and ephemeral PUBKEY, or ephemeral SECRET  
-and scan PUBKEY.                                                         
+Info: Derive the secret shared between an ephemeral key pair and a scan
+key pair. Provide scan SECRET and ephemeral PUBKEY, or ephemeral SECRET
+and scan PUBKEY.
 
 Options (named):
 
--c [--config]        The path to the configuration settings file.        
+-c [--config]        The path to the configuration settings file.
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
 
-SECRET               A Base16 EC private key. Either the scan or         
-                     ephemeral secret.                                   
+SECRET               A Base16 EC private key. Either the scan or
+                     ephemeral secret.
 PUBKEY               A Base16 EC public key. Either the scan or ephemeral
-                     public key. 
+                     public key. If not specified the key is read from
+                     STDIN. 
 ```
 Through the public exchange of public keys two parties can obtain a shared secret. The secret is unlocked by each only through possession of the private key corresponding to the exchanged public key.
 
