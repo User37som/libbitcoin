@@ -7,7 +7,7 @@ Usage: bx fetch-history [-h] [--config VALUE] [--format VALUE]
 [PAYMENT_ADDRESS]                                                        
 
 Info: Get list of output points, values, and spends for a payment        
-address. Requires a Libbitcoin/Obelisk server connection.                
+address. Requires a Libbitcoin server connection.                
 
 Options (named):
 
