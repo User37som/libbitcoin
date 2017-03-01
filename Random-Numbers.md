@@ -8,3 +8,5 @@ $ bx seed --bit_length 256
 e4d28a5972ce0785477f39f58e424c5ef643b26894c50f8e024601f87736b8fe 
 ```
 BX utilizes libbitcoin's deterministic ECDSA and as such requires no seed for signing.
+
+The [cert-new](https://github.com/libbitcoin/libbitcoin-explorer/wiki/bx-cert-new) command uses platform random number generation due to its reliance on the underlying [Curve ZMQ](http://curvezmq.org/) implementation.
