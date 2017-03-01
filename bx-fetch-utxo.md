@@ -1,7 +1,7 @@
 Gets a set of unspent outputs from an address that are suitable for spending some amount of satoshi.
 
 ```
-$ bx help fetch-utxo
+$ bx fetch-utxo --help
 ```
 
 ```
