@@ -53,15 +53,15 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/
   <configuration section="wallet">
     <setting name="wif_version" type="byte" default="128" description="The wallet import format (WIF) key version, defaults to 128." />
     <setting name="hd_public_version" type="uint32_t" default="76067358" description="The hierarchical deterministic (HD) public key version, defaults to 76067358." />
-    <setting name="hd_private_version" type="uint32_t" default="76066276" description="The hierarchical deterministic (HD) private key version, defaults to 76066276." />
-    <setting name="pay_to_public_key_hash_version" type="byte" default="0" description="The pay-to-public-key-hash address version, defaults to zero." />
+    <setting name="hd_secret_version" type="uint32_t" default="76066276" description="The hierarchical deterministic (HD) private key version, defaults to 76066276." />
+    <setting name="pay_to_public_key_hash_version" type="byte" default="0" description="The pay-to-public-key-hash address version, defaults to 0." />
     <setting name="pay_to_script_hash_version" type="byte" default="5" description="The pay-to-script-hash address version, defaults to 5." />
-    <setting name="transaction_version" type="byte" default="1" description="The transaction version, defaults to 1." />
+    <setting name="transaction_version" type="uint32_t" default="1" description="The transaction version, defaults to 1." />
   </configuration>
 
   <configuration section="network">
     <setting name="identifier" type="uint32_t" default="3652501241" description="The magic number for message headers, defaults to 3652501241." />
-    <setting name="connect_retries" type="byte" default="0" description="The number of times to retry contacting a node, defaults to zero." />
+    <setting name="connect_retries" type="byte" default="0" description="The number of times to retry contacting a node, defaults to 0." />
     <setting name="connect_timeout_seconds" type="uint32_t" default="5" description="The time limit for connection establishment, defaults to 5." />
     <setting name="channel_handshake_seconds" type="uint32_t" default="30" description="The time limit to complete the connection handshake, defaults to 30." />
     <setting name="hosts_file" type="path" default="hosts.cache" description="The peer hosts cache file path, defaults to 'hosts.cache'." />
@@ -71,11 +71,12 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/
   </configuration>
 
   <configuration section="server">
-    <setting name="url" type="endpoint" default="tcp://obelisk.airbitz.co:9091" description="The URL of the Libbitcoin/Obelisk server." />
-    <setting name="connect_retries" type="byte" default="0" description="The number of times to retry contacting a server, defaults to zero." />
-    <setting name="connect_timeout_seconds" default="5" type="uint32_t" description="The time limit for connection establishment, defaults to 5." />
-    <setting name="server_cert_key" type="cert_key" description="The Z85-encoded public key of the server certificate." />
-    <setting name="cert_file" type="path" description="The path to the ZPL-encoded client private certificate file." />
+    <setting name="url" type="endpoint" default="tcp://libbitcoin1.thecodefactory.org:9091" description="The URL of the Libbitcoin server." />
+    <setting name="socks_proxy" type="authority" default="0.0.0.0:0" description="The address of a SOCKS5 proxy to use, defaults to none." />
+    <setting name="connect_retries" type="byte" default="0" description="The number of times to retry contacting a server, defaults to 0." />
+    <setting name="connect_timeout_seconds" default="5" type="uint16_t" description="The time limit for connection establishment, defaults to 5." />
+    <setting name="server_public_key" type="sodium" description="The Z85-encoded public key of the server." />
+    <setting name="client_private_key" type="sodium" description="The Z85-encoded private key of the client." />
   </configuration>
 ```
 The implementation uses a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file. A default [settings file](configuration-settings) is included with the build.
