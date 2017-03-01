@@ -1,5 +1,6 @@
 | Package | Tag    | Comments                                |
 |---------|--------|-----------------------------------------|
+| 3.0.0   | v3.0.0 | Second major release, some new commands.|
 | 2.3.0   | v2.3.0 | Fix tx-encode and certificate handling. |
 | 2.2.0   | v2.2.0 | Minor upgrade p2p networking.           |
 | 2.1.0   | v2.1.0 | Upgrade for server changes and bip39.   |
