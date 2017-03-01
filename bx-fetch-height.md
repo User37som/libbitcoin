@@ -3,19 +3,19 @@ Get the last block height.
 $ bx fetch-height --help
 ```
 ```
-Usage: bx fetch-height [-h] [--config VALUE] [server-url]                
+Usage: bx fetch-height [-h] [--config value] [SERVER-URL]
 
 Info: Get the last block height. Requires a Libbitcoin server connection.
 
 Options (named):
 
--c [--config]        The path to the configuration settings file.        
+-c [--config]        The path to the configuration settings file.
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
 
-server-url           The URL of the Obelisk server to use. If not        
-                     specified the URL is obtained from configuration    
+SERVER-URL           The URL of the Libbitcoin server to use. If not
+                     specified the URL is obtained from configuration
                      settings or defaults.
 ```
 This command supports [configuration settings](Configuration-Settings).
