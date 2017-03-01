@@ -6,7 +6,7 @@ $ bx fetch-tx-index --help
 Usage: bx fetch-tx-index [-h] [--config VALUE] [--format VALUE] [HASH]   
 
 Info: Get the block height and index of a transaction. Requires a        
-Libbitcoin/Obelisk server connection.                                    
+Libbitcoin server connection.                                            
 
 Options (named):
 
