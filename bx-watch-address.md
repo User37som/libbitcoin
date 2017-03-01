@@ -3,22 +3,24 @@ Watch the network for transactions in which an address participates.
 $ bx watch-address --help
 ```
 ```
-Usage: bx watch-address [-h] [--config VALUE] [--format VALUE]           
-[PAYMENT_ADDRESS]                                                        
+Usage: bx watch-address [-h] [--config value] [--duration value]
+[--format value] [PAYMENT_ADDRESS]
 
-Info: Watch the network for transactions in which an address             
-participates. Requires a Libbitcoin server connection.                   
+Info: Watch the network for transactions in which an address
+participates. Requires a Libbitcoin server connection.
 
 Options (named):
 
--c [--config]        The path to the configuration settings file.        
--f [--format]        The output format. Options are 'info', 'json' and   
-                     'xml', defaults to 'info'.                          
+-c [--config]        The path to the configuration settings file.
+-d [--duration]      The duration of the watch in seconds, defaults to
+                     600.
+-f [--format]        The output format. Options are 'info', 'json' and
+                     'xml', defaults to 'info'.
 -h [--help]          Get a description and instructions for this command.
 
 Arguments (positional):
 
-PAYMENT_ADDRESS      The participating payment address. If not specified 
+PAYMENT_ADDRESS      The participating payment address. If not specified
                      the address is read from STDIN.
 ```
 This command supports [configuration settings](Configuration-Settings).
