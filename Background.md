@@ -1,4 +1,4 @@
-Bitcoin Explorer is a fork of the popular [SX](https://sx.dyne.org/index.html) command line tool. Many of the commands and their parameters are identical to SX although many have changed, some have been obsoleted and others have been added. Where command names differ BX redirects the user.
+Bitcoin Explorer is a major upgrade of the popular [SX](https://sx.dyne.org/index.html) command line tool. Many of the commands and their parameters are identical to SX although many have changed, some have been obsoleted and others have been added. Where command names differ BX redirects the user.
 
 **Old command**
 
