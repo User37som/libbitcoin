@@ -37,17 +37,17 @@ selection
     change 23456000
     points
     {
-        points
+        point
         {
             hash 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
             index 0
         }
-        points
+        point
         {
             hash db9e8d8a112437a5fc620c969cc76f3683e98475737c286d62002369f0f46fe5
             index 0
         }
-        points
+        point
         {
             hash 0590c372e7b90c5cc17855ac444032ba7726eb559bb9cf488e38fa6cdc4fcc40
             index 0
