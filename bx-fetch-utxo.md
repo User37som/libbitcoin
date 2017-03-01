@@ -1,9 +1,7 @@
 Get enough unspent transaction outputs from a payment address to pay a number of satoshi.
-
 ```
 $ bx fetch-utxo --help
 ```
-
 ```
 Usage: bx fetch-utxo [-h] [--algorithm value] [--config value] [--format 
 value] SATOSHI [PAYMENT_ADDRESS]                                         
@@ -30,9 +28,10 @@ This command supports [configuration settings](Configuration-Settings).
 
 ### Example 1
 [1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://blockchain.info/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa)
-
 ```
-$ bx fetch-utxo 5500000000 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa                                                                   
+$ bx fetch-utxo 5500000000 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+```
+```js
 points
 {
     points
