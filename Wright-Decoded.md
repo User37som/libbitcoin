@@ -42,7 +42,7 @@ transaction
                 hash 12b5633bad1f9c167d523ad1aa1947b2732a865bf5414eab2f9e5ae5d5c191ba
                 index 1
             }
-            script "[ 3045022100c12a7d54972f26d14cb311339b5122f8c187417dde1e8efb6841f55c34220ae0022066632c5cd4161efa3a2837764eee9eb84975dd54c2de2865e9752585c53e7cce01 ]"
+            script "[3045022100c12a7d54972f26d14cb311339b5122f8c187417dde1e8efb6841f55c34220ae0022066632c5cd4161efa3a2837764eee9eb84975dd54c2de2865e9752585c53e7cce01]"
             sequence 4294967295
         }
     }
@@ -52,13 +52,13 @@ transaction
         output
         {
             address 1ByLSV2gLRcuqUmfdYcpPQH8Npm8cccsFg
-            script "[ 04bed827d37474beffb37efe533701ac1f7c600957a4487be8b371346f016826ee6f57ba30d88a472a0e4ecd2f07599a795f1f01de78d791b382e65ee1c58b4508 ] checksig"
+            script "[04bed827d37474beffb37efe533701ac1f7c600957a4487be8b371346f016826ee6f57ba30d88a472a0e4ecd2f07599a795f1f01de78d791b382e65ee1c58b4508] checksig"
             value 1000000000
         }
         output
         {
             address 12cbQLTFMXRnSzktFkuoG3eHoMeFtpTu3S
-            script "[ 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b1482ecad7b148a6909a5cb2e0eaddfb84ccf9744464f82e160bfa9b8b64f9d4c03f999b8643f656b412a3 ] checksig"
+            script "[0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b1482ecad7b148a6909a5cb2e0eaddfb84ccf9744464f82e160bfa9b8b64f9d4c03f999b8643f656b412a3] checksig"
             value 1800000000
         }
     }
@@ -198,7 +198,7 @@ transaction
                 hash 0000000000000000000000000000000000000000000000000000000000000000
                 index 4294967295
             }
-            script "[ 04ffff001d0134 ]"
+            script "[04ffff001d0134]"
             sequence 4294967295
         }
     }
@@ -208,7 +208,7 @@ transaction
         output
         {
             address 12cbQLTFMXRnSzktFkuoG3eHoMeFtpTu3S
-            script "[ 0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b1482ecad7b148a6909a5cb2e0eaddfb84ccf9744464f82e160bfa9b8b64f9d4c03f999b8643f656b412a3 ] checksig"
+            script "[0411db93e1dcdb8a016b49840f8c53bc1eb68a382e97b1482ecad7b148a6909a5cb2e0eaddfb84ccf9744464f82e160bfa9b8b64f9d4c03f999b8643f656b412a3] checksig"
             value 5000000000
         }
     }

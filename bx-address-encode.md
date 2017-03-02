@@ -52,7 +52,7 @@ $ bx seed | bx ec-new | bx ec-to-public | bx bitcoin160 | bx address-encode
 ### Example 4
 2 of 4 multisig, --version 196 (testnet pay-to-script-hash)
 ```sh
-$ bx script-to-address -v 196 "2 [ 020ae29f86f404e4b302cfa17ff15d93149af6a54c80a4172d47e41f55f6a78d73 ] [ 03664d528eb80096671ef9011c533ceb5df133238e3690d88f2960c786398b86b1 ] [ 029a449ea4a2155ea10002d704604bb3e8606631d35af20889a74b82b2dab572f6 ] [ 0321602d78046d63256b1730b119b1aca3428039f18fdb73ccf45ad3e148dd9b17 ] 4 checkmultisig"
+$ bx script-to-address -v 196 "2 [020ae29f86f404e4b302cfa17ff15d93149af6a54c80a4172d47e41f55f6a78d73] [03664d528eb80096671ef9011c533ceb5df133238e3690d88f2960c786398b86b1] [029a449ea4a2155ea10002d704604bb3e8606631d35af20889a74b82b2dab572f6] [0321602d78046d63256b1730b119b1aca3428039f18fdb73ccf45ad3e148dd9b17] 4 checkmultisig"
 ```
 ```
 2N8uwbECKZJLmfYRErQazYBAWfd8PJ66rAN

@@ -40,7 +40,7 @@ transaction
                 hash 0000000000000000000000000000000000000000000000000000000000000000
                 index 4294967295
             }
-            script "[ 04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73 ]"
+            script "[04ffff001d0104455468652054696d65732030332f4a616e2f32303039204368616e63656c6c6f72206f6e206272696e6b206f66207365636f6e64206261696c6f757420666f722062616e6b73]"
             sequence 4294967295
         }
     }
@@ -50,7 +50,7 @@ transaction
         output
         {
             address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
-            script "[ 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f ] checksig"
+            script "[04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f] checksig"
             value 5000000000
         }
     }
@@ -81,7 +81,7 @@ $ bx fetch-tx -f json 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b
                     "hash": "e58f3fb6e2ebe8e74e5af032dfd8c8e5e51f53d59489591a71599a80bdca910d",
                     "index": "0"
                 },
-                "script": "[ 304502210092947e1d588378cd215c2d3990b862cf368657741b5941c3cadf87a46b5a211d02205ef4ba2c1f35886e4272250a2abec2d1f2f21d5c581bf3eb5fc27b5be332660701 ] [ 04aefca2b53d176aa22f730a5497eb32011e15387c63a75780efeb21e981e9728033808732a321b48a8e0e2a5f9c1efb745dd41e9c92c6260daad567544b122446 ]",
+                "script": "[304502210092947e1d588378cd215c2d3990b862cf368657741b5941c3cadf87a46b5a211d02205ef4ba2c1f35886e4272250a2abec2d1f2f21d5c581bf3eb5fc27b5be332660701] [04aefca2b53d176aa22f730a5497eb32011e15387c63a75780efeb21e981e9728033808732a321b48a8e0e2a5f9c1efb745dd41e9c92c6260daad567544b122446]",
                 "sequence": "4294967295"
             },
             {
@@ -90,7 +90,7 @@ $ bx fetch-tx -f json 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b
                     "hash": "203609ba699c1f56e4a8d793a8cd746aa5aa5fc2e71205cf67a94487b45bafa9",
                     "index": "1"
                 },
-                "script": "[ 3045022100b7e63179ce698082c0f97c4ba6e24f5c7b7d37e5098c1b46674d03ef17a68b8d022008ebc699df19f11a11e76320719d7c139bb10ce9aa255f674a44b95f54053d9d01 ] [ 04c8f5fbadfe4534eaa3e2ec49dd797aaa43cb13d669dbd6ab769ea45a5ebcdacc6aee8e0e75fec2cb7fa088e16ead1a979f394b5af9e0d2998b6dc5bb6c41b005 ]",
+                "script": "[3045022100b7e63179ce698082c0f97c4ba6e24f5c7b7d37e5098c1b46674d03ef17a68b8d022008ebc699df19f11a11e76320719d7c139bb10ce9aa255f674a44b95f54053d9d01] [04c8f5fbadfe4534eaa3e2ec49dd797aaa43cb13d669dbd6ab769ea45a5ebcdacc6aee8e0e75fec2cb7fa088e16ead1a979f394b5af9e0d2998b6dc5bb6c41b005]",
                 "sequence": "4294967295"
             }
         ],
@@ -99,12 +99,12 @@ $ bx fetch-tx -f json 4eed9092aaf8cc8a527570546816a752d5fe825244c25c8e26084fc80b
         [
             {
                 "address": "1HB5XMLmzFVj8ALj6mfBsbifRoD4miY36v",
-                "script": "dup hash160 [ b169f2b0b866db05900b93a5d76345f18d3afb24 ] equalverify checksig",
+                "script": "dup hash160 [b169f2b0b866db05900b93a5d76345f18d3afb24] equalverify checksig",
                 "value": "7500000"
             },
             "output": {
                 "address": "16kZCdRoVmv9aWXagqxqm5NbLm19mQTr1V",
-                "script": "dup hash160 [ 3f156517411bd0ea2f22e2f42d6846b405facb27 ] equalverify checksig",
+                "script": "dup hash160 [3f156517411bd0ea2f22e2f42d6846b405facb27] equalverify checksig",
                 "value": "97317"
             }
         ],

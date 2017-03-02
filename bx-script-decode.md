@@ -26,14 +26,14 @@ See also [script-encode](bx-script-encode).
 $ bx script-decode 76A91489ABCDEFABBAABBAABBAABBAABBAABBAABBAABBA88AC
 ```
 ```
-dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig
+dup hash160 [89abcdefabbaabbaabbaabbaabbaabbaabbaabba] equalverify checksig
 ```
 ### Example 2
 piped commands
 ```sh
-$ bx script-encode "dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig" | bx script-decode
+$ bx script-encode "dup hash160 [89abcdefabbaabbaabbaabbaabbaabbaabbaabba] equalverify checksig" | bx script-decode
 ```
 ```
 76a91489abcdefabbaabbaabbaabbaabbaabbaabbaabba88ac
-dup hash160 [ 89abcdefabbaabbaabbaabbaabbaabbaabbaabba ] equalverify checksig
+dup hash160 [89abcdefabbaabbaabbaabbaabbaabbaabbaabba] equalverify checksig
 ```
