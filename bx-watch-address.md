@@ -23,9 +23,11 @@ Arguments (positional):
 PAYMENT_ADDRESS      The participating payment address. If not specified
                      the address is read from STDIN.
 ```
+This command is **experimental**.
+
 This command supports [configuration settings](Configuration-Settings).
 
-In bx version 2.1 and later this command requires a [libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server), in contrast to version 2.0 which requires an [obelisk server](https://github.com/spesmilo/obelisk).
+This command requires [libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server) version 3.
 
 This command reflects transactions created after the subscription is established.
 
