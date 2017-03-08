@@ -1,1 +1,1 @@
-![Math Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/version2/img/math-commands.png)
+![Math Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/master/img/math-commands.png)
