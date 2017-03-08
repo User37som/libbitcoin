@@ -27,8 +27,8 @@ PAYMENT_ADDRESS      The payment address. If not specified the address is
 This command supports [configuration settings](Configuration-Settings).
 
 ### Example 1
-smallest unspent output for 
-[1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://blockchain.info/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa) worth at least 400000000 satoshi
+Get the smallest unspent output for 
+[1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://blockchain.info/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa) worth at least 400000000 satoshi.
 ```
 $ bx fetch-utxo 400000000 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ```
@@ -46,8 +46,8 @@ points
 ### Example 2
 --algorithm individual
 
-all undividual unspent outputs of 
-[1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://blockchain.info/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa) worth at least 123400000 satoshi
+Get all individual unspent outputs of 
+[1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://blockchain.info/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa) worth at least 123400000 satoshi.
 ```
 $ bx fetch-utxo 123400000 -a individual 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ```
