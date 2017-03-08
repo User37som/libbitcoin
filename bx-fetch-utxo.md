@@ -27,31 +27,38 @@ PAYMENT_ADDRESS      The payment address. If not specified the address is
 This command supports [configuration settings](Configuration-Settings).
 
 ### Example 1
-[1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://blockchain.info/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa)
+smallest unspent output for 
+[1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://blockchain.info/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa) worth at least 400000000 satoshi
 ```
-$ bx fetch-utxo 5500000000 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+$ bx fetch-utxo 400000000 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ```
 ```
-selection
+points
 {
-    change 23456000
-    points
+    point
     {
-        point
-        {
-            hash 4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b
-            index 0
-        }
-        point
-        {
-            hash db9e8d8a112437a5fc620c969cc76f3683e98475737c286d62002369f0f46fe5
-            index 0
-        }
-        point
-        {
-            hash 0590c372e7b90c5cc17855ac444032ba7726eb559bb9cf488e38fa6cdc4fcc40
-            index 0
-        }
+        hash db9e8d8a112437a5fc620c969cc76f3683e98475737c286d62002369f0f46fe5
+        index 0
+        value 400000000
+    }
+}
+```
+### Example 2
+--algorithm individual
+
+all undividual unspent outputs of 
+[1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa](https://blockchain.info/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa) worth at least 123400000 satoshi
+```
+$ bx fetch-utxo 123400000 -a individual 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+```
+```
+points
+{
+    point
+    {
+        hash db9e8d8a112437a5fc620c969cc76f3683e98475737c286d62002369f0f46fe5
+        index 0
+        value 400000000
     }
 }
 ```
