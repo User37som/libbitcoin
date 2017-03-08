@@ -1,1 +1,1 @@
-![Wallet Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/version2/img/wallet-commands.png)
+![Wallet Commands](https://raw.githubusercontent.com/libbitcoin/libbitcoin-explorer/version3/img/wallet-commands.png)
