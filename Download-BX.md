@@ -42,17 +42,7 @@ QJTFawcZk8p/DqfoDPtHAiB+VLsJ+PdzCsj6R99fYbeYDYMkTQjxN/FH8/P4vUA=
 ```
 
 ### Using BX to Calculate Hashes
-With a previously-verified version of [BX](https://github.com/libbitcoin/libbitcoin-explorer/wiki) you can validate both the integrity of the download using the following commands.
-```sh
-$ bx base16-encode < bx-linux-x64-mainnet | bx sha256
-5a994749cde6c9cf5a07d052b60321b02bd55632a4681ed888150295b9e95ee4
-
-$ bx base16-encode < bx-osx-x64-mainnet | bx sha256
-5d0a0dba3adc1152dcfb65f65d4daca991f964603211b4c5f531bcf42ab4246a
-
-$ bx base16-encode < bx-windows-x64-icu-mainnet.exe | bx sha256
-7c2e627d3ee3e62937404c0f10bff052268a80d99cbdd24df486d0a2d974c929
-```
+With a previously-verified version of [BX](https://github.com/libbitcoin/libbitcoin-explorer/wiki) the integrity of the download can be verified using the commands shown above in the signature block.
 
 ### Origin Validation
 Validate the origin of the download by verifying the [PGP signature](http://en.wikipedia.org/wiki/Pretty_Good_Privacy) on the message containing the hashes (above). The message was signed by [evoskuil](https://twitter.com/evoskuil), which can be verified using the following public key. See also the [MIT Public Key Server](https://pgp.mit.edu/pks/lookup?op=get&search=0x3CD8C07F0B5CE14E):
