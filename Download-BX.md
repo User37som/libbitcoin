@@ -8,8 +8,8 @@ Each download is a single executable file.
 
 | OS | File | Bytes |
 |----|------|-------|
-|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png) | [`bx-linux-x64`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v3.0.0/bx-linux-x64) | `4,890,280` |
-|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png) | [`bx-osx-x64`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v3.0.0/bx-osx-x64) | `5,443,900` |
+|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png) | [`bx-linux-x64-qrcode`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v3.0.0/bx-linux-x64-qrcode) | `4,890,280` |
+|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png) | [`bx-osx-x64-qrcode`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v3.0.0/bx-osx-x64-qrcode) | `5,443,900` |
 |![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png) | [`bx-windows-x64-icu.exe`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v3.0.0/bx-windows-x64-icu.exe) | `5,225,472` |
 
 ### Integrity Validation
