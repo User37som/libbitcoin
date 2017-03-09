@@ -13,7 +13,7 @@ Each download is a single executable file.
 |![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png) | [`bx-windows-x64-icu-mainnet.exe`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v2.2.0/bx-windows-x64-icu-mainnet.exe) | `4,045,312` |
 
 ### Integrity Validation
-Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the signed message below. If you do not have a previously verified version of BX you can use any local or online [hash computer](http://onlinemd5.com) to calculate the hash values.
+Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the signed message below. If you do not have a previously verified version of [BX](https://github.com/libbitcoin/libbitcoin-explorer/wiki) you can use any local or online [hash computer](http://onlinemd5.com) to calculate the hash values.
 
 ```
 -----BEGIN PGP SIGNED MESSAGE-----
@@ -37,9 +37,6 @@ TODO
 -----END PGP SIGNATURE-----
 
 ```
-
-### Using BX to Calculate Hashes
-With a previously-verified version of [BX](https://github.com/libbitcoin/libbitcoin-explorer/wiki) the integrity of the download can be verified using the commands shown above in the signature block.
 
 ### Origin Validation
 Validate the origin of the download by verifying the [PGP signature](http://en.wikipedia.org/wiki/Pretty_Good_Privacy) on the message containing the hashes (above). The message was signed by [evoskuil](https://twitter.com/evoskuil), which can be verified using the following public key. See also the [MIT Public Key Server](https://pgp.mit.edu/pks/lookup?op=get&search=0x3CD8C07F0B5CE14E):
