@@ -7,5 +7,5 @@ Using the library requires inclusion of the header `<bitcoin/explorer.hpp>` and 
 Common functionality is exposed by the following namespaces:
 ```c++
 bc::explorer::commands
-bc::explorer::primitives
+bc::explorer::config
 ```
