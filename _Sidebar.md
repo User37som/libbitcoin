@@ -27,7 +27,6 @@
   * [Remembering a Seed](How-to-Remember-a-Wallet-Seed)
   * [Receiving Bitcoin](How-to-Receive-Bitcoin)
   * [Spending Bitcoin](How-to-Spend-Bitcoin)
-  * [Using Certificates](How-to-Use-Certificates)
   * [Receiving Multisig](How-to-Create-a-Multisig-Address)
   * [Spending Multisig](How-to-Spend-From-a-Multisig-Address)
 * **Meta Commands**
