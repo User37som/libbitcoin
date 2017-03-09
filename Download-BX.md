@@ -19,24 +19,21 @@ Validate the integrity of the download by calculating a SHA-256 hash of the file
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-bx-linux-x64-mainnet v2.2.0
-5a994749cde6c9cf5a07d052b60321b02bd55632a4681ed888150295b9e95ee4
+# Bitcoin Explorer v3.0.0
 
-bx-osx-x64-mainnet v2.2.0
-5d0a0dba3adc1152dcfb65f65d4daca991f964603211b4c5f531bcf42ab4246a
+$ bx base16-encode < bx-linux-x64-qrcode | bx sha256
+79c91d5714c1a2edf6c4610507e49d478c929d2e3fb5705fda1a1e31ce2c3f72
 
-bx-windows-x64-icu-mainnet.exe v2.2.0
-7c2e627d3ee3e62937404c0f10bff052268a80d99cbdd24df486d0a2d974c929
+$ bx base16-encode < bx-osx-x64-qrcode | bx sha256
+177c278c96d351cfc0655770a7e48674fc5ad77a7f4472af4542c1eb18e058ac
+
+$ bx base16-encode < bx-windows-x64-icu.exe.exe | bx sha256
+ad46a887bee8a0d4343cb2ff44a843f2d71ab33f3f860082e7d7f5fc20bb6633
+
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJWeBPeAAoJEDzYwH8LXOFOIYoH/i/NFg4ApcBjGbCLS1oD45bp
-YaiEASdqsoqSDYIEmirZYcil2CtNlhc4vKYyNjkCsUpKP98JC0LP5L4jcxD/UQU4
-PJIAn9Wu052chpg407DXnKMXNZ2e79pjrcAZAzMOIPfdQfwFlILpJ1DQUn/1AAXT
-w7KI1lLD4iqZDAX0No2WikvPWjL7hE0/z5NR9cK3lHsdGvcl8ZfBwGA1PoHM/2mR
-pnklHBVayKe/Qhfl4cMm3FNxDntAJ3r3FQ4hiogW831wU17gEDJ0vtBEt9PP9YYJ
-QJTFawcZk8p/DqfoDPtHAiB+VLsJ+PdzCsj6R99fYbeYDYMkTQjxN/FH8/P4vUA=
-=8nmG
+TODO
 -----END PGP SIGNATURE-----
 
 ```
@@ -68,6 +65,3 @@ tJ/XzF/74qCF2pEDedGGEr6dwYGMgeZNLapclCbfTnHJhYWzDuwMfR/1X4nwRCCM
 =xE34
 -----END PGP PUBLIC KEY BLOCK-----
 ```
-
-### Testnet vs. Mainnet
-The distinction between testnet and mainnet is entirely [configuration](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) based.
