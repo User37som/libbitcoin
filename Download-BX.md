@@ -27,19 +27,19 @@ $ bx base16-encode < bx-linux-x64-qrcode | bx sha256
 $ bx base16-encode < bx-osx-x64-qrcode | bx sha256
 177c278c96d351cfc0655770a7e48674fc5ad77a7f4472af4542c1eb18e058ac
 
-$ bx base16-encode < bx-windows-x64-icu.exe.exe | bx sha256
+$ bx base16-encode < bx-windows-x64-icu.exe | bx sha256
 ad46a887bee8a0d4343cb2ff44a843f2d71ab33f3f860082e7d7f5fc20bb6633
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.22 (GNU/Linux)
 
-iQEcBAEBAgAGBQJYwQLfAAoJEDzYwH8LXOFOH7MIAJcHbK2H3t0H6DgFFuSZWSTG
-HdE0Wzq+WGaC6A7FNaqDB+zoXUarlAjKzXG+z0I89uUMUdbCosyGJl+V7TNRP8C5
-fU0+OUiiqwKzeoSsiIv6MAw5jWFXZZjBzg1nWG9Qw4GdVTcdGcrDyeKVhPNynt5l
-ypgA/6FTeHKueueDGOKmwaoK6Tfxe9o6xGh6GOIohBYTk+3H8yQ6RiT5nYSh3vzw
-FyQ2RiyO4zuDI0aWIGP/BqyMbmm3+Bvl0oJ+UBu6jbO2HHKbC5voPIoXwcUXSHIP
-bqA+ltAQCLI7MTm6HhVEUMDYAKBRtLI1pUq0TPvnb0J8TVmidB256eLxgV5cX3k=
-=C0BW
+iQEcBAEBAgAGBQJYwQR7AAoJEDzYwH8LXOFOVIAH/iPhYu0G+qlJo9FOG4QdyUHZ
+bl+DVqTwJ9QB9Z26H5MeSIo3bqQPbLBpBhQjVyzsaPF0wdwywz1SJmBrXWU4aJvl
+mQxOc4hM728Vhv40/bnjUATL5RUGybI7tMJiEQAj0SrdCrKILDLHxUvvFPbfcdt5
+W06tREVLCgE3a4RsUiZQnnHcNcl6shwCB6LgA/1BT6vA8lf6hm8UswdBDyLqJQcl
+nUICW3o3onaHWo94tSRibvbZj2rUqHsSPDP9ezV6mymW4qq/UWNYl81XFBpakEbJ
+ZW2OZogdrHtKCUf2HJKLgNV4Zqkiyaam+5mclTEE+7wBJ3FwuE1b31MjXLajxXY=
+=vXRi
 -----END PGP SIGNATURE-----
 ```
 
