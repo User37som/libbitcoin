@@ -4,7 +4,7 @@ In other words another application can link to `libbitcoin-explorer` and immedia
 
 Using the library requires inclusion of the header `<bitcoin/explorer.hpp>` and a reference to the `libbitcoin-explorer` library and its dependencies. To facilitate dependency management BX installs a standard [package config](http://en.wikipedia.org/wiki/Pkg-config).
 
-Common functionality is exposed by the following namespaces:
+Primary common functionality is exposed by the following namespaces:
 ```c++
 bc::explorer::commands
 bc::explorer::config
