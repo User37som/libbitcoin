@@ -31,11 +31,16 @@ $ bx base16-encode < bx-windows-x64-icu.exe.exe | bx sha256
 ad46a887bee8a0d4343cb2ff44a843f2d71ab33f3f860082e7d7f5fc20bb6633
 
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1
+Version: GnuPG v2.0.22 (GNU/Linux)
 
-TODO
+iQEcBAEBAgAGBQJYwQLfAAoJEDzYwH8LXOFOH7MIAJcHbK2H3t0H6DgFFuSZWSTG
+HdE0Wzq+WGaC6A7FNaqDB+zoXUarlAjKzXG+z0I89uUMUdbCosyGJl+V7TNRP8C5
+fU0+OUiiqwKzeoSsiIv6MAw5jWFXZZjBzg1nWG9Qw4GdVTcdGcrDyeKVhPNynt5l
+ypgA/6FTeHKueueDGOKmwaoK6Tfxe9o6xGh6GOIohBYTk+3H8yQ6RiT5nYSh3vzw
+FyQ2RiyO4zuDI0aWIGP/BqyMbmm3+Bvl0oJ+UBu6jbO2HHKbC5voPIoXwcUXSHIP
+bqA+ltAQCLI7MTm6HhVEUMDYAKBRtLI1pUq0TPvnb0J8TVmidB256eLxgV5cX3k=
+=C0BW
 -----END PGP SIGNATURE-----
-
 ```
 
 ### Origin Validation
