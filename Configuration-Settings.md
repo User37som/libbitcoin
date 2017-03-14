@@ -16,7 +16,7 @@ BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/
 For convenience, the [bx.cfg](https://github.com/libbitcoin/libbitcoin-explorer/blob/version3/data/bx.cfg) file is populated with all default settings values. A copy of the file is shown below:
 
 ```ini
-# Bitcoin Explorer (BX) configuration file.
+# Bitcoin Explorer configuration file.
 
 [wallet]
 # The wallet import format (WIF) key version, defaults to 128 (use 239 for testnet).
