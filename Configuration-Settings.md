@@ -9,9 +9,12 @@ The path to the configuration settings file is specified by the `--config` comma
 
 The Windows directory is hidden by default. If the specified file is not found default values are loaded. If the file contains invalid settings an error is returned via STDERR. If any setting is not specified its default is loaded.
 
+BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/program_options/overview.html) library to bind configuration settings. The implementation supports a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file:
+
 ### Default Configuration Settings
 
-For convenience, the [bx.cfg](https://github.com/libbitcoin/libbitcoin-explorer/blob/version2/data/bx.cfg) file is populated with all default settings values.
+For convenience, the [bx.cfg](https://github.com/libbitcoin/libbitcoin-explorer/blob/version3/data/bx.cfg) file is populated with all default settings values. A copy of the file is shown below:
+
 ```ini
 # Bitcoin Explorer (BX) configuration file.
 
@@ -79,8 +82,6 @@ connect_timeout_seconds = 5
 # The Z85-encoded private key of the client, defaults to none.
 #client_private_key =
 ```
-
-The file is not strictly an `ini` file although it is similar in structure. It is based on [Boost program options](http://www.boost.org/doc/libs/1_56_0/doc/html/program_options/overview.html#idp344521728).
 
 ### Exporting Settings
 The [settings](bx-settings) command outputs all settings and values for the configuration file in use.
