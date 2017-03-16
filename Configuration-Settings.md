@@ -9,7 +9,7 @@ The path to the configuration settings file is specified by the `--config` comma
 
 The Windows directory is hidden by default. If the specified file is not found default values are loaded. If the file contains invalid settings an error is returned via STDERR. If any setting is not specified its default is loaded.
 
-BX uses Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/program_options/overview.html) library to bind configuration settings. The implementation supports a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file:
+BX uses libbitcoin's wrappers over Boost's [program_options](http://www.boost.org/doc/libs/1_49_0/doc/html/program_options/overview.html) library to bind configuration settings. The implementation supports a two level hierarchy of settings using "sections" to group settings, similar to an `.ini` file:
 
 ### Default Configuration Settings
 
