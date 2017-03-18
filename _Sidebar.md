@@ -5,7 +5,6 @@
 * **General Information**
   * [Acronyms](Acronyms)
   * [Background](Background)
-  * [Configuration Settings](Configuration-Settings)
   * [Log Files](Log-Files)
   * [Random Numbers](Random-Numbers)
   * [Testnet Support](Testnet-Support)
@@ -19,6 +18,10 @@
   * [Output Processing](Output-Processing)
   * [Help Integration](Help-Integration)
   * [Test Methodology](Test-Methodology)
+* **[Configuration Settings](Configuration-Settings)**
+  * [Wallet](Wallet-Settings)
+  * [Network](Network-Settings)
+  * [Server](Server-Settings)
 * **Tutorials**
   * [Decoding Craig Wright](wright-decoded)
   * [Payment Addresses](Payment-Address-Deconstruction)
