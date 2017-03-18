@@ -19,9 +19,9 @@
   * [Help Integration](Help-Integration)
   * [Test Methodology](Test-Methodology)
 * **[Configuration Settings](Configuration-Settings)**
-  * [Wallet](Wallet-Settings)
-  * [Network](Network-Settings)
-  * [Server](Server-Settings)
+  * [\[wallet\]](Wallet-Settings)
+  * [\[network\]](Network-Settings)
+  * [\[server\]](Server-Settings)
 * **Tutorials**
   * [Decoding Craig Wright](wright-decoded)
   * [Payment Addresses](Payment-Address-Deconstruction)
