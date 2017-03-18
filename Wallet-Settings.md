@@ -25,7 +25,7 @@ Used when working with HD public keys. It sets the default value for the `--publ
 Used when working with HD private keys. It sets the default value for the `--secret_version` option of the [hd-public](bx-hd-public) and [hd-to-ec](bx-hd-to-ec) commands, and for the `--version` option of the [hd-new](bx-hd-new) command.
 
 #### pay_to_public_key_hash_version
-Used when working with payment addresses. It sets the default value for the `--version` option of the following commands:
+Used when working with public key payment addresses. It sets the default value for the `--version` option of the following commands:
 * [address-embed](bx-address-embed)
 * [address-encode](bx-address-encode)
 * [base58check-encode](bx-base58check-encode)
@@ -36,3 +36,6 @@ Used when working with payment addresses. It sets the default value for the `--v
 * [ek-public](bx-ek-public)
 * [stealth-encode](bx-stealth-encode)
 * [wrap-encode](bx-wrap-encode)
+
+#### pay_to_script_hash_version
+Used when working with script hash payment addresses. It sets the default value for the `--version` option of the [script-to-address](bx-script-to-address) command and the `--script_version` option of the [tx-encode](bx-tx-encode) command.
