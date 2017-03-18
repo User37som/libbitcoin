@@ -39,3 +39,6 @@ Used when working with public key payment addresses. It sets the default value f
 
 #### pay_to_script_hash_version
 Used when working with script hash payment addresses. It sets the default value for the `--version` option of the [script-to-address](bx-script-to-address) command and the `--script_version` option of the [tx-encode](bx-tx-encode) command.
+
+#### transaction_version
+Used when working with transactions. It sets the default value for the `--version` option of the [tx-encode](bx-tx-encode) command.
