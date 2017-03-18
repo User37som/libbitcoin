@@ -1,4 +1,4 @@
-The following logging settings are implemented in [libbitcoin](https://github.com/libbitcoin/libbitcoin).
+The following wallet settings are implemented in [libbitcoin](https://github.com/libbitcoin/libbitcoin).
 ```ini
 [wallet]
 # The wallet import format (WIF) key version, defaults to 128 (use 239 for testnet).
