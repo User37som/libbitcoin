@@ -1,5 +1,5 @@
 ### Specifying a Configuration File
-Not all BX commands use configuration settings, in fact most do not. However all commands process the configuration file if its path is specified.
+Not all BX commands use configuration settings. However all commands process the configuration file if its path is specified.
 
 The path to the configuration settings file is specified by the `--config` command line option, the `BX_CONFIG` environment variable, or by default as follows:
 
