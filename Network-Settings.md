@@ -36,6 +36,7 @@ This is the network identifier passed in the header of each message on the peer-
 #### connect_retries
 
 #### connect_timeout_seconds
+The time in seconds to wait for a connection to the specified URL before giving up or retrying.
 
 #### channel_handshake_seconds
 
