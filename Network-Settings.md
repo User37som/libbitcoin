@@ -48,7 +48,9 @@ The time in seconds to wait to complete the version handshake with a peer.
 The path to a file that contains the addresses of potential network peers. Used by the [send-tx-p2p](bx-send-tx-p2p) command only. If this has any addresses populated the seeding step will be skipped, greatly reducing command completion time.
 
 #### debug_file
+The path to a file that contains debugging information. Logging to a file is [not enabled](https://github.com/libbitcoin/libbitcoin-explorer/issues/457) in v3.0.0.
 
 #### error_file
+The path to a file that contains debugging information. Logging to a file is [not enabled](https://github.com/libbitcoin/libbitcoin-explorer/issues/457) in v3.0.0.
 
 #### seed
