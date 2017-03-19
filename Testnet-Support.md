@@ -1,1 +1,1 @@
-Testnet and altcoins are configurable via the [configuration settings file](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings).
+Testnet and altcoins are configurable via the [configuration settings](https://github.com/libbitcoin/libbitcoin-explorer/wiki/Configuration-Settings) file.
