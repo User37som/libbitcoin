@@ -45,7 +45,7 @@ The time in seconds to wait for initial connection to a peer.
 The time in seconds to wait to complete the version handshake with a peer.
 
 #### hosts_file
-The path to a host 
+The path to a file that contains the addresses of potential network peers. Used by the [send-tx-p2p](bx-send-tx-p2p) command only. If this has any addresses populated the seeding step will be skipped, greatly reducing command completion time.
 
 #### debug_file
 
