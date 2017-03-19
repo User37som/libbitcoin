@@ -40,5 +40,5 @@ The time in seconds to wait for a connection to the specified URL before giving 
 The public key of the server. If this is set the specified URL must be to the server's secure query endpoint (typically on port 9081). The client verifies the server identity and all communication with the server is encrypted.
 
 #### client_private_key
-The private key of the client. This can be generated using the [cert-new](bx-cert-new) command. The corresponding public key must be provided to the server for configuration, and can be generated from the private key using the [cert-public](bx-cert-public) command.
+The private key of the client. This can be generated using the [cert-new](bx-cert-new) command. The corresponding public key must be provided to the server for configuration, and can be generated from the private key using the [cert-public](bx-cert-public) command. When a server configures the public key of one or more clients, only those clients configured with corresponding private keys are allowed to connect. This configuration requires a `server_public_key` configuration as well.
 
