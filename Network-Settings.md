@@ -30,17 +30,22 @@ seed = seed.voskuil.org:8333
 #seed = testnet-seed.voskuil.org:18333
 ```
 
+Unless otherwise specified these settings apply to the [send-tx-node](bx-send-tx-node) and [send-tx-p2p](bx-send-tx-p2p) commands.
+
 #### identifier
-This is the network identifier passed in the header of each message on the peer-to-peer network. Used by the [send-tx-node](bx-send-tx-node) and [send-tx-p2p](bx-send-tx-p2p) commands.
+This is the network identifier passed in the header of each message on the peer-to-peer network.
 
 #### connect_retries
+The number of times to retry contacting a manually-configured peer before giving up. If this is set to zero it will retry forever. Used by the [send-tx-node](bx-send-tx-node) command only.
 
 #### connect_timeout_seconds
-The time in seconds to wait for a connection to the specified URL before giving up or retrying.
+The time in seconds to wait for initial connection to a peer.
 
 #### channel_handshake_seconds
+The time in seconds to wait to complete the version handshake with a peer.
 
 #### hosts_file
+The path to a host 
 
 #### debug_file
 
