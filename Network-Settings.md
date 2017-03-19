@@ -29,3 +29,6 @@ seed = seed.voskuil.org:8333
 #seed = testnet-seed.bitcoin.schildbach.de:18333
 #seed = testnet-seed.voskuil.org:18333
 ```
+
+#### identifier
+This is the network identifier passed in the header of each message on the peer-to-peer network. Used by the [send-tx-node](bx-send-tx-node) and [send-tx-p2p](bx-send-tx-p2p) commands.
