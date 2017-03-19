@@ -21,3 +21,24 @@ connect_timeout_seconds = 5
 # The Z85-encoded private key of the client, defaults to none.
 #client_private_key =
 ```
+
+#### url
+The URL of the libbitcoin query service to use in all [online commands](Online-Commands) except for [send-tx-node](bx-send-tx-node) and [send-tx-p2p](bx-send-tx-p2p). See the list of [community servers](https://github.com/libbitcoin/libbitcoin-server/wiki/Community-Servers).
+
+See also [issue 449](https://github.com/libbitcoin/libbitcoin-explorer/issues/449).
+
+#### socks_proxy
+The address of a SOCKS5 proxy to use when connecting to the specified URL. This can be used to connect though Tor.
+
+#### connect_retries
+The number of times to retry contacting the specified URL before giving up. If this is set to zero it will retry forever.
+
+#### connect_timeout_seconds
+The time in seconds to wait for a connection to the specified URL before giving up or retrying.
+
+#### server_public_key
+The public key of the server. If this is set the specified URL must be to the server's secure query endpoint (typically on port 9081). The client verifies the server identity and all communication with the server is encrypted.
+
+#### client_private_key
+The private key of the client. This can be generated using the [cert-new](bx-cert-new) command. The corresponding public key must be provided to the server for configuration, and can be generated from the private key using the [cert-public](bx-cert-public) command.
+
