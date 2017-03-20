@@ -9,7 +9,6 @@ The following client-server settings are implemented in [libbitcoin-client](http
 #url = tcp://sqax52n5enkw4dsj.onion:9091
 # The URL of the default mainnet libbitcoin query service.
 url = tcp://mainnet.libbitcoin.net:9091
-
 # The address of a SOCKS5 proxy, defaults to none.
 socks_proxy = 0.0.0.0:0
 # The number of times to retry contacting a server, defaults to 0.
