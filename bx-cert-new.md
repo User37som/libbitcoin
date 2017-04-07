@@ -15,6 +15,8 @@ Options (named):
 ```
 Private certificates are consumed directly by [Libbitcoin Server](https://github.com/libbitcoin/libbitcoin-server) for server identity and by BX for client identity.
 
+Unlike other BX commands, this command uses the underlying platform's internal random number generator.
+
 See also [cert-public](bx-cert-public).
 ### Example 1
 ```sh
