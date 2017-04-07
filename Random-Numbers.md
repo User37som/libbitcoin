@@ -2,7 +2,7 @@ With the exception of [cert-new](bx-cert-new), any BX command that requires a ra
 
 > The `cert-new` command uses platform random number generation due to its reliance on the underlying [Curve ZMQ](http://curvezmq.org) implementation.
 
-The [seed](bx-cert-new) command is provided as a convenience, and is the only command that generates randomness. The command accepts a bit length argument, has the default value of 192 and minimum of 128.
+The [seed](bx-cert-new) command is provided as a convenience, and is the only command that generates randomness.
 ```sh
 $ bx seed --bit_length 256
 ```
