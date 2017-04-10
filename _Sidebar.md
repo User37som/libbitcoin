@@ -23,7 +23,6 @@
   * [\[network\]](Network-Settings)
   * [\[server\]](Server-Settings)
 * **Tutorials**
-  * [Decoding Craig Wright](wright-decoded)
   * [Payment Addresses](Payment-Address-Deconstruction)
   * [Command Equivalence](Command-Equivalence)
   * [Encrypting a Seed](How-to-Encrypt-a-Wallet-Seed)
@@ -32,6 +31,7 @@
   * [Spending Bitcoin](How-to-Spend-Bitcoin)
   * [Receiving Multisig](How-to-Create-a-Multisig-Address)
   * [Spending Multisig](How-to-Spend-From-a-Multisig-Address)
+  * [Decoding Craig Wright](wright-decoded)
 * **Meta Commands**
   * [help](bx-help)
   * [settings](bx-settings)
