@@ -53,6 +53,8 @@ transfers
 
 > The `received.height` property indicates the block height at which the receive transaction is confirmed. A missing value indicates that the receipt is unconfirmed. Version 3 does not provide unconfirmed history.
 
+> A `value` of 18446744073709551615 indicates that the spend is uncorrelated to a receipt. This will occur if the spend is indexed but the receipt is not, which can occur if the server starts indexing between the two transactions. Correlation failure can also occur due to an extremely low probability hash collision (1 in 2^49). The caller should always check for this condition.
+
 ### Example 2
 [13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe](https://blockchain.info/address/13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe)
 ```sh
