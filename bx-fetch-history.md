@@ -51,7 +51,7 @@ transfers
 
 > The `spent` property indicates that the received amount has been spent. The `spent.height` property indicates the block height at which the spend transaction is confirmed. A missing value indicates that the spend is unconfirmed.
 
-> The `received.height` property indicates the block height at which the receive transaction is confirmed. A missing value indicates that the receipt is unconfirmed.
+> The `received.height` property indicates the block height at which the receive transaction is confirmed. A missing value indicates that the receipt is unconfirmed. Version 3 does not provide unconfirmed history.
 
 ### Example 2
 [13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe](https://blockchain.info/address/13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe)
