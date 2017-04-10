@@ -23,6 +23,8 @@ PAYMENT_ADDRESS      The payment address. If not specified the address is
 ```
 This command supports [configuration settings](Configuration-Settings).
 
+Version 3 (and later) does not provide unconfirmed balance. A confirmation of at least one block on the strong chain is required for a value to be included.
+
 A value of 18446744073709551615 indicates that a spend is uncorrelated to a receipt. This will occur if the spend is indexed but the receipt is not, which can occur if the server starts indexing between the two transactions. Correlation failure can also occur due to an extremely low probability hash collision (1 in 2^49). The caller should always check for this condition.
 
 ### Example 1
@@ -34,9 +36,8 @@ $ bx fetch-balance 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 balance
 {
     address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
-    confirmed 1538241483
     received 6538241483
-    unspent 6538241483
+    spent 0
 }
 ```
 
@@ -56,9 +57,8 @@ $ bx fetch-balance -f json 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz
 {
     "balance": {
         "address": "134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz",
-        "confirmed": "0"
         "received": "100000",
-        "unspent": "0",
+        "spent": "100000",
     }
 }
 ```
@@ -69,5 +69,5 @@ $ bx fetch-balance -f xml 13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe
 ```
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
-<balance><address>13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe</address><confirmed>90000</confirmed><received>90000</received><unspent>90000</unspent></balance>
+<balance><address>13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe</address><received>90000</received><spent>0</spent></balance>
 ```
