@@ -22,6 +22,9 @@ PAYMENT_ADDRESS      The payment address. If not specified the address is
                      read from STDIN.
 ```
 This command supports [configuration settings](Configuration-Settings).
+
+A `value` of 18446744073709551615 indicates that the spend is uncorrelated to a receipt. This will occur if the spend is indexed but the receipt is not, which can occur if the server starts indexing between the two transactions. Correlation failure can also occur due to an extremely low probability hash collision (1 in 2^49). The caller should always check for this condition.
+
 ### Example 1
 [134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz](https://blockchain.info/address/134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz)
 ```sh
@@ -52,8 +55,6 @@ transfers
 > The `spent` property indicates that the received amount has been spent. The `spent.height` property indicates the block height at which the spend transaction is confirmed. A missing value indicates that the spend is unconfirmed.
 
 > The `received.height` property indicates the block height at which the receive transaction is confirmed. A missing value indicates that the receipt is unconfirmed. Version 3 does not provide unconfirmed history.
-
-> A `value` of 18446744073709551615 indicates that the spend is uncorrelated to a receipt. This will occur if the spend is indexed but the receipt is not, which can occur if the server starts indexing between the two transactions. Correlation failure can also occur due to an extremely low probability hash collision (1 in 2^49). The caller should always check for this condition.
 
 ### Example 2
 [13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe](https://blockchain.info/address/13Ft7SkreJY9D823NPm4t6D1cBqLYTJtAe)
