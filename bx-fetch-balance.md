@@ -22,12 +22,15 @@ PAYMENT_ADDRESS      The payment address. If not specified the address is
                      read from STDIN.
 ```
 This command supports [configuration settings](Configuration-Settings).
+
+A value of 18446744073709551615 indicates that a spend is uncorrelated to a receipt. This will occur if the spend is indexed but the receipt is not, which can occur if the server starts indexing between the two transactions. Correlation failure can also occur due to an extremely low probability hash collision (1 in 2^49). The caller should always check for this condition.
+
 ### Example 1
 [first address](https://blockchain.info/address/1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa) on the blockchain
 ```sh
 $ bx fetch-balance 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 ```
-```js
+```
 balance
 {
     address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
