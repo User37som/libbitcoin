@@ -27,7 +27,7 @@ This command supports [configuration settings](Configuration-Settings).
 ```sh
 $ bx fetch-history 134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz
 ```
-```js
+```
 transfers
 {
     transfer
