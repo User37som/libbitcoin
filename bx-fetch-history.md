@@ -25,7 +25,7 @@ This command supports [configuration settings](Configuration-Settings).
 
 Version 3 (and later) does not provide unconfirmed history. A confirmation of at least one block on the strong chain is required for a value to be included.
 
-A `value` of 18446744073709551615 indicates that the spend is uncorrelated to a receipt. This will occur if the spend is indexed but the receipt is not, which can occur if the server starts indexing between the two transactions. Correlation failure can also occur due to an extremely low probability hash collision (1 in 2^49). The caller should always check for this condition.
+A `value` of 18446744073709551615 indicates that a spend is uncorrelated to a receipt. This will occur if the spend is indexed but the receipt is not, which can occur if the server is configured to start indexing at a height between the two transactions. Correlation failure can also occur due to an extremely low probability hash collision (1 in 2^49). The caller should always check for this condition.
 
 ### Example 1
 [134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz](https://blockchain.info/address/134HfD2fdeBTohfx8YANxEpsYXsv5UoWyz)
