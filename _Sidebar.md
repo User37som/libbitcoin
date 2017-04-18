@@ -97,7 +97,7 @@
   * [send-tx-p2p](bx-send-tx-p2p)
   * [validate-tx](bx-validate-tx)
   * [watch-address](bx-watch-address)
-  * [watch-address](bx-watch-stealth)
+  * [watch-stealth](bx-watch-stealth)
   * [watch-tx](bx-watch-tx)
 * **[Encoding Commands](Encoding-Commands)**
   * [address-decode](bx-address-decode)
