@@ -117,7 +117,7 @@ settings
         client_private_key "A6hgo]R8<48/xB3yfd5x]mt-a9u/*P^j$$K)SBR@"
         connect_retries 0
         connect_timeout_seconds 5
-        server_public_key "2!{^*kaa:gU]z2/Jy/4N5h2o=F[WE=2V0gi(Btqo"
+        server_public_key ")nNv4Ji=CU:}@<LOu-<QvB)b-PIh%PX[)?mH>XAl"
         socks_proxy 127.0.0.1:1080
         url tcp://rmrai2ifbed2bf55.onion:19091
     }
