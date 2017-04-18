@@ -39,7 +39,7 @@ $ bx settings
         connect_timeout_seconds 5
         server_public_key 0000000000000000000000000000000000000000
         socks_proxy [::ffff:0:0]
-        url tcp://mainnet1.libbitcoin.net:9091
+        url tcp://mainnet.libbitcoin.net:9091
     }
     wallet
     {
@@ -77,7 +77,7 @@ settings
         connect_timeout_seconds 5
         server_public_key 0000000000000000000000000000000000000000
         socks_proxy [::ffff:0:0]
-        url tcp://testnet1.libbitcoin.net:19091
+        url tcp://testnet.libbitcoin.net:19091
     }
     wallet
     {
