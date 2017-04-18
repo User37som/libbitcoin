@@ -98,7 +98,7 @@ environment variable `BX_CONFIG=MyConfig/bx.cfg`
 ```sh
 $ bx settings
 ```
-```js
+```
 settings
 {
     network
@@ -114,10 +114,10 @@ settings
     }
     server
     {
-        client_private_key 0000000000000000000000000000000000000000
+        client_private_key "A6hgo]R8<48/xB3yfd5x]mt-a9u/*P^j$$K)SBR@"
         connect_retries 0
         connect_timeout_seconds 5
-        server_public_key 0000000000000000000000000000000000000000
+        server_public_key "A6hgo]R8<48/xB3yfd5x]mt-a9u/*P^j$$K)SBR@"
         socks_proxy 127.0.0.1:1080
         url tcp://rmrai2ifbed2bf55.onion:19091
     }
