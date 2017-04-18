@@ -27,7 +27,7 @@ $ bx help
 ```
 Usage: bx COMMAND [--help]
 
-Version: 3.0.0
+Version: 3.1.0
 
 Info: The bx commands are:
 
@@ -112,6 +112,7 @@ uri-decode
 uri-encode
 validate-tx
 watch-address
+watch-stealth
 watch-tx
 wif-to-ec
 wif-to-public
@@ -130,7 +131,7 @@ $ bx
 ```
 Usage: bx COMMAND [--help]
 
-Version: 3.0.0
+Version: 3.1.0
 
 Info: The bx commands are:
 
@@ -215,6 +216,7 @@ uri-decode
 uri-encode
 validate-tx
 watch-address
+watch-stealth
 watch-tx
 wif-to-ec
 wif-to-public
