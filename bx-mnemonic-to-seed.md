@@ -14,7 +14,8 @@ Options (named):
 -h [--help]          Get a description and instructions for this command.
 -l [--language]      The language identifier of the dictionary of the
                      mnemonic. Options are 'en', 'es', 'fr', 'it', 'ja',
-                     'zh_Hans', 'zh_Hant' and 'any', defaults to 'any'.
+                     'cs', 'ru', 'uk', 'zh_Hans', 'zh_Hant' and 'any',
+                     defaults to 'any'.
 -p [--passphrase]    An optional passphrase for converting the mnemonic
                      to a seed.
 
