@@ -39,7 +39,7 @@ timed out
 ```sh
 $ bx fetch-stealth 101010
 ```
-```js
+```
 stealth
 {
     match
