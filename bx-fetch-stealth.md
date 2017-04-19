@@ -26,7 +26,8 @@ This command supports [configuration settings](Configuration-Settings).
 
 In bx version 2.1 and later this command requires a [libbitcoin-server](https://github.com/libbitcoin/libbitcoin-server), in contrast to version 2.0 which requires an [obelisk server](https://github.com/spesmilo/obelisk).
 
-The number of transactions matching a given prefix will increase over time. The minimum number of bits required by BS v3.0 is 8.
+The number of transactions matching a given prefix will increase over time. The minimum number of bits required by BS v3.0 is 8. The configured timeout value may need to be increased for this command, since stealth scanning is linearly efficient `O(N)` as opposed to other commands which are constant time `O(1)`.
+
 ### Example 1
 connecting to an Obelisk server (unsupported)
 ```sh
