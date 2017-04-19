@@ -14,7 +14,8 @@ Options (named):
 -h [--help]          Get a description and instructions for this command.
 -l [--language]      The language identifier of the mnemonic dictionary
                      to use. Options are 'en', 'es', 'fr', 'it', 'ja',
-                     'zh_Hans', 'zh_Hant' and 'any', defaults to 'en'.
+                     'cs', 'ru', 'uk', 'zh_Hans', 'zh_Hant' and 'any',
+                     defaults to 'en'.
 
 Arguments (positional):
 
