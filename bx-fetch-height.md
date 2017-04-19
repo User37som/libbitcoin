@@ -3,7 +3,7 @@ Get the last block height.
 $ bx fetch-height --help
 ```
 ```
-Usage: bx fetch-height [-h] [--config value] [SERVER-URL]
+Usage: bx fetch-height [-h] [--config value] [SERVER-URL] [PUBLIC-KEY]
 
 Info: Get the last block height. Requires a Libbitcoin server connection.
 
@@ -16,6 +16,9 @@ Arguments (positional):
 
 SERVER-URL           The URL of the Libbitcoin server to use. If not
                      specified the URL is obtained from configuration
+                     settings or defaults.
+PUBLIC-KEY           The public key of the Libbitcoin server. If not
+                     specified the key is obtained from configuration
                      settings or defaults.
 ```
 This command supports [configuration settings](Configuration-Settings).
