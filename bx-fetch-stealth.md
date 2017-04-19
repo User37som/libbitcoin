@@ -20,7 +20,7 @@ Options (named):
 Arguments (positional):
 
 FILTER               The Base2 stealth filter used to locate             
-                     transactions. Defaults to all stealth transactions.
+                     transactions. Requires at least 8 bits.
 ```
 This command supports [configuration settings](Configuration-Settings).
 
