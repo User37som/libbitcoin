@@ -24,7 +24,7 @@ This command supports [configuration settings](Configuration-Settings).
 ```sh
 $ bx fetch-header
 ```
-```js
+```
 header
 {
     bits 486604799
@@ -41,7 +41,7 @@ header
 ```sh
 $ bx fetch-header -t 1
 ```
-```js
+```
 header
 {
     bits 486604799
@@ -61,7 +61,7 @@ header
 ```sh
 $ bx fetch-header -s 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
 ```
-```js
+```
 header
 {
     bits 486604799
@@ -78,7 +78,7 @@ header
 ```sh
 $ bx fetch-header -t 1 -s 000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
 ```
-```js
+```
 header
 {
     bits 486604799
