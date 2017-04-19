@@ -17,8 +17,9 @@ Options (named):
 
 Arguments (positional):
 
-PREFIX               The Base2 stealth prefix to watch. If not specified
-                     the prefix is read from STDIN.
+PREFIX               The Base2 stealth prefix to watch. Must be at least 
+                     8 bits in length. If not specified the prefix is    
+                     read from STDIN.
 ```
 This command supports [configuration settings](Configuration-Settings).
 
