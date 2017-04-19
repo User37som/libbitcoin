@@ -1,6 +1,6 @@
 Watch the network for transactions by stealth prefix.
 ```sh
-$ bx watch-stealth--help
+$ bx watch-stealth --help
 ```
 ```
 Usage: bx watch-stealth [-h] [--config value] [--duration value] [PREFIX]
