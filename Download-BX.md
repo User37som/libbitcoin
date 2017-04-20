@@ -16,7 +16,31 @@ Each download is a single executable file.
 Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the signed message below. If you do not have a previously verified version of [BX](https://github.com/libbitcoin/libbitcoin-explorer/wiki) you can use any local or online [hash computer](http://onlinemd5.com) to calculate the hash values.
 
 ```
-TODO
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+# Bitcoin Explorer v3.1.0
+
+$ bx base16-encode < bx-linux-x64-qrcode | bx sha256
+38b61cbe6dab3663f6a7e0fa08186b33bafb01867630706845f1c0769a08812a
+
+$ bx base16-encode < bx-osx-x64-qrcode | bx sha256
+f8d3ee5bfc8171fae9dd70536ba2e070f679c379136e494dd2f0eef0d1fbb41c
+
+$ bx base16-encode < bx-windows-x64-icu.exe | bx sha256
+f02f55813be395583e3dda3b5fe8de5866f98c2afc27e41e95c2a71372d48d16
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+iQEcBAEBCAAGBQJY+GZQAAoJEDzYwH8LXOFOm7gH/3nxaBZjhhc9RUXdjfluGvLq
+GgAwg+MGl6fVfPG6QqyFTAukKtyhiX1e6z+kpt+AwLhOOzg+yl+gmHm1D467cX0K
+RtoM9/R2ueVRJqyH83WoHtIf6inyXIlQvJAaFQGfhA1pQTlpNkGH0ftiUVAdhUYb
+URMDdeSVqJmPFpc7cW75ydRJsGc4KCGw0gv52Y3nNSO19H48/LLIOA2TKbeGKbe/
+OQIgaAiUC3cZIs336lt/o4/NDyYMTsvWkcAH2s0XbZM92ALTd0n1i127+G/iD9Jx
+yc9aNYFbNdag2O5TstkraJ8bdw0cRcWHmIm2ryaErGQ1C/KOPAuenssa9H2iORY=
+=dGuP
+-----END PGP SIGNATURE-----
 ```
 
 ### Origin Validation
