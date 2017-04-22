@@ -26,7 +26,7 @@ version 0
 ```sh
 $ bx wrap-decode 00031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd0065b09d03c
 ```
-```js
+```
 wrapper
 {
     checksum 1020266843
@@ -39,7 +39,7 @@ version 42
 ```sh
 $ bx wrap-decode 2a031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006298eebe4
 ```
-```js
+```
 wrapper
 {
     checksum 3840642601
@@ -52,7 +52,7 @@ piped input
 ```sh
 $ echo 2a031bab84e687e36514eeaf5a017c30d32c1f59dd4ea6629da7970ca374513dd006298eebe4 | bx wrap-decode
 ```
-```js
+```
 wrapper
 {
     checksum 3840642601
