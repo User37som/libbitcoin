@@ -20,6 +20,9 @@ TRANSACTION          The Base16 transaction. If not specified the
                      transaction is read from STDIN.
 ```
 See also [tx-encode](bx-tx-encode).
+
+Versions after 3.1 change the `address` property to `address_hash` in order to avoid the undesirable dependency on payment address versioning.
+
 ### Example 1
 unsigned, one input, payment address output
 ```sh
