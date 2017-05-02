@@ -1,4 +1,4 @@
-# Version 3.1.0
+# Version 3.2.0
 
 ### WARNING
 These binaries are provided for your convenience. We cannot and do not guarantee that they will not lose your money or compromise your privacy. You are free to inspect the source code and build it yourself. **By downloading a binary copy of BX you accept all responsibility for its use and behavior.**
@@ -8,9 +8,9 @@ Each download is a single executable file.
 
 | OS | File | Bytes |
 |----|------|-------|
-|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png) | [`bx-linux-x64-qrcode`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v3.1.0/bx-linux-x64-qrcode) | `4,750,920` |
-|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png) | [`bx-osx-x64-qrcode`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v3.1.0/bx-osx-x64-qrcode) | `5,581,132` |
-|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png) | [`bx-windows-x64-icu.exe`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v3.1.0/bx-windows-x64-icu.exe) | `5,402,624` |
+|![linux](https://github.com/libbitcoin/libbitcoin-explorer/wiki/linux.png) | [`bx-linux-x64-qrcode`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v3.2.0/bx-linux-x64-qrcode) | `5,037,768` |
+|![osx](https://github.com/libbitcoin/libbitcoin-explorer/wiki/osx.png) | [`bx-osx-x64-qrcode`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v3.2.0/bx-osx-x64-qrcode) | `5,589,720` |
+|![windows](https://github.com/libbitcoin/libbitcoin-explorer/wiki/windows.png) | [`bx-windows-x64-icu.exe`](https://github.com/libbitcoin/libbitcoin-explorer/releases/download/v3.2.0/bx-windows-x64-icu.exe) | `5,404,160` |
 
 ### Integrity Validation
 Validate the integrity of the download by calculating a SHA-256 hash of the file and comparing the result to that in the signed message below. If you do not have a previously verified version of [BX](https://github.com/libbitcoin/libbitcoin-explorer/wiki) you can use any local or online [hash computer](http://onlinemd5.com) to calculate the hash values.
@@ -19,27 +19,27 @@ Validate the integrity of the download by calculating a SHA-256 hash of the file
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-# Bitcoin Explorer v3.1.0
+# Bitcoin Explorer v3.2.0
 
 $ bx base16-encode < bx-linux-x64-qrcode | bx sha256
-38b61cbe6dab3663f6a7e0fa08186b33bafb01867630706845f1c0769a08812a
+55f356f75c118df961e0442d0776f1d71e0b9e91936b1d9b96934f5eba167f0c
 
 $ bx base16-encode < bx-osx-x64-qrcode | bx sha256
-f8d3ee5bfc8171fae9dd70536ba2e070f679c379136e494dd2f0eef0d1fbb41c
+aa2311e4549cfddd47b9a7410889c075a2fa14812e9d9e6ddfe36631bf49f813
 
 $ bx base16-encode < bx-windows-x64-icu.exe | bx sha256
-f02f55813be395583e3dda3b5fe8de5866f98c2afc27e41e95c2a71372d48d16
+862d3f5b5acf771fb2821d935abd00ab4bebcd86a1972ba4bd1a19dd5b8b3f7e
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2.0.22 (GNU/Linux)
 
-iQEcBAEBCAAGBQJY+GZQAAoJEDzYwH8LXOFOm7gH/3nxaBZjhhc9RUXdjfluGvLq
-GgAwg+MGl6fVfPG6QqyFTAukKtyhiX1e6z+kpt+AwLhOOzg+yl+gmHm1D467cX0K
-RtoM9/R2ueVRJqyH83WoHtIf6inyXIlQvJAaFQGfhA1pQTlpNkGH0ftiUVAdhUYb
-URMDdeSVqJmPFpc7cW75ydRJsGc4KCGw0gv52Y3nNSO19H48/LLIOA2TKbeGKbe/
-OQIgaAiUC3cZIs336lt/o4/NDyYMTsvWkcAH2s0XbZM92ALTd0n1i127+G/iD9Jx
-yc9aNYFbNdag2O5TstkraJ8bdw0cRcWHmIm2ryaErGQ1C/KOPAuenssa9H2iORY=
-=dGuP
+iQEcBAEBCAAGBQJZCM1QAAoJEDzYwH8LXOFO3OEH/jQxjqwHbuvVHwYS46FukKnP
+IQkWF0H9Pzb8I1sutbnja+fJpBf/75SNLWb6ro3H/2IfkxEKCO8anWrk4+KTsWk8
+0gs55LdqWvUtFVo6woYT+5mE1wD5cpJdodUuyEeRIXE7YwHE/YAFFQmJ4rMRSLsY
+p4g0P6Ddt7R9TMpTDLMrymuIY20/fjbKohdfAsRywoq2JD8qasMM4/318xfv4dfi
+aCouiI71PN7tIoujKKu9MbVjxK1e1F2YaKiEdVuwnVJe3ifwGj3MmNwfpIat1/cO
+dJAn6Vuc9A7Cy3L34JwYOBOFaOYoNsIZZ8WgtJv1IPOwuWwCyRxc6pajlejCmRI=
+=/ii4
 -----END PGP SIGNATURE-----
 ```
 
