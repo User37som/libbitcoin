@@ -4,7 +4,7 @@ Look up the preceding **transaction** by its hash.
 ```sh
 $ bx fetch-tx 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
 ```
-```js
+```
 transaction
 {
     hash 7c3e880e7c93a7b01506188c36a239f70b561dfa622d0aa0d8f3b7403c94017d
@@ -62,7 +62,7 @@ Inspect the transaction visually.
 ```sh
 $ bx tx-decode 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
-```js
+```
 transaction
 {
     hash e433a95114dc4eb2209f7c329bad265890affb728a60ac1b967d99bbe1f25971
@@ -112,7 +112,7 @@ $ bx input-sign -n 707e3d717925ba2e98234dd6f3a38eb5 4ce3eb6bd06c224e3c355352a488
 30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022037109f0d06e6068b7447966f751de8474641ad2b15ec37f4a9d159b02af6817401
 ```
 Create an **endorsement script** using the endorsement and public key, and assign it to the first input of the transaction.
-```js
+```
 $ bx input-set "[30450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022037109f0d06e6068b7447966f751de8474641ad2b15ec37f4a9d159b02af6817401] [03e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31]" 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c0000000000ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
 ```
@@ -123,7 +123,7 @@ Inspect the updated transaction visually.
 ```sh
 $ bx tx-decode 01000000017d01943c40b7f3d8a00a2d62fa1d560bf739a2368c180615b0a7937c0e883e7c000000006b4830450221008f66d188c664a8088893ea4ddd9689024ea5593877753ecc1e9051ed58c15168022037109f0d06e6068b7447966f751de8474641ad2b15ec37f4a9d159b02af68174012103e208f5403383c77d5832a268c9f71480f6e7bfbdfa44904becacfad66163ea31ffffffff01c8af0000000000001976a91458b7a60f11a904feef35a639b6048de8dd4d9f1c88ac00000000
 ```
-```js
+```
 transaction
 {
     hash 37c9c4ee0e84c7c7924f74d92cf0779ec6e8fc4c57ebab2593562d52c61c5eb8
@@ -182,7 +182,7 @@ Look up the **balance** of the sender address.
 ```sh
 $ bx fetch-balance 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
 ```
-```js
+```
 balance
 {
     address 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
@@ -197,7 +197,7 @@ Look up the **history** for the address.
 ```sh
 $ bx fetch-history 1JziqzXeBPyHPeAHrG4DCDW4ASXeGGF6p6
 ```
-```js
+```
 transfers
 {
     transfer
